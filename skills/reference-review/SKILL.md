@@ -1,11 +1,11 @@
 ---
 name: reference-review
-description: Use when reviewing an implemented UI against references or a design contract, checking generic AI-looking design drift, or assessing claimed visual completion after a build passes.
+description: Use when reviewing implemented UI against references or a design contract, auditing design-token usage and component detail, checking generic AI-looking design drift, or assessing claimed visual completion after a build passes.
 ---
 
 # 레퍼런스 기반 UI 리뷰
 
-실제 차이와 사용자 과제에 미치는 영향을 기록한다. 취향 점수나 AI 생성 여부를 판정하지 않는다.
+레퍼런스와 아이디어가 제품의 핵심 과제를 좋은 디자인으로 구현했는지 판단한다. 실제 차이와 사용자 영향을 기록하고 실패를 누적한다. 취향 점수나 AI 생성 주체 판별로 대체하지 않는다.
 
 ## 입력과 범위
 
@@ -15,7 +15,11 @@ description: Use when reviewing an implemented UI against references or a design
 
 ## 검사
 
+[디자인 게이트와 실패 누적](references/design-gate.md)을 반드시 읽는다. 공통 실패 catalog의 모든 active 규칙과 프로젝트 과거 기록을 검토하고 적용 범위·제외 목록·제품 완료 조건을 계약에 연결한다. 실패 기준을 ‘결함이 아닐 수도 있음’으로 삭제하지 않고, 미적용/예외가 필요하면 근거와 범위를 남긴다.
+
 [리뷰 기준](references/review-criteria.md)을 읽는다. 실제 구현을 렌더링해서 레퍼런스와 같은 너비·가능하면 같은 높이/상태로 확인한다. 원본 뷰포트 미상은 남긴다. **구조/핵심 과제 → 위계/밀도 → 글자/콘텐츠 → 색/표면 → 상태/행동** 순서로 검사한다.
+
+E-ID 상세 기록과 토큰 계약을 함께 대조한다. 사방 여백·버튼 배경과 글자/아이콘 조합·아이콘 선/채움/정렬을 확인하고, 토큰 정의 → 참조 → 사용처와 직접값 예외를 코드에서 검사한다. 토큰 파일 존재만으로 토큰화 완료를 판정하지 않는다.
 
 중요 행동은 실제로 실행한다. 정지 화면으로 hover·focus·스크롤 고정·복구를 확인했다고 하지 않는다. 빌드·테스트 결과는 해당 검증에만 사용한다. 미실행 검사는 `not-verified`다.
 
@@ -31,6 +35,8 @@ Do/Avoid와 의도적 차이를 함께 비교한다. 사용자 지정 그라디�
 - 총괄은 `aligned / changes-needed / not-verified`. 핵심 시각 검사가 미실행이면 총괄은 not-verified이고 설명 기반 우려를 별도로 적는다. aligned도 실제 확인한 범위에 한정한다.
 
 ## 우선순위와 종료
+
+최종 완료 전에 design_gate.py로 계약/보고서/증거를 검사하고 `--ledger`로 결과를 누적한다. FAIL/UNVERIFIED는 완료로 표시하지 않는다. 대상 소스가 바뀌면 영향 범위를 재검사한다. 명세/코드/시각/행동 검증 범위를 구분한다. 도구의 PASS는 실제 판독 기록의 검증이며 자동 미관 판별이 아니다.
 
 P0: 핵심 행동 실패·정보 손실 등 현재 작업을 막는 문제. P1: 구조·위계·밀도 또는 주요 상태가 과제를 크게 방해. P2: 사용을 막지 않는 국소 시각 차이. 미확인 위험을 확인된 P0 결함으로 과장하지 않는다.
 
