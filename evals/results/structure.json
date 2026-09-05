@@ -1,0 +1,45 @@
+{
+  "method": "Python YAML parsing, schema invariants, local link and personal symlink checks",
+  "results": [
+    {
+      "skill": "uibowl-research",
+      "frontmatter": "pass",
+      "metadata": "pass",
+      "local_links": 2,
+      "personal_link": "pass",
+      "files": 4
+    },
+    {
+      "skill": "reference-to-ui",
+      "frontmatter": "pass",
+      "metadata": "pass",
+      "local_links": 4,
+      "personal_link": "pass",
+      "files": 6
+    },
+    {
+      "skill": "reference-review",
+      "frontmatter": "pass",
+      "metadata": "pass",
+      "local_links": 1,
+      "personal_link": "pass",
+      "files": 3
+    },
+    {
+      "skill": "ux-copy",
+      "frontmatter": "pass",
+      "metadata": "pass",
+      "local_links": 3,
+      "personal_link": "pass",
+      "files": 4
+    },
+    {
+      "skill": "onboarding-flow",
+      "frontmatter": "pass",
+      "metadata": "pass",
+      "local_links": 1,
+      "personal_link": "pass",
+      "files": 3
+    }
+  ]
+}
