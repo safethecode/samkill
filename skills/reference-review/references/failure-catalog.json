@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": 1,
+  "version": 2,
   "description": "원본 실패 규칙을 보존한 판정 목록. 원본 문장은 출처의 주장/규칙이며 최신 제품 사실을 검증했다는 뜻이 아니다. 적용 범위와 예외 판단을 생략하지 않는다.",
   "rules": [
     {
@@ -1072,6 +1072,179 @@
         "visual"
       ],
       "default_scope": "주요 화면 영역과 행동",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-08",
+      "status": "active",
+      "family": "Todo user feedback",
+      "title": "요청 없는 로고·슬로건 생성",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 Todo 테스트 피드백"
+      },
+      "original": "브랜드 자산이나 제작 요청 없이 로고·워드마크·슬로건을 만들거나 기능 아이콘을 브랜드 마크로 전용한다.",
+      "checks": [
+        "spec",
+        "code",
+        "visual"
+      ],
+      "default_scope": "해당 UI 요소·사용 과제가 있는 경우; 사용자 명시 기준을 우선",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-09",
+      "status": "active",
+      "family": "Todo user feedback",
+      "title": "읽는 UI 글자 14 CSS px 하한 위반",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 Todo 테스트 피드백"
+      },
+      "original": "보조 문구·라벨·버튼·시간·placeholder·대화를 포함한 읽는 텍스트를 실제 14 CSS px 미만으로 표시한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "default_scope": "해당 UI 요소·사용 과제가 있는 경우; 사용자 명시 기준을 우선",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-10",
+      "status": "active",
+      "family": "Todo user feedback",
+      "title": "CTA와 필터 혼동·텍스트 전용 행동 남발",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 Todo 테스트 피드백"
+      },
+      "original": "실행 행동을 필터와 같은 표현으로 숨기거나 텍스트 전용 버튼을 남발한다. CTA는 명확한 표면/윤곽선 또는 의미 있는 아이콘과 라벨로 역할을 구분한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "default_scope": "해당 UI 요소·사용 과제가 있는 경우; 사용자 명시 기준을 우선",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-11",
+      "status": "active",
+      "family": "Todo user feedback",
+      "title": "불필요한 보조 문구와 시선 분산 배치",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 Todo 테스트 피드백"
+      },
+      "original": "필요한 판단과 연결되지 않은 힌트·중복 안내를 빈 공간에 배치한다. 삭제를 먼저 검토하고 필요한 문구는 관련 행동 근처에 둔다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "default_scope": "해당 UI 요소·사용 과제가 있는 경우; 사용자 명시 기준을 우선",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-12",
+      "status": "active",
+      "family": "Todo user feedback",
+      "title": "의미·출처가 불명확한 임의 아이콘",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 Todo 테스트 피드백"
+      },
+      "original": "검증된 기존 세트 대신 기능과 맞지 않는 아이콘이나 임의 SVG를 급조한다. 아이콘 이름·출처·의미·스타일·접근 가능한 이름을 확인한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "default_scope": "해당 UI 요소·사용 과제가 있는 경우; 사용자 명시 기준을 우선",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-13",
+      "status": "active",
+      "family": "Todo user feedback",
+      "title": "내용보다 프레임 때문에 발생한 불필요한 스크롤",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 Todo 테스트 피드백"
+      },
+      "original": "소수 항목이 형제의 과도한 공간 점유나 고정 높이 때문에 불필요하게 스크롤된다. 빈/소수/긴 내용과 키보드에서 확인하고 overflow 숨김으로 접근을 막지 않는다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "default_scope": "해당 UI 요소·사용 과제가 있는 경우; 사용자 명시 기준을 우선",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-14",
+      "status": "active",
+      "family": "Todo user feedback",
+      "title": "장식 수평선으로 영역 구분",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 Todo 테스트 피드백"
+      },
+      "original": "hr 또는 동등한 반복 border/pseudo-element 선으로 구획을 나눈다. 간격·정렬·묶음으로 구분하며 기능적인 입력/버튼 테두리와 포커스는 보존한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "default_scope": "해당 UI 요소·사용 과제가 있는 경우; 사용자 명시 기준을 우선",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-15",
+      "status": "active",
+      "family": "Todo user feedback",
+      "title": "목록과 대화의 공간 경쟁·불완전한 채팅 흐름",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 Todo 테스트 피드백"
+      },
+      "original": "다른 과제인 목록과 대화를 상시 압축해 동시 배치하거나 전송·결과·오류·재시도·전환 복귀가 끊긴다. 탭/뷰 분리를 검토하고 필요한 상태를 실제 검증한다.",
+      "checks": [
+        "spec",
+        "visual",
+        "interaction"
+      ],
+      "default_scope": "해당 UI 요소·사용 과제가 있는 경우; 사용자 명시 기준을 우선",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-16",
+      "status": "active",
+      "family": "Reference synthesis feedback",
+      "title": "레퍼런스 장점의 실제 구현 대응 누락",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 레퍼런스 결합 품질 교정"
+      },
+      "original": "채택한 원본 영역·구체적인 시각 장점·구현 요소/토큰·나란히 비교 근거를 연결하지 않거나 색/기능 일부만으로 반영 완료를 선언한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "default_scope": "레퍼런스 기반 UI 설계·구현·리뷰",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-17",
+      "status": "active",
+      "family": "Reference synthesis feedback",
+      "title": "레퍼런스 조합 품질의 퇴보를 의도적 차이로 통과",
+      "source": {
+        "path": "docs/session-context.md",
+        "heading": "2026-09-06 레퍼런스 결합 품질 교정"
+      },
+      "original": "원본의 핵심 위계·밀도·정렬·간격·컴포넌트 표현이 사라지거나 보조 레퍼런스와 충돌하는데 실제 비교 없이 동급 품질로 판단한다. 핵심 퇴보는 수정하고 미확인은 통과시키지 않는다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "default_scope": "레퍼런스 기반 UI 설계·구현·리뷰",
       "enforcement": "block-when-applicable"
     }
   ]
