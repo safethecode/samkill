@@ -15,7 +15,11 @@ description: Use when building, redesigning, or tokenizing UI from references, s
 
 ## 구현 전 계약
 
+[UI 구성과 실제 실패 방지](references/ui-composition.md)를 반드시 읽는다. 임의 로고 금지, 읽는 글자 14 CSS px 하한, CTA/필터 구분, 보조 문구 삭제·배치, 의미 있는 아이콘, 불필요한 구분선·스크롤 제거를 적용한다. 목록과 대화처럼 다른 과제가 공간을 경쟁하면 탭/별도 뷰를 검토한다.
+
 [제품의 본질에서 배치하기](references/product-reasoning.md)를 먼저 읽는다. 사용자·문제·핵심 행동·필요한 정보를 정의하고, 중요한 요소마다 배치/강조 이유를 연결한다. 레퍼런스에서 유지할 원리와 새 아이디어의 역할·검증 방법을 기록한다. 기존 요구로 알 수 있는 내용을 되묻지 않는다.
+
+[레퍼런스 장점의 결합과 품질 검증](references/reference-synthesis.md)을 반드시 읽고 Q-ID별 채택 특징·구현 요소·비교 근거를 정한다. 기능이나 색 일부만 가져온 것을 레퍼런스 반영 완료로 보지 않는다.
 
 [적용 형식](references/application-format.md)과 [근거 없는 디자인 방지 규칙](references/design-guardrails.md)을 읽고 프로젝트 문서 위치 또는 `design/design-contract.md`에 작성한다. 작은 수정은 채팅의 짧은 계약으로 충분하다.
 
