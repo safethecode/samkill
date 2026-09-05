@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-06",
+  "skill_count": 5,
+  "local_links": 107,
+  "personal_symlinks": 5,
+  "catalog_version": 2,
+  "rule_count": 67,
+  "previous_57_preserved": true,
+  "todo_readonly_sources_unchanged": true,
+  "fixture_hashes_valid": true,
+  "gate_cli_tests": 21,
+  "errors": []
+}

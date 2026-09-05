@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-09-06",
+  "source": "user-created todo prototype, inspected read-only",
+  "files": {
+    "index.html": "d15568aba9a6fe6b94c448f0b63410d0b61b6dd85a4c7318fcfd71211747c9ce",
+    "tokens.css": "2c6687a00a8f71226c14355fc8dde7686574c73f7246471df4408a822fc32616",
+    "styles.css": "f2860ed6dd57ae0b4a29c6a3725a415303719e579165ce53ee2a4a8039900c9a",
+    "design/review.md": "a37457bc79e5be302181ef22a75fe603948b7573ee6607f12b6c7e1892d732c0",
+    "design/gate-result.json": "7b57c4e12483edfb3de7bc5aecb90a7fdfc68abf0a33aa1410d686474dd17ff3"
+  },
+  "images": {
+    "mobile-initial.png": "58cf1d19811f2325def41246cac1bb19e239d12a0ac3309333c571bdb72bf8bd",
+    "mobile-chat.png": "4257775b3c9c859263f5ca0e961d710cc156fd30e1945e801b17d6a584b1c54f"
+  },
+  "facts": {
+    "font_token": "--size-sm: 12px",
+    "brand": "brand-bar contains custom inline SVG and brand-caption",
+    "hint": "chat-heading h2 + chat-hint: 날짜와 시간도 함께",
+    "scroll": "app height:100dvh overflow:hidden; planner overflow-y:auto; conversation max-height:160px overflow-y:auto",
+    "dividers": "brand-bar/week/task border-bottom; chat border-top",
+    "review_summary": "aligned",
+    "gate_result": "UNVERIFIED: design/gate-contract.json not found"
+  }
+}

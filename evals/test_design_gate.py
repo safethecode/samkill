@@ -178,12 +178,12 @@ class DesignGateTests(unittest.TestCase):
     def test_default_catalog_requires_all_active_rules(self):
         catalog_path = SCRIPT.parent.parent / "references/failure-catalog.json"
         catalog = json.loads(catalog_path.read_text())
-        self.assertEqual(len(catalog["rules"]), 57)
+        self.assertEqual(len(catalog["rules"]), 67)
         for prefix, count in [("ORC-F", 16), ("ORC-G", 24), ("ORC-A", 10)]:
             self.assertEqual(sum(r["id"].startswith(prefix) for r in catalog["rules"]), count)
         self.write("report.json", self.report)
         outcome = self.run_cli("check", "--catalog", str(catalog_path), expected_exit=2)
-        self.assertEqual(sum("Catalog rule missing" in e for e in outcome["errors"]), 57)
+        self.assertEqual(sum("Catalog rule missing" in e for e in outcome["errors"]), 67)
 
     def test_ledger_deduplication_and_history(self):
         self.check("PASS", ledger=True)
