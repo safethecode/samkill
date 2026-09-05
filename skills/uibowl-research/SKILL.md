@@ -1,6 +1,6 @@
 ---
 name: uibowl-research
-description: Use when UIbowl UI references, screen patterns, components, screen copy, or app comparisons are requested, or when reference research has produced generic summaries without visual evidence.
+description: Use when UIbowl references, screen patterns, components, screen copy, or app comparisons are requested, including detailed padding, color pairings, typography, and icon analysis, or when research lacks visual evidence.
 ---
 
 # UIbowl 레퍼런스 리서치
@@ -20,6 +20,8 @@ description: Use when UIbowl UI references, screen patterns, components, screen 
 반환된 대표 이미지를 직접 확인하고 [관찰 형식](references/observation-format.md)에 기록한다. 여러 화면/영상 중 확인한 범위만 분석한다. 태그·OCR만으로 레이아웃을 분석하지 않는다. 이미지 확인 실패는 `not-inspected`, 후보는 유지하되 시각 근거로 채택하지 않는다.
 
 관찰 순서는 **구조 → 정보 위계 → 밀도/간격 → 글자 → 색상 역할 → 컴포넌트 → 확인된 상태/동작 → 보이지 않는 요소**다. 정지 화면 아래쪽 버튼을 fixed라고 단정하지 않는다. 관찰 범위에 없는 효과는 서비스 전체에 없다는 뜻이 아니다. 수치에는 측정 방법 또는 추정 표시가 필요하다.
+
+UI 설계·구현으로 이어지는 분석이나 패딩·색상·아이콘 같은 세부 분석 요청에는 [컴포넌트 상세 분석](references/component-anatomy.md)을 읽는다. 주 레퍼런스에서 서로 다른 컴포넌트 유형과 변형을 목록으로 만들고, 각 요소의 박스·사방 여백·타이포그래피·배경/글자/아이콘 색상 조합·아이콘 형태·상태를 기록한다. 반복 항목은 대표 하나를 분석하고 차이만 추가한다. 보조 레퍼런스는 채택할 패턴 범위까지 분석한다. 미확인 속성도 빠뜨리지 않고 unknown으로 남긴다.
 
 사용자 과제에 맞는 주 레퍼런스 하나를 고르고 보조 레퍼런스는 부족한 패턴이 있을 때만 지정한다. 맞는 후보가 없으면 그 사실을 남긴다. 유명세·MAU·미관을 UX 효과의 증거로 쓰지 않는다.
 
