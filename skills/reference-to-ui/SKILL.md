@@ -1,11 +1,11 @@
 ---
 name: reference-to-ui
-description: Use when building or redesigning UI from references, screenshots, or a UIbowl brief, or when requested UI must avoid generic AI-looking layouts and decoration.
+description: Use when building, redesigning, or tokenizing UI from references, screenshots, or a UIbowl brief, or when requested UI must avoid generic AI-looking layouts and decoration.
 ---
 
 # 레퍼런스 기반 UI 구현
 
-레퍼런스의 정보 구조와 작업 방식을 구현까지 연결한다. 색상만 가져온 뒤 익숙한 템플릿을 만드는 것은 적용 완료가 아니다.
+목표는 AI의 관성적인 디자인에서 벗어나 레퍼런스와 제품에 필요한 아이디어를 결합해 좋은 제품을 구현하는 것이다. 레퍼런스의 구조·시각 문법을 분석하고 새로운 선택의 목적을 설명한다. 색상 복제나 금지 목록 통과만으로 완료하지 않는다.
 
 ## 필요한 입력
 
@@ -15,6 +15,8 @@ description: Use when building or redesigning UI from references, screenshots, o
 
 ## 구현 전 계약
 
+[제품의 본질에서 배치하기](references/product-reasoning.md)를 먼저 읽는다. 사용자·문제·핵심 행동·필요한 정보를 정의하고, 중요한 요소마다 배치/강조 이유를 연결한다. 레퍼런스에서 유지할 원리와 새 아이디어의 역할·검증 방법을 기록한다. 기존 요구로 알 수 있는 내용을 되묻지 않는다.
+
 [적용 형식](references/application-format.md)과 [근거 없는 디자인 방지 규칙](references/design-guardrails.md)을 읽고 프로젝트 문서 위치 또는 `design/design-contract.md`에 작성한다. 작은 수정은 채팅의 짧은 계약으로 충분하다.
 
 1. 주 레퍼런스 하나와 이 화면의 핵심 과제를 연결한다. 보조 화면은 역할이 있는 경우만 사용한다.
@@ -22,9 +24,15 @@ description: Use when building or redesigning UI from references, screenshots, o
 3. 이번 화면의 **Do / Avoid / Intentional differences / Unknown**을 기록한다. Avoid에는 배제할 구체 요소, 근거, 대안을 쓴다. 해당하지 않는 항목을 개수 맞추기로 만들지 않는다.
 4. 값은 `measured / estimated / chosen / existing-token`으로 구분한다. 시각 추정한 반경을 제품 공식 토큰으로 부르지 않는다.
 
+패딩·버튼 글자색·아이콘까지 포함한 E-ID 상세 기록이 있으면 인계받는다. 없으면 대상 화면의 서로 다른 요소/변형별로 크기·사방 여백·글자·배경/글자/아이콘/테두리 조합·아이콘 선/채움·상태를 보완한다. 이미지 px와 CSS px를 분리하고 모르는 속성은 unknown으로 남긴다.
+
 사용자 지정 브랜드와 과제 요구가 레퍼런스와 다르면 이를 의도적 차이로 남긴다. 디자인 시스템의 알려진 사용성 결함은 근거와 함께 수정한다. 색상·반경·그라디언트의 일괄 금지로 사용자 선택을 덮어쓰지 않는다.
 
 ## 구현
+
+[디자인 토큰 계약](references/design-tokens.md)을 반드시 읽고 스타일 구현 전에 적용한다. 기존 토큰을 확인해 재사용하고, 채택한 시각값을 기본값 → 의미/역할 → 필요한 컴포넌트 변형으로 연결한다. 디자인만 요청해도 토큰 명세를 전달한다. 실제 코드 요청은 토큰 파일뿐 아니라 컴포넌트의 사용까지 확인한다.
+
+코드를 작성할 때 [anti-slop 코드 기준](references/anti-slop-code.md)을 적용한다. TS/JS에서는 일반 규칙과 실제 lint/typecheck 결과를 확인하며 타입 단언이나 검사 완화로 통과시키지 않는다. 다른 언어에는 해당 검사를 실행했다고 주장하지 않는다.
 
 레이아웃과 실제 내용 → 타이포그래피/간격 → 표면 → 동작 순서로 작업한다. 제품과 무관한 KPI, 홍보 히어로, 장식 카드를 추가하지 않는다. 가능한 기존 토큰을 재사용하고 필요한 변형만 만든다. 실제 길이의 한국어·가격·날짜·항목 수를 사용한다. 생성한 데모 데이터는 데모임을 명확히 한다.
 
@@ -36,4 +44,6 @@ description: Use when building or redesigning UI from references, screenshots, o
 
 실제 렌더를 목표 뷰포트에서 확인하고 D-ID별 시각/행동 기준을 검증한다. 설치된 `reference-review`가 있으면 그 기준을 사용한다. 없으면 계약과 구현 스크린샷을 직접 비교한다. 수정 권한 내에서 중요한 차이를 고친 뒤 해당 항목을 재검증한다.
 
-완료 보고: 채택한 구조, 이유 있는 배제, 의도적 차이, 확인한 뷰포트/상태, 남은 미검증. 빌드 성공이나 머릿속 렌더링을 시각 검증으로 대체하지 않는다. 도구가 없으면 구현을 전달하고 시각 검증 미완료를 명시한다. 별도 배포·외부 전송 권한을 이 스킬에서 만들지 않는다.
+reference-review의 공통 실패 목록과 이번 제외 목록으로 디자인 게이트를 실행한다. 기존 실패·예외 기록도 읽고 재발을 확인한다. 제품 핵심 과제 완료와 디자인 품질을 별도로 검사하며 FAIL/UNVERIFIED를 완료로 처리하지 않는다. 해당 스킬/판독 도구가 없으면 같은 기준으로 검토하되 자동 게이트 미실행을 남긴다.
+
+완료 보고: 채택한 구조, 이유 있는 배제, 의도적 차이, 토큰 정의/사용 위치와 직접값 예외, 확인한 뷰포트/상태, 남은 미검증. 빌드 성공이나 머릿속 렌더링을 시각 검증으로 대체하지 않는다. 도구가 없으면 구현을 전달하고 시각 검증 미완료를 명시한다. 별도 배포·외부 전송 권한을 이 스킬에서 만들지 않는다.
