@@ -45,7 +45,11 @@ design/
 
 - [제품의 본질에서 배치하기](skills/reference-to-ui/references/product-reasoning.md)를 먼저 적용해요. Douglas 자료의 고객 문제·가치 관점을 사용자 행동과 각 요소의 배치 이유로 연결해요.
 - 생성 코드에는 [anti-slop 기준](skills/reference-to-ui/references/anti-slop-code.md)을 적용해요. TS/JS 검사와 다른 언어의 검증을 구분해요.
-- [디자인 게이트](skills/reference-review/references/design-gate.md)는 orc 원본 50개와 추가 기준 7개, 프로젝트별 제외 항목을 검사해요. 실패를 일반론으로 해제하지 않고 예외와 과거 결과를 보존해요. 스크립트는 판독 기록과 증거를 검사하므로 실제 화면 비교도 필요해요.
+- [디자인 게이트](skills/reference-review/references/design-gate.md)는 orc 원본 50개와 추가 기준 17개, 프로젝트별 제외 항목을 검사해요. 실패를 일반론으로 해제하지 않고 예외와 과거 결과를 보존해요. 스크립트는 판독 기록과 증거를 검사하므로 실제 화면 비교도 필요해요.
+
+- [UI 구성 기준](skills/reference-to-ui/references/ui-composition.md)은 Todo 실사용 피드백을 반영해요. 임의 로고 금지, 글자 14px 하한, CTA/필터 구분, 불필요한 문구·구분선·스크롤 제거, 목록과 대화의 화면 분리를 다뤄요.
+
+- [레퍼런스 결합 품질](skills/reference-to-ui/references/reference-synthesis.md)은 채택한 장점이 실제 구현에 남았는지 나란히 비교해요. 제외 항목을 지킨 것과 원본에 견줄 만한 품질을 별도로 판단해요.
 
 ## 위치와 사용
 

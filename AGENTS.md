@@ -18,7 +18,11 @@
 - 가입·첫 사용·동의·복구 흐름: [onboarding-flow](skills/onboarding-flow/SKILL.md)를 읽는다.
 - UI 검증·완료 판정: [reference-review](skills/reference-review/SKILL.md)와 [디자인 게이트](skills/reference-review/references/design-gate.md)를 따른다. 실제 화면과 행동을 확인한다. 빌드 통과를 시각 검증으로 대체하지 않는다.
 
+UI 작업에서는 [요소 구성 기준](skills/reference-to-ui/references/ui-composition.md)을 기본 적용한다. 요청 없는 로고/슬로건을 만들지 않고 읽는 글자는 14 CSS px 이상으로 유지한다. CTA와 필터를 구별하고 텍스트 전용 행동을 최소화한다. 불필요한 힌트·장식 구분선·스크롤을 없애고 의미와 출처가 분명한 아이콘을 사용한다. 목록과 채팅이 공간을 경쟁하면 탭/뷰 분리를 검토한다. 판단 근거를 사후에 만들어 이전 실패를 정당화하지 않는다.
+
 필요한 스킬만 읽는다. 이미 충분한 자료가 있으면 재검색하지 않는다. 명세만 요청되면 `spec-only`로 전달하고 구현·시각·행동 게이트 통과를 주장하지 않는다.
+
+레퍼런스 작업에서는 [Q-ID별 결합·품질 비교](skills/reference-to-ui/references/reference-synthesis.md)를 적용한다. 가져올 구체 장점과 구현 요소를 연결하고 원본/결과를 나란히 검토한다. 기능이나 색 일부만 닮았다는 이유로 완료하지 않는다. 핵심 장점의 퇴보를 수정하고 전체 조합의 위계·밀도·일관성도 확인한다.
 
 ## 실패를 판단하고 보존하기
 
