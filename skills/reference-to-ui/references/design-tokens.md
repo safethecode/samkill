@@ -24,6 +24,8 @@ UI 디자인과 구현에서 필수로 사용한다. 레퍼런스 관찰은 증�
 
 ## 버튼과 아이콘은 함께 정의
 
+실행 CTA에 아이콘이 있으면 기본 순서는 label → icon이다. 공통 CTA 컴포넌트에서 오른쪽 배치와 gap을 일관되게 적용하고 왼쪽 배치는 방향/관례·명시 요구 등 이유 있는 변형으로만 둔다.
+
 - 버튼의 `background / foreground / icon / border`를 한 묶음으로 정한다. 기본·hover·pressed·focus·disabled·loading 중 제품에서 필요한 상태를 정의한다. 미관찰 상태는 레퍼런스에서 가져온 것처럼 말하지 않고 제품 요구/기존 시스템에 따른 결정으로 쓴다.
 - 텍스트는 font family/size/weight/line-height/letter-spacing, 컨트롤은 높이·사방 패딩·아이콘 gap·반경·테두리를 연결한다. 상태 변경 중 글자가 사라지거나 레이아웃이 바뀌는지도 확인한다.
 - 아이콘의 크기/선 굵기/색은 토큰으로, outline/filled·cap/join·viewBox·패밀리는 컴포넌트/에셋 규칙으로 정한다. 문자열 토큰이 SVG나 에셋 규칙을 실제로 적용한다고 가정하지 않는다.
