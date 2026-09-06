@@ -36,6 +36,8 @@ description: Use when building, redesigning, or tokenizing UI from references, s
 
 [디자인 토큰 계약](references/design-tokens.md)을 반드시 읽고 스타일 구현 전에 적용한다. 기존 토큰을 확인해 재사용하고, 채택한 시각값을 기본값 → 의미/역할 → 필요한 컴포넌트 변형으로 연결한다. 디자인만 요청해도 토큰 명세를 전달한다. 실제 코드 요청은 토큰 파일뿐 아니라 컴포넌트의 사용까지 확인한다.
 
+호버·선택 등 상태 변화에는 토큰 계약의 모션 기준을 적용한다. 짧은 전환을 일관되게 사용하되 기능 반응을 늦추지 않고 동작 줄이기 설정을 지원한다.
+
 기능 아이콘은 React에서 `lucide-react`, 비 React에서 공식 Lucide SVG/해당 환경 패키지를 기본으로 사용한다. 임의 SVG 경로를 제작하지 않는다.
 
 코드를 작성할 때 [anti-slop 코드 기준](references/anti-slop-code.md)을 적용한다. TS/JS에서는 일반 규칙과 실제 lint/typecheck 결과를 확인하며 타입 단언이나 검사 완화로 통과시키지 않는다. 다른 언어에는 해당 검사를 실행했다고 주장하지 않는다.
