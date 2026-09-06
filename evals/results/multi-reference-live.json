@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-06",
+  "kind": "live-mcp-integration-smoke-test",
+  "calls": [
+    {
+      "id": "SC1",
+      "branch": "B1",
+      "tool": "search_ui_patterns",
+      "arguments": {
+        "query": "할 일",
+        "platform": "MOBILE",
+        "limit": 3,
+        "page": 1
+      },
+      "returned_count": 3,
+      "has_more": true,
+      "sources": [
+        {
+          "id": "R1",
+          "app_name": "럽맘",
+          "ui_url": "https://uibowl.io/name/%EB%9F%BD%EB%A7%98?patterns=%EB%AA%A9%EB%A1%9D%20%28PLP%29&patternName=%ED%95%A0%20%EC%9D%BC%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0",
+          "pattern": "목록 (PLP)",
+          "pattern_variant": "할 일 관리하기",
+          "status": "inspected-representative-only",
+          "observation": "체크 왼쪽·제목/기한 오른쪽의 행, 기간 필터, 완료 취소선 관찰. 가족 서비스 내비게이션은 채택 대상 아님."
+        },
+        {
+          "id": "R2",
+          "app_name": "투두메이트",
+          "ui_url": "https://uibowl.io/name/%ED%88%AC%EB%91%90%EB%A9%94%EC%9D%B4%ED%8A%B8?patterns=AI&patternName=AI%20%ED%95%A0%20%EC%9D%BC",
+          "pattern": "AI",
+          "pattern_variant": "AI 할 일",
+          "status": "inspected-representative-only",
+          "observation": "AI 할 일 추천 설명과 적용/추가 탐색 칩 관찰. 일반 Todo 목록이나 대화 입력으로 분류하지 않음."
+        },
+        {
+          "id": "R3",
+          "app_name": "오늘의 루틴",
+          "ui_url": "https://uibowl.io/name/%EC%98%A4%EB%8A%98%EC%9D%98%20%EB%A3%A8%ED%8B%B4?patterns=%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&patternName=%EC%98%A4%EB%8A%98%EC%9D%98%20%ED%95%A0%20%EC%9D%BC",
+          "pattern": "생성하기",
+          "pattern_variant": "오늘의 할 일",
+          "status": "inspected-representative-only",
+          "observation": "주간 날짜, 그룹별 루틴 행, 선택 필터와 추가 조작 관찰. 광고/브랜드/다색 장식 채택 아님."
+        }
+      ]
+    },
+    {
+      "id": "SC2",
+      "branch": "B2",
+      "tool": "search_ui_patterns",
+      "arguments": {
+        "query": "채팅",
+        "platform": "MOBILE",
+        "limit": 3,
+        "page": 1
+      },
+      "returned_count": 3,
+      "has_more": true,
+      "sources": [
+        {
+          "id": "R4",
+          "app_name": "마이리얼트립",
+          "ui_url": "https://uibowl.io/name/%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD?patterns=%EC%B1%84%ED%8C%85&patternName=%EB%8F%99%ED%96%89%EC%B1%84%ED%8C%85",
+          "pattern": "채팅",
+          "pattern_variant": "동행채팅",
+          "status": "inspected-representative-only",
+          "observation": "동행 모집 목록과 플로팅 조작 관찰. 대화 전송/결과 화면 근거는 부족."
+        },
+        {
+          "id": "R5",
+          "app_name": "미소",
+          "ui_url": "https://uibowl.io/name/%EB%AF%B8%EC%86%8C?patterns=%EC%B1%84%ED%8C%85",
+          "pattern": "채팅",
+          "pattern_variant": null,
+          "status": "inspected-representative-only",
+          "observation": "대화방 목록과 하단 문의 입력 조작 관찰. 열린 대화의 결과/복구 흐름은 확인하지 못함."
+        },
+        {
+          "id": "R6",
+          "app_name": "헬로우봇",
+          "ui_url": "https://uibowl.io/name/%ED%97%AC%EB%A1%9C%EC%9A%B0%EB%B4%87?patterns=%EC%B1%84%ED%8C%85&patternName=AI%20%ED%95%99%EC%8A%B5%20%EB%AF%B8%EC%85%98",
+          "pattern": "채팅",
+          "pattern_variant": "AI 학습 미션",
+          "status": "inspected-representative-only",
+          "observation": "학습 미션 빈 상태 관찰. 채팅 태그만으로 입력 흐름 근거로 채택하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "SC3",
+      "branch": "B2",
+      "tool": "search_ui_patterns",
+      "arguments": {
+        "query": "채팅",
+        "platform": "MOBILE",
+        "limit": 3,
+        "page": 2
+      },
+      "returned_count": 3,
+      "has_more": true,
+      "sources": [
+        {
+          "id": "R7",
+          "app_name": "수현이랑",
+          "ui_url": "https://uibowl.io/name/%EC%88%98%ED%98%84%EC%9D%B4%EB%9E%91?patterns=%EC%B1%84%ED%8C%85",
+          "pattern": "채팅",
+          "pattern_variant": null,
+          "status": "inspected-representative-only",
+          "observation": "대화 제목과 하단 입력/전송 조작 관찰. 빈 대화 공간이며 전송 후 결과는 미확인."
+        },
+        {
+          "id": "R8",
+          "app_name": "토스증권",
+          "ui_url": "https://uibowl.io/name/%ED%86%A0%EC%8A%A4%EC%A6%9D%EA%B6%8C?patterns=%EC%B1%97%EB%B4%87&patternName=%EC%B1%84%ED%8C%85%20%EC%83%81%EB%8B%B4",
+          "pattern": "챗봇",
+          "pattern_variant": "채팅 상담",
+          "status": "inspected-representative-only",
+          "observation": "상담 시작 메시지, 선택지와 하단 입력 관찰. 업무시간·증권 안내 문구는 Todo와 무관하여 배제."
+        },
+        {
+          "id": "R9",
+          "app_name": "빼기",
+          "ui_url": "https://uibowl.io/name/%EB%B9%BC%EA%B8%B0?patterns=%EC%B1%84%ED%8C%85",
+          "pattern": "채팅",
+          "pattern_variant": null,
+          "status": "inspected-representative-only",
+          "observation": "대화 탭의 빈 상태와 서비스 신청 행동 관찰. Todo 생성 대화의 결과 근거는 아님."
+        }
+      ]
+    }
+  ],
+  "call_count": 3,
+  "unique_source_count": 9,
+  "representative_images_inspected": 9,
+  "pagination_observed": true,
+  "limits": "목록과 대화의 여러 검색·페이지 누적을 실제 확인한 통합 검사다. 전체 화면·행동·제품 구현·합성 품질 검증은 아니며 전환/복구와 실제 CSS 값은 미검증이다."
+}

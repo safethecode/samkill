@@ -44,3 +44,7 @@
 [독립 명세·정지 화면 평가](todo-composition-green.md)는 원래 Todo 요청의 구성 결정과 기존 화면의 문제를 검토한다. [피드백 이력](todo-feedback-events.jsonl)은 사용자 관찰과 스킬 보강을 누적한 기록이며 CLI가 생성한 PASS 이력이 아니다. 제품 todo 자체는 수정·재검증하지 않았다.
 
 최종 형식·링크·원본/증거 해시 확인 결과는 `todo-structure.json`에 기록했다. 기존 57개 규칙과 읽기 전용 Todo 입력의 내용은 보존됐다. 독립 평가의 후속 Q표는 원본 레퍼런스가 없는 상황에서 합성 품질을 통과시키지 않는지도 확인했다.
+
+## 다중 레퍼런스·모바일 폼과 일관성: catalog v3
+
+[실제 MCP 기록](multi-reference-live.json)은 Todo1회·채팅2회(1/2페이지), 대표 이미지9장 관찰과 출처 누적을 보존한다. [독립 모의 평가](multi-reference-green.md)는 복합 과제 분기/누적/적용 및 모바일 폼·탭·여백·중복 정보의 판단을 평가한다. 실제 API 결과와 모의 결과를 구별한다. 원래 v2의67개를 유지하고 RUI-18–25를 더해 총75개로 갱신했다. 자세한 사용자 교정 맥락은 `docs/multi-reference-context.md`에 있다.
