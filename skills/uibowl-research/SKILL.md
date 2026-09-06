@@ -1,6 +1,6 @@
 ---
 name: uibowl-research
-description: Use when UIbowl references, screen patterns, components, screen copy, or app comparisons are requested, including detailed padding, color pairings, typography, and icon analysis, or when research lacks visual evidence.
+description: Use when UIbowl references, screen patterns, components, screen copy, or app comparisons are requested, including multi-feature research, accumulated references, detailed padding, color pairings, typography, and icon analysis, or when research lacks visual evidence.
 ---
 
 # UIbowl 레퍼런스 리서치
@@ -13,7 +13,9 @@ description: Use when UIbowl references, screen patterns, components, screen cop
 
 ## 검색
 
-[검색 선택과 예시](references/search-examples.md)를 읽고 요청 의도에 맞는 도구 한 개에 복합 필터를 함께 전달한다. 기본 첫 페이지를 사용한다. 추가 페이지는 사용자가 더 보기를 요청할 때만 조회한다. 0건이면 같은 의도의 표현으로 한 번만 재시도한다. 국가나 업종을 조용히 바꾸거나 OCR 검색으로 우회하지 않는다.
+[검색 선택과 예시](references/search-examples.md)를 읽는다. 하나의 의도에 딸린 국가/업종/앱/요소 필터는 한 호출에 함께 전달한다. 서로 다른 기능이나 화면은 별도 검색한다. 복합 요청이나 여러 레퍼런스 누적 요청에는 [검색 계획과 누적](references/research-plan.md)을 반드시 읽고 제품의 핵심/보조 과제를 B-ID로 나눈다. ‘채팅 Todo’에서 채팅만 조사하지 않는다.
+
+핵심 분기마다 실제 근거가 모일 때까지 필요한 MCP 호출을 이어간다. 첫 결과의 적합성·누락 상태·has_more를 보고 추가 페이지, 다른 표현/요소/관련 앱 탐색을 선택한다. 사용자에게 매 호출마다 허락을 다시 묻지 않는다. 인증·접근 한도와 명시된 검색 제약은 지키고 중복/소진된 검색을 반복하지 않는다. 호출·출처·선택 이력은 누적한다.
 
 ## 관찰과 전달
 
@@ -23,7 +25,7 @@ description: Use when UIbowl references, screen patterns, components, screen cop
 
 UI 설계·구현으로 이어지는 분석이나 패딩·색상·아이콘 같은 세부 분석 요청에는 [컴포넌트 상세 분석](references/component-anatomy.md)을 읽는다. 주 레퍼런스에서 서로 다른 컴포넌트 유형과 변형을 목록으로 만들고, 각 요소의 박스·사방 여백·타이포그래피·배경/글자/아이콘 색상 조합·아이콘 형태·상태를 기록한다. 반복 항목은 대표 하나를 분석하고 차이만 추가한다. 보조 레퍼런스는 채택할 패턴 범위까지 분석한다. 미확인 속성도 빠뜨리지 않고 unknown으로 남긴다.
 
-사용자 과제에 맞는 주 레퍼런스 하나를 고르고 보조 레퍼런스는 부족한 패턴이 있을 때만 지정한다. 맞는 후보가 없으면 그 사실을 남긴다. 유명세·MAU·미관을 UX 효과의 증거로 쓰지 않는다.
+사용자 과제와 화면별 주 레퍼런스를 고르고, 여러 후보의 장점을 역할 있는 보조 레퍼런스로 조합한다. 제품 전체를 무조건 한 검색/한 출처로 제한하지 않는다. 맞는 후보가 없으면 그 사실을 남긴다. 유명세·MAU·미관을 UX 효과의 증거로 쓰지 않는다.
 
 전달 결과에는 source ID별 **출처/확인 상태, 관찰 사실, 해석, 채택 후보, 이번 화면에서 배제할 요소와 이유, 미확인 사항**이 들어간다. 단순 검색은 채팅으로, 구현이 이어지면 프로젝트의 기존 문서 위치 또는 `design/reference-brief.md`에 저장한다. 후속 작업은 이 기록을 재사용한다.
 
@@ -31,6 +33,6 @@ UIbowl 결과 설명은 갤러리 A/B/C 순서를 지키고 `[앱 이름](반환
 
 ## 종료와 오류
 
-- 완료: 검색 결과 또는 0건 상태, 실제 확인 범위, 출처, 후속 판단이 전달됐다.
+- 결과 전달: 검색 결과/0건/오류와 확인 범위·출처를 전달한다. 복합 제품 조사 완료는 모든 핵심 B-ID의 적합한 관찰 근거와 D/Q 적용이 연결된 경우다. 누락 분기는 그대로 미검증으로 남긴다.
 - 인증·권한·도구 부재: 정확한 실패를 알리고 사용자 제공 자료로 가능한 작업을 계속한다. 검색 성공이나 시각 분석 완료로 표시하지 않는다.
 - 빨리 전달하라는 요청도 출처 없는 관찰을 만들어낼 근거가 되지 않는다.
