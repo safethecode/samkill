@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": 2,
+  "version": 3,
   "description": "원본 실패 규칙을 보존한 판정 목록. 원본 문장은 출처의 주장/규칙이며 최신 제품 사실을 검증했다는 뜻이 아니다. 적용 범위와 예외 판단을 생략하지 않는다.",
   "rules": [
     {
@@ -1245,6 +1245,146 @@
         "visual"
       ],
       "default_scope": "레퍼런스 기반 UI 설계·구현·리뷰",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-18",
+      "status": "active",
+      "family": "Multi-reference and mobile navigation feedback",
+      "title": "복합 제품의 검색 분기·누적·적용 누락",
+      "source": {
+        "path": "docs/multi-reference-context.md",
+        "heading": "2026-09-06 여러 레퍼런스 누적과 모바일 탭"
+      },
+      "original": "핵심 제품과 보조 기능을 분리해 조사하지 않고 최신 키워드/단일 검색에 고착하거나 누적 출처를 덮어쓰고 마지막 결과만 구현한다. B-ID별 SC/R/D/Q 근거와 남은 검색 범위를 확인한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "default_scope": "복합 제품 리서치·구현 또는 모바일 탭 내비게이션",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-19",
+      "status": "active",
+      "family": "Multi-reference and mobile navigation feedback",
+      "title": "모바일 탭을 과대한 CTA 형태로 표현",
+      "source": {
+        "path": "docs/multi-reference-context.md",
+        "heading": "2026-09-06 여러 레퍼런스 누적과 모바일 탭"
+      },
+      "original": "목적지 전환 탭을 큰 채움 버튼들로 늘리거나 과도한 높이/안전 영역 중복으로 콘텐츠를 압축한다. 목적지에 맞는 배치, 제한된 선택 표시, 아이콘/라벨, 상태/복귀를 모바일 레퍼런스와 비교한다.",
+      "checks": [
+        "spec",
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "default_scope": "복합 제품 리서치·구현 또는 모바일 탭 내비게이션",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-20",
+      "status": "active",
+      "family": "Form and cross-screen consistency feedback",
+      "title": "주 제목을 소제목/본문 스타일로 표시",
+      "source": {
+        "path": "docs/multi-reference-context.md",
+        "heading": "2026-09-06 폼·패딩·화면 통일 피드백"
+      },
+      "original": "생성/수정 표면의 목적 제목을 전역 h2/body 스타일로 내려 라벨·본문과 위계가 구분되지 않는다. 의미 heading과 시각 title 역할을 분리해 검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "default_scope": "생성/수정 폼, 상태별 목록 및 여러 화면의 동일 역할 요소",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-21",
+      "status": "active",
+      "family": "Form and cross-screen consistency feedback",
+      "title": "날짜·시간 선택형 입력의 제품 스타일·동작 미완성",
+      "source": {
+        "path": "docs/multi-reference-context.md",
+        "heading": "2026-09-06 폼·패딩·화면 통일 피드백"
+      },
+      "original": "브라우저 기본 날짜/시간 표현을 그대로 노출하거나 외형만 만든 picker를 완성으로 취급한다. 공통 입력 스타일, 선택/취소/초기화/포커스와 저장값을 검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "default_scope": "생성/수정 폼, 상태별 목록 및 여러 화면의 동일 역할 요소",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-22",
+      "status": "active",
+      "family": "Form and cross-screen consistency feedback",
+      "title": "부모와 자식·상태 여백의 중복",
+      "source": {
+        "path": "docs/multi-reference-context.md",
+        "heading": "2026-09-06 폼·패딩·화면 통일 피드백"
+      },
+      "original": "부모 padding과 첫/마지막 자식 margin 또는 상태별 spacing이 합쳐져 의도한 inset·정렬을 깨뜨린다. 전체 박스 관계와 상태별 최종 거리를 확인한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "default_scope": "생성/수정 폼, 상태별 목록 및 여러 화면의 동일 역할 요소",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-23",
+      "status": "active",
+      "family": "Form and cross-screen consistency feedback",
+      "title": "목록·대화·폼 사이의 톤과 컴포넌트 불일치",
+      "source": {
+        "path": "docs/multi-reference-context.md",
+        "heading": "2026-09-06 폼·패딩·화면 통일 피드백"
+      },
+      "original": "공통 토큰 사용만으로 전체 스타일 통일을 선언하거나 화면 전환마다 제목·표면·입력·버튼·간격이 다른 제품처럼 바뀐다. 모든 관련 화면을 같은 폭으로 나란히 비교한다.",
+      "checks": [
+        "spec",
+        "code",
+        "visual"
+      ],
+      "default_scope": "생성/수정 폼, 상태별 목록 및 여러 화면의 동일 역할 요소",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-24",
+      "status": "active",
+      "family": "Semantic information duplication feedback",
+      "title": "날짜·수량·상태의 의미 중복",
+      "source": {
+        "path": "docs/multi-reference-context.md",
+        "heading": "2026-09-06 날짜 정보 반복 교정"
+      },
+      "original": "제목·설명·배지에서 날짜/수량/상태를 다른 문자열 형식으로 반복한다. 역할 없는 표시를 합치거나 삭제하고 필요한 연도·조건 등 고유 정보는 보존한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "default_scope": "같은 정보를 인접한 여러 위치에 표시하는 화면",
+      "enforcement": "block-when-applicable"
+    },
+    {
+      "id": "RUI-25",
+      "status": "active",
+      "family": "Section hierarchy feedback",
+      "title": "서로 다른 작업 섹션의 경계와 소속 불명확",
+      "source": {
+        "path": "docs/multi-reference-context.md",
+        "heading": "2026-09-06 서비스별 섹션 구분"
+      },
+      "original": "구분선을 제거하면서 다른 과제의 섹션 경계까지 없애거나 모든 영역을 같은 카드로 묶는다. 서비스와 정보 구조에 따라 내부/외부 간격·제목·표면 단계로 의미를 구별한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "default_scope": "서로 다른 판단·행동 영역을 함께 보여주는 화면",
       "enforcement": "block-when-applicable"
     }
   ]
