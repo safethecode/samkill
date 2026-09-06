@@ -34,6 +34,8 @@ UI 작업에서는 [요소 구성 기준](skills/reference-to-ui/references/ui-c
 
 행동 버튼은 [적용 범위와 위치](skills/reference-to-ui/references/product-reasoning.md#행동의-적용-범위와-위치)에 따라 실제 대상이 속한 영역에 배치한다. 판단은 특정 요소나 행 템플릿에 종속시키지 않고 필요성·요소 간 관계·사용자의 판단과 행동 순서·시각적 경쟁을 기준으로 한다. 실패 사례의 해결 후보를 보편적인 배치 규칙으로 복제하지 않는다. 화면·섹션·항목·선택 집합을 구별하고, 헤더의 빈자리나 레퍼런스 좌표만으로 위치를 정하지 않는다.
 
+경계·표면의 상태 전환도 모션에 포함한다. [경계 상태와 포커스](skills/reference-to-ui/references/design-tokens.md#경계-상태와-레이아웃을-흔들지-않는-포커스)에 따라 크기·내용 위치를 유지하는 inset shadow나 일정한 두께의 경계를 선택하고 키보드·고대비의 초점 식별성을 보존한다.
+
 ## 실패를 판단하고 보존하기
 
 [공통 실패 목록](skills/reference-review/references/failure-catalog.json)의 모든 활성 규칙, 프로젝트 제외 항목, 과거 실패를 확인한다. orc에서 실패로 정한 항목을 “결함이 아닐 수도 있다”라는 일반론으로 해제하지 않는다.
