@@ -32,6 +32,8 @@ UI 작업에서는 [요소 구성 기준](skills/reference-to-ui/references/ui-c
 
 같은 단계의 화면 컨테이너는 기본 패딩을 공통 토큰과 레이아웃으로 공유한다. [패딩 소유권](skills/reference-to-ui/references/design-tokens.md#공통-화면-컨테이너의-패딩-소유권)에 따라 중첩 여백과 고정 영역의 최종 정렬을 확인하고, 컴포넌트 내부 여백·가림 방지 공간은 역할을 구별한다.
 
+행동 버튼은 [적용 범위와 위치](skills/reference-to-ui/references/product-reasoning.md#행동의-적용-범위와-위치)에 따라 실제 대상이 속한 영역에 배치한다. 화면·섹션·항목·선택 집합을 구별하고, 헤더의 빈자리나 레퍼런스 좌표만으로 위치를 정하지 않는다.
+
 ## 실패를 판단하고 보존하기
 
 [공통 실패 목록](skills/reference-review/references/failure-catalog.json)의 모든 활성 규칙, 프로젝트 제외 항목, 과거 실패를 확인한다. orc에서 실패로 정한 항목을 “결함이 아닐 수도 있다”라는 일반론으로 해제하지 않는다.
