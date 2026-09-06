@@ -1,5 +1,7 @@
 # Reference UI Skills
 
+![Made with AI: 100%](https://img.shields.io/badge/Made_with_AI-100%25-blue)
+
 사용자 문제 → UIbowl 레퍼런스 상세 분석 → 아이디어와 배치 결정 → 토큰 기반 구현 → 판독과 실패 누적으로 연결하는 개인 스킬 패키지예요. orc의 reference-first와 컴포넌트별 DO NOT을 분석해, 과제와 무관한 장식·레이아웃을 줄이는 방향으로 구성했어요.
 
 | 스킬 | 호출 예시 | 결과 |
