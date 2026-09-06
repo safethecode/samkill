@@ -80,3 +80,17 @@ UI 디자인과 구현에서 필수로 사용한다. 레퍼런스 관찰은 증�
 각 영역의 `공통 컨테이너 | 여백 소유 요소 | 토큰 | 자식 추가 inset | 뷰포트 기준 최종 거리`를 확인한다. 고정 composer는 공통 콘텐츠 폭·좌우 inset에 맞추고, 부모 안의 sticky/일반 흐름으로 바뀌면 부모 여백을 이중 적용하지 않는다. 이때 자식 padding-inline: 0은 최종 정렬을 유지하기 위한 선택일 수 있으므로 선언값만 비교해 결함으로 판단하지 않는다.
 
 하단 탭·composer·safe area를 위한 가림 방지 공간은 기본 시각 패딩과 분리해 계산한다. 목록과 채팅의 padding-bottom을 무조건 같게 만들어 콘텐츠를 가리지 않는다. 반응형과 빈/긴 내용 상태에서도 제목·본문·고정 입력창의 의도한 좌우 기준선과 공통 상단 여백을 실제 렌더로 대조한다. 토큰 이름이 같아도 중첩 padding, margin, 폭, 위치 기준이 다르면 정렬이 다를 수 있다.
+
+## 경계 상태와 레이아웃을 흔들지 않는 포커스
+
+모션은 이동 효과뿐 아니라 border-color, 안쪽 경계의 box-shadow, 표면·글자색처럼 상태를 전달하는 표현을 포함한다. 필요한 속성에만 공통 duration/easing을 연결한다. 모든 요소에 그림자를 추가하거나 border-width·padding을 전환해 조작 영역을 흔들지 않는다.
+
+입력의 초점 강조는 외곽 크기와 내부 텍스트 위치를 유지하는 방식으로 설계한다. 안쪽 경계가 적합하면 `box-shadow: inset 0 0 0 var(--focus-width) var(--focus-color)` 같은 표현을 우선 검토하고 두께·색을 역할 토큰에 연결한다. 기본/hover/focus/error 경계를 한 표시 체계로 구성해 기존 border와 그림자가 어긋난 이중선처럼 보이지 않게 한다. 장식 shadow가 있다면 상태 선언이 이를 우연히 덮어쓰지 않도록 구성한다.
+
+border 자체를 금지하지 않는다. 모든 상태에서 두께를 일정하게 확보하고 색만 바꾸는 방식도 가능하다. border-box만 지정하면 충분하다고 판단하지 않는다. 바깥 크기가 같아도 두께 변화가 콘텐츠 폭과 줄바꿈을 바꿀 수 있다. outline도 레이아웃 공간을 차지하지 않는 대안이다. 어떤 방식을 택하든 포커스 표시 주체는 하나이며 실제 조작 대상이 분명해야 한다.
+
+키보드 초점 표시는 즉시 식별 가능하게 유지하고 추가 장식 전환만 부드럽게 한다. forced-colors에서는 box-shadow가 사라질 수 있으므로 시스템 색 outline 등으로 대체하며 중복 초점 표시를 만들지 않는다. 동작 줄이기에서도 초점·오류·선택 정보를 유지한다.
+
+검증: 기본→hover→focus→오류+focus→blur에서 외곽 박스뿐 아니라 텍스트 시작점·내용 폭·줄바꿈·인접 요소 위치가 유지되는지 실제 대조한다. 키보드 이동, 고대비, 동작 줄이기에서 표시를 확인한다. 큰 blur나 반복 shadow 전환은 실제 부드러움도 확인하며 CSS 선언만으로 성능을 단정하지 않는다.
+
+기술 근거: [MDN box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow), [forced-colors](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors). 상태 표현과 배치 안정성을 기준으로 선택하며 특정 CSS 트릭을 모든 컴포넌트에 강제하지 않는다.
