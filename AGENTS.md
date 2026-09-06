@@ -30,6 +30,8 @@ UI 작업에서는 [요소 구성 기준](skills/reference-to-ui/references/ui-c
 
 상태 변화에는 [토큰 계약의 모션 기준](skills/reference-to-ui/references/design-tokens.md#상태-전환과-모션)을 적용한다. 호버 진입·해제를 부드럽게 연결하고 같은 역할의 속도·곡선을 통일한다. 불필요한 움직임을 추가하지 않으며 즉각적인 기능 반응·키보드 포커스·동작 줄이기를 보존하고 실제 전환을 검증한다.
 
+같은 단계의 화면 컨테이너는 기본 패딩을 공통 토큰과 레이아웃으로 공유한다. [패딩 소유권](skills/reference-to-ui/references/design-tokens.md#공통-화면-컨테이너의-패딩-소유권)에 따라 중첩 여백과 고정 영역의 최종 정렬을 확인하고, 컴포넌트 내부 여백·가림 방지 공간은 역할을 구별한다.
+
 ## 실패를 판단하고 보존하기
 
 [공통 실패 목록](skills/reference-review/references/failure-catalog.json)의 모든 활성 규칙, 프로젝트 제외 항목, 과거 실패를 확인한다. orc에서 실패로 정한 항목을 “결함이 아닐 수도 있다”라는 일반론으로 해제하지 않는다.
