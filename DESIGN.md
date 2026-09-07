@@ -21,3 +21,5 @@
 [실패 목록](skills/reference-review/references/failure-catalog.json)과 [리뷰 기준](skills/reference-review/references/review-criteria.md)을 적용한다. [맥락과 교정 이력](docs/session-context.md), [평가 사례](evals/cases.md)는 보존한다. 금지 목록 통과나 외형 일부 복제로 품질을 확정하지 않는다.
 
 읽는 글자 14 CSS px 하한, 임의 로고/아이콘 제작 방지 등 명시된 사용자 기준을 유지한다. 제품 색·배치·타이포그래피는 해당 제품 근거에서 정한다. 미실행 lint·렌더·행동 검증을 통과했다고 하지 않는다.
+
+영역 구분 바와 탭의 하단 기준선·선택 밑줄/이동 바를 사용하지 않는다. hr뿐 아니라 border·pseudo-element·shadow·gradient·SVG로 구현한 동등한 선도 포함하며, 단일 선이나 탭 관례도 예외가 아니다. 선택 상태와 영역 관계는 선 이외의 위계·간격·표면으로 전달한다. 입력/버튼 경계·키보드 포커스·실제 데이터 표현은 역할을 구별해 보존한다.
