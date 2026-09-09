@@ -71,4 +71,4 @@ UIbowl MCP 인증과 연결은 실행 환경에서 제공해야 해요. 이 패�
 
 ## 레퍼런스 언어 번역 실험
 
-[reference-decompose](skills/reference-decompose/SKILL.md)는 설계용 원본을 확보한 직후 요소·관계·조립 조건으로 번역하는 스킬이다. 사용자가 재현 실험을 요청하면 요소별 프롬프트와 실제 구현을 비교하고 교정을 쌓는다. [첫 실험](design/reference-language/round-01/index.html)은 셀레트립 일정 편집 화면이며 사용자 품질 교정 대기 상태다.
+[reference-decompose](skills/reference-decompose/SKILL.md)는 설계용 원본을 확보한 직후 요소·관계·조립 조건으로 번역하는 스킬이다. 사용자가 재현 실험을 요청하면 요소별 프롬프트와 실제 구현을 비교하고 교정을 쌓는다. [첫 실험](design/reference-language/round-01/index.html)은 셀레트립 일정 편집 화면이며 사용자가 재현 품질을 확인했다. [두번째 디맨드 실험](design/reference-language/round-02/index.html)에서는 멘토 검색의 카드·배지·상태 관계를 검증한다.

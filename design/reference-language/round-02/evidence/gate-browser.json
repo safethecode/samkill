@@ -1,0 +1,1944 @@
+[
+  {
+    "file": "screen.html",
+    "width": 390,
+    "detail": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "text": [
+        {
+          "text": "멘토링",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "관심 멘토 혹은 회사를 검색하세요",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "전체",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "커리어 컨설팅",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "자소서 첨삭",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "면접 컨설팅",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "송도 바닷바람",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "\n  \n  \n\n현직",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "셀트리온",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "바이오 전문서류만 붙으시면 최종합격까지 컨설팅 노하우 보유",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링 횟수 9회",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "면접",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "기름선배",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "\n  \n  \n\n인증",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링 전문가",
+          "size": "14px",
+          "overflow": false
+        }
+      ],
+      "boxes": [
+        {
+          "selector": "screen-frame",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 460.328125,
+          "top": 0,
+          "right": 390,
+          "bottom": 460.328125,
+          "left": 0
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 552,
+          "top": 0,
+          "right": 390,
+          "bottom": 552,
+          "left": 0
+        },
+        {
+          "selector": "page-header",
+          "x": 16,
+          "y": 0,
+          "width": 358,
+          "height": 54,
+          "top": 0,
+          "right": 374,
+          "bottom": 54,
+          "left": 16
+        },
+        {
+          "selector": "search-field",
+          "x": 16,
+          "y": 70,
+          "width": 358,
+          "height": 46,
+          "top": 70,
+          "right": 374,
+          "bottom": 116,
+          "left": 16
+        },
+        {
+          "selector": "filters",
+          "x": 16,
+          "y": 124,
+          "width": 358,
+          "height": 36,
+          "top": 124,
+          "right": 374,
+          "bottom": 160,
+          "left": 16
+        },
+        {
+          "selector": "filter selected",
+          "x": 16,
+          "y": 124,
+          "width": 48.234375,
+          "height": 36,
+          "top": 124,
+          "right": 64.234375,
+          "bottom": 160,
+          "left": 16
+        },
+        {
+          "selector": "filter",
+          "x": 68.234375,
+          "y": 124,
+          "width": 100.453125,
+          "height": 36,
+          "top": 124,
+          "right": 168.6875,
+          "bottom": 160,
+          "left": 68.234375
+        },
+        {
+          "selector": "filter",
+          "x": 172.6875,
+          "y": 124,
+          "width": 88.34375,
+          "height": 36,
+          "top": 124,
+          "right": 261.03125,
+          "bottom": 160,
+          "left": 172.6875
+        },
+        {
+          "selector": "filter",
+          "x": 265.03125,
+          "y": 124,
+          "width": 88.34375,
+          "height": 36,
+          "top": 124,
+          "right": 353.375,
+          "bottom": 160,
+          "left": 265.03125
+        },
+        {
+          "selector": "mentor-card",
+          "x": 16,
+          "y": 180,
+          "width": 358,
+          "height": 180,
+          "top": 180,
+          "right": 374,
+          "bottom": 360,
+          "left": 16
+        },
+        {
+          "selector": "mentor-identity employed",
+          "x": 32,
+          "y": 196,
+          "width": 326,
+          "height": 48,
+          "top": 196,
+          "right": 358,
+          "bottom": 244,
+          "left": 32
+        },
+        {
+          "selector": "avatar",
+          "x": 32,
+          "y": 196,
+          "width": 48,
+          "height": 48,
+          "top": 196,
+          "right": 80,
+          "bottom": 244,
+          "left": 32
+        },
+        {
+          "selector": "mentor-name",
+          "x": 88,
+          "y": 196,
+          "width": 108.6875,
+          "height": 24,
+          "top": 196,
+          "right": 196.6875,
+          "bottom": 220,
+          "left": 88
+        },
+        {
+          "selector": "mentor-meta",
+          "x": 88,
+          "y": 222,
+          "width": 108.6875,
+          "height": 22,
+          "top": 222,
+          "right": 196.6875,
+          "bottom": 244,
+          "left": 88
+        },
+        {
+          "selector": "favorite saved",
+          "x": 334,
+          "y": 196,
+          "width": 24,
+          "height": 24,
+          "top": 196,
+          "right": 358,
+          "bottom": 220,
+          "left": 334
+        },
+        {
+          "selector": "description",
+          "x": 32,
+          "y": 264,
+          "width": 326,
+          "height": 44,
+          "top": 264,
+          "right": 358,
+          "bottom": 308,
+          "left": 32
+        },
+        {
+          "selector": "mentor-footer",
+          "x": 32,
+          "y": 322,
+          "width": 326,
+          "height": 22,
+          "top": 322,
+          "right": 358,
+          "bottom": 344,
+          "left": 32
+        },
+        {
+          "selector": "specialty",
+          "x": 321.765625,
+          "y": 322,
+          "width": 36.234375,
+          "height": 22,
+          "top": 322,
+          "right": 358,
+          "bottom": 344,
+          "left": 321.765625
+        },
+        {
+          "selector": "mentor-card partial-card",
+          "x": 16,
+          "y": 372,
+          "width": 358,
+          "height": 180,
+          "top": 372,
+          "right": 374,
+          "bottom": 552,
+          "left": 16
+        },
+        {
+          "selector": "mentor-identity certified",
+          "x": 32,
+          "y": 388,
+          "width": 326,
+          "height": 48,
+          "top": 388,
+          "right": 358,
+          "bottom": 436,
+          "left": 32
+        },
+        {
+          "selector": "avatar",
+          "x": 32,
+          "y": 388,
+          "width": 48,
+          "height": 48,
+          "top": 388,
+          "right": 80,
+          "bottom": 436,
+          "left": 32
+        },
+        {
+          "selector": "mentor-name",
+          "x": 88,
+          "y": 388,
+          "width": 136.6875,
+          "height": 24,
+          "top": 388,
+          "right": 224.6875,
+          "bottom": 412,
+          "left": 88
+        },
+        {
+          "selector": "mentor-meta",
+          "x": 88,
+          "y": 414,
+          "width": 136.6875,
+          "height": 22,
+          "top": 414,
+          "right": 224.6875,
+          "bottom": 436,
+          "left": 88
+        },
+        {
+          "selector": "favorite unsaved",
+          "x": 334,
+          "y": 388,
+          "width": 24,
+          "height": 24,
+          "top": 388,
+          "right": 358,
+          "bottom": 412,
+          "left": 334
+        }
+      ],
+      "imagesFailed": 0,
+      "interactiveCount": 0,
+      "semantics": [
+        {
+          "tag": "UL",
+          "role": null,
+          "label": "멘토링 분야, 전체 선택됨"
+        },
+        {
+          "tag": "UL",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "SPAN",
+          "role": "img",
+          "label": "찜한 멘토"
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "SPAN",
+          "role": "img",
+          "label": "찜하지 않은 멘토"
+        }
+      ]
+    },
+    "rectBefore": {
+      "x": 16,
+      "y": 70,
+      "width": 358,
+      "height": 46
+    },
+    "hoverMiddle": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgba(212, 218, 222, 0.74) 0px 0px 0px 1.48179px inset",
+      "transition": "box-shadow 0.15s"
+    },
+    "hoverEnd": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgb(212, 218, 222) 0px 0px 0px 2px inset"
+    },
+    "leaveMiddle": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgba(212, 218, 222, 0.15) 0px 0px 0px 0.296828px inset"
+    },
+    "typed": "셀트리온",
+    "cleared": "",
+    "longValue": "긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어",
+    "longRect": {
+      "x": 16,
+      "y": 70,
+      "width": 358,
+      "height": 46
+    },
+    "unchangedURL": true,
+    "inputOutline": "rgb(40, 53, 72) none 0px",
+    "focus": {
+      "shadow": "rgb(79, 115, 255) 0px 0px 0px 2px inset",
+      "outline": "rgb(116, 126, 140) none 3px",
+      "rect": {
+        "x": 16,
+        "y": 70,
+        "width": 358,
+        "height": 46,
+        "top": 70,
+        "right": 374,
+        "bottom": 116,
+        "left": 16
+      },
+      "focused": true
+    },
+    "forced": {
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "transition": "none",
+      "focused": true,
+      "rect": {
+        "x": 16,
+        "y": 70,
+        "width": 358,
+        "height": 46,
+        "top": 70,
+        "right": 374,
+        "bottom": 116,
+        "left": 16
+      }
+    }
+  },
+  {
+    "file": "components.html",
+    "width": 390,
+    "detail": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 982,
+      "text": [
+        {
+          "text": "멘토링 구성 요소",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "정적 상태 표본입니다. 검색 입력만 편집할 수 있습니다.",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E1 — 화면 제목과 전역 도구",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "E2 — 검색 입력",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "관심 멘토 혹은 회사를 검색하세요",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E3 — 분야 선택 상태",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "전체",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "커리어 컨설팅",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "자소서 첨삭",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "면접 컨설팅",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E4 — 멘토 식별과 찜 상태",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "송도 바닷바람",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "\n  \n  \n\n현직",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "셀트리온",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "기름선배",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "\n  \n  \n\n인증",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링 전문가",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E5 — 설명과 하단 정보",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "바이오 전문서류만 붙으시면 최종합격까지 컨설팅 노하우 보유",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링 횟수 9회",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "면접",
+          "size": "14px",
+          "overflow": false
+        }
+      ],
+      "boxes": [
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 154,
+          "width": 390,
+          "height": 54,
+          "top": 154,
+          "right": 390,
+          "bottom": 208,
+          "left": 0
+        },
+        {
+          "selector": "page-header",
+          "x": 16,
+          "y": 154,
+          "width": 358,
+          "height": 54,
+          "top": 154,
+          "right": 374,
+          "bottom": 208,
+          "left": 16
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 298,
+          "width": 390,
+          "height": 46,
+          "top": 298,
+          "right": 390,
+          "bottom": 344,
+          "left": 0
+        },
+        {
+          "selector": "search-field",
+          "x": 16,
+          "y": 298,
+          "width": 358,
+          "height": 46,
+          "top": 298,
+          "right": 374,
+          "bottom": 344,
+          "left": 16
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 442,
+          "width": 390,
+          "height": 36,
+          "top": 442,
+          "right": 390,
+          "bottom": 478,
+          "left": 0
+        },
+        {
+          "selector": "filters",
+          "x": 16,
+          "y": 442,
+          "width": 358,
+          "height": 36,
+          "top": 442,
+          "right": 374,
+          "bottom": 478,
+          "left": 16
+        },
+        {
+          "selector": "filter selected",
+          "x": 16,
+          "y": 442,
+          "width": 48.234375,
+          "height": 36,
+          "top": 442,
+          "right": 64.234375,
+          "bottom": 478,
+          "left": 16
+        },
+        {
+          "selector": "filter",
+          "x": 68.234375,
+          "y": 442,
+          "width": 100.453125,
+          "height": 36,
+          "top": 442,
+          "right": 168.6875,
+          "bottom": 478,
+          "left": 68.234375
+        },
+        {
+          "selector": "filter",
+          "x": 172.6875,
+          "y": 442,
+          "width": 88.34375,
+          "height": 36,
+          "top": 442,
+          "right": 261.03125,
+          "bottom": 478,
+          "left": 172.6875
+        },
+        {
+          "selector": "filter",
+          "x": 265.03125,
+          "y": 442,
+          "width": 88.34375,
+          "height": 36,
+          "top": 442,
+          "right": 353.375,
+          "bottom": 478,
+          "left": 265.03125
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 568,
+          "width": 390,
+          "height": 172,
+          "top": 568,
+          "right": 390,
+          "bottom": 740,
+          "left": 0
+        },
+        {
+          "selector": "mentor-card identity-card",
+          "x": 16,
+          "y": 568,
+          "width": 358,
+          "height": 80,
+          "top": 568,
+          "right": 374,
+          "bottom": 648,
+          "left": 16
+        },
+        {
+          "selector": "mentor-identity employed",
+          "x": 32,
+          "y": 584,
+          "width": 326,
+          "height": 48,
+          "top": 584,
+          "right": 358,
+          "bottom": 632,
+          "left": 32
+        },
+        {
+          "selector": "avatar",
+          "x": 32,
+          "y": 584,
+          "width": 48,
+          "height": 48,
+          "top": 584,
+          "right": 80,
+          "bottom": 632,
+          "left": 32
+        },
+        {
+          "selector": "mentor-name",
+          "x": 88,
+          "y": 584,
+          "width": 108.6875,
+          "height": 24,
+          "top": 584,
+          "right": 196.6875,
+          "bottom": 608,
+          "left": 88
+        },
+        {
+          "selector": "mentor-meta",
+          "x": 88,
+          "y": 610,
+          "width": 108.6875,
+          "height": 22,
+          "top": 610,
+          "right": 196.6875,
+          "bottom": 632,
+          "left": 88
+        },
+        {
+          "selector": "favorite saved",
+          "x": 334,
+          "y": 584,
+          "width": 24,
+          "height": 24,
+          "top": 584,
+          "right": 358,
+          "bottom": 608,
+          "left": 334
+        },
+        {
+          "selector": "mentor-card identity-card",
+          "x": 16,
+          "y": 660,
+          "width": 358,
+          "height": 80,
+          "top": 660,
+          "right": 374,
+          "bottom": 740,
+          "left": 16
+        },
+        {
+          "selector": "mentor-identity certified",
+          "x": 32,
+          "y": 676,
+          "width": 326,
+          "height": 48,
+          "top": 676,
+          "right": 358,
+          "bottom": 724,
+          "left": 32
+        },
+        {
+          "selector": "avatar",
+          "x": 32,
+          "y": 676,
+          "width": 48,
+          "height": 48,
+          "top": 676,
+          "right": 80,
+          "bottom": 724,
+          "left": 32
+        },
+        {
+          "selector": "mentor-name",
+          "x": 88,
+          "y": 676,
+          "width": 136.6875,
+          "height": 24,
+          "top": 676,
+          "right": 224.6875,
+          "bottom": 700,
+          "left": 88
+        },
+        {
+          "selector": "mentor-meta",
+          "x": 88,
+          "y": 702,
+          "width": 136.6875,
+          "height": 22,
+          "top": 702,
+          "right": 224.6875,
+          "bottom": 724,
+          "left": 88
+        },
+        {
+          "selector": "favorite unsaved",
+          "x": 334,
+          "y": 676,
+          "width": 24,
+          "height": 24,
+          "top": 676,
+          "right": 358,
+          "bottom": 700,
+          "left": 334
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 830,
+          "width": 390,
+          "height": 112,
+          "top": 830,
+          "right": 390,
+          "bottom": 942,
+          "left": 0
+        },
+        {
+          "selector": "mentor-card details-card",
+          "x": 16,
+          "y": 830,
+          "width": 358,
+          "height": 112,
+          "top": 830,
+          "right": 374,
+          "bottom": 942,
+          "left": 16
+        },
+        {
+          "selector": "description",
+          "x": 32,
+          "y": 846,
+          "width": 326,
+          "height": 44,
+          "top": 846,
+          "right": 358,
+          "bottom": 890,
+          "left": 32
+        },
+        {
+          "selector": "mentor-footer",
+          "x": 32,
+          "y": 904,
+          "width": 326,
+          "height": 22,
+          "top": 904,
+          "right": 358,
+          "bottom": 926,
+          "left": 32
+        },
+        {
+          "selector": "specialty",
+          "x": 321.765625,
+          "y": 904,
+          "width": 36.234375,
+          "height": 22,
+          "top": 904,
+          "right": 358,
+          "bottom": 926,
+          "left": 321.765625
+        }
+      ],
+      "imagesFailed": 0,
+      "interactiveCount": 0,
+      "semantics": [
+        {
+          "tag": "UL",
+          "role": null,
+          "label": "멘토링 분야, 전체 선택됨"
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "SPAN",
+          "role": "img",
+          "label": "찜한 멘토"
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "SPAN",
+          "role": "img",
+          "label": "찜하지 않은 멘토"
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        }
+      ]
+    },
+    "rectBefore": {
+      "x": 16,
+      "y": 298,
+      "width": 358,
+      "height": 46
+    },
+    "hoverMiddle": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgba(212, 218, 222, 0.74) 0px 0px 0px 1.48179px inset",
+      "transition": "box-shadow 0.15s"
+    },
+    "hoverEnd": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgb(212, 218, 222) 0px 0px 0px 2px inset"
+    },
+    "leaveMiddle": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgba(212, 218, 222, 0.15) 0px 0px 0px 0.295406px inset"
+    },
+    "typed": "셀트리온",
+    "cleared": "",
+    "longValue": "긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어",
+    "longRect": {
+      "x": 16,
+      "y": 298,
+      "width": 358,
+      "height": 46
+    },
+    "unchangedURL": true,
+    "inputOutline": "rgb(40, 53, 72) none 0px",
+    "focus": {
+      "shadow": "rgb(79, 115, 255) 0px 0px 0px 2px inset",
+      "outline": "rgb(116, 126, 140) none 3px",
+      "rect": {
+        "x": 16,
+        "y": 298,
+        "width": 358,
+        "height": 46,
+        "top": 298,
+        "right": 374,
+        "bottom": 344,
+        "left": 16
+      },
+      "focused": true
+    },
+    "forced": {
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "transition": "none",
+      "focused": true,
+      "rect": {
+        "x": 16,
+        "y": 298,
+        "width": 358,
+        "height": 46,
+        "top": 298,
+        "right": 374,
+        "bottom": 344,
+        "left": 16
+      }
+    }
+  },
+  {
+    "file": "screen.html",
+    "width": 320,
+    "detail": {
+      "width": 320,
+      "scrollWidth": 320,
+      "height": 844,
+      "text": [
+        {
+          "text": "멘토링",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "관심 멘토 혹은 회사를 검색하세요",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "전체",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "커리어 컨설팅",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "자소서 첨삭",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "면접 컨설팅",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "송도 바닷바람",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "\n  \n  \n\n현직",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "셀트리온",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "바이오 전문서류만 붙으시면 최종합격까지 컨설팅 노하우 보유",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링 횟수 9회",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "면접",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "기름선배",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "\n  \n  \n\n인증",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링 전문가",
+          "size": "14px",
+          "overflow": false
+        }
+      ],
+      "boxes": [
+        {
+          "selector": "screen-frame",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 514,
+          "top": 0,
+          "right": 320,
+          "bottom": 514,
+          "left": 0
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 514,
+          "top": 0,
+          "right": 320,
+          "bottom": 514,
+          "left": 0
+        },
+        {
+          "selector": "page-header",
+          "x": 16,
+          "y": 0,
+          "width": 288,
+          "height": 54,
+          "top": 0,
+          "right": 304,
+          "bottom": 54,
+          "left": 16
+        },
+        {
+          "selector": "search-field",
+          "x": 16,
+          "y": 70,
+          "width": 288,
+          "height": 46,
+          "top": 70,
+          "right": 304,
+          "bottom": 116,
+          "left": 16
+        },
+        {
+          "selector": "filters",
+          "x": 16,
+          "y": 124,
+          "width": 288,
+          "height": 76,
+          "top": 124,
+          "right": 304,
+          "bottom": 200,
+          "left": 16
+        },
+        {
+          "selector": "filter selected",
+          "x": 16,
+          "y": 124,
+          "width": 48.234375,
+          "height": 36,
+          "top": 124,
+          "right": 64.234375,
+          "bottom": 160,
+          "left": 16
+        },
+        {
+          "selector": "filter",
+          "x": 68.234375,
+          "y": 124,
+          "width": 100.453125,
+          "height": 36,
+          "top": 124,
+          "right": 168.6875,
+          "bottom": 160,
+          "left": 68.234375
+        },
+        {
+          "selector": "filter",
+          "x": 172.6875,
+          "y": 124,
+          "width": 88.34375,
+          "height": 36,
+          "top": 124,
+          "right": 261.03125,
+          "bottom": 160,
+          "left": 172.6875
+        },
+        {
+          "selector": "filter",
+          "x": 16,
+          "y": 164,
+          "width": 88.34375,
+          "height": 36,
+          "top": 164,
+          "right": 104.34375,
+          "bottom": 200,
+          "left": 16
+        },
+        {
+          "selector": "mentor-card",
+          "x": 16,
+          "y": 220,
+          "width": 288,
+          "height": 202,
+          "top": 220,
+          "right": 304,
+          "bottom": 422,
+          "left": 16
+        },
+        {
+          "selector": "mentor-identity employed",
+          "x": 32,
+          "y": 236,
+          "width": 256,
+          "height": 48,
+          "top": 236,
+          "right": 288,
+          "bottom": 284,
+          "left": 32
+        },
+        {
+          "selector": "avatar",
+          "x": 32,
+          "y": 236,
+          "width": 48,
+          "height": 48,
+          "top": 236,
+          "right": 80,
+          "bottom": 284,
+          "left": 32
+        },
+        {
+          "selector": "mentor-name",
+          "x": 88,
+          "y": 236,
+          "width": 108.6875,
+          "height": 24,
+          "top": 236,
+          "right": 196.6875,
+          "bottom": 260,
+          "left": 88
+        },
+        {
+          "selector": "mentor-meta",
+          "x": 88,
+          "y": 262,
+          "width": 108.6875,
+          "height": 22,
+          "top": 262,
+          "right": 196.6875,
+          "bottom": 284,
+          "left": 88
+        },
+        {
+          "selector": "favorite saved",
+          "x": 264,
+          "y": 236,
+          "width": 24,
+          "height": 24,
+          "top": 236,
+          "right": 288,
+          "bottom": 260,
+          "left": 264
+        },
+        {
+          "selector": "description",
+          "x": 32,
+          "y": 304,
+          "width": 256,
+          "height": 66,
+          "top": 304,
+          "right": 288,
+          "bottom": 370,
+          "left": 32
+        },
+        {
+          "selector": "mentor-footer",
+          "x": 32,
+          "y": 384,
+          "width": 256,
+          "height": 22,
+          "top": 384,
+          "right": 288,
+          "bottom": 406,
+          "left": 32
+        },
+        {
+          "selector": "specialty",
+          "x": 251.765625,
+          "y": 384,
+          "width": 36.234375,
+          "height": 22,
+          "top": 384,
+          "right": 288,
+          "bottom": 406,
+          "left": 251.765625
+        },
+        {
+          "selector": "mentor-card partial-card",
+          "x": 16,
+          "y": 434,
+          "width": 288,
+          "height": 80,
+          "top": 434,
+          "right": 304,
+          "bottom": 514,
+          "left": 16
+        },
+        {
+          "selector": "mentor-identity certified",
+          "x": 32,
+          "y": 450,
+          "width": 256,
+          "height": 48,
+          "top": 450,
+          "right": 288,
+          "bottom": 498,
+          "left": 32
+        },
+        {
+          "selector": "avatar",
+          "x": 32,
+          "y": 450,
+          "width": 48,
+          "height": 48,
+          "top": 450,
+          "right": 80,
+          "bottom": 498,
+          "left": 32
+        },
+        {
+          "selector": "mentor-name",
+          "x": 88,
+          "y": 450,
+          "width": 136.6875,
+          "height": 24,
+          "top": 450,
+          "right": 224.6875,
+          "bottom": 474,
+          "left": 88
+        },
+        {
+          "selector": "mentor-meta",
+          "x": 88,
+          "y": 476,
+          "width": 136.6875,
+          "height": 22,
+          "top": 476,
+          "right": 224.6875,
+          "bottom": 498,
+          "left": 88
+        },
+        {
+          "selector": "favorite unsaved",
+          "x": 264,
+          "y": 450,
+          "width": 24,
+          "height": 24,
+          "top": 450,
+          "right": 288,
+          "bottom": 474,
+          "left": 264
+        }
+      ],
+      "imagesFailed": 0,
+      "interactiveCount": 0,
+      "semantics": [
+        {
+          "tag": "UL",
+          "role": null,
+          "label": "멘토링 분야, 전체 선택됨"
+        },
+        {
+          "tag": "UL",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "SPAN",
+          "role": "img",
+          "label": "찜한 멘토"
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "SPAN",
+          "role": "img",
+          "label": "찜하지 않은 멘토"
+        }
+      ]
+    },
+    "rectBefore": {
+      "x": 16,
+      "y": 70,
+      "width": 288,
+      "height": 46
+    },
+    "hoverMiddle": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgba(212, 218, 222, 0.74) 0px 0px 0px 1.48231px inset",
+      "transition": "box-shadow 0.15s"
+    },
+    "hoverEnd": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgb(212, 218, 222) 0px 0px 0px 2px inset"
+    },
+    "leaveMiddle": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgba(212, 218, 222, 0.26) 0px 0px 0px 0.518766px inset"
+    },
+    "typed": "셀트리온",
+    "cleared": "",
+    "longValue": "긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어",
+    "longRect": {
+      "x": 16,
+      "y": 70,
+      "width": 288,
+      "height": 46
+    },
+    "unchangedURL": true,
+    "inputOutline": "rgb(40, 53, 72) none 0px",
+    "focus": {
+      "shadow": "rgb(79, 115, 255) 0px 0px 0px 2px inset",
+      "outline": "rgb(116, 126, 140) none 3px",
+      "rect": {
+        "x": 16,
+        "y": 70,
+        "width": 288,
+        "height": 46,
+        "top": 70,
+        "right": 304,
+        "bottom": 116,
+        "left": 16
+      },
+      "focused": true
+    },
+    "forced": {
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "transition": "none",
+      "focused": true,
+      "rect": {
+        "x": 16,
+        "y": 70,
+        "width": 288,
+        "height": 46,
+        "top": 70,
+        "right": 304,
+        "bottom": 116,
+        "left": 16
+      }
+    }
+  },
+  {
+    "file": "components.html",
+    "width": 320,
+    "detail": {
+      "width": 320,
+      "scrollWidth": 320,
+      "height": 1066,
+      "text": [
+        {
+          "text": "멘토링 구성 요소",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "정적 상태 표본입니다. 검색 입력만 편집할 수 있습니다.",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E1 — 화면 제목과 전역 도구",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "E2 — 검색 입력",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "관심 멘토 혹은 회사를 검색하세요",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E3 — 분야 선택 상태",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "전체",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "커리어 컨설팅",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "자소서 첨삭",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "면접 컨설팅",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E4 — 멘토 식별과 찜 상태",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "송도 바닷바람",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "\n  \n  \n\n현직",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "셀트리온",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "기름선배",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "\n  \n  \n\n인증",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링 전문가",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E5 — 설명과 하단 정보",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "바이오 전문서류만 붙으시면 최종합격까지 컨설팅 노하우 보유",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "멘토링 횟수 9회",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "면접",
+          "size": "14px",
+          "overflow": false
+        }
+      ],
+      "boxes": [
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 176,
+          "width": 320,
+          "height": 54,
+          "top": 176,
+          "right": 320,
+          "bottom": 230,
+          "left": 0
+        },
+        {
+          "selector": "page-header",
+          "x": 16,
+          "y": 176,
+          "width": 288,
+          "height": 54,
+          "top": 176,
+          "right": 304,
+          "bottom": 230,
+          "left": 16
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 46,
+          "top": 320,
+          "right": 320,
+          "bottom": 366,
+          "left": 0
+        },
+        {
+          "selector": "search-field",
+          "x": 16,
+          "y": 320,
+          "width": 288,
+          "height": 46,
+          "top": 320,
+          "right": 304,
+          "bottom": 366,
+          "left": 16
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 464,
+          "width": 320,
+          "height": 76,
+          "top": 464,
+          "right": 320,
+          "bottom": 540,
+          "left": 0
+        },
+        {
+          "selector": "filters",
+          "x": 16,
+          "y": 464,
+          "width": 288,
+          "height": 76,
+          "top": 464,
+          "right": 304,
+          "bottom": 540,
+          "left": 16
+        },
+        {
+          "selector": "filter selected",
+          "x": 16,
+          "y": 464,
+          "width": 48.234375,
+          "height": 36,
+          "top": 464,
+          "right": 64.234375,
+          "bottom": 500,
+          "left": 16
+        },
+        {
+          "selector": "filter",
+          "x": 68.234375,
+          "y": 464,
+          "width": 100.453125,
+          "height": 36,
+          "top": 464,
+          "right": 168.6875,
+          "bottom": 500,
+          "left": 68.234375
+        },
+        {
+          "selector": "filter",
+          "x": 172.6875,
+          "y": 464,
+          "width": 88.34375,
+          "height": 36,
+          "top": 464,
+          "right": 261.03125,
+          "bottom": 500,
+          "left": 172.6875
+        },
+        {
+          "selector": "filter",
+          "x": 16,
+          "y": 504,
+          "width": 88.34375,
+          "height": 36,
+          "top": 504,
+          "right": 104.34375,
+          "bottom": 540,
+          "left": 16
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 630,
+          "width": 320,
+          "height": 172,
+          "top": 630,
+          "right": 320,
+          "bottom": 802,
+          "left": 0
+        },
+        {
+          "selector": "mentor-card identity-card",
+          "x": 16,
+          "y": 630,
+          "width": 288,
+          "height": 80,
+          "top": 630,
+          "right": 304,
+          "bottom": 710,
+          "left": 16
+        },
+        {
+          "selector": "mentor-identity employed",
+          "x": 32,
+          "y": 646,
+          "width": 256,
+          "height": 48,
+          "top": 646,
+          "right": 288,
+          "bottom": 694,
+          "left": 32
+        },
+        {
+          "selector": "avatar",
+          "x": 32,
+          "y": 646,
+          "width": 48,
+          "height": 48,
+          "top": 646,
+          "right": 80,
+          "bottom": 694,
+          "left": 32
+        },
+        {
+          "selector": "mentor-name",
+          "x": 88,
+          "y": 646,
+          "width": 108.6875,
+          "height": 24,
+          "top": 646,
+          "right": 196.6875,
+          "bottom": 670,
+          "left": 88
+        },
+        {
+          "selector": "mentor-meta",
+          "x": 88,
+          "y": 672,
+          "width": 108.6875,
+          "height": 22,
+          "top": 672,
+          "right": 196.6875,
+          "bottom": 694,
+          "left": 88
+        },
+        {
+          "selector": "favorite saved",
+          "x": 264,
+          "y": 646,
+          "width": 24,
+          "height": 24,
+          "top": 646,
+          "right": 288,
+          "bottom": 670,
+          "left": 264
+        },
+        {
+          "selector": "mentor-card identity-card",
+          "x": 16,
+          "y": 722,
+          "width": 288,
+          "height": 80,
+          "top": 722,
+          "right": 304,
+          "bottom": 802,
+          "left": 16
+        },
+        {
+          "selector": "mentor-identity certified",
+          "x": 32,
+          "y": 738,
+          "width": 256,
+          "height": 48,
+          "top": 738,
+          "right": 288,
+          "bottom": 786,
+          "left": 32
+        },
+        {
+          "selector": "avatar",
+          "x": 32,
+          "y": 738,
+          "width": 48,
+          "height": 48,
+          "top": 738,
+          "right": 80,
+          "bottom": 786,
+          "left": 32
+        },
+        {
+          "selector": "mentor-name",
+          "x": 88,
+          "y": 738,
+          "width": 136.6875,
+          "height": 24,
+          "top": 738,
+          "right": 224.6875,
+          "bottom": 762,
+          "left": 88
+        },
+        {
+          "selector": "mentor-meta",
+          "x": 88,
+          "y": 764,
+          "width": 136.6875,
+          "height": 22,
+          "top": 764,
+          "right": 224.6875,
+          "bottom": 786,
+          "left": 88
+        },
+        {
+          "selector": "favorite unsaved",
+          "x": 264,
+          "y": 738,
+          "width": 24,
+          "height": 24,
+          "top": 738,
+          "right": 288,
+          "bottom": 762,
+          "left": 264
+        },
+        {
+          "selector": "screen-inset",
+          "x": 0,
+          "y": 892,
+          "width": 320,
+          "height": 134,
+          "top": 892,
+          "right": 320,
+          "bottom": 1026,
+          "left": 0
+        },
+        {
+          "selector": "mentor-card details-card",
+          "x": 16,
+          "y": 892,
+          "width": 288,
+          "height": 134,
+          "top": 892,
+          "right": 304,
+          "bottom": 1026,
+          "left": 16
+        },
+        {
+          "selector": "description",
+          "x": 32,
+          "y": 908,
+          "width": 256,
+          "height": 66,
+          "top": 908,
+          "right": 288,
+          "bottom": 974,
+          "left": 32
+        },
+        {
+          "selector": "mentor-footer",
+          "x": 32,
+          "y": 988,
+          "width": 256,
+          "height": 22,
+          "top": 988,
+          "right": 288,
+          "bottom": 1010,
+          "left": 32
+        },
+        {
+          "selector": "specialty",
+          "x": 251.765625,
+          "y": 988,
+          "width": 36.234375,
+          "height": 22,
+          "top": 988,
+          "right": 288,
+          "bottom": 1010,
+          "left": 251.765625
+        }
+      ],
+      "imagesFailed": 0,
+      "interactiveCount": 0,
+      "semantics": [
+        {
+          "tag": "UL",
+          "role": null,
+          "label": "멘토링 분야, 전체 선택됨"
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "SPAN",
+          "role": "img",
+          "label": "찜한 멘토"
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "SPAN",
+          "role": "img",
+          "label": "찜하지 않은 멘토"
+        },
+        {
+          "tag": "ARTICLE",
+          "role": null,
+          "label": null
+        }
+      ]
+    },
+    "rectBefore": {
+      "x": 16,
+      "y": 320,
+      "width": 288,
+      "height": 46
+    },
+    "hoverMiddle": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgba(212, 218, 222, 0.576) 0px 0px 0px 1.14935px inset",
+      "transition": "box-shadow 0.15s"
+    },
+    "hoverEnd": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgb(212, 218, 222) 0px 0px 0px 2px inset"
+    },
+    "leaveMiddle": {
+      "background": "rgb(255, 255, 255)",
+      "shadow": "rgba(212, 218, 222, 0.26) 0px 0px 0px 0.518766px inset"
+    },
+    "typed": "셀트리온",
+    "cleared": "",
+    "longValue": "긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어긴검색어",
+    "longRect": {
+      "x": 16,
+      "y": 320,
+      "width": 288,
+      "height": 46
+    },
+    "unchangedURL": true,
+    "inputOutline": "rgb(40, 53, 72) none 0px",
+    "focus": {
+      "shadow": "rgb(79, 115, 255) 0px 0px 0px 2px inset",
+      "outline": "rgb(116, 126, 140) none 3px",
+      "rect": {
+        "x": 16,
+        "y": 320,
+        "width": 288,
+        "height": 46,
+        "top": 320,
+        "right": 304,
+        "bottom": 366,
+        "left": 16
+      },
+      "focused": true
+    },
+    "forced": {
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "transition": "none",
+      "focused": true,
+      "rect": {
+        "x": 16,
+        "y": 320,
+        "width": 288,
+        "height": 46,
+        "top": 320,
+        "right": 304,
+        "bottom": 366,
+        "left": 16
+      }
+    }
+  }
+]

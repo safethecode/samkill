@@ -1,0 +1,20 @@
+const {chromium}=require('../../../../todo/node_modules/playwright');
+const fs=require('node:fs');const path=require('node:path');
+(async()=>{
+const browser=await chromium.launch({channel:'chrome',headless:true});const observations=[];
+for(const width of [390,320]){
+const page=await browser.newPage({viewport:{width,height:844}});
+for(const file of ['screen.html','components.html']){
+await page.goto('http://localhost:4190/round-02/'+file);await page.screenshot({path:path.join(__dirname,`gate-${file.split('.')[0]}-${width}.png`),fullPage:true});
+const detail=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,text:[...document.querySelectorAll('h1,h2,p,input,.filter,.qualification,.organization,.session-count,.specialty')].map(e=>({text:e.textContent||e.getAttribute('placeholder'),size:getComputedStyle(e).fontSize,overflow:e.scrollWidth>e.clientWidth})),boxes:[...document.querySelectorAll('.screen-frame,.screen-inset,.page-header,.search-field,.filters,.filter,.mentor-card,.mentor-identity,.avatar,.mentor-name,.mentor-meta,.favorite,.description,.mentor-footer,.specialty')].map(e=>({selector:e.className,...e.getBoundingClientRect().toJSON()})),imagesFailed:[...document.images].filter(e=>!e.complete||!e.naturalWidth).length,interactiveCount:document.querySelectorAll('button,a,[onclick]').length,semantics:[...document.querySelectorAll('.mentor-list,.mentor-card,.filters,.favorite')].map(e=>({tag:e.tagName,role:e.getAttribute('role'),label:e.getAttribute('aria-label')}))}));
+const field=page.locator('.search-field').first();const input=page.locator('input').first();const rectBefore=await field.boundingBox();
+await page.mouse.move(0,0);await field.hover();await page.waitForTimeout(60);const hoverMiddle=await field.evaluate(e=>({background:getComputedStyle(e).backgroundColor,shadow:getComputedStyle(e).boxShadow,transition:getComputedStyle(e).transition}));await page.waitForTimeout(180);const hoverEnd=await field.evaluate(e=>({background:getComputedStyle(e).backgroundColor,shadow:getComputedStyle(e).boxShadow}));await page.mouse.move(0,0);await page.waitForTimeout(60);const leaveMiddle=await field.evaluate(e=>({background:getComputedStyle(e).backgroundColor,shadow:getComputedStyle(e).boxShadow}));await page.waitForTimeout(180);
+await page.keyboard.press('Tab');await input.fill('셀트리온');const typed=await input.inputValue();await input.press('ControlOrMeta+A');await input.press('Backspace');const cleared=await input.inputValue();await input.fill('긴검색어'.repeat(20));const longValue=await input.inputValue();const longRect=await field.boundingBox();await input.fill('');await input.press('Enter');const unchangedURL=page.url().endsWith(file);
+await page.waitForTimeout(180);
+const inputOutline=await input.evaluate(e=>getComputedStyle(e).outline);
+const focus=await field.evaluate(e=>({shadow:getComputedStyle(e).boxShadow,outline:getComputedStyle(e).outline,rect:e.getBoundingClientRect().toJSON(),focused:e.contains(document.activeElement)}));await page.screenshot({path:path.join(__dirname,`gate-focus-${file.split('.')[0]}-${width}.png`),fullPage:true});
+await page.emulateMedia({forcedColors:'active',reducedMotion:'reduce'});const forced=await field.evaluate(e=>({outline:getComputedStyle(e).outline,transition:getComputedStyle(e).transition,focused:e.contains(document.activeElement),rect:e.getBoundingClientRect().toJSON()}));await page.screenshot({path:path.join(__dirname,`gate-forced-${file.split('.')[0]}-${width}.png`),fullPage:true});
+observations.push({file,width,detail,rectBefore,hoverMiddle,hoverEnd,leaveMiddle,typed,cleared,longValue,longRect,unchangedURL,inputOutline,focus,forced});await page.emulateMedia({forcedColors:'none',reducedMotion:'no-preference'});
+}await page.close();}
+fs.writeFileSync(path.join(__dirname,'gate-browser.json'),JSON.stringify(observations,null,2));await browser.close();console.log('Captured screen/components at390/320 and input hover/focus/type/clear/Enter/forced-colors/reduced-motion.');
+})();

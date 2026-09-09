@@ -1,0 +1,11 @@
+2026-09-10 demand_review
+Product scope screen.html/components.html/ui.css has no JavaScript. Inspected semantic tags, provided SVG paths, CSS variable definitions and uses, current rendered geometry and native input behavior. HTML/CSS checks are not anti-slop results.
+Verification helper verify-browser.cjs:
+cd todo && ./node_modules/.bin/oxlint --config .oxlintrc.json /Users/aaron-son/Documents/samkill/design/reference-language/round-02/evidence/verify-browser.cjs
+exit0, no diagnostics. Existing anti-slop general rules unchanged.
+./todo/node_modules/.bin/tsc --allowJs --checkJs --noEmit --target ES2022 --module NodeNext --moduleResolution NodeNext --types node --typeRoots /tmp/samkill-reference-typecheck/node_modules/@types --skipLibCheck design/reference-language/round-02/evidence/verify-browser.cjs
+exit0, no diagnostics.
+Initial verification command corrections: oxlint rejected relative .. path before scanning; switched to absolute. Installed TypeScript rejected retired node10 resolution; used NodeNext. One actual nullability diagnostic in helper DOM query corrected by typed locator evaluation, no assertion/suppression.
+Python build-gate.py freezes manually reviewed decisions and hashes; it is not a visual judge and must not be rerun to renew stale evidence after source changes.
+HTML parser manual structural audit: screen div9/73 tags12.33%; components div18/92tags19.56%; ul/li/article/header/footer/native input used. Remaining divs own specimen/inset/flex/details layout; none imply fake button behavior. Inline SVG path geometry compared to supplied official assets; fill/stroke variants carry state without new coordinates.
+CSS variable reference audit: no undefined or unused --tokens. Structural0/100%/auto and reset values are not independent palette/spacing constants. Semantic values map through role tokens; focus width/easing/reduced-motion and forced-color system keyword retain their roles.

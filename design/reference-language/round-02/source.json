@@ -1,0 +1,18 @@
+{
+  "queried_at": "2026-09-10",
+  "tool": "filter_by_app",
+  "input": {
+    "app_name": "디맨드",
+    "platform": "MOBILE",
+    "limit": 3,
+    "page": 1
+  },
+  "returned_count": 3,
+  "total_count": 55,
+  "selected": {
+    "id": "cmtkpsv0q0003l204gljxvb06",
+    "ui_url": "https://uibowl.io/name/%EB%94%94%EB%A7%A8%EB%93%9C?patterns=%EA%B2%80%EC%83%89&imgId=cmtkpsv0q0003l204gljxvb06",
+    "asset_url": "https://d31var7gpnk8lm.cloudfront.net/new/76c15217-360b-49e4-a695-b90d4c4cd322/app_demand_202609_1.png"
+  },
+  "observed": "Representative images A/B/C; full-resolution selected mentor image only. Other gallery frames uninspected."
+}

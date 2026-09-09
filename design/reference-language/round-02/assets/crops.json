@@ -1,0 +1,29 @@
+{
+  "source": "source.png",
+  "size": [
+    1170,
+    2532
+  ],
+  "unit": "image-px",
+  "avatars": {
+    "avatar-1": [
+      95,
+      737,
+      241,
+      884
+    ],
+    "avatar-2": [
+      95,
+      1315,
+      241,
+      1462
+    ]
+  },
+  "app_comparison_region": [
+    0,
+    148,
+    1170,
+    1529
+  ],
+  "method": "visually located on946px preview, converted1170/946 then inspected"
+}
