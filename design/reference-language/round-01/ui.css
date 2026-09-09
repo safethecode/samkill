@@ -1,0 +1,118 @@
+* { box-sizing: border-box; }
+:root {
+  --surface: #fff;
+  --text: #111;
+  --muted: #777;
+  --border: #e8e8e8;
+  --disabled: #bdbdbd;
+  --inset: 24px;
+  --font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --body-size: 14px;
+  --body-line: 20px;
+  --regular: 400;
+  --bold: 700;
+  --icon-opacity: 0.533333;
+  --control-border-width: 1px;
+  --focus-width: 2px;
+  --focus-offset: 3px;
+  --frame-width: 390px;
+  --frame-height: 772px;
+  --header-height: 62px;
+  --header-side-size: 44px;
+  --header-title-size: 18px;
+  --header-title-line: 26px;
+  --back-icon-size: 24px;
+  --day-selector-gap: 8px;
+  --day-pill-width: 64px;
+  --day-pill-height: 32px;
+  --day-pill-radius: 16px;
+  --section-opening-gap: 26px;
+  --day-group-gap: 40px;
+  --day-heading-gap: 4px;
+  --day-heading-size: 16px;
+  --day-heading-line: 22px;
+  --place-list-top-gap: 16px;
+  --place-row-gap: 18px;
+  --place-check-size: 22px;
+  --place-check-gap: 9px;
+  --place-photo-size: 96px;
+  --place-min-height: 96px;
+  --place-photo-copy-gap: 16px;
+  --place-grip-column: 24px;
+  --place-end-inset: 6px;
+  --place-radius: 6px;
+  --place-copy-inset: 6px;
+  --place-copy-size: 14px;
+  --place-copy-line: 19px;
+  --place-type-gap: 2px;
+  --place-grip-size: 18px;
+  --fragment-height: 18px;
+  --fragment-left: calc(var(--place-check-size) + var(--place-check-gap));
+  --footer-height: 103px;
+  --footer-top-inset: 24px;
+  --footer-bottom-inset: 23px;
+  --complete-height: 56px;
+  --complete-radius: 12px;
+  --complete-size: 16px;
+  --complete-line: 22px;
+  --specimen-page-inset: 24px;
+  --specimen-section-width: 438px;
+  --specimen-section-gap: 40px;
+  --specimen-label-gap: 12px;
+  --specimen-label-size: 16px;
+  --specimen-label-line: 22px;
+  --narrow-content-bottom-inset: 5px;
+}
+body { margin: 0; background: var(--surface); color: var(--text); font: var(--regular) var(--body-size)/var(--body-line) var(--font-family); }
+h1, h2, h3, p { margin: 0; }
+button, input { font: inherit; }
+button:disabled { cursor: not-allowed; }
+.place-check { cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: var(--focus-width) solid var(--text); outline-offset: var(--focus-offset); }
+.screen { width: 100%; max-width: var(--frame-width); height: var(--frame-height); display: grid; grid-template-rows: minmax(0, 1fr) var(--footer-height); margin: 0 auto; }
+.screen-content { min-height: 0; overflow: hidden; }
+.screen-inset { padding-inline: var(--inset); }
+.title-row { height: var(--header-height); display: grid; grid-template-columns: var(--header-side-size) minmax(0, 1fr) var(--header-side-size); align-items: center; }
+.title-row h1 { font-size: var(--header-title-size); line-height: var(--header-title-line); font-weight: var(--bold); text-align: center; white-space: nowrap; }
+.back { width: var(--header-side-size); height: var(--header-side-size); padding: 0; border: 0; background: transparent; display: flex; align-items: center; justify-content: flex-start; opacity: 1; }
+.back img { width: var(--back-icon-size); height: var(--back-icon-size); opacity: var(--icon-opacity); }
+.day-selector { display: flex; gap: var(--day-selector-gap); }
+.day-pill { width: var(--day-pill-width); height: var(--day-pill-height); display: inline-flex; align-items: center; justify-content: center; border: var(--control-border-width) solid var(--border); border-radius: var(--day-pill-radius); font-weight: var(--bold); }
+.day-pill.is-selected { background: var(--text); color: var(--surface); border-color: var(--text); }
+.screen-content > .day-selector { margin-top: var(--section-opening-gap); }
+.day-groups { margin-top: var(--section-opening-gap); }
+.day-group + .day-group { margin-top: var(--day-group-gap); }
+.day-heading { display: flex; align-items: baseline; gap: var(--day-heading-gap); font-size: var(--day-heading-size); line-height: var(--day-heading-line); font-weight: var(--bold); }
+.day-heading span { color: var(--muted); font-weight: var(--regular); }
+.place-list { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--place-row-gap); margin-top: var(--place-list-top-gap); }
+.place-row { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: var(--place-check-size) minmax(0, 1fr); column-gap: var(--place-check-gap); align-items: center; }
+.place-check { width: var(--place-check-size); height: var(--place-check-size); margin: 0; accent-color: var(--text); }
+.place-card { min-width: 0; min-height: var(--place-min-height); display: grid; grid-template-columns: var(--place-photo-size) var(--place-photo-copy-gap) minmax(0, 1fr) var(--place-grip-column) var(--place-end-inset); align-items: center; border: var(--control-border-width) solid var(--border); border-radius: var(--place-radius); background: var(--surface); }
+/* Source-edge exception: the photo overlaps the 1px item border on its
+   top, bottom and left so its full 96px square meets the outer card edge.
+   This preserves v1 geometry; the border remains owned by .place-card. */
+.place-photo { grid-column: 1; width: var(--place-photo-size); height: var(--place-photo-size); margin: calc(-1 * var(--control-border-width)) 0 calc(-1 * var(--control-border-width)) calc(-1 * var(--control-border-width)); object-fit: cover; border-radius: var(--place-radius) 0 0 var(--place-radius); }
+.place-copy { grid-column: 3; min-width: 0; padding-block: var(--place-copy-inset); font-size: var(--place-copy-size); line-height: var(--place-copy-line); overflow-wrap: anywhere; }
+.place-name, .place-area { font-weight: var(--bold); }
+.place-type { margin-top: var(--place-type-gap); color: var(--muted); }
+.place-grip { grid-column: 4; width: var(--place-grip-size); height: var(--place-grip-size); justify-self: center; opacity: var(--icon-opacity); }
+.observed-fragment { margin-top: var(--place-list-top-gap); margin-left: var(--fragment-left); height: var(--fragment-height); overflow: hidden; }
+.observed-fragment img { display: block; width: var(--place-photo-size); height: var(--fragment-height); object-fit: cover; object-position: top; border-radius: var(--place-radius) 0 0 0; }
+.completion-footer { height: var(--footer-height); padding-top: var(--footer-top-inset); padding-bottom: var(--footer-bottom-inset); background: var(--surface); }
+.complete-button { display: block; width: 100%; height: var(--complete-height); padding: 0; border: 0; border-radius: var(--complete-radius); color: var(--surface); background: var(--disabled); font-size: var(--complete-size); line-height: var(--complete-line); font-weight: var(--bold); opacity: 1; }
+.components-page { padding-block: var(--specimen-page-inset); }
+.component-section { max-width: var(--specimen-section-width); margin: 0 auto var(--specimen-section-gap); }
+.component-label { padding-inline: var(--inset); margin-bottom: var(--specimen-label-gap); font-size: var(--specimen-label-size); line-height: var(--specimen-label-line); }
+.specimen { width: 100%; max-width: var(--frame-width); margin-inline: auto; }
+.component-variants { display: grid; gap: var(--place-row-gap); }
+.experiment-note { max-width: var(--frame-width); margin: var(--specimen-page-inset) auto; padding-inline: var(--inset); color: var(--muted); }
+/* CSS custom properties cannot be used in native media conditions.
+   359px is the chosen narrow-layout breakpoint, unchanged from v1. */
+@media (max-width: 359px) {
+  .screen { height: auto; min-height: var(--frame-height); grid-template-rows: auto var(--footer-height); }
+  .screen-content { overflow: visible; padding-bottom: var(--narrow-content-bottom-inset); }
+}
+
+.isolated-place-list { margin-top: 0; }
+.fragment-card { height: var(--place-min-height); align-items: start; }
+.fragment-card img { margin: calc(-1 * var(--control-border-width)) 0 0 calc(-1 * var(--control-border-width)); }

@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+:root {
+  --surface: #fff;
+  --text: #111;
+  --muted: #777;
+  --border: #e8e8e8;
+  --disabled: #bdbdbd;
+  --inset: 24px;
+  --body-size: 14px;
+  --body-line: 20px;
+  --bold: 700;
+  --icon-opacity: 0.533333;
+}
+body { margin: 0; background: var(--surface); color: var(--text); font: 400 var(--body-size)/var(--body-line) -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+h1, h2, h3, p { margin: 0; }
+button, input { font: inherit; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--text); outline-offset: 3px; }
+.screen { width: 100%; max-width: 390px; height: 772px; display: grid; grid-template-rows: minmax(0, 1fr) 103px; margin: 0 auto; }
+.screen-content { min-height: 0; overflow: hidden; }
+.screen-inset { padding-inline: var(--inset); }
+.title-row { height: 62px; display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; }
+.title-row h1 { font-size: 18px; line-height: 26px; font-weight: var(--bold); text-align: center; white-space: nowrap; }
+.back { width: 44px; height: 44px; padding: 0; border: 0; background: transparent; display: flex; align-items: center; justify-content: flex-start; opacity: 1; }
+.back img { width: 24px; height: 24px; opacity: var(--icon-opacity); }
+.day-selector { display: flex; gap: 8px; }
+.day-pill { width: 64px; height: 32px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--border); border-radius: 16px; font-weight: var(--bold); }
+.day-pill.is-selected { background: var(--text); color: var(--surface); border-color: var(--text); }
+.screen-content > .day-selector { margin-top: 26px; }
+.day-groups { margin-top: 26px; }
+.day-group + .day-group { margin-top: 40px; }
+.day-heading { display: flex; align-items: baseline; gap: 4px; font-size: 16px; line-height: 22px; font-weight: var(--bold); }
+.day-heading span { color: var(--muted); font-weight: 400; }
+.place-list { display: grid; gap: 18px; margin-top: 16px; }
+.place-row { display: grid; grid-template-columns: 22px minmax(0, 1fr); column-gap: 9px; align-items: center; }
+.place-check { width: 22px; height: 22px; margin: 0; accent-color: var(--text); }
+.place-card { min-width: 0; min-height: 96px; display: grid; grid-template-columns: 96px 16px minmax(0, 1fr) 24px 6px; align-items: center; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); }
+.place-photo { grid-column: 1; width: 96px; height: 96px; margin: -1px 0 -1px -1px; object-fit: cover; border-radius: 6px 0 0 6px; }
+.place-copy { grid-column: 3; min-width: 0; padding-block: 6px; font-size: 14px; line-height: 19px; overflow-wrap: anywhere; }
+.place-name, .place-area { font-weight: var(--bold); }
+.place-type { margin-top: 2px; color: var(--muted); }
+.place-grip { grid-column: 4; width: 18px; height: 18px; justify-self: center; opacity: var(--icon-opacity); }
+.observed-fragment { margin-top: 16px; margin-left: 31px; height: 18px; overflow: hidden; }
+.observed-fragment img { display: block; width: 96px; height: 18px; object-fit: cover; object-position: top; border-radius: 6px 0 0 0; }
+.completion-footer { height: 103px; padding-top: 24px; padding-bottom: 23px; background: var(--surface); }
+.complete-button { display: block; width: 100%; height: 56px; padding: 0; border: 0; border-radius: 12px; color: var(--surface); background: var(--disabled); font-size: 16px; line-height: 22px; font-weight: var(--bold); opacity: 1; }
+.components-page { padding-block: 24px; }
+.component-section { max-width: 438px; margin: 0 auto 40px; }
+.component-label { padding-inline: 24px; margin-bottom: 12px; font-size: 16px; line-height: 22px; }
+.specimen { width: 100%; max-width: 390px; margin-inline: auto; }
+.component-variants { display: grid; gap: 18px; }
+.experiment-note { max-width: 390px; margin: 24px auto; padding-inline: 24px; color: var(--muted); }
+@media (max-width: 359px) {
+  .screen { height: auto; min-height: 772px; grid-template-rows: auto 103px; }
+  .screen-content { overflow: visible; padding-bottom: 5px; }
+}

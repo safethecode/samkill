@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "width": 1100,
+      "scrollWidth": 1100,
+      "smallText": 0
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "smallText": 0
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "smallText": 0
+    }
+  ],
+  "localLinks": 5,
+  "details": "native disclosure open/close verified at all3 widths",
+  "images": "all main/frame images loaded"
+}

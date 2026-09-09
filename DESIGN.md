@@ -10,6 +10,8 @@
 
 ## Layout
 
+원본을 확보한 뒤 [reference-decompose](skills/reference-decompose/SKILL.md)로 관찰을 요소·관계·조립 언어로 번역하고 제품에 적용한다. 프롬프트 재현 실험의 사례별 값과 사용자 교정은 [별도 실험 기준](design/reference-language/DESIGN.md)에 둔다.
+
 [요소 구성](skills/reference-to-ui/references/ui-composition.md), [토큰과 패딩 소유권](skills/reference-to-ui/references/design-tokens.md), [레퍼런스 결합](skills/reference-to-ui/references/reference-synthesis.md)을 적용한다. 공통 역할은 일관되게 연결하며 묶기·분리·이동·삭제는 사용자의 과제와 요소 관계로 판단한다.
 
 형식 미지정 UI 디자인은 수정·렌더 가능한 화면을 기본으로 한다. [핵심 화면의 첫 비교](skills/reference-to-ui/references/reference-synthesis.md#핵심-화면의-첫-비교)에서 원본의 구조·위계·밀도를 확인하고 핵심 퇴보를 수정한 뒤 의존 화면으로 확장한다. 명시된 이미지 시안·명세·읽기 전용 범위는 유지한다.

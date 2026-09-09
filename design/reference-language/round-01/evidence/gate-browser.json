@@ -1,0 +1,1080 @@
+[
+  {
+    "file": "screen.html",
+    "width": 390,
+    "detail": {
+      "width": 390,
+      "scrollWidth": 390,
+      "text": [
+        {
+          "text": "여행 일정 편집",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "Day 1",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 2",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 3",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 1(06.25)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Jingūmae, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Activity",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 2(06.26)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "와라타코 하라주쿠 오모테산도점",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Jingūmae, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Restaurant",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Dōgenzaka, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Restaurant",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 3(06.27)",
+          "size": "16px",
+          "overflow": false
+        }
+      ],
+      "cards": [
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 146,
+          "w": 342,
+          "h": 22
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 184,
+          "w": 342,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 184,
+          "w": 311,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 184,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 320,
+          "w": 342,
+          "h": 22
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 358,
+          "w": 342,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 358,
+          "w": 311,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 358,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 472,
+          "w": 342,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 472,
+          "w": 311,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 472,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 608,
+          "w": 342,
+          "h": 22
+        },
+        {
+          "selector": "observed-fragment",
+          "x": 55,
+          "y": 646,
+          "w": 311,
+          "h": 18
+        },
+        {
+          "selector": "place-card fragment-card",
+          "x": 55,
+          "y": 646,
+          "w": 311,
+          "h": 96
+        },
+        {
+          "selector": "completion-footer screen-inset",
+          "x": 0,
+          "y": 669,
+          "w": 390,
+          "h": 103
+        },
+        {
+          "selector": "complete-button",
+          "x": 24,
+          "y": 693,
+          "w": 342,
+          "h": 56
+        }
+      ],
+      "cursors": [
+        {
+          "name": "뒤로가기 — 정적 표본에서 비활성",
+          "cursor": "not-allowed",
+          "disabled": true
+        },
+        {
+          "name": "Jingūmae, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "와라타코 하라주쿠 오모테산도점 Jingūmae, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "Dōgenzaka, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "수정 완료",
+          "cursor": "not-allowed",
+          "disabled": true
+        }
+      ],
+      "imageFailures": 0,
+      "listTags": [
+        "UL",
+        "LI",
+        "UL",
+        "LI",
+        "LI"
+      ]
+    },
+    "pointerChecked": true,
+    "keyboardUnchecked": true,
+    "rectBefore": {
+      "x": 24,
+      "y": 221,
+      "width": 22,
+      "height": 22
+    },
+    "focus": {
+      "focus": true,
+      "outline": "rgb(17, 17, 17) solid 2px",
+      "rect": {
+        "x": 24,
+        "y": 221,
+        "width": 22,
+        "height": 22,
+        "top": 221,
+        "right": 46,
+        "bottom": 243,
+        "left": 24
+      }
+    },
+    "forced": {
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "focus": true
+    }
+  },
+  {
+    "file": "components.html",
+    "width": 390,
+    "detail": {
+      "width": 390,
+      "scrollWidth": 390,
+      "text": [
+        {
+          "text": "E1 — 상단 제목 행",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "여행 일정 편집",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "E2 — 날짜 선택",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Day 1",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 2",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 3",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E3 — 날짜 그룹 제목",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Day 1(06.25)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Day 2(06.26)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Day 3(06.27)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "E4 — 방문 장소 행",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Jingūmae, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Activity",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "와라타코 하라주쿠 오모테산도점",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Jingūmae, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Restaurant",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Dōgenzaka, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Restaurant",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E5 — 하단 완료 영역",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "정적 시각 번역 표본입니다. 원본 하단 수평 경계선은 생략하고 읽는 글자는 14px 이상으로 조정했습니다. 원래 CSS 크기·서체·완료 버튼 활성 조건과 Day 3의 전체 정보는 미상입니다. 작은 폭에서는 내용에 따라 장소 행 높이가 늘어납니다.",
+          "size": "14px",
+          "overflow": false
+        }
+      ],
+      "cards": [
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 300,
+          "w": 342,
+          "h": 22
+        },
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 340,
+          "w": 342,
+          "h": 22
+        },
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 380,
+          "w": 342,
+          "h": 22
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 476,
+          "w": 342,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 476,
+          "w": 311,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 476,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 590,
+          "w": 342,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 590,
+          "w": 311,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 590,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 704,
+          "w": 342,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 704,
+          "w": 311,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 704,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "observed-fragment",
+          "x": 55,
+          "y": 834,
+          "w": 311,
+          "h": 18
+        },
+        {
+          "selector": "place-card fragment-card",
+          "x": 55,
+          "y": 834,
+          "w": 311,
+          "h": 96
+        },
+        {
+          "selector": "completion-footer screen-inset",
+          "x": 0,
+          "y": 926,
+          "w": 390,
+          "h": 103
+        },
+        {
+          "selector": "complete-button",
+          "x": 24,
+          "y": 950,
+          "w": 342,
+          "h": 56
+        }
+      ],
+      "cursors": [
+        {
+          "name": "뒤로가기 — 정적 표본에서 비활성",
+          "cursor": "not-allowed",
+          "disabled": true
+        },
+        {
+          "name": "Jingūmae, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "와라타코 하라주쿠 오모테산도점 Jingūmae, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "Dōgenzaka, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "수정 완료",
+          "cursor": "not-allowed",
+          "disabled": true
+        }
+      ],
+      "imageFailures": 0,
+      "listTags": [
+        "UL",
+        "LI",
+        "LI",
+        "LI"
+      ]
+    },
+    "pointerChecked": true,
+    "keyboardUnchecked": true,
+    "rectBefore": {
+      "x": 24,
+      "y": 513,
+      "width": 22,
+      "height": 22
+    },
+    "focus": {
+      "focus": true,
+      "outline": "rgb(17, 17, 17) solid 2px",
+      "rect": {
+        "x": 24,
+        "y": 513,
+        "width": 22,
+        "height": 22,
+        "top": 513,
+        "right": 46,
+        "bottom": 535,
+        "left": 24
+      }
+    },
+    "forced": {
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "focus": true
+    }
+  },
+  {
+    "file": "screen.html",
+    "width": 320,
+    "detail": {
+      "width": 320,
+      "scrollWidth": 320,
+      "text": [
+        {
+          "text": "여행 일정 편집",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "Day 1",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 2",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 3",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 1(06.25)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Jingūmae, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Activity",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 2(06.26)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "와라타코 하라주쿠 오모테산도점",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Jingūmae, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Restaurant",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Dōgenzaka, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Restaurant",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 3(06.27)",
+          "size": "16px",
+          "overflow": false
+        }
+      ],
+      "cards": [
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 146,
+          "w": 272,
+          "h": 22
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 184,
+          "w": 272,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 184,
+          "w": 241,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 184,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 320,
+          "w": 272,
+          "h": 22
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 358,
+          "w": 272,
+          "h": 111
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 358,
+          "w": 241,
+          "h": 111
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 365.5,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 487,
+          "w": 272,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 487,
+          "w": 241,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 487,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 623,
+          "w": 272,
+          "h": 22
+        },
+        {
+          "selector": "observed-fragment",
+          "x": 55,
+          "y": 661,
+          "w": 241,
+          "h": 18
+        },
+        {
+          "selector": "place-card fragment-card",
+          "x": 55,
+          "y": 661,
+          "w": 241,
+          "h": 96
+        },
+        {
+          "selector": "completion-footer screen-inset",
+          "x": 0,
+          "y": 684,
+          "w": 320,
+          "h": 103
+        },
+        {
+          "selector": "complete-button",
+          "x": 24,
+          "y": 708,
+          "w": 272,
+          "h": 56
+        }
+      ],
+      "cursors": [
+        {
+          "name": "뒤로가기 — 정적 표본에서 비활성",
+          "cursor": "not-allowed",
+          "disabled": true
+        },
+        {
+          "name": "Jingūmae, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "와라타코 하라주쿠 오모테산도점 Jingūmae, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "Dōgenzaka, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "수정 완료",
+          "cursor": "not-allowed",
+          "disabled": true
+        }
+      ],
+      "imageFailures": 0,
+      "listTags": [
+        "UL",
+        "LI",
+        "UL",
+        "LI",
+        "LI"
+      ]
+    },
+    "pointerChecked": true,
+    "keyboardUnchecked": true,
+    "rectBefore": {
+      "x": 24,
+      "y": 221,
+      "width": 22,
+      "height": 22
+    },
+    "focus": {
+      "focus": true,
+      "outline": "rgb(17, 17, 17) solid 2px",
+      "rect": {
+        "x": 24,
+        "y": 221,
+        "width": 22,
+        "height": 22,
+        "top": 221,
+        "right": 46,
+        "bottom": 243,
+        "left": 24
+      }
+    },
+    "forced": {
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "focus": true
+    }
+  },
+  {
+    "file": "components.html",
+    "width": 320,
+    "detail": {
+      "width": 320,
+      "scrollWidth": 320,
+      "text": [
+        {
+          "text": "E1 — 상단 제목 행",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "여행 일정 편집",
+          "size": "18px",
+          "overflow": false
+        },
+        {
+          "text": "E2 — 날짜 선택",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Day 1",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 2",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Day 3",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E3 — 날짜 그룹 제목",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Day 1(06.25)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Day 2(06.26)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Day 3(06.27)",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "E4 — 방문 장소 행",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "Jingūmae, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Activity",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "와라타코 하라주쿠 오모테산도점",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Jingūmae, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Restaurant",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Dōgenzaka, Shibuya",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "Restaurant",
+          "size": "14px",
+          "overflow": false
+        },
+        {
+          "text": "E5 — 하단 완료 영역",
+          "size": "16px",
+          "overflow": false
+        },
+        {
+          "text": "정적 시각 번역 표본입니다. 원본 하단 수평 경계선은 생략하고 읽는 글자는 14px 이상으로 조정했습니다. 원래 CSS 크기·서체·완료 버튼 활성 조건과 Day 3의 전체 정보는 미상입니다. 작은 폭에서는 내용에 따라 장소 행 높이가 늘어납니다.",
+          "size": "14px",
+          "overflow": false
+        }
+      ],
+      "cards": [
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 300,
+          "w": 272,
+          "h": 22
+        },
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 340,
+          "w": 272,
+          "h": 22
+        },
+        {
+          "selector": "day-heading",
+          "x": 24,
+          "y": 380,
+          "w": 272,
+          "h": 22
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 476,
+          "w": 272,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 476,
+          "w": 241,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 476,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 590,
+          "w": 272,
+          "h": 111
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 590,
+          "w": 241,
+          "h": 111
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 597.5,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "place-row",
+          "x": 24,
+          "y": 719,
+          "w": 272,
+          "h": 96
+        },
+        {
+          "selector": "place-card",
+          "x": 55,
+          "y": 719,
+          "w": 241,
+          "h": 96
+        },
+        {
+          "selector": "place-photo",
+          "x": 55,
+          "y": 719,
+          "w": 96,
+          "h": 96
+        },
+        {
+          "selector": "observed-fragment",
+          "x": 55,
+          "y": 849,
+          "w": 241,
+          "h": 18
+        },
+        {
+          "selector": "place-card fragment-card",
+          "x": 55,
+          "y": 849,
+          "w": 241,
+          "h": 96
+        },
+        {
+          "selector": "completion-footer screen-inset",
+          "x": 0,
+          "y": 941,
+          "w": 320,
+          "h": 103
+        },
+        {
+          "selector": "complete-button",
+          "x": 24,
+          "y": 965,
+          "w": 272,
+          "h": 56
+        }
+      ],
+      "cursors": [
+        {
+          "name": "뒤로가기 — 정적 표본에서 비활성",
+          "cursor": "not-allowed",
+          "disabled": true
+        },
+        {
+          "name": "Jingūmae, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "와라타코 하라주쿠 오모테산도점 Jingūmae, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "Dōgenzaka, Shibuya 선택",
+          "cursor": "pointer",
+          "disabled": false
+        },
+        {
+          "name": "수정 완료",
+          "cursor": "not-allowed",
+          "disabled": true
+        }
+      ],
+      "imageFailures": 0,
+      "listTags": [
+        "UL",
+        "LI",
+        "LI",
+        "LI"
+      ]
+    },
+    "pointerChecked": true,
+    "keyboardUnchecked": true,
+    "rectBefore": {
+      "x": 24,
+      "y": 513,
+      "width": 22,
+      "height": 22
+    },
+    "focus": {
+      "focus": true,
+      "outline": "rgb(17, 17, 17) solid 2px",
+      "rect": {
+        "x": 24,
+        "y": 513,
+        "width": 22,
+        "height": 22,
+        "top": 513,
+        "right": 46,
+        "bottom": 535,
+        "left": 24
+      }
+    },
+    "forced": {
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "focus": true
+    }
+  }
+]

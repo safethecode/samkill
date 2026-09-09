@@ -16,6 +16,8 @@
 
 ## 작업별 기본 행동
 
+- 설계·구현용 레퍼런스 확보 직후: [reference-decompose](skills/reference-decompose/SKILL.md)로 요소·관계·조립 계약을 먼저 작성한다. 재현 실험 요청에서는 프롬프트를 구현 전에 고정하고 요소별 표본/조립 화면을 비교한다. 사용자 교정을 수정 프롬프트·재검증과 함께 누적한다. 검색만 요청한 범위에 제작을 추가하지 않는다.
+
 - UI 설계·구현·토큰 변경: [reference-to-ui](skills/reference-to-ui/SKILL.md)를 읽는다. 사용자 문제, 핵심 행동, 필요한 정보를 먼저 정의하고 요소별 위치·크기·강조 이유를 연결한다. 기존 요구로 알 수 있는 내용을 반복해서 묻지 않는다.
 - 레퍼런스 조사·상세 분석: [uibowl-research](skills/uibowl-research/SKILL.md)를 읽는다. 실제 이미지 근거를 남기고 사방 패딩·간격·타이포그래피·버튼 배경과 글자/아이콘 색·아이콘 선/채움·상태를 분석한다. 이미지 px와 CSS px, 관찰·추정·새 결정을 구별한다.
 - UI 스타일: [토큰 계약](skills/reference-to-ui/references/design-tokens.md)을 따른다. 기존 토큰을 우선하고 정의 → 참조 → 실제 사용처를 확인한다. 직접값 예외와 이유를 기록한다.

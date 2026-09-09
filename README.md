@@ -68,3 +68,7 @@ UIbowl MCP 인증과 연결은 실행 환경에서 제공해야 해요. 이 패�
 [orc 분석](docs/orc-analysis.md), [회귀 사례](evals/cases.md), [평가 기록](evals/results/baseline.md)을 함께 제공해요. `templates/`에는 다음 스킬을 만들 때 사용할 작성 틀이 있어요. 실제 역할이 달라지면 별도 스킬을, 같은 작업의 플랫폼·업종별 기준은 필요한 참고 문서로 추가해요.
 
 스킬 형식은 YAML·메타데이터·문서 링크를 확인하고, 실행 도구는 `python3 -m unittest discover -s evals -p test_design_gate.py -v`로 검사해요. 형식 검증과 합성 행동 평가는 실제 제품에서의 디자인 품질 보장을 의미하지 않아요. 수행한 범위와 미검증 항목은 [검증 결과](evals/results/summary.md)에 기록해요.
+
+## 레퍼런스 언어 번역 실험
+
+[reference-decompose](skills/reference-decompose/SKILL.md)는 설계용 원본을 확보한 직후 요소·관계·조립 조건으로 번역하는 스킬이다. 사용자가 재현 실험을 요청하면 요소별 프롬프트와 실제 구현을 비교하고 교정을 쌓는다. [첫 실험](design/reference-language/round-01/index.html)은 셀레트립 일정 편집 화면이며 사용자 품질 교정 대기 상태다.

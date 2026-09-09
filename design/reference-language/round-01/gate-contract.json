@@ -1,0 +1,896 @@
+{
+  "schema_version": 1,
+  "catalog_version": 4,
+  "targets": [
+    "screen.html",
+    "components.html",
+    "ui.css",
+    "prompt-v1.md",
+    "prompt-v2.md"
+  ],
+  "rules": [
+    {
+      "id": "ORC-F01",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No sidebar exists in either specimen or assembled screen.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F02",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No sidebar or chromatic accent distribution exists.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F03",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Selected Day1 uses white 700 text on #111; contrast exceeds4.5:1.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F04",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Single completion button in assembled screen. Isolated E5 is a specimen, not a duplicate product CTA.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F05",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Three photo-led places, not a growing administrative dataset; image cards serve identification.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F06",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Neutral selected/unselected/disabled states; no danger or success colors.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F07",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "The analyst-authored prompt E1 chooses18px/700 title,62px row and26px gap for the user-authorized reproduction; retain these in reference translation instead of generic48–56px/600/16px thresholds.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": [
+        {
+          "id": "EX-ORC-F07",
+          "reason": "The analyst-authored prompt E1 chooses18px/700 title,62px row and26px gap for the user-authorized reproduction; retain these in reference translation instead of generic48–56px/600/16px thresholds."
+        }
+      ]
+    },
+    {
+      "id": "ORC-F08",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No per-row action buttons; visible native checkboxes are selection controls and grips are explicitly decorative in static experiment.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F09",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "One vertical content column; no dashboard columns.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F10",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No coupled icon+text control: back icon stands alone; grips center on place rows. No plus characters.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F11",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No colored icon+text action pair.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F12",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "The analyst-authored prompt chooses9px checkbox gap,18px row gaps,26px opening,6px card inset. Left/right screen inset both24px. These analyst reconstruction choices within the authorized reproduction scope supersede the generic4px grid; they are not user-specified numbers.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": [
+        {
+          "id": "EX-ORC-F12",
+          "reason": "The analyst-authored prompt chooses9px checkbox gap,18px row gaps,26px opening,6px card inset. Left/right screen inset both24px. These analyst reconstruction choices within the authorized reproduction scope supersede the generic4px grid; they are not user-specified numbers."
+        }
+      ]
+    },
+    {
+      "id": "ORC-F13",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Checkbox cursor pointer; disabled back/completion cursor not-allowed. Pointer/keyboard behavior and absence of layout shift verified.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F14",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Place collections now ul/li with explicit zero margin/padding and list-style none. Landmarks/header/section/footer and h1/h2 retained; layout wrappers carry grid/inset roles.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F16",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No nested scrollbars;390 comparison content fits669px region;320 expands to preserve long content. Fixed frame is explicitly static comparison scope.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F15",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No colored badges, avatars or entity icon palette; provided photographic colors are content.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G01",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No gradients in CSS or screen.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G02",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No shadows in CSS or screen.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G03",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "The analyst-authored prompt E5 chooses12px completion radius for the user-authorized reproduction; preserve this exception to8px limit. Pill16px is allowed pill category; cards6px.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": [
+        {
+          "id": "EX-ORC-G03",
+          "reason": "The analyst-authored prompt E5 chooses12px completion radius for the user-authorized reproduction; preserve this exception to8px limit. Pill16px is allowed pill category; cards6px."
+        }
+      ]
+    },
+    {
+      "id": "ORC-G04",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "UI colors are grayscale; supplied photos are content, not UI accent colors.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G05",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No custom hover transform/scale/shadow/opacity rules; native checkboxes toggle immediately with no animation.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G06",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Reading sizes14/16/18px only in each view.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G07",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Analyst-selected prompt9/18/26/6px measurements are retained as documented reference translation exceptions to4px grid.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": [
+        {
+          "id": "EX-ORC-G07",
+          "reason": "Analyst-selected prompt9/18/26/6px measurements are retained as documented reference translation exceptions to4px grid."
+        }
+      ]
+    },
+    {
+      "id": "ORC-G08",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Three compact photo rows and Day3 fragment retain tool density; no hero or oversized title.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G09",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Grip symbols are explicitly requested static layout specimens, not added decoration; no ornamental lines, logos or shadows.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": [
+        {
+          "id": "EX-ORC-G09",
+          "reason": "Grip symbols are explicitly requested static layout specimens, not added decoration; no ornamental lines, logos or shadows."
+        }
+      ]
+    },
+    {
+      "id": "ORC-G10",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No sidebar or competing modes.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G11",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Selected Day1 white text700; no thin dark-background text.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G12",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "One completion action per assembled screen; independent specimen is a review example.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G13",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No20+ item grid; only three supplied photographic rows.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G14",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No red/green UI colors.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G15",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Title18px is below24px maximum.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G16",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No repeated action buttons; selection checkboxes and decorative grips match static input.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G17",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No multi-column dashboard.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G18",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No icon-text control pairs; grip row centers and standalone back verified.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G19",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No colored text/icon pair.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G20",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Header/content/footer share24px inset; prompt9/18/26/6px gaps explicitly override generic4px grid.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": [
+        {
+          "id": "EX-ORC-G20",
+          "reason": "Header/content/footer share24px inset; prompt9/18/26/6px gaps explicitly override generic4px grid."
+        }
+      ]
+    },
+    {
+      "id": "ORC-G21",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Checkbox cursor pointer; disabled back/completion cursor not-allowed. Pointer/keyboard behavior and absence of layout shift verified.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G22",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No status badges.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G23",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No nested scrolling or text truncation;320 height growth shows all supplied text.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G24",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Place collections now ul/li with explicit zero margin/padding and list-style none. Landmarks/header/section/footer and h1/h2 retained; layout wrappers carry grid/inset roles.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A01",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Card6px, day pill16px, completion12px radii distinguish roles.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A02",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "White surface includes fine item/control perimeters and selected black day; no need for conflicting micro-gradient.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A03",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No box shadows.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A04",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No blue default, invented brand or palette exploration; fixed supplied reference translation.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A05",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Asymmetric checkbox/photo/copy/grip columns; centered title serves screen identification.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A06",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "All supplied place metadata remains visible; no invented price/rating/seller in static travel reference.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A07",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Prompt requests icon-only disabled back with accessible name and decorative grip hidden from accessibility; explicit static reference exception to visible text labels.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": [
+        {
+          "id": "EX-ORC-A07",
+          "reason": "Prompt requests icon-only disabled back with accessible name and decorative grip hidden from accessibility; explicit static reference exception to visible text labels."
+        }
+      ]
+    },
+    {
+      "id": "ORC-A08",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "All photos use supplied crops; no placeholders or generic substituted stock.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A09",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Vertical list, not grid; prompt explicitly requires equal96px photos for short and long rows, so featured-card variation is out of scope.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A10",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No async data, backend, errors, loading, empty-state flows in explicitly static specimen experiment.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-01",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Prompt separates295 image-px source,390 CSS chosen width, unknown DPR/font and observed-vs-chosen values.",
+      "checks": [
+        "spec"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-02",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "62 defined/referenced variables cover design values;359px media query literal documented native limitation. Negative image edge overlap derives from border variable and is documented.",
+      "checks": [
+        "code"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-03",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "All75 active catalog rules retained with original checks and individual scope decisions; this is static screen review only.",
+      "checks": [
+        "spec"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-04",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Required static E1–E5 appear assembled and isolated; pointer/Space checkbox works, disabled actions remain disabled. Saving, drag, date navigation not requested.",
+      "checks": [
+        "spec",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-05",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No new idea synthesis request; explicit language-only reference reconstruction.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-06",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Plain HTML/CSS only; browser parses and displays without image failures; no JS/TS implementation, hence no TS anti-slop pass claim.",
+      "checks": [
+        "code"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-07",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Prompt states roles before implementation: centered title, small day selector, date groups, external checkbox, image identification and screen-wide completion.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-08",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No added logo, wordmark or slogan.",
+      "checks": [
+        "spec",
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-09",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Both pages at320/390 computed reading sizes minimum14px; no clipped text in measured text nodes.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-10",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "64×32 day pills distinct from342×56 completion at390; no text-only execution links.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-11",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Assembled screen adds no hints. Components explanation belongs to review context and documents scope differences.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-12",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Provided official chevron-left and grip-vertical SVGs only;24/18px gray outlines; disabled back named, decorative grips aria-hidden.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-13",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "390 three complete rows and observed fragment fit;320 content expands, no text overflow; Tab/Space focus remains accessible.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-14",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No hr/pseudo/shadow/gradient/tab underline or footer divider. Item and control perimeters preserve separate boundary roles.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-15",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No chat or conversation flow.",
+      "checks": [
+        "spec",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-16",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Q1 external checks, Q2 full-height equal photos, Q3 group-gap hierarchy, Q4 pill/footer distinction directly compared to original AFTER blind implementation.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-17",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Core single-column rhythm and three complete places remain.14px adaptation makes text visibly larger and native controls differ; prompt-v2 restores Day3 perimeter. Actual original/output comparison preserves main hierarchy without asserting pixel fidelity.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-18",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Single provided source; no multi-reference research branches.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-19",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Day pills are static day selector specimens, not mobile destination navigation.",
+      "checks": [
+        "spec",
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-20",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Screen purpose h1 is18px/700, above16px group and14px row metadata.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-21",
+      "applicable": false,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "No date/time picker or editable date input; day state is explicitly static labeled sample.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-22",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Container owns24px insets; check x24/card x55. Footer button x24. Image1px overlap documented; no doubled screen inset.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-23",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Same markup/classes and shared CSS render identical E1–E5 roles at390; review headings are outside specimens.",
+      "checks": [
+        "spec",
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-24",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "Day selector state and group heading label different navigation/group roles; dates add calendar information; no invented year.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-25",
+      "applicable": true,
+      "scope": "Static E1–E5 specimen and assembled screen at390/320; excludes review board and complete travel-app flows",
+      "reason": "40px group gap exceeds18px internal row gap; dates label ownership, footer whole-screen action separate without forbidden divider.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "PROJECT-FRAGMENT",
+      "applicable": true,
+      "scope": "Day3 observed fragment",
+      "reason": "Original visible top/right item perimeter was omitted by prompt-v1; preserve visible boundary without inventing hidden content.",
+      "checks": [
+        "spec",
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    }
+  ]
+}
