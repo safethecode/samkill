@@ -1,0 +1,4492 @@
+[
+  {
+    "width": 390,
+    "screen": {
+      "width": 390,
+      "scrollWidth": 390,
+      "text": [
+        {
+          "text": "닥터다이어리 홈",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        }
+      ],
+      "boxes": [
+        {
+          "class": "app",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 787.171875,
+          "top": 0,
+          "right": 390,
+          "bottom": 787.171875,
+          "left": 0
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "top": 0,
+          "right": 390,
+          "bottom": 64,
+          "left": 0
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 64,
+          "width": 356,
+          "height": 99.625,
+          "top": 64,
+          "right": 373,
+          "bottom": 163.625,
+          "left": 17
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 175.625,
+          "width": 356,
+          "height": 58,
+          "top": 175.625,
+          "right": 373,
+          "bottom": 233.625,
+          "left": 17
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 246.625,
+          "width": 356,
+          "height": 192,
+          "top": 246.625,
+          "right": 373,
+          "bottom": 438.625,
+          "left": 17
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 264.625,
+          "width": 80,
+          "height": 74,
+          "top": 264.625,
+          "right": 115,
+          "bottom": 338.625,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 115,
+          "y": 264.625,
+          "width": 80,
+          "height": 74,
+          "top": 264.625,
+          "right": 195,
+          "bottom": 338.625,
+          "left": 115
+        },
+        {
+          "class": "shortcut",
+          "x": 195,
+          "y": 264.625,
+          "width": 80,
+          "height": 74,
+          "top": 264.625,
+          "right": 275,
+          "bottom": 338.625,
+          "left": 195
+        },
+        {
+          "class": "shortcut",
+          "x": 275,
+          "y": 264.625,
+          "width": 80,
+          "height": 74,
+          "top": 264.625,
+          "right": 355,
+          "bottom": 338.625,
+          "left": 275
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 346.625,
+          "width": 80,
+          "height": 74,
+          "top": 346.625,
+          "right": 115,
+          "bottom": 420.625,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 115,
+          "y": 346.625,
+          "width": 80,
+          "height": 74,
+          "top": 346.625,
+          "right": 195,
+          "bottom": 420.625,
+          "left": 115
+        },
+        {
+          "class": "shortcut",
+          "x": 195,
+          "y": 346.625,
+          "width": 80,
+          "height": 74,
+          "top": 346.625,
+          "right": 275,
+          "bottom": 420.625,
+          "left": 195
+        },
+        {
+          "class": "shortcut",
+          "x": 275,
+          "y": 346.625,
+          "width": 80,
+          "height": 74,
+          "top": 346.625,
+          "right": 355,
+          "bottom": 420.625,
+          "left": 275
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 450.625,
+          "width": 356,
+          "height": 102,
+          "top": 450.625,
+          "right": 373,
+          "bottom": 552.625,
+          "left": 17
+        },
+        {
+          "class": "flag",
+          "x": 293,
+          "y": 472.625,
+          "width": 55,
+          "height": 60,
+          "top": 472.625,
+          "right": 348,
+          "bottom": 532.625,
+          "left": 293
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 474.625,
+          "width": 306,
+          "height": 26,
+          "top": 474.625,
+          "right": 348,
+          "bottom": 500.625,
+          "left": 42
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 474.625,
+          "width": 82,
+          "height": 26,
+          "top": 474.625,
+          "right": 124,
+          "bottom": 500.625,
+          "left": 42
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 474.625,
+          "width": 130.15625,
+          "height": 26,
+          "top": 474.625,
+          "right": 262.15625,
+          "bottom": 500.625,
+          "left": 132
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 508.625,
+          "width": 244,
+          "height": 20,
+          "top": 508.625,
+          "right": 286,
+          "bottom": 528.625,
+          "left": 42
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 568.625,
+          "width": 390,
+          "height": 218.546875,
+          "top": 568.625,
+          "right": 390,
+          "bottom": 787.171875,
+          "left": 0
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 568.625,
+          "width": 340,
+          "height": 22,
+          "top": 568.625,
+          "right": 365,
+          "bottom": 590.625,
+          "left": 25
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 568.625,
+          "width": 174.5,
+          "height": 22,
+          "top": 568.625,
+          "right": 199.5,
+          "bottom": 590.625,
+          "left": 25
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 600.625,
+          "width": 356,
+          "height": 58,
+          "top": 600.625,
+          "right": 373,
+          "bottom": 658.625,
+          "left": 17
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 317,
+          "y": 620.625,
+          "width": 40,
+          "height": 18,
+          "top": 620.625,
+          "right": 357,
+          "bottom": 638.625,
+          "left": 317
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 666.625,
+          "width": 356,
+          "height": 58,
+          "top": 666.625,
+          "right": 373,
+          "bottom": 724.625,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 300.1875,
+          "y": 686.625,
+          "width": 56.8125,
+          "height": 18,
+          "top": 686.625,
+          "right": 357,
+          "bottom": 704.625,
+          "left": 300.1875
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 732.625,
+          "width": 356,
+          "height": 58,
+          "top": 732.625,
+          "right": 373,
+          "bottom": 790.625,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 314.078125,
+          "y": 752.625,
+          "width": 42.921875,
+          "height": 18,
+          "top": 752.625,
+          "right": 357,
+          "bottom": 770.625,
+          "left": 314.078125
+        },
+        {
+          "class": "fab",
+          "x": 315,
+          "y": 622.625,
+          "width": 58,
+          "height": 58,
+          "top": 622.625,
+          "right": 373,
+          "bottom": 680.625,
+          "left": 315
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 700.625,
+          "width": 346,
+          "height": 64,
+          "top": 700.625,
+          "right": 368,
+          "bottom": 764.625,
+          "left": 22
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 706.625,
+          "width": 67.1875,
+          "height": 52,
+          "top": 706.625,
+          "right": 94.1875,
+          "bottom": 758.625,
+          "left": 27
+        },
+        {
+          "class": "destination",
+          "x": 94.1875,
+          "y": 706.625,
+          "width": 67.203125,
+          "height": 52,
+          "top": 706.625,
+          "right": 161.390625,
+          "bottom": 758.625,
+          "left": 94.1875
+        },
+        {
+          "class": "destination",
+          "x": 161.390625,
+          "y": 706.625,
+          "width": 67.203125,
+          "height": 52,
+          "top": 706.625,
+          "right": 228.59375,
+          "bottom": 758.625,
+          "left": 161.390625
+        },
+        {
+          "class": "destination",
+          "x": 228.59375,
+          "y": 706.625,
+          "width": 67.203125,
+          "height": 52,
+          "top": 706.625,
+          "right": 295.796875,
+          "bottom": 758.625,
+          "left": 228.59375
+        },
+        {
+          "class": "destination",
+          "x": 295.796875,
+          "y": 706.625,
+          "width": 67.1875,
+          "height": 52,
+          "top": 706.625,
+          "right": 362.984375,
+          "bottom": 758.625,
+          "left": 295.796875
+        }
+      ],
+      "badImages": [],
+      "actions": 0,
+      "scrollContainers": [],
+      "divCount": 14,
+      "elementCount": 96,
+      "headings": []
+    },
+    "scrollAfterWheel": 0,
+    "focusAfterTab": "BODY",
+    "components": {
+      "width": 390,
+      "scrollWidth": 390,
+      "text": [
+        {
+          "text": "P1 독립 요소 표본",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "P1 독립 요소 표본",
+          "size": "24px",
+          "class": ""
+        },
+        {
+          "text": "광고는 제공된 banner.png 원본 합성 이미지이며 7개 메뉴와 포인트·걸음·챌린지 삽화도 지정 에셋입니다. 이미지에 포함된 작은 글자는 HTML 14px 기준의 대상이 아닙니다. 공식 SVG 9종을 사용했습니다. 각 표본은 조립과 동일한 클래스·마크업·내부 가용폭을 유지합니다. 실제 겹침은 screen.html에서 확인합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E1 · 상단 보기와 도구",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E1 · 상단 보기와 도구\n\ny0 h64, 좌우21px. 보기 행은 y9~38에 중심 정렬. 왼쪽 `홈` `포인트` `통계`를 순서대로 배치:22px/700, 선택 홈 주 색, 나머지 #bcc3ce. 사이20px. 오른쪽 bell/calendar 공식SVG, 각각24px, gap22px. 화면 제목 홈의 선택은 글자 굵기/명도로 전달하고 밑줄 없음. 작은 도구의 의미는 알림/달력으로 접근 가능한 이름을 제공한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "E2 · 광고 크리에이티브",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E2 · 광고 크리에이티브\n\ny64 h100, x17 w356. assets/banner.png를 가로폭100%로 그대로 표시한다(원본1029×288). 반경22px, object-fit:contain. 기존 광고 카피와 인물/제품은 하나의 합성 광고 원본이다. 임의 재작성/의약효과 추가/작은 광고 글자 HTML 재현 없음. 이 에셋 사용은 사진 복원 평가와 UI 구성 평가를 구별해 기록한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "E3 · 포인트와 걸음 요약",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E3 · 포인트와 걸음 요약\n\ny176 h58, x17 w356, 흰 capsule 반경24px. 두 동일 폭 열에 아이콘+숫자를 가로 중앙 배치. assets/coin.png 약18×18, `5,000원`16px/700; assets/shoe.png 약20×16, `0걸음`16px/700. 각 아이콘과글자10px. 수직중앙. 원본 중앙의 세로 구분선은 사용자 바 금지 기준 때문에 생략한다. 두 정보 자체를 하나의 문자열로 합치지 않는다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "E4 · 8개 바로가기",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E4 · 8개 바로가기\n\ny247 h192, x17 w356, 흰 표면22px. 4열×2행. 좌우18px, 위18px 아래18px, 행 높이74px와 행 간격8px로 합계18+74+8+74+18=192. 각 셀 그림36×36 contain, 그림 아래10px, 라벨20px lineheight, 셀 하단8px 여유. 중앙정렬. 첫줄 `신규혜택` welcome.png / `출석체크` attendance.png / `감정일기` emotion.png / `걷기배틀` battle.png. 둘째줄 `건강퀴즈` quiz.png / `행운복권` lottery.png / `럭키룰렛` roulette.png / `더보기` chevron-down.svg. 더보기는36px 옅은 청회색 반경8px 면 위18px 진한 chevron. 다른7개는 고유 브랜드 삽화 그대로. 라벨은14px이며 welcome 그림에 포함된 '웰컴 선물'은 브랜드 그림이지 라벨 대체가 아니다.320에서4열을 유지하되 셀 최소너비0, 필요시 라벨 줄바꿈에 따라 패널 자연높이 증가.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "E5 · 건강 챌린지",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E5 · 건강 챌린지\n\ny451 h100, x17 w356. 흰22px 표면. 내부좌우25px, 상하24px. 오른쪽 flag.png 55×60, 왼쪽 정보와 경쟁하지 않도록 오른쪽 공간62px 예약. 첫 행 `건강 챌린지`18px/700 다음 gap8px 뒤 옅은 면의 작은 pill `306,443명 도전 중`14px/600 보조색, pill좌우8px 높이26px. 둘째행 margin-top8px, `건강관리하고 ` 보조14px + `12,000원` 파랑 #2967ff/500 + ` 도 받으세요` 보조14px. 원본 한 줄이지만14px 하한으로 공간 부족시 자연 줄바꿈을 허용하며 숨김 금지.390에서 첫행 정보+pill이 flag와 물리적으로 겹치면 badge의 공간은 첫행 끝까지 쓰고 flag는 둘째행 우측에 둔다. 고정h100 안에 내용이 실제로 맞는지 박스합 검산하고 모자라면 자연높이를 늘려 다음 요소를 흐름으로 내린다. 이 차이를 알린다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "E6 · 날짜와 체중 기록",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E6 · 날짜와 체중 기록\n\n챌린지 아래20px. 날짜 행 좌우25px, h30: 왼쪽 `2025년 09월 12일 금요일`16px/700, 오른쪽 `요약보기`14px 보조. 원본 날짜를 오늘로 변경하지 않는다. 아래12px 뒤 흰 기록 행, 좌우17px, 반경22px, h58, 행 gap8px. 내부좌우16px. 청록 #00c6a8 원형16px에 흰 구멍5px, gap8px, `체중`16px/600. 오른쪽 첫 행 값은 원본에서 FAB에 가려 선행 `5`만 판독된다. 추가 숫자를 추정하지 말고 `5`만 표현하고 접근성 이름에 값 일부 가림을 기록한다. 둘째 `50.5` 굵은16px + ` kg` 보조, 셋째 `49` + ` kg`. 세번째는 프레임과 하단 탐색에 부분 가림. 원본에 없는 추가 기록은 생성하지 않는다. 데이터의 진위/날짜 정합성은 재현의 검증 대상이 아니다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "E7 · 추가 FAB",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E7 · 추가 FAB\n\n390 프레임에서 x315 y622,58×58,파랑 #2967ff 원, white plus.svg26px. 현재 기록목록 오른쪽 위에 겹친다. 그림자0 4px 10px rgba(32,48,79,.12)는 원본에 관찰된 떠있는 요소 관계에만 적용. 컨테이너 상대 absolute로 정적 위치를 옮긴 결정이며 실제 앱 fixed 동작을 알아냈다고 주장하지 않는다.320에서는 레코드 첫행 오른쪽 아래 겹침 관계를 유지하도록 기록 영역에 상대 배치한다. 정적 '+' 이미지 이름 `기록 추가`.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "E8 · 하단 목적지",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E8 · 하단 목적지\n\n390 프레임 x22 y701 w346 h64, 양끝 반원, 거의 흰 #fcfdfe, 얇은 흰 테두리는 capsule 외곽이며 영역 바가 아니다. 넓고 옅은 그림자는 기존 떠 있는 내비게이션에만. 5개 동일 폭 셀, 아이콘22px 위,14px 라벨 아래gap3px. `건강` heart(네이비 채움), `커뮤니티` message-circle, `닥다몰` shopping-bag, `컨텐츠` book-open, `내정보` user-round. 선택 건강은 제한된 셀 폭의 옅은 회청색 pill 면과 굵은 네이비 글자로 표시하며 underline 없음. 다른 글자/아이콘 #191e24. 아이콘은 공식SVG 경로를 사용하고 선택 heart만 fill=currentColor. 내비게이션 아래 기록이 옅게 비치고 일부 가리는 원본의 관계를 재현한다. 실제 blur/opacity와 bottom safe-area 값은 추정이므로 선택값을 CSS변수로 기록한다.320에서는 카드 증가만큼 nav/FAB도 함께 내려 관계를 지킨다. 캡슐 글자14px 하한으로 커뮤니티가 줄바뀌면 nav의 자연높이를 늘려 읽을 수 있게 한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        }
+      ],
+      "boxes": [
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 329.734375,
+          "width": 390,
+          "height": 64,
+          "top": 329.734375,
+          "right": 390,
+          "bottom": 393.734375,
+          "left": 0
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 329.734375,
+          "width": 390,
+          "height": 64,
+          "top": 329.734375,
+          "right": 390,
+          "bottom": 393.734375,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 440.125,
+          "width": 320,
+          "height": 64,
+          "top": 440.125,
+          "right": 320,
+          "bottom": 504.125,
+          "left": 0
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 440.125,
+          "width": 320,
+          "height": 64,
+          "top": 440.125,
+          "right": 320,
+          "bottom": 504.125,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 645.515625,
+          "width": 390,
+          "height": 99.625,
+          "top": 645.515625,
+          "right": 390,
+          "bottom": 745.140625,
+          "left": 0
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 645.515625,
+          "width": 356,
+          "height": 99.625,
+          "top": 645.515625,
+          "right": 373,
+          "bottom": 745.140625,
+          "left": 17
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 791.53125,
+          "width": 320,
+          "height": 80.03125,
+          "top": 791.53125,
+          "right": 320,
+          "bottom": 871.5625,
+          "left": 0
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 791.53125,
+          "width": 286,
+          "height": 80.03125,
+          "top": 791.53125,
+          "right": 303,
+          "bottom": 871.5625,
+          "left": 17
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 1012.953125,
+          "width": 390,
+          "height": 58,
+          "top": 1012.953125,
+          "right": 390,
+          "bottom": 1070.953125,
+          "left": 0
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 1012.953125,
+          "width": 356,
+          "height": 58,
+          "top": 1012.953125,
+          "right": 373,
+          "bottom": 1070.953125,
+          "left": 17
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1117.34375,
+          "width": 320,
+          "height": 58,
+          "top": 1117.34375,
+          "right": 320,
+          "bottom": 1175.34375,
+          "left": 0
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 1117.34375,
+          "width": 286,
+          "height": 58,
+          "top": 1117.34375,
+          "right": 303,
+          "bottom": 1175.34375,
+          "left": 17
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 1316.734375,
+          "width": 390,
+          "height": 192,
+          "top": 1316.734375,
+          "right": 390,
+          "bottom": 1508.734375,
+          "left": 0
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 1316.734375,
+          "width": 356,
+          "height": 192,
+          "top": 1316.734375,
+          "right": 373,
+          "bottom": 1508.734375,
+          "left": 17
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1334.734375,
+          "width": 80,
+          "height": 74,
+          "top": 1334.734375,
+          "right": 115,
+          "bottom": 1408.734375,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 115,
+          "y": 1334.734375,
+          "width": 80,
+          "height": 74,
+          "top": 1334.734375,
+          "right": 195,
+          "bottom": 1408.734375,
+          "left": 115
+        },
+        {
+          "class": "shortcut",
+          "x": 195,
+          "y": 1334.734375,
+          "width": 80,
+          "height": 74,
+          "top": 1334.734375,
+          "right": 275,
+          "bottom": 1408.734375,
+          "left": 195
+        },
+        {
+          "class": "shortcut",
+          "x": 275,
+          "y": 1334.734375,
+          "width": 80,
+          "height": 74,
+          "top": 1334.734375,
+          "right": 355,
+          "bottom": 1408.734375,
+          "left": 275
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1416.734375,
+          "width": 80,
+          "height": 74,
+          "top": 1416.734375,
+          "right": 115,
+          "bottom": 1490.734375,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 115,
+          "y": 1416.734375,
+          "width": 80,
+          "height": 74,
+          "top": 1416.734375,
+          "right": 195,
+          "bottom": 1490.734375,
+          "left": 115
+        },
+        {
+          "class": "shortcut",
+          "x": 195,
+          "y": 1416.734375,
+          "width": 80,
+          "height": 74,
+          "top": 1416.734375,
+          "right": 275,
+          "bottom": 1490.734375,
+          "left": 195
+        },
+        {
+          "class": "shortcut",
+          "x": 275,
+          "y": 1416.734375,
+          "width": 80,
+          "height": 74,
+          "top": 1416.734375,
+          "right": 355,
+          "bottom": 1490.734375,
+          "left": 275
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1555.125,
+          "width": 320,
+          "height": 192,
+          "top": 1555.125,
+          "right": 320,
+          "bottom": 1747.125,
+          "left": 0
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 1555.125,
+          "width": 286,
+          "height": 192,
+          "top": 1555.125,
+          "right": 303,
+          "bottom": 1747.125,
+          "left": 17
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1573.125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1573.125,
+          "right": 97.5,
+          "bottom": 1647.125,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 1573.125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1573.125,
+          "right": 160,
+          "bottom": 1647.125,
+          "left": 97.5
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 1573.125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1573.125,
+          "right": 222.5,
+          "bottom": 1647.125,
+          "left": 160
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 1573.125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1573.125,
+          "right": 285,
+          "bottom": 1647.125,
+          "left": 222.5
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1655.125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1655.125,
+          "right": 97.5,
+          "bottom": 1729.125,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 1655.125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1655.125,
+          "right": 160,
+          "bottom": 1729.125,
+          "left": 97.5
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 1655.125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1655.125,
+          "right": 222.5,
+          "bottom": 1729.125,
+          "left": 160
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 1655.125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1655.125,
+          "right": 285,
+          "bottom": 1729.125,
+          "left": 222.5
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 1888.515625,
+          "width": 390,
+          "height": 102,
+          "top": 1888.515625,
+          "right": 390,
+          "bottom": 1990.515625,
+          "left": 0
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 1888.515625,
+          "width": 356,
+          "height": 102,
+          "top": 1888.515625,
+          "right": 373,
+          "bottom": 1990.515625,
+          "left": 17
+        },
+        {
+          "class": "flag",
+          "x": 293,
+          "y": 1910.515625,
+          "width": 55,
+          "height": 60,
+          "top": 1910.515625,
+          "right": 348,
+          "bottom": 1970.515625,
+          "left": 293
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 1912.515625,
+          "width": 306,
+          "height": 26,
+          "top": 1912.515625,
+          "right": 348,
+          "bottom": 1938.515625,
+          "left": 42
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 1912.515625,
+          "width": 82,
+          "height": 26,
+          "top": 1912.515625,
+          "right": 124,
+          "bottom": 1938.515625,
+          "left": 42
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 1912.515625,
+          "width": 130.15625,
+          "height": 26,
+          "top": 1912.515625,
+          "right": 262.15625,
+          "bottom": 1938.515625,
+          "left": 132
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 1946.515625,
+          "width": 244,
+          "height": 20,
+          "top": 1946.515625,
+          "right": 286,
+          "bottom": 1966.515625,
+          "left": 42
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 2036.90625,
+          "width": 320,
+          "height": 122,
+          "top": 2036.90625,
+          "right": 320,
+          "bottom": 2158.90625,
+          "left": 0
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 2036.90625,
+          "width": 286,
+          "height": 122,
+          "top": 2036.90625,
+          "right": 303,
+          "bottom": 2158.90625,
+          "left": 17
+        },
+        {
+          "class": "flag",
+          "x": 223,
+          "y": 2074.90625,
+          "width": 55,
+          "height": 60,
+          "top": 2074.90625,
+          "right": 278,
+          "bottom": 2134.90625,
+          "left": 223
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 2060.90625,
+          "width": 236,
+          "height": 26,
+          "top": 2060.90625,
+          "right": 278,
+          "bottom": 2086.90625,
+          "left": 42
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 2060.90625,
+          "width": 82,
+          "height": 26,
+          "top": 2060.90625,
+          "right": 124,
+          "bottom": 2086.90625,
+          "left": 42
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 2060.90625,
+          "width": 130.15625,
+          "height": 26,
+          "top": 2060.90625,
+          "right": 262.15625,
+          "bottom": 2086.90625,
+          "left": 132
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 2094.90625,
+          "width": 174,
+          "height": 40,
+          "top": 2094.90625,
+          "right": 216,
+          "bottom": 2134.90625,
+          "left": 42
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 2345.078125,
+          "width": 390,
+          "height": 244,
+          "top": 2345.078125,
+          "right": 390,
+          "bottom": 2589.078125,
+          "left": 0
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 2345.078125,
+          "width": 390,
+          "height": 244,
+          "top": 2345.078125,
+          "right": 390,
+          "bottom": 2589.078125,
+          "left": 0
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 2345.078125,
+          "width": 340,
+          "height": 22,
+          "top": 2345.078125,
+          "right": 365,
+          "bottom": 2367.078125,
+          "left": 25
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 2345.078125,
+          "width": 174.5,
+          "height": 22,
+          "top": 2345.078125,
+          "right": 199.5,
+          "bottom": 2367.078125,
+          "left": 25
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 2377.078125,
+          "width": 356,
+          "height": 58,
+          "top": 2377.078125,
+          "right": 373,
+          "bottom": 2435.078125,
+          "left": 17
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 317,
+          "y": 2397.078125,
+          "width": 40,
+          "height": 18,
+          "top": 2397.078125,
+          "right": 357,
+          "bottom": 2415.078125,
+          "left": 317
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 2443.078125,
+          "width": 356,
+          "height": 58,
+          "top": 2443.078125,
+          "right": 373,
+          "bottom": 2501.078125,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 300.1875,
+          "y": 2463.078125,
+          "width": 56.8125,
+          "height": 18,
+          "top": 2463.078125,
+          "right": 357,
+          "bottom": 2481.078125,
+          "left": 300.1875
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 2509.078125,
+          "width": 356,
+          "height": 58,
+          "top": 2509.078125,
+          "right": 373,
+          "bottom": 2567.078125,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 314.078125,
+          "y": 2529.078125,
+          "width": 42.921875,
+          "height": 18,
+          "top": 2529.078125,
+          "right": 357,
+          "bottom": 2547.078125,
+          "left": 314.078125
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 2635.46875,
+          "width": 320,
+          "height": 253.546875,
+          "top": 2635.46875,
+          "right": 320,
+          "bottom": 2889.015625,
+          "left": 0
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 2635.46875,
+          "width": 320,
+          "height": 253.546875,
+          "top": 2635.46875,
+          "right": 320,
+          "bottom": 2889.015625,
+          "left": 0
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 2635.46875,
+          "width": 270,
+          "height": 22,
+          "top": 2635.46875,
+          "right": 295,
+          "bottom": 2657.46875,
+          "left": 25
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 2635.46875,
+          "width": 174.5,
+          "height": 22,
+          "top": 2635.46875,
+          "right": 199.5,
+          "bottom": 2657.46875,
+          "left": 25
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 2667.46875,
+          "width": 286,
+          "height": 58,
+          "top": 2667.46875,
+          "right": 303,
+          "bottom": 2725.46875,
+          "left": 17
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 247,
+          "y": 2687.46875,
+          "width": 40,
+          "height": 18,
+          "top": 2687.46875,
+          "right": 287,
+          "bottom": 2705.46875,
+          "left": 247
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 2733.46875,
+          "width": 286,
+          "height": 58,
+          "top": 2733.46875,
+          "right": 303,
+          "bottom": 2791.46875,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 230.1875,
+          "y": 2753.46875,
+          "width": 56.8125,
+          "height": 18,
+          "top": 2753.46875,
+          "right": 287,
+          "bottom": 2771.46875,
+          "left": 230.1875
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 2799.46875,
+          "width": 286,
+          "height": 58,
+          "top": 2799.46875,
+          "right": 303,
+          "bottom": 2857.46875,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 244.078125,
+          "y": 2819.46875,
+          "width": 42.921875,
+          "height": 18,
+          "top": 2819.46875,
+          "right": 287,
+          "bottom": 2837.46875,
+          "left": 244.078125
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 3075.1875,
+          "width": 390,
+          "height": 58,
+          "top": 3075.1875,
+          "right": 390,
+          "bottom": 3133.1875,
+          "left": 0
+        },
+        {
+          "class": "fab",
+          "x": 315,
+          "y": 3075.1875,
+          "width": 58,
+          "height": 58,
+          "top": 3075.1875,
+          "right": 373,
+          "bottom": 3133.1875,
+          "left": 315
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 3179.578125,
+          "width": 320,
+          "height": 58,
+          "top": 3179.578125,
+          "right": 320,
+          "bottom": 3237.578125,
+          "left": 0
+        },
+        {
+          "class": "fab",
+          "x": 245,
+          "y": 3179.578125,
+          "width": 58,
+          "height": 58,
+          "top": 3179.578125,
+          "right": 303,
+          "bottom": 3237.578125,
+          "left": 245
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 3423.75,
+          "width": 390,
+          "height": 64,
+          "top": 3423.75,
+          "right": 390,
+          "bottom": 3487.75,
+          "left": 0
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 3423.75,
+          "width": 346,
+          "height": 64,
+          "top": 3423.75,
+          "right": 368,
+          "bottom": 3487.75,
+          "left": 22
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 3429.75,
+          "width": 67.1875,
+          "height": 52,
+          "top": 3429.75,
+          "right": 94.1875,
+          "bottom": 3481.75,
+          "left": 27
+        },
+        {
+          "class": "destination",
+          "x": 94.1875,
+          "y": 3429.75,
+          "width": 67.203125,
+          "height": 52,
+          "top": 3429.75,
+          "right": 161.390625,
+          "bottom": 3481.75,
+          "left": 94.1875
+        },
+        {
+          "class": "destination",
+          "x": 161.390625,
+          "y": 3429.75,
+          "width": 67.203125,
+          "height": 52,
+          "top": 3429.75,
+          "right": 228.59375,
+          "bottom": 3481.75,
+          "left": 161.390625
+        },
+        {
+          "class": "destination",
+          "x": 228.59375,
+          "y": 3429.75,
+          "width": 67.203125,
+          "height": 52,
+          "top": 3429.75,
+          "right": 295.796875,
+          "bottom": 3481.75,
+          "left": 228.59375
+        },
+        {
+          "class": "destination",
+          "x": 295.796875,
+          "y": 3429.75,
+          "width": 67.1875,
+          "height": 52,
+          "top": 3429.75,
+          "right": 362.984375,
+          "bottom": 3481.75,
+          "left": 295.796875
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 3534.140625,
+          "width": 320,
+          "height": 64,
+          "top": 3534.140625,
+          "right": 320,
+          "bottom": 3598.140625,
+          "left": 0
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 3534.140625,
+          "width": 276,
+          "height": 64,
+          "top": 3534.140625,
+          "right": 298,
+          "bottom": 3598.140625,
+          "left": 22
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 3540.140625,
+          "width": 53.1875,
+          "height": 52,
+          "top": 3540.140625,
+          "right": 80.1875,
+          "bottom": 3592.140625,
+          "left": 27
+        },
+        {
+          "class": "destination",
+          "x": 80.1875,
+          "y": 3540.140625,
+          "width": 53.203125,
+          "height": 52,
+          "top": 3540.140625,
+          "right": 133.390625,
+          "bottom": 3592.140625,
+          "left": 80.1875
+        },
+        {
+          "class": "destination",
+          "x": 133.390625,
+          "y": 3540.140625,
+          "width": 53.203125,
+          "height": 52,
+          "top": 3540.140625,
+          "right": 186.59375,
+          "bottom": 3592.140625,
+          "left": 133.390625
+        },
+        {
+          "class": "destination",
+          "x": 186.59375,
+          "y": 3540.140625,
+          "width": 53.203125,
+          "height": 52,
+          "top": 3540.140625,
+          "right": 239.796875,
+          "bottom": 3592.140625,
+          "left": 186.59375
+        },
+        {
+          "class": "destination",
+          "x": 239.796875,
+          "y": 3540.140625,
+          "width": 53.203125,
+          "height": 52,
+          "top": 3540.140625,
+          "right": 293,
+          "bottom": 3592.140625,
+          "left": 239.796875
+        }
+      ],
+      "badImages": [],
+      "actions": 3,
+      "scrollContainers": [],
+      "divCount": 84,
+      "elementCount": 296,
+      "headings": [
+        {
+          "id": "E1",
+          "heading": "E1 · 상단 보기와 도구",
+          "promptStart": "E1 · 상단 보기와 도구\n\ny0 h64, 좌우21px. 보기 행은 y9~38에 중심 정렬. 왼쪽 "
+        },
+        {
+          "id": "E2",
+          "heading": "E2 · 광고 크리에이티브",
+          "promptStart": "E2 · 광고 크리에이티브\n\ny64 h100, x17 w356. assets/banner.png를 "
+        },
+        {
+          "id": "E3",
+          "heading": "E3 · 포인트와 걸음 요약",
+          "promptStart": "E3 · 포인트와 걸음 요약\n\ny176 h58, x17 w356, 흰 capsule 반경24px. "
+        },
+        {
+          "id": "E4",
+          "heading": "E4 · 8개 바로가기",
+          "promptStart": "E4 · 8개 바로가기\n\ny247 h192, x17 w356, 흰 표면22px. 4열×2행. 좌우1"
+        },
+        {
+          "id": "E5",
+          "heading": "E5 · 건강 챌린지",
+          "promptStart": "E5 · 건강 챌린지\n\ny451 h100, x17 w356. 흰22px 표면. 내부좌우25px, 상"
+        },
+        {
+          "id": "E6",
+          "heading": "E6 · 날짜와 체중 기록",
+          "promptStart": "E6 · 날짜와 체중 기록\n\n챌린지 아래20px. 날짜 행 좌우25px, h30: 왼쪽 `2025년"
+        },
+        {
+          "id": "E7",
+          "heading": "E7 · 추가 FAB",
+          "promptStart": "E7 · 추가 FAB\n\n390 프레임에서 x315 y622,58×58,파랑 #2967ff 원, wh"
+        },
+        {
+          "id": "E8",
+          "heading": "E8 · 하단 목적지",
+          "promptStart": "E8 · 하단 목적지\n\n390 프레임 x22 y701 w346 h64, 양끝 반원, 거의 흰 #fc"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "element": 1,
+        "selector": ".top",
+        "assembly": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64
+        },
+        "sample": {
+          "x": 0,
+          "y": 329.734375,
+          "width": 390,
+          "height": 64
+        }
+      },
+      {
+        "element": 2,
+        "selector": ".banner",
+        "assembly": {
+          "x": 17,
+          "y": 64,
+          "width": 356,
+          "height": 99.625
+        },
+        "sample": {
+          "x": 17,
+          "y": 645.515625,
+          "width": 356,
+          "height": 99.625
+        }
+      },
+      {
+        "element": 3,
+        "selector": ".summary",
+        "assembly": {
+          "x": 17,
+          "y": 175.625,
+          "width": 356,
+          "height": 58
+        },
+        "sample": {
+          "x": 17,
+          "y": 392.953125,
+          "width": 356,
+          "height": 58
+        }
+      },
+      {
+        "element": 4,
+        "selector": ".shortcuts",
+        "assembly": {
+          "x": 17,
+          "y": 246.625,
+          "width": 356,
+          "height": 192
+        },
+        "sample": {
+          "x": 17,
+          "y": 651.734375,
+          "width": 356,
+          "height": 192
+        }
+      },
+      {
+        "element": 5,
+        "selector": ".challenge",
+        "assembly": {
+          "x": 17,
+          "y": 450.625,
+          "width": 356,
+          "height": 102
+        },
+        "sample": {
+          "x": 17,
+          "y": 370.515625,
+          "width": 356,
+          "height": 102
+        }
+      },
+      {
+        "element": 6,
+        "selector": ".records",
+        "assembly": {
+          "x": 0,
+          "y": 568.625,
+          "width": 390,
+          "height": 218.546875
+        },
+        "sample": {
+          "x": 0,
+          "y": 600.078125,
+          "width": 390,
+          "height": 244
+        }
+      },
+      {
+        "element": 7,
+        "selector": ".fab",
+        "assembly": {
+          "x": 315,
+          "y": 622.625,
+          "width": 58,
+          "height": 58
+        },
+        "sample": {
+          "x": 315,
+          "y": 393.1875,
+          "width": 58,
+          "height": 58
+        }
+      },
+      {
+        "element": 8,
+        "selector": ".bottom-nav",
+        "assembly": {
+          "x": 22,
+          "y": 700.625,
+          "width": 346,
+          "height": 64
+        },
+        "sample": {
+          "x": 22,
+          "y": 741.75,
+          "width": 346,
+          "height": 64
+        }
+      }
+    ],
+    "opened": true,
+    "closedWithKeyboard": true
+  },
+  {
+    "width": 320,
+    "screen": {
+      "width": 320,
+      "scrollWidth": 320,
+      "text": [
+        {
+          "text": "닥터다이어리 홈",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        }
+      ],
+      "boxes": [
+        {
+          "class": "app",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 787.578125,
+          "top": 0,
+          "right": 320,
+          "bottom": 787.578125,
+          "left": 0
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 64,
+          "top": 0,
+          "right": 320,
+          "bottom": 64,
+          "left": 0
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 64,
+          "width": 286,
+          "height": 80.03125,
+          "top": 64,
+          "right": 303,
+          "bottom": 144.03125,
+          "left": 17
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 156.03125,
+          "width": 286,
+          "height": 58,
+          "top": 156.03125,
+          "right": 303,
+          "bottom": 214.03125,
+          "left": 17
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 227.03125,
+          "width": 286,
+          "height": 192,
+          "top": 227.03125,
+          "right": 303,
+          "bottom": 419.03125,
+          "left": 17
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 245.03125,
+          "width": 62.5,
+          "height": 74,
+          "top": 245.03125,
+          "right": 97.5,
+          "bottom": 319.03125,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 245.03125,
+          "width": 62.5,
+          "height": 74,
+          "top": 245.03125,
+          "right": 160,
+          "bottom": 319.03125,
+          "left": 97.5
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 245.03125,
+          "width": 62.5,
+          "height": 74,
+          "top": 245.03125,
+          "right": 222.5,
+          "bottom": 319.03125,
+          "left": 160
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 245.03125,
+          "width": 62.5,
+          "height": 74,
+          "top": 245.03125,
+          "right": 285,
+          "bottom": 319.03125,
+          "left": 222.5
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 327.03125,
+          "width": 62.5,
+          "height": 74,
+          "top": 327.03125,
+          "right": 97.5,
+          "bottom": 401.03125,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 327.03125,
+          "width": 62.5,
+          "height": 74,
+          "top": 327.03125,
+          "right": 160,
+          "bottom": 401.03125,
+          "left": 97.5
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 327.03125,
+          "width": 62.5,
+          "height": 74,
+          "top": 327.03125,
+          "right": 222.5,
+          "bottom": 401.03125,
+          "left": 160
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 327.03125,
+          "width": 62.5,
+          "height": 74,
+          "top": 327.03125,
+          "right": 285,
+          "bottom": 401.03125,
+          "left": 222.5
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 431.03125,
+          "width": 286,
+          "height": 122,
+          "top": 431.03125,
+          "right": 303,
+          "bottom": 553.03125,
+          "left": 17
+        },
+        {
+          "class": "flag",
+          "x": 223,
+          "y": 469.03125,
+          "width": 55,
+          "height": 60,
+          "top": 469.03125,
+          "right": 278,
+          "bottom": 529.03125,
+          "left": 223
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 455.03125,
+          "width": 236,
+          "height": 26,
+          "top": 455.03125,
+          "right": 278,
+          "bottom": 481.03125,
+          "left": 42
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 455.03125,
+          "width": 82,
+          "height": 26,
+          "top": 455.03125,
+          "right": 124,
+          "bottom": 481.03125,
+          "left": 42
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 455.03125,
+          "width": 130.15625,
+          "height": 26,
+          "top": 455.03125,
+          "right": 262.15625,
+          "bottom": 481.03125,
+          "left": 132
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 489.03125,
+          "width": 174,
+          "height": 40,
+          "top": 489.03125,
+          "right": 216,
+          "bottom": 529.03125,
+          "left": 42
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 569.03125,
+          "width": 320,
+          "height": 218.546875,
+          "top": 569.03125,
+          "right": 320,
+          "bottom": 787.578125,
+          "left": 0
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 569.03125,
+          "width": 270,
+          "height": 22,
+          "top": 569.03125,
+          "right": 295,
+          "bottom": 591.03125,
+          "left": 25
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 569.03125,
+          "width": 174.5,
+          "height": 22,
+          "top": 569.03125,
+          "right": 199.5,
+          "bottom": 591.03125,
+          "left": 25
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 601.03125,
+          "width": 286,
+          "height": 58,
+          "top": 601.03125,
+          "right": 303,
+          "bottom": 659.03125,
+          "left": 17
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 247,
+          "y": 621.03125,
+          "width": 40,
+          "height": 18,
+          "top": 621.03125,
+          "right": 287,
+          "bottom": 639.03125,
+          "left": 247
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 667.03125,
+          "width": 286,
+          "height": 58,
+          "top": 667.03125,
+          "right": 303,
+          "bottom": 725.03125,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 230.1875,
+          "y": 687.03125,
+          "width": 56.8125,
+          "height": 18,
+          "top": 687.03125,
+          "right": 287,
+          "bottom": 705.03125,
+          "left": 230.1875
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 733.03125,
+          "width": 286,
+          "height": 58,
+          "top": 733.03125,
+          "right": 303,
+          "bottom": 791.03125,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 244.078125,
+          "y": 753.03125,
+          "width": 42.921875,
+          "height": 18,
+          "top": 753.03125,
+          "right": 287,
+          "bottom": 771.03125,
+          "left": 244.078125
+        },
+        {
+          "class": "fab",
+          "x": 245,
+          "y": 623.03125,
+          "width": 58,
+          "height": 58,
+          "top": 623.03125,
+          "right": 303,
+          "bottom": 681.03125,
+          "left": 245
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 701.03125,
+          "width": 276,
+          "height": 64,
+          "top": 701.03125,
+          "right": 298,
+          "bottom": 765.03125,
+          "left": 22
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 707.03125,
+          "width": 53.1875,
+          "height": 52,
+          "top": 707.03125,
+          "right": 80.1875,
+          "bottom": 759.03125,
+          "left": 27
+        },
+        {
+          "class": "destination",
+          "x": 80.1875,
+          "y": 707.03125,
+          "width": 53.203125,
+          "height": 52,
+          "top": 707.03125,
+          "right": 133.390625,
+          "bottom": 759.03125,
+          "left": 80.1875
+        },
+        {
+          "class": "destination",
+          "x": 133.390625,
+          "y": 707.03125,
+          "width": 53.203125,
+          "height": 52,
+          "top": 707.03125,
+          "right": 186.59375,
+          "bottom": 759.03125,
+          "left": 133.390625
+        },
+        {
+          "class": "destination",
+          "x": 186.59375,
+          "y": 707.03125,
+          "width": 53.203125,
+          "height": 52,
+          "top": 707.03125,
+          "right": 239.796875,
+          "bottom": 759.03125,
+          "left": 186.59375
+        },
+        {
+          "class": "destination",
+          "x": 239.796875,
+          "y": 707.03125,
+          "width": 53.203125,
+          "height": 52,
+          "top": 707.03125,
+          "right": 293,
+          "bottom": 759.03125,
+          "left": 239.796875
+        }
+      ],
+      "badImages": [],
+      "actions": 0,
+      "scrollContainers": [],
+      "divCount": 14,
+      "elementCount": 96,
+      "headings": []
+    },
+    "scrollAfterWheel": 0,
+    "focusAfterTab": "BODY",
+    "components": {
+      "width": 320,
+      "scrollWidth": 320,
+      "text": [
+        {
+          "text": "P1 독립 요소 표본",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "P1 독립 요소 표본",
+          "size": "24px",
+          "class": ""
+        },
+        {
+          "text": "광고는 제공된 banner.png 원본 합성 이미지이며 7개 메뉴와 포인트·걸음·챌린지 삽화도 지정 에셋입니다. 이미지에 포함된 작은 글자는 HTML 14px 기준의 대상이 아닙니다. 공식 SVG 9종을 사용했습니다. 각 표본은 조립과 동일한 클래스·마크업·내부 가용폭을 유지합니다. 실제 겹침은 screen.html에서 확인합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E1 · 상단 보기와 도구",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E1 · 상단 보기와 도구\n\ny0 h64, 좌우21px. 보기 행은 y9~38에 중심 정렬. 왼쪽 `홈` `포인트` `통계`를 순서대로 배치:22px/700, 선택 홈 주 색, 나머지 #bcc3ce. 사이20px. 오른쪽 bell/calendar 공식SVG, 각각24px, gap22px. 화면 제목 홈의 선택은 글자 굵기/명도로 전달하고 밑줄 없음. 작은 도구의 의미는 알림/달력으로 접근 가능한 이름을 제공한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "E2 · 광고 크리에이티브",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E2 · 광고 크리에이티브\n\ny64 h100, x17 w356. assets/banner.png를 가로폭100%로 그대로 표시한다(원본1029×288). 반경22px, object-fit:contain. 기존 광고 카피와 인물/제품은 하나의 합성 광고 원본이다. 임의 재작성/의약효과 추가/작은 광고 글자 HTML 재현 없음. 이 에셋 사용은 사진 복원 평가와 UI 구성 평가를 구별해 기록한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "E3 · 포인트와 걸음 요약",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E3 · 포인트와 걸음 요약\n\ny176 h58, x17 w356, 흰 capsule 반경24px. 두 동일 폭 열에 아이콘+숫자를 가로 중앙 배치. assets/coin.png 약18×18, `5,000원`16px/700; assets/shoe.png 약20×16, `0걸음`16px/700. 각 아이콘과글자10px. 수직중앙. 원본 중앙의 세로 구분선은 사용자 바 금지 기준 때문에 생략한다. 두 정보 자체를 하나의 문자열로 합치지 않는다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "E4 · 8개 바로가기",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E4 · 8개 바로가기\n\ny247 h192, x17 w356, 흰 표면22px. 4열×2행. 좌우18px, 위18px 아래18px, 행 높이74px와 행 간격8px로 합계18+74+8+74+18=192. 각 셀 그림36×36 contain, 그림 아래10px, 라벨20px lineheight, 셀 하단8px 여유. 중앙정렬. 첫줄 `신규혜택` welcome.png / `출석체크` attendance.png / `감정일기` emotion.png / `걷기배틀` battle.png. 둘째줄 `건강퀴즈` quiz.png / `행운복권` lottery.png / `럭키룰렛` roulette.png / `더보기` chevron-down.svg. 더보기는36px 옅은 청회색 반경8px 면 위18px 진한 chevron. 다른7개는 고유 브랜드 삽화 그대로. 라벨은14px이며 welcome 그림에 포함된 '웰컴 선물'은 브랜드 그림이지 라벨 대체가 아니다.320에서4열을 유지하되 셀 최소너비0, 필요시 라벨 줄바꿈에 따라 패널 자연높이 증가.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "E5 · 건강 챌린지",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E5 · 건강 챌린지\n\ny451 h100, x17 w356. 흰22px 표면. 내부좌우25px, 상하24px. 오른쪽 flag.png 55×60, 왼쪽 정보와 경쟁하지 않도록 오른쪽 공간62px 예약. 첫 행 `건강 챌린지`18px/700 다음 gap8px 뒤 옅은 면의 작은 pill `306,443명 도전 중`14px/600 보조색, pill좌우8px 높이26px. 둘째행 margin-top8px, `건강관리하고 ` 보조14px + `12,000원` 파랑 #2967ff/500 + ` 도 받으세요` 보조14px. 원본 한 줄이지만14px 하한으로 공간 부족시 자연 줄바꿈을 허용하며 숨김 금지.390에서 첫행 정보+pill이 flag와 물리적으로 겹치면 badge의 공간은 첫행 끝까지 쓰고 flag는 둘째행 우측에 둔다. 고정h100 안에 내용이 실제로 맞는지 박스합 검산하고 모자라면 자연높이를 늘려 다음 요소를 흐름으로 내린다. 이 차이를 알린다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "E6 · 날짜와 체중 기록",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E6 · 날짜와 체중 기록\n\n챌린지 아래20px. 날짜 행 좌우25px, h30: 왼쪽 `2025년 09월 12일 금요일`16px/700, 오른쪽 `요약보기`14px 보조. 원본 날짜를 오늘로 변경하지 않는다. 아래12px 뒤 흰 기록 행, 좌우17px, 반경22px, h58, 행 gap8px. 내부좌우16px. 청록 #00c6a8 원형16px에 흰 구멍5px, gap8px, `체중`16px/600. 오른쪽 첫 행 값은 원본에서 FAB에 가려 선행 `5`만 판독된다. 추가 숫자를 추정하지 말고 `5`만 표현하고 접근성 이름에 값 일부 가림을 기록한다. 둘째 `50.5` 굵은16px + ` kg` 보조, 셋째 `49` + ` kg`. 세번째는 프레임과 하단 탐색에 부분 가림. 원본에 없는 추가 기록은 생성하지 않는다. 데이터의 진위/날짜 정합성은 재현의 검증 대상이 아니다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "E7 · 추가 FAB",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E7 · 추가 FAB\n\n390 프레임에서 x315 y622,58×58,파랑 #2967ff 원, white plus.svg26px. 현재 기록목록 오른쪽 위에 겹친다. 그림자0 4px 10px rgba(32,48,79,.12)는 원본에 관찰된 떠있는 요소 관계에만 적용. 컨테이너 상대 absolute로 정적 위치를 옮긴 결정이며 실제 앱 fixed 동작을 알아냈다고 주장하지 않는다.320에서는 레코드 첫행 오른쪽 아래 겹침 관계를 유지하도록 기록 영역에 상대 배치한다. 정적 '+' 이미지 이름 `기록 추가`.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "E8 · 하단 목적지",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E8 · 하단 목적지\n\n390 프레임 x22 y701 w346 h64, 양끝 반원, 거의 흰 #fcfdfe, 얇은 흰 테두리는 capsule 외곽이며 영역 바가 아니다. 넓고 옅은 그림자는 기존 떠 있는 내비게이션에만. 5개 동일 폭 셀, 아이콘22px 위,14px 라벨 아래gap3px. `건강` heart(네이비 채움), `커뮤니티` message-circle, `닥다몰` shopping-bag, `컨텐츠` book-open, `내정보` user-round. 선택 건강은 제한된 셀 폭의 옅은 회청색 pill 면과 굵은 네이비 글자로 표시하며 underline 없음. 다른 글자/아이콘 #191e24. 아이콘은 공식SVG 경로를 사용하고 선택 heart만 fill=currentColor. 내비게이션 아래 기록이 옅게 비치고 일부 가리는 원본의 관계를 재현한다. 실제 blur/opacity와 bottom safe-area 값은 추정이므로 선택값을 CSS변수로 기록한다.320에서는 카드 증가만큼 nav/FAB도 함께 내려 관계를 지킨다. 캡슐 글자14px 하한으로 커뮤니티가 줄바뀌면 nav의 자연높이를 늘려 읽을 수 있게 한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        }
+      ],
+      "boxes": [
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 352.125,
+          "width": 320,
+          "height": 64,
+          "top": 352.125,
+          "right": 320,
+          "bottom": 416.125,
+          "left": 0
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 352.125,
+          "width": 320,
+          "height": 64,
+          "top": 352.125,
+          "right": 320,
+          "bottom": 416.125,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "banner inset",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 557.515625,
+          "width": 320,
+          "height": 80.03125,
+          "top": 557.515625,
+          "right": 320,
+          "bottom": 637.546875,
+          "left": 0
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 557.515625,
+          "width": 286,
+          "height": 80.03125,
+          "top": 557.515625,
+          "right": 303,
+          "bottom": 637.546875,
+          "left": 17
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "summary inset",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 778.9375,
+          "width": 320,
+          "height": 58,
+          "top": 778.9375,
+          "right": 320,
+          "bottom": 836.9375,
+          "left": 0
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 778.9375,
+          "width": 286,
+          "height": 58,
+          "top": 778.9375,
+          "right": 303,
+          "bottom": 836.9375,
+          "left": 17
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 978.328125,
+          "width": 320,
+          "height": 192,
+          "top": 978.328125,
+          "right": 320,
+          "bottom": 1170.328125,
+          "left": 0
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 978.328125,
+          "width": 286,
+          "height": 192,
+          "top": 978.328125,
+          "right": 303,
+          "bottom": 1170.328125,
+          "left": 17
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 996.328125,
+          "width": 62.5,
+          "height": 74,
+          "top": 996.328125,
+          "right": 97.5,
+          "bottom": 1070.328125,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 996.328125,
+          "width": 62.5,
+          "height": 74,
+          "top": 996.328125,
+          "right": 160,
+          "bottom": 1070.328125,
+          "left": 97.5
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 996.328125,
+          "width": 62.5,
+          "height": 74,
+          "top": 996.328125,
+          "right": 222.5,
+          "bottom": 1070.328125,
+          "left": 160
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 996.328125,
+          "width": 62.5,
+          "height": 74,
+          "top": 996.328125,
+          "right": 285,
+          "bottom": 1070.328125,
+          "left": 222.5
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1078.328125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1078.328125,
+          "right": 97.5,
+          "bottom": 1152.328125,
+          "left": 35
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 1078.328125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1078.328125,
+          "right": 160,
+          "bottom": 1152.328125,
+          "left": 97.5
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 1078.328125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1078.328125,
+          "right": 222.5,
+          "bottom": 1152.328125,
+          "left": 160
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 1078.328125,
+          "width": 62.5,
+          "height": 74,
+          "top": 1078.328125,
+          "right": 285,
+          "bottom": 1152.328125,
+          "left": 222.5
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "challenge inset",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "flag",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "challenge-top",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "challenge-title",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "challenge-badge",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1311.71875,
+          "width": 320,
+          "height": 122,
+          "top": 1311.71875,
+          "right": 320,
+          "bottom": 1433.71875,
+          "left": 0
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 1311.71875,
+          "width": 286,
+          "height": 122,
+          "top": 1311.71875,
+          "right": 303,
+          "bottom": 1433.71875,
+          "left": 17
+        },
+        {
+          "class": "flag",
+          "x": 223,
+          "y": 1349.71875,
+          "width": 55,
+          "height": 60,
+          "top": 1349.71875,
+          "right": 278,
+          "bottom": 1409.71875,
+          "left": 223
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 1335.71875,
+          "width": 236,
+          "height": 26,
+          "top": 1335.71875,
+          "right": 278,
+          "bottom": 1361.71875,
+          "left": 42
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 1335.71875,
+          "width": 82,
+          "height": 26,
+          "top": 1335.71875,
+          "right": 124,
+          "bottom": 1361.71875,
+          "left": 42
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 1335.71875,
+          "width": 130.15625,
+          "height": 26,
+          "top": 1335.71875,
+          "right": 262.15625,
+          "bottom": 1361.71875,
+          "left": 132
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 1369.71875,
+          "width": 174,
+          "height": 40,
+          "top": 1369.71875,
+          "right": 216,
+          "bottom": 1409.71875,
+          "left": 42
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "date-row",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "date",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "record",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "record",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "record-value",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "record faint-record",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "record-value",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1642.28125,
+          "width": 320,
+          "height": 253.546875,
+          "top": 1642.28125,
+          "right": 320,
+          "bottom": 1895.828125,
+          "left": 0
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 1642.28125,
+          "width": 320,
+          "height": 253.546875,
+          "top": 1642.28125,
+          "right": 320,
+          "bottom": 1895.828125,
+          "left": 0
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 1642.28125,
+          "width": 270,
+          "height": 22,
+          "top": 1642.28125,
+          "right": 295,
+          "bottom": 1664.28125,
+          "left": 25
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 1642.28125,
+          "width": 174.5,
+          "height": 22,
+          "top": 1642.28125,
+          "right": 199.5,
+          "bottom": 1664.28125,
+          "left": 25
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 1674.28125,
+          "width": 286,
+          "height": 58,
+          "top": 1674.28125,
+          "right": 303,
+          "bottom": 1732.28125,
+          "left": 17
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 247,
+          "y": 1694.28125,
+          "width": 40,
+          "height": 18,
+          "top": 1694.28125,
+          "right": 287,
+          "bottom": 1712.28125,
+          "left": 247
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 1740.28125,
+          "width": 286,
+          "height": 58,
+          "top": 1740.28125,
+          "right": 303,
+          "bottom": 1798.28125,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 230.1875,
+          "y": 1760.28125,
+          "width": 56.8125,
+          "height": 18,
+          "top": 1760.28125,
+          "right": 287,
+          "bottom": 1778.28125,
+          "left": 230.1875
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 1806.28125,
+          "width": 286,
+          "height": 58,
+          "top": 1806.28125,
+          "right": 303,
+          "bottom": 1864.28125,
+          "left": 17
+        },
+        {
+          "class": "record-value",
+          "x": 244.078125,
+          "y": 1826.28125,
+          "width": 42.921875,
+          "height": 18,
+          "top": 1826.28125,
+          "right": 287,
+          "bottom": 1844.28125,
+          "left": 244.078125
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "fab",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 2104.390625,
+          "width": 320,
+          "height": 58,
+          "top": 2104.390625,
+          "right": 320,
+          "bottom": 2162.390625,
+          "left": 0
+        },
+        {
+          "class": "fab",
+          "x": 245,
+          "y": 2104.390625,
+          "width": 58,
+          "height": 58,
+          "top": 2104.390625,
+          "right": 303,
+          "bottom": 2162.390625,
+          "left": 245
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "bottom-nav",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "destination active",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "destination",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "destination",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "destination",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "destination",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 2370.953125,
+          "width": 320,
+          "height": 64,
+          "top": 2370.953125,
+          "right": 320,
+          "bottom": 2434.953125,
+          "left": 0
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 2370.953125,
+          "width": 276,
+          "height": 64,
+          "top": 2370.953125,
+          "right": 298,
+          "bottom": 2434.953125,
+          "left": 22
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 2376.953125,
+          "width": 53.1875,
+          "height": 52,
+          "top": 2376.953125,
+          "right": 80.1875,
+          "bottom": 2428.953125,
+          "left": 27
+        },
+        {
+          "class": "destination",
+          "x": 80.1875,
+          "y": 2376.953125,
+          "width": 53.203125,
+          "height": 52,
+          "top": 2376.953125,
+          "right": 133.390625,
+          "bottom": 2428.953125,
+          "left": 80.1875
+        },
+        {
+          "class": "destination",
+          "x": 133.390625,
+          "y": 2376.953125,
+          "width": 53.203125,
+          "height": 52,
+          "top": 2376.953125,
+          "right": 186.59375,
+          "bottom": 2428.953125,
+          "left": 133.390625
+        },
+        {
+          "class": "destination",
+          "x": 186.59375,
+          "y": 2376.953125,
+          "width": 53.203125,
+          "height": 52,
+          "top": 2376.953125,
+          "right": 239.796875,
+          "bottom": 2428.953125,
+          "left": 186.59375
+        },
+        {
+          "class": "destination",
+          "x": 239.796875,
+          "y": 2376.953125,
+          "width": 53.203125,
+          "height": 52,
+          "top": 2376.953125,
+          "right": 293,
+          "bottom": 2428.953125,
+          "left": 239.796875
+        }
+      ],
+      "badImages": [],
+      "actions": 3,
+      "scrollContainers": [],
+      "divCount": 84,
+      "elementCount": 296,
+      "headings": [
+        {
+          "id": "E1",
+          "heading": "E1 · 상단 보기와 도구",
+          "promptStart": "E1 · 상단 보기와 도구\n\ny0 h64, 좌우21px. 보기 행은 y9~38에 중심 정렬. 왼쪽 "
+        },
+        {
+          "id": "E2",
+          "heading": "E2 · 광고 크리에이티브",
+          "promptStart": "E2 · 광고 크리에이티브\n\ny64 h100, x17 w356. assets/banner.png를 "
+        },
+        {
+          "id": "E3",
+          "heading": "E3 · 포인트와 걸음 요약",
+          "promptStart": "E3 · 포인트와 걸음 요약\n\ny176 h58, x17 w356, 흰 capsule 반경24px. "
+        },
+        {
+          "id": "E4",
+          "heading": "E4 · 8개 바로가기",
+          "promptStart": "E4 · 8개 바로가기\n\ny247 h192, x17 w356, 흰 표면22px. 4열×2행. 좌우1"
+        },
+        {
+          "id": "E5",
+          "heading": "E5 · 건강 챌린지",
+          "promptStart": "E5 · 건강 챌린지\n\ny451 h100, x17 w356. 흰22px 표면. 내부좌우25px, 상"
+        },
+        {
+          "id": "E6",
+          "heading": "E6 · 날짜와 체중 기록",
+          "promptStart": "E6 · 날짜와 체중 기록\n\n챌린지 아래20px. 날짜 행 좌우25px, h30: 왼쪽 `2025년"
+        },
+        {
+          "id": "E7",
+          "heading": "E7 · 추가 FAB",
+          "promptStart": "E7 · 추가 FAB\n\n390 프레임에서 x315 y622,58×58,파랑 #2967ff 원, wh"
+        },
+        {
+          "id": "E8",
+          "heading": "E8 · 하단 목적지",
+          "promptStart": "E8 · 하단 목적지\n\n390 프레임 x22 y701 w346 h64, 양끝 반원, 거의 흰 #fc"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "element": 1,
+        "selector": ".top",
+        "assembly": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 64
+        },
+        "sample": {
+          "x": 0,
+          "y": 352.125,
+          "width": 320,
+          "height": 64
+        }
+      },
+      {
+        "element": 2,
+        "selector": ".banner",
+        "assembly": {
+          "x": 17,
+          "y": 64,
+          "width": 286,
+          "height": 80.03125
+        },
+        "sample": {
+          "x": 17,
+          "y": 557.515625,
+          "width": 286,
+          "height": 80.03125
+        }
+      },
+      {
+        "element": 3,
+        "selector": ".summary",
+        "assembly": {
+          "x": 17,
+          "y": 156.03125,
+          "width": 286,
+          "height": 58
+        },
+        "sample": {
+          "x": 17,
+          "y": 778.9375,
+          "width": 286,
+          "height": 58
+        }
+      },
+      {
+        "element": 4,
+        "selector": ".shortcuts",
+        "assembly": {
+          "x": 17,
+          "y": 227.03125,
+          "width": 286,
+          "height": 192
+        },
+        "sample": {
+          "x": 17,
+          "y": 326.328125,
+          "width": 286,
+          "height": 192
+        }
+      },
+      {
+        "element": 5,
+        "selector": ".challenge",
+        "assembly": {
+          "x": 17,
+          "y": 431.03125,
+          "width": 286,
+          "height": 122
+        },
+        "sample": {
+          "x": 17,
+          "y": 659.71875,
+          "width": 286,
+          "height": 122
+        }
+      },
+      {
+        "element": 6,
+        "selector": ".records",
+        "assembly": {
+          "x": 0,
+          "y": 569.03125,
+          "width": 320,
+          "height": 218.546875
+        },
+        "sample": {
+          "x": 0,
+          "y": 295.28125,
+          "width": 320,
+          "height": 253.546875
+        }
+      },
+      {
+        "element": 7,
+        "selector": ".fab",
+        "assembly": {
+          "x": 245,
+          "y": 623.03125,
+          "width": 58,
+          "height": 58
+        },
+        "sample": {
+          "x": 245,
+          "y": 757.390625,
+          "width": 58,
+          "height": 58
+        }
+      },
+      {
+        "element": 8,
+        "selector": ".bottom-nav",
+        "assembly": {
+          "x": 22,
+          "y": 701.03125,
+          "width": 276,
+          "height": 64
+        },
+        "sample": {
+          "x": 22,
+          "y": 751.953125,
+          "width": 276,
+          "height": 64
+        }
+      }
+    ],
+    "opened": true,
+    "closedWithKeyboard": true
+  }
+]

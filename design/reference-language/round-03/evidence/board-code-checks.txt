@@ -1,0 +1,4 @@
+2026-09-10
+verify-board.cjs: existing todo oxlint config --deny-warnings exit0; tsc --allowJs --checkJs --noEmit with Node types in /tmp/samkill-reference-typecheck exit0.
+Board Chrome1100/390/320: keyboard Enter open/close, forced-colors focus, 8 prompts, iframe overflow/image checks passed.
+Local links checked: 175; missing0.

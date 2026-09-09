@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "catalog_version": 4,
+  "targets": [
+    "screen.html",
+    "components.html",
+    "ui.css",
+    "prompt-v1.md"
+  ],
+  "rules": [
+    {
+      "id": "ORC-F01",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F02",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F03",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F04",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F05",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F06",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F07",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F08",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F09",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F10",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F11",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F12",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F13",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F14",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "기록목록이div반복이며날짜span,ul/li/time의미태그누락.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F16",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-F15",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G01",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G02",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G03",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G04",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G05",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G06",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G07",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G08",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G09",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G10",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G11",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G12",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G13",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G14",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G15",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G16",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G17",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G18",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G19",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G20",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G21",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G22",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G23",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-G24",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "기록목록이div반복이며날짜span,ul/li/time의미태그누락.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A01",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A02",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A03",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A04",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A05",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A06",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A07",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A08",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A09",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "ORC-A10",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-01",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-02",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "nav상태색/대부분간격/크기/그림자직접값과미사용--gap/--nav-safe-area로정의→사용불완전.",
+      "checks": [
+        "code"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-03",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-04",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-05",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-06",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-07",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-08",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-09",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-10",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-11",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-12",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-13",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-14",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-15",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-16",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-17",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-18",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-19",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-20",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-21",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual",
+        "interaction"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-22",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-23",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-24",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "RUI-25",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "역사스냅샷 전체검증은 미실행. 최종소스에서 별도재검증한다.",
+      "checks": [
+        "spec",
+        "visual"
+      ],
+      "exceptions": []
+    },
+    {
+      "id": "PROJECT-R3-RECONSTRUCTION",
+      "applicable": true,
+      "scope": "p2-source",
+      "reason": "E4원본둘째아이콘y356~357대비구현slot347로약9px위.36px슬롯과고유그림광학크기구별누락.",
+      "checks": [
+        "spec",
+        "code",
+        "visual"
+      ],
+      "exceptions": []
+    }
+  ]
+}

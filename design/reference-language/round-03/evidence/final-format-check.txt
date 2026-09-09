@@ -1,0 +1,2 @@
+390px: v4 app crop (390, 788) equals fresh gate render after CSS whitespace cleanup.
+320px: v4 app crop (320, 788) equals fresh gate render after CSS whitespace cleanup.

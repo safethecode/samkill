@@ -1,0 +1,95 @@
+{
+  "service": "닥터다이어리",
+  "query": {
+    "app_name": "닥터다이어리",
+    "query": "메인",
+    "platform": "MOBILE",
+    "limit": 3,
+    "page": 1
+  },
+  "image_id": "cmr7e4hhk0003jv0499sdp8rs",
+  "ui_url": "https://uibowl.io/name/닥터다이어리?patterns=메인&imgId=cmr7e4hhk0003jv0499sdp8rs",
+  "asset_url": "https://d31var7gpnk8lm.cloudfront.net/new-0c7d538e-129e-4288-a156-2be6078a12c8/new-d7f1f752-5912-46e9-bec9-c0a526c50ec5/4726bac8-cf40-43f7-85cf-6f83017b88d3/app_drdiary_202607_066.PNG",
+  "source_size": [
+    1125,
+    2436
+  ],
+  "crop_unit": "image-px",
+  "crops": {
+    "source-app": [
+      0,
+      170,
+      1125,
+      2436
+    ],
+    "banner": [
+      48,
+      354,
+      1077,
+      642
+    ],
+    "coin": [
+      181,
+      734,
+      239,
+      789
+    ],
+    "shoe": [
+      722,
+      738,
+      789,
+      784
+    ],
+    "welcome": [
+      161,
+      931,
+      269,
+      1033
+    ],
+    "attendance": [
+      402,
+      938,
+      490,
+      1030
+    ],
+    "emotion": [
+      636,
+      940,
+      720,
+      1026
+    ],
+    "battle": [
+      854,
+      928,
+      961,
+      1033
+    ],
+    "quiz": [
+      179,
+      1201,
+      253,
+      1291
+    ],
+    "lottery": [
+      402,
+      1200,
+      491,
+      1295
+    ],
+    "roulette": [
+      634,
+      1197,
+      723,
+      1297
+    ],
+    "flag": [
+      837,
+      1531,
+      1015,
+      1704
+    ]
+  },
+  "comparison_css_width": 390,
+  "scale": "390/1125 chosen display scale, not source DPR",
+  "observed_on": "2026-09-10"
+}

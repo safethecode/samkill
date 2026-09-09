@@ -1,0 +1,17 @@
+{
+  "390": {
+    "same_dimensions": true,
+    "difference_bbox": null,
+    "changed_pixels": 0
+  },
+  "320": {
+    "same_dimensions": true,
+    "difference_bbox": null,
+    "changed_pixels": 0
+  },
+  "tokens": {
+    "defined": 119,
+    "unused": [],
+    "undefined": []
+  }
+}

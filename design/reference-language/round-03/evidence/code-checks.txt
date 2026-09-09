@@ -1,0 +1,15 @@
+Tokens: 133; undefined []; unused []
+width 390: screen overflow=390, components overflow=390, images=[], actions=0, minFont=14.0, details=True/True
+390: all E1-E8 widths equal assembly and specimen; independent geometry unchanged on 1100-wide board.
+390: divs=11/104; scrollContainers=[]
+boxes: [('shortcuts inset', 246.625, 192), ('challenge inset', 450.625, 102), ('date-row', 568.625, 22), ('record', 600.625, 58), ('record', 666.625, 58), ('fab', 622.625, 58), ('bottom-nav', 700.625, 64)]
+width 320: screen overflow=320, components overflow=320, images=[], actions=0, minFont=14.0, details=True/True
+320: all E1-E8 widths equal assembly and specimen; independent geometry unchanged on 1100-wide board.
+320: divs=11/104; scrollContainers=[]
+boxes: [('shortcuts inset', 227.03125, 192), ('challenge inset', 431.03125, 122), ('date-row', 569.03125, 22), ('record', 601.03125, 58), ('record', 667.03125, 58), ('fab', 623.03125, 58), ('bottom-nav', 701.03125, 64)]
+Semantic list ul/li and time date confirmed in screen.html; overlay siblings are outside list.
+CSS direct-value exceptions: zero resets, 100%/1fr layout, grid counts, z-index ordering, media/container breakpoint, aspect ratio. No unreferenced palette/spacing tokens.
+Existing anti-slop oxlint with todo/.oxlintrc.json: exit 0, no warnings.
+TypeScript checkJs ES2022 DOM DOM.Iterable NodeNext strict defaults: exit 0. @types/node installed only in /tmp/doctor-review-types.
+Generated verify-browser.cjs: no chained assertions/reflect/module mocks/runtime typeof/loose dictionary contracts; Map stores measured element boxes.
+No HTML hr, tab underline, CSS gradient, interactive handlers or app motion detected. Nav external capsule border and decorative depth restricted to reference E7/E8.

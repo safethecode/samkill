@@ -1,0 +1,3920 @@
+[
+  {
+    "width": 390,
+    "screen": {
+      "width": 390,
+      "scrollWidth": 390,
+      "text": [
+        {
+          "text": "닥터다이어리 홈",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        }
+      ],
+      "boxes": [
+        {
+          "class": "app",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 787.171875
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 64,
+          "width": 356,
+          "height": 99.625
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 175.625,
+          "width": 356,
+          "height": 58
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 246.625,
+          "width": 356,
+          "height": 192
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 264.625,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 115,
+          "y": 264.625,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 195,
+          "y": 264.625,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 275,
+          "y": 264.625,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 354.625,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 115,
+          "y": 354.625,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 195,
+          "y": 354.625,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 275,
+          "y": 354.625,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 450.625,
+          "width": 356,
+          "height": 102
+        },
+        {
+          "class": "flag",
+          "x": 286.296875,
+          "y": 472.65625,
+          "width": 61.703125,
+          "height": 59.96875
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 474.625,
+          "width": 306,
+          "height": 26
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 474.625,
+          "width": 82,
+          "height": 26
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 474.625,
+          "width": 130.15625,
+          "height": 26
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 508.625,
+          "width": 244,
+          "height": 20
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 568.625,
+          "width": 390,
+          "height": 218.546875
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 568.625,
+          "width": 340,
+          "height": 22
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 568.625,
+          "width": 174.5,
+          "height": 22
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 600.625,
+          "width": 356,
+          "height": 58
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 317,
+          "y": 620.625,
+          "width": 40,
+          "height": 18
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 666.625,
+          "width": 356,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 300.1875,
+          "y": 686.625,
+          "width": 56.8125,
+          "height": 18
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 732.625,
+          "width": 356,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 314.078125,
+          "y": 752.625,
+          "width": 42.921875,
+          "height": 18
+        },
+        {
+          "class": "fab",
+          "x": 315,
+          "y": 622.625,
+          "width": 58,
+          "height": 58
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 700.625,
+          "width": 346,
+          "height": 64
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 706.625,
+          "width": 67.1875,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 94.1875,
+          "y": 706.625,
+          "width": 67.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 161.390625,
+          "y": 706.625,
+          "width": 67.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 228.59375,
+          "y": 706.625,
+          "width": 67.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 295.796875,
+          "y": 706.625,
+          "width": 67.1875,
+          "height": 52
+        }
+      ],
+      "badImages": [],
+      "actions": 0,
+      "scrollContainers": [],
+      "divCount": 11,
+      "elementCount": 104,
+      "headings": []
+    },
+    "scrollAfterWheel": 0,
+    "focusAfterTab": "BODY",
+    "components": {
+      "width": 390,
+      "scrollWidth": 390,
+      "text": [
+        {
+          "text": "P1 독립 요소 표본",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "P1 독립 요소 표본",
+          "size": "24px",
+          "class": ""
+        },
+        {
+          "text": "광고는 제공된 banner.png 원본 합성 이미지이며 7개 메뉴와 포인트·걸음·챌린지 삽화도 지정 에셋입니다. 이미지에 포함된 작은 글자는 HTML 14px 기준의 대상이 아닙니다. 공식 SVG 9종을 사용했습니다. 각 표본은 조립과 동일한 클래스·마크업·내부 가용폭을 유지합니다. 실제 겹침은 screen.html에서 확인합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P3 토큰·시맨틱 교정 계약을 공통 CSS와 기록 목록·날짜에 적용했습니다. P1 원문은 그대로 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P3 토큰·시맨틱 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P4 메뉴 슬롯·그림 표시 크기 교정에 따라 슬롯 36px은 유지하고 개별 crop 표시 크기와 둘째 행 간격을 조정했습니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P4 메뉴 슬롯·그림 표시 크기 교정",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E1 · 상단 보기와 도구",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E1 · 상단 보기와 도구\n\ny0 h64, 좌우21px. 보기 행은 y9~38에 중심 정렬. 왼쪽 `홈` `포인트` `통계`를 순서대로 배치:22px/700, 선택 홈 주 색, 나머지 #bcc3ce. 사이20px. 오른쪽 bell/calendar 공식SVG, 각각24px, gap22px. 화면 제목 홈의 선택은 글자 굵기/명도로 전달하고 밑줄 없음. 작은 도구의 의미는 알림/달력으로 접근 가능한 이름을 제공한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "E2 · 광고 크리에이티브",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E2 · 광고 크리에이티브\n\ny64 h100, x17 w356. assets/banner.png를 가로폭100%로 그대로 표시한다(원본1029×288). 반경22px, object-fit:contain. 기존 광고 카피와 인물/제품은 하나의 합성 광고 원본이다. 임의 재작성/의약효과 추가/작은 광고 글자 HTML 재현 없음. 이 에셋 사용은 사진 복원 평가와 UI 구성 평가를 구별해 기록한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "E3 · 포인트와 걸음 요약",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E3 · 포인트와 걸음 요약\n\ny176 h58, x17 w356, 흰 capsule 반경24px. 두 동일 폭 열에 아이콘+숫자를 가로 중앙 배치. assets/coin.png 약18×18, `5,000원`16px/700; assets/shoe.png 약20×16, `0걸음`16px/700. 각 아이콘과글자10px. 수직중앙. 원본 중앙의 세로 구분선은 사용자 바 금지 기준 때문에 생략한다. 두 정보 자체를 하나의 문자열로 합치지 않는다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "E4 · 8개 바로가기",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E4 · 8개 바로가기\n\ny247 h192, x17 w356, 흰 표면22px. 4열×2행. 좌우18px, 위18px 아래18px, 행 높이74px와 행 간격8px로 합계18+74+8+74+18=192. 각 셀 그림36×36 contain, 그림 아래10px, 라벨20px lineheight, 셀 하단8px 여유. 중앙정렬. 첫줄 `신규혜택` welcome.png / `출석체크` attendance.png / `감정일기` emotion.png / `걷기배틀` battle.png. 둘째줄 `건강퀴즈` quiz.png / `행운복권` lottery.png / `럭키룰렛` roulette.png / `더보기` chevron-down.svg. 더보기는36px 옅은 청회색 반경8px 면 위18px 진한 chevron. 다른7개는 고유 브랜드 삽화 그대로. 라벨은14px이며 welcome 그림에 포함된 '웰컴 선물'은 브랜드 그림이지 라벨 대체가 아니다.320에서4열을 유지하되 셀 최소너비0, 필요시 라벨 줄바꿈에 따라 패널 자연높이 증가.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "E5 · 건강 챌린지",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E5 · 건강 챌린지\n\ny451 h100, x17 w356. 흰22px 표면. 내부좌우25px, 상하24px. 오른쪽 flag.png 55×60, 왼쪽 정보와 경쟁하지 않도록 오른쪽 공간62px 예약. 첫 행 `건강 챌린지`18px/700 다음 gap8px 뒤 옅은 면의 작은 pill `306,443명 도전 중`14px/600 보조색, pill좌우8px 높이26px. 둘째행 margin-top8px, `건강관리하고 ` 보조14px + `12,000원` 파랑 #2967ff/500 + ` 도 받으세요` 보조14px. 원본 한 줄이지만14px 하한으로 공간 부족시 자연 줄바꿈을 허용하며 숨김 금지.390에서 첫행 정보+pill이 flag와 물리적으로 겹치면 badge의 공간은 첫행 끝까지 쓰고 flag는 둘째행 우측에 둔다. 고정h100 안에 내용이 실제로 맞는지 박스합 검산하고 모자라면 자연높이를 늘려 다음 요소를 흐름으로 내린다. 이 차이를 알린다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "E6 · 날짜와 체중 기록",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E6 · 날짜와 체중 기록\n\n챌린지 아래20px. 날짜 행 좌우25px, h30: 왼쪽 `2025년 09월 12일 금요일`16px/700, 오른쪽 `요약보기`14px 보조. 원본 날짜를 오늘로 변경하지 않는다. 아래12px 뒤 흰 기록 행, 좌우17px, 반경22px, h58, 행 gap8px. 내부좌우16px. 청록 #00c6a8 원형16px에 흰 구멍5px, gap8px, `체중`16px/600. 오른쪽 첫 행 값은 원본에서 FAB에 가려 선행 `5`만 판독된다. 추가 숫자를 추정하지 말고 `5`만 표현하고 접근성 이름에 값 일부 가림을 기록한다. 둘째 `50.5` 굵은16px + ` kg` 보조, 셋째 `49` + ` kg`. 세번째는 프레임과 하단 탐색에 부분 가림. 원본에 없는 추가 기록은 생성하지 않는다. 데이터의 진위/날짜 정합성은 재현의 검증 대상이 아니다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "E7 · 추가 FAB",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E7 · 추가 FAB\n\n390 프레임에서 x315 y622,58×58,파랑 #2967ff 원, white plus.svg26px. 현재 기록목록 오른쪽 위에 겹친다. 그림자0 4px 10px rgba(32,48,79,.12)는 원본에 관찰된 떠있는 요소 관계에만 적용. 컨테이너 상대 absolute로 정적 위치를 옮긴 결정이며 실제 앱 fixed 동작을 알아냈다고 주장하지 않는다.320에서는 레코드 첫행 오른쪽 아래 겹침 관계를 유지하도록 기록 영역에 상대 배치한다. 정적 '+' 이미지 이름 `기록 추가`.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "E8 · 하단 목적지",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E8 · 하단 목적지\n\n390 프레임 x22 y701 w346 h64, 양끝 반원, 거의 흰 #fcfdfe, 얇은 흰 테두리는 capsule 외곽이며 영역 바가 아니다. 넓고 옅은 그림자는 기존 떠 있는 내비게이션에만. 5개 동일 폭 셀, 아이콘22px 위,14px 라벨 아래gap3px. `건강` heart(네이비 채움), `커뮤니티` message-circle, `닥다몰` shopping-bag, `컨텐츠` book-open, `내정보` user-round. 선택 건강은 제한된 셀 폭의 옅은 회청색 pill 면과 굵은 네이비 글자로 표시하며 underline 없음. 다른 글자/아이콘 #191e24. 아이콘은 공식SVG 경로를 사용하고 선택 heart만 fill=currentColor. 내비게이션 아래 기록이 옅게 비치고 일부 가리는 원본의 관계를 재현한다. 실제 blur/opacity와 bottom safe-area 값은 추정이므로 선택값을 CSS변수로 기록한다.320에서는 카드 증가만큼 nav/FAB도 함께 내려 관계를 지킨다. 캡슐 글자14px 하한으로 커뮤니티가 줄바뀌면 nav의 자연높이를 늘려 읽을 수 있게 한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        }
+      ],
+      "boxes": [
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 419.296875,
+          "width": 390,
+          "height": 64
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 419.296875,
+          "width": 390,
+          "height": 64
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 529.6875,
+          "width": 320,
+          "height": 64
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 529.6875,
+          "width": 320,
+          "height": 64
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 735.078125,
+          "width": 390,
+          "height": 99.625
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 735.078125,
+          "width": 356,
+          "height": 99.625
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 881.09375,
+          "width": 320,
+          "height": 80.03125
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 881.09375,
+          "width": 286,
+          "height": 80.03125
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 1102.515625,
+          "width": 390,
+          "height": 58
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 1102.515625,
+          "width": 356,
+          "height": 58
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1206.90625,
+          "width": 320,
+          "height": 58
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 1206.90625,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 1406.296875,
+          "width": 390,
+          "height": 192
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 1406.296875,
+          "width": 356,
+          "height": 192
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1424.296875,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 115,
+          "y": 1424.296875,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 195,
+          "y": 1424.296875,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 275,
+          "y": 1424.296875,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1514.296875,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 115,
+          "y": 1514.296875,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 195,
+          "y": 1514.296875,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 275,
+          "y": 1514.296875,
+          "width": 80,
+          "height": 74
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1644.6875,
+          "width": 320,
+          "height": 192
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 1644.6875,
+          "width": 286,
+          "height": 192
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1662.6875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 1662.6875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 1662.6875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 1662.6875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1752.6875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 1752.6875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 1752.6875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 1752.6875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 1978.078125,
+          "width": 390,
+          "height": 102
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 1978.078125,
+          "width": 356,
+          "height": 102
+        },
+        {
+          "class": "flag",
+          "x": 286.296875,
+          "y": 2000.109375,
+          "width": 61.703125,
+          "height": 59.96875
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 2002.078125,
+          "width": 306,
+          "height": 26
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 2002.078125,
+          "width": 82,
+          "height": 26
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 2002.078125,
+          "width": 130.15625,
+          "height": 26
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 2036.078125,
+          "width": 244,
+          "height": 20
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 2126.46875,
+          "width": 320,
+          "height": 122
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 2126.46875,
+          "width": 286,
+          "height": 122
+        },
+        {
+          "class": "flag",
+          "x": 216.296875,
+          "y": 2164.5,
+          "width": 61.703125,
+          "height": 59.96875
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 2150.46875,
+          "width": 236,
+          "height": 26
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 2150.46875,
+          "width": 82,
+          "height": 26
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 2150.46875,
+          "width": 130.15625,
+          "height": 26
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 2184.46875,
+          "width": 174,
+          "height": 40
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 2434.640625,
+          "width": 390,
+          "height": 244
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 2434.640625,
+          "width": 390,
+          "height": 244
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 2434.640625,
+          "width": 340,
+          "height": 22
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 2434.640625,
+          "width": 174.5,
+          "height": 22
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 2466.640625,
+          "width": 356,
+          "height": 58
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 317,
+          "y": 2486.640625,
+          "width": 40,
+          "height": 18
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 2532.640625,
+          "width": 356,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 300.1875,
+          "y": 2552.640625,
+          "width": 56.8125,
+          "height": 18
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 2598.640625,
+          "width": 356,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 314.078125,
+          "y": 2618.640625,
+          "width": 42.921875,
+          "height": 18
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 2725.03125,
+          "width": 320,
+          "height": 244
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 2725.03125,
+          "width": 320,
+          "height": 244
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 2725.03125,
+          "width": 270,
+          "height": 22
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 2725.03125,
+          "width": 174.5,
+          "height": 22
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 2757.03125,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 247,
+          "y": 2777.03125,
+          "width": 40,
+          "height": 18
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 2823.03125,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 230.1875,
+          "y": 2843.03125,
+          "width": 56.8125,
+          "height": 18
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 2889.03125,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 244.078125,
+          "y": 2909.03125,
+          "width": 42.921875,
+          "height": 18
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 3155.203125,
+          "width": 390,
+          "height": 58
+        },
+        {
+          "class": "fab",
+          "x": 315,
+          "y": 3155.203125,
+          "width": 58,
+          "height": 58
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 3259.59375,
+          "width": 320,
+          "height": 58
+        },
+        {
+          "class": "fab",
+          "x": 245,
+          "y": 3259.59375,
+          "width": 58,
+          "height": 58
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 3503.765625,
+          "width": 390,
+          "height": 64
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 3503.765625,
+          "width": 346,
+          "height": 64
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 3509.765625,
+          "width": 67.1875,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 94.1875,
+          "y": 3509.765625,
+          "width": 67.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 161.390625,
+          "y": 3509.765625,
+          "width": 67.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 228.59375,
+          "y": 3509.765625,
+          "width": 67.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 295.796875,
+          "y": 3509.765625,
+          "width": 67.1875,
+          "height": 52
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 3614.15625,
+          "width": 320,
+          "height": 64
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 3614.15625,
+          "width": 276,
+          "height": 64
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 3620.15625,
+          "width": 53.1875,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 80.1875,
+          "y": 3620.15625,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 133.390625,
+          "y": 3620.15625,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 186.59375,
+          "y": 3620.15625,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 239.796875,
+          "y": 3620.15625,
+          "width": 53.203125,
+          "height": 52
+        }
+      ],
+      "badImages": [],
+      "actions": 5,
+      "scrollContainers": [],
+      "divCount": 78,
+      "elementCount": 316,
+      "headings": [
+        {
+          "id": "E1",
+          "heading": "E1 · 상단 보기와 도구",
+          "promptStart": "E1 · 상단 보기와 도구\n\ny0 h64, 좌우21px. 보기 행은 y9~38에 중심 정렬. 왼쪽 "
+        },
+        {
+          "id": "E2",
+          "heading": "E2 · 광고 크리에이티브",
+          "promptStart": "E2 · 광고 크리에이티브\n\ny64 h100, x17 w356. assets/banner.png를 "
+        },
+        {
+          "id": "E3",
+          "heading": "E3 · 포인트와 걸음 요약",
+          "promptStart": "E3 · 포인트와 걸음 요약\n\ny176 h58, x17 w356, 흰 capsule 반경24px. "
+        },
+        {
+          "id": "E4",
+          "heading": "E4 · 8개 바로가기",
+          "promptStart": "E4 · 8개 바로가기\n\ny247 h192, x17 w356, 흰 표면22px. 4열×2행. 좌우1"
+        },
+        {
+          "id": "E5",
+          "heading": "E5 · 건강 챌린지",
+          "promptStart": "E5 · 건강 챌린지\n\ny451 h100, x17 w356. 흰22px 표면. 내부좌우25px, 상"
+        },
+        {
+          "id": "E6",
+          "heading": "E6 · 날짜와 체중 기록",
+          "promptStart": "E6 · 날짜와 체중 기록\n\n챌린지 아래20px. 날짜 행 좌우25px, h30: 왼쪽 `2025년"
+        },
+        {
+          "id": "E7",
+          "heading": "E7 · 추가 FAB",
+          "promptStart": "E7 · 추가 FAB\n\n390 프레임에서 x315 y622,58×58,파랑 #2967ff 원, wh"
+        },
+        {
+          "id": "E8",
+          "heading": "E8 · 하단 목적지",
+          "promptStart": "E8 · 하단 목적지\n\n390 프레임 x22 y701 w346 h64, 양끝 반원, 거의 흰 #fc"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "element": 1,
+        "selector": ".top",
+        "assembly": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64
+        },
+        "sample": {
+          "x": 0,
+          "y": 419.296875,
+          "width": 390,
+          "height": 64
+        }
+      },
+      {
+        "element": 2,
+        "selector": ".banner",
+        "assembly": {
+          "x": 17,
+          "y": 64,
+          "width": 356,
+          "height": 99.625
+        },
+        "sample": {
+          "x": 17,
+          "y": 735.078125,
+          "width": 356,
+          "height": 99.625
+        }
+      },
+      {
+        "element": 3,
+        "selector": ".summary",
+        "assembly": {
+          "x": 17,
+          "y": 175.625,
+          "width": 356,
+          "height": 58
+        },
+        "sample": {
+          "x": 17,
+          "y": 392.515625,
+          "width": 356,
+          "height": 58
+        }
+      },
+      {
+        "element": 4,
+        "selector": ".shortcuts",
+        "assembly": {
+          "x": 17,
+          "y": 246.625,
+          "width": 356,
+          "height": 192
+        },
+        "sample": {
+          "x": 17,
+          "y": 652.296875,
+          "width": 356,
+          "height": 192
+        }
+      },
+      {
+        "element": 5,
+        "selector": ".challenge",
+        "assembly": {
+          "x": 17,
+          "y": 450.625,
+          "width": 356,
+          "height": 102
+        },
+        "sample": {
+          "x": 17,
+          "y": 371.078125,
+          "width": 356,
+          "height": 102
+        }
+      },
+      {
+        "element": 6,
+        "selector": ".records",
+        "assembly": {
+          "x": 0,
+          "y": 568.625,
+          "width": 390,
+          "height": 218.546875
+        },
+        "sample": {
+          "x": 0,
+          "y": 599.640625,
+          "width": 390,
+          "height": 244
+        }
+      },
+      {
+        "element": 7,
+        "selector": ".fab",
+        "assembly": {
+          "x": 315,
+          "y": 622.625,
+          "width": 58,
+          "height": 58
+        },
+        "sample": {
+          "x": 315,
+          "y": 393.203125,
+          "width": 58,
+          "height": 58
+        }
+      },
+      {
+        "element": 8,
+        "selector": ".bottom-nav",
+        "assembly": {
+          "x": 22,
+          "y": 700.625,
+          "width": 346,
+          "height": 64
+        },
+        "sample": {
+          "x": 22,
+          "y": 741.765625,
+          "width": 346,
+          "height": 64
+        }
+      }
+    ],
+    "wideComparisons": [
+      {
+        "element": 1,
+        "box": {
+          "x": 0,
+          "y": -1142.65625,
+          "width": 390,
+          "height": 64
+        },
+        "details": []
+      },
+      {
+        "element": 2,
+        "box": {
+          "x": 17,
+          "y": -937.265625,
+          "width": 356,
+          "height": 99.625
+        },
+        "details": []
+      },
+      {
+        "element": 3,
+        "box": {
+          "x": 17,
+          "y": -696.25,
+          "width": 356,
+          "height": 58
+        },
+        "details": []
+      },
+      {
+        "element": 4,
+        "box": {
+          "x": 17,
+          "y": -496.859375,
+          "width": 356,
+          "height": 192
+        },
+        "details": [
+          {
+            "text": "신규혜택",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "출석체크",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "감정일기",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "걷기배틀",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "건강퀴즈",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "행운복권",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "럭키룰렛",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "더보기",
+            "width": 36.34375,
+            "height": 20
+          }
+        ]
+      },
+      {
+        "element": 5,
+        "box": {
+          "x": 17,
+          "y": -163.46875,
+          "width": 356,
+          "height": 102
+        },
+        "details": []
+      },
+      {
+        "element": 6,
+        "box": {
+          "x": 0,
+          "y": 122.3125,
+          "width": 390,
+          "height": 244
+        },
+        "details": [
+          {
+            "text": "2025년 09월 12일 금요일",
+            "width": 174.5,
+            "height": 22
+          },
+          {
+            "text": "체중5",
+            "width": 356,
+            "height": 58
+          },
+          {
+            "text": "체중50.5 kg",
+            "width": 356,
+            "height": 58
+          },
+          {
+            "text": "체중49 kg",
+            "width": 356,
+            "height": 58
+          }
+        ]
+      },
+      {
+        "element": 7,
+        "box": {
+          "x": 315,
+          "y": 530.09375,
+          "width": 58,
+          "height": 58
+        },
+        "details": []
+      },
+      {
+        "element": 8,
+        "box": {
+          "x": 22,
+          "y": 751.875,
+          "width": 346,
+          "height": 64
+        },
+        "details": [
+          {
+            "text": "\n\n\n건강",
+            "width": 67.1875,
+            "height": 52
+          },
+          {
+            "text": "커뮤니티",
+            "width": 67.203125,
+            "height": 52
+          },
+          {
+            "text": "닥다몰",
+            "width": 67.203125,
+            "height": 52
+          },
+          {
+            "text": "컨텐츠",
+            "width": 67.203125,
+            "height": 52
+          },
+          {
+            "text": "내정보",
+            "width": 67.1875,
+            "height": 52
+          }
+        ]
+      }
+    ],
+    "opened": true,
+    "closedWithKeyboard": true
+  },
+  {
+    "width": 320,
+    "screen": {
+      "width": 320,
+      "scrollWidth": 320,
+      "text": [
+        {
+          "text": "닥터다이어리 홈",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        }
+      ],
+      "boxes": [
+        {
+          "class": "app",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 787.578125
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 64
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 64,
+          "width": 286,
+          "height": 80.03125
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 156.03125,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 227.03125,
+          "width": 286,
+          "height": 192
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 245.03125,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 245.03125,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 245.03125,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 245.03125,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 335.03125,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 335.03125,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 335.03125,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 335.03125,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 431.03125,
+          "width": 286,
+          "height": 122
+        },
+        {
+          "class": "flag",
+          "x": 216.296875,
+          "y": 469.0625,
+          "width": 61.703125,
+          "height": 59.96875
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 455.03125,
+          "width": 236,
+          "height": 26
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 455.03125,
+          "width": 82,
+          "height": 26
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 455.03125,
+          "width": 130.15625,
+          "height": 26
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 489.03125,
+          "width": 174,
+          "height": 40
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 569.03125,
+          "width": 320,
+          "height": 218.546875
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 569.03125,
+          "width": 270,
+          "height": 22
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 569.03125,
+          "width": 174.5,
+          "height": 22
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 601.03125,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 247,
+          "y": 621.03125,
+          "width": 40,
+          "height": 18
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 667.03125,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 230.1875,
+          "y": 687.03125,
+          "width": 56.8125,
+          "height": 18
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 733.03125,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 244.078125,
+          "y": 753.03125,
+          "width": 42.921875,
+          "height": 18
+        },
+        {
+          "class": "fab",
+          "x": 245,
+          "y": 623.03125,
+          "width": 58,
+          "height": 58
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 701.03125,
+          "width": 276,
+          "height": 64
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 707.03125,
+          "width": 53.1875,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 80.1875,
+          "y": 707.03125,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 133.390625,
+          "y": 707.03125,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 186.59375,
+          "y": 707.03125,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 239.796875,
+          "y": 707.03125,
+          "width": 53.203125,
+          "height": 52
+        }
+      ],
+      "badImages": [],
+      "actions": 0,
+      "scrollContainers": [],
+      "divCount": 11,
+      "elementCount": 104,
+      "headings": []
+    },
+    "scrollAfterWheel": 0,
+    "focusAfterTab": "BODY",
+    "components": {
+      "width": 320,
+      "scrollWidth": 320,
+      "text": [
+        {
+          "text": "P1 독립 요소 표본",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "P1 독립 요소 표본",
+          "size": "24px",
+          "class": ""
+        },
+        {
+          "text": "광고는 제공된 banner.png 원본 합성 이미지이며 7개 메뉴와 포인트·걸음·챌린지 삽화도 지정 에셋입니다. 이미지에 포함된 작은 글자는 HTML 14px 기준의 대상이 아닙니다. 공식 SVG 9종을 사용했습니다. 각 표본은 조립과 동일한 클래스·마크업·내부 가용폭을 유지합니다. 실제 겹침은 screen.html에서 확인합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P3 토큰·시맨틱 교정 계약을 공통 CSS와 기록 목록·날짜에 적용했습니다. P1 원문은 그대로 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P3 토큰·시맨틱 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P4 메뉴 슬롯·그림 표시 크기 교정에 따라 슬롯 36px은 유지하고 개별 crop 표시 크기와 둘째 행 간격을 조정했습니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P4 메뉴 슬롯·그림 표시 크기 교정",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E1 · 상단 보기와 도구",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E1 · 상단 보기와 도구\n\ny0 h64, 좌우21px. 보기 행은 y9~38에 중심 정렬. 왼쪽 `홈` `포인트` `통계`를 순서대로 배치:22px/700, 선택 홈 주 색, 나머지 #bcc3ce. 사이20px. 오른쪽 bell/calendar 공식SVG, 각각24px, gap22px. 화면 제목 홈의 선택은 글자 굵기/명도로 전달하고 밑줄 없음. 작은 도구의 의미는 알림/달력으로 접근 가능한 이름을 제공한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "홈",
+          "size": "22px",
+          "class": "selected"
+        },
+        {
+          "text": "포인트",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "통계",
+          "size": "22px",
+          "class": ""
+        },
+        {
+          "text": "E2 · 광고 크리에이티브",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E2 · 광고 크리에이티브\n\ny64 h100, x17 w356. assets/banner.png를 가로폭100%로 그대로 표시한다(원본1029×288). 반경22px, object-fit:contain. 기존 광고 카피와 인물/제품은 하나의 합성 광고 원본이다. 임의 재작성/의약효과 추가/작은 광고 글자 HTML 재현 없음. 이 에셋 사용은 사진 복원 평가와 UI 구성 평가를 구별해 기록한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "E3 · 포인트와 걸음 요약",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E3 · 포인트와 걸음 요약\n\ny176 h58, x17 w356, 흰 capsule 반경24px. 두 동일 폭 열에 아이콘+숫자를 가로 중앙 배치. assets/coin.png 약18×18, `5,000원`16px/700; assets/shoe.png 약20×16, `0걸음`16px/700. 각 아이콘과글자10px. 수직중앙. 원본 중앙의 세로 구분선은 사용자 바 금지 기준 때문에 생략한다. 두 정보 자체를 하나의 문자열로 합치지 않는다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "5,000원",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "0걸음",
+          "size": "16px",
+          "class": ""
+        },
+        {
+          "text": "E4 · 8개 바로가기",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E4 · 8개 바로가기\n\ny247 h192, x17 w356, 흰 표면22px. 4열×2행. 좌우18px, 위18px 아래18px, 행 높이74px와 행 간격8px로 합계18+74+8+74+18=192. 각 셀 그림36×36 contain, 그림 아래10px, 라벨20px lineheight, 셀 하단8px 여유. 중앙정렬. 첫줄 `신규혜택` welcome.png / `출석체크` attendance.png / `감정일기` emotion.png / `걷기배틀` battle.png. 둘째줄 `건강퀴즈` quiz.png / `행운복권` lottery.png / `럭키룰렛` roulette.png / `더보기` chevron-down.svg. 더보기는36px 옅은 청회색 반경8px 면 위18px 진한 chevron. 다른7개는 고유 브랜드 삽화 그대로. 라벨은14px이며 welcome 그림에 포함된 '웰컴 선물'은 브랜드 그림이지 라벨 대체가 아니다.320에서4열을 유지하되 셀 최소너비0, 필요시 라벨 줄바꿈에 따라 패널 자연높이 증가.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "신규혜택",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "출석체크",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "감정일기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "걷기배틀",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "건강퀴즈",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "행운복권",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "럭키룰렛",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "더보기",
+          "size": "14px",
+          "class": "shortcut-label"
+        },
+        {
+          "text": "E5 · 건강 챌린지",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E5 · 건강 챌린지\n\ny451 h100, x17 w356. 흰22px 표면. 내부좌우25px, 상하24px. 오른쪽 flag.png 55×60, 왼쪽 정보와 경쟁하지 않도록 오른쪽 공간62px 예약. 첫 행 `건강 챌린지`18px/700 다음 gap8px 뒤 옅은 면의 작은 pill `306,443명 도전 중`14px/600 보조색, pill좌우8px 높이26px. 둘째행 margin-top8px, `건강관리하고 ` 보조14px + `12,000원` 파랑 #2967ff/500 + ` 도 받으세요` 보조14px. 원본 한 줄이지만14px 하한으로 공간 부족시 자연 줄바꿈을 허용하며 숨김 금지.390에서 첫행 정보+pill이 flag와 물리적으로 겹치면 badge의 공간은 첫행 끝까지 쓰고 flag는 둘째행 우측에 둔다. 고정h100 안에 내용이 실제로 맞는지 박스합 검산하고 모자라면 자연높이를 늘려 다음 요소를 흐름으로 내린다. 이 차이를 알린다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강 챌린지",
+          "size": "18px",
+          "class": "challenge-title"
+        },
+        {
+          "text": "306,443명 도전 중",
+          "size": "14px",
+          "class": "challenge-badge"
+        },
+        {
+          "text": "건강관리하고 12,000원 도 받으세요",
+          "size": "14px",
+          "class": "challenge-subtitle"
+        },
+        {
+          "text": "12,000원",
+          "size": "14px",
+          "class": "reward"
+        },
+        {
+          "text": "E6 · 날짜와 체중 기록",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E6 · 날짜와 체중 기록\n\n챌린지 아래20px. 날짜 행 좌우25px, h30: 왼쪽 `2025년 09월 12일 금요일`16px/700, 오른쪽 `요약보기`14px 보조. 원본 날짜를 오늘로 변경하지 않는다. 아래12px 뒤 흰 기록 행, 좌우17px, 반경22px, h58, 행 gap8px. 내부좌우16px. 청록 #00c6a8 원형16px에 흰 구멍5px, gap8px, `체중`16px/600. 오른쪽 첫 행 값은 원본에서 FAB에 가려 선행 `5`만 판독된다. 추가 숫자를 추정하지 말고 `5`만 표현하고 접근성 이름에 값 일부 가림을 기록한다. 둘째 `50.5` 굵은16px + ` kg` 보조, 셋째 `49` + ` kg`. 세번째는 프레임과 하단 탐색에 부분 가림. 원본에 없는 추가 기록은 생성하지 않는다. 데이터의 진위/날짜 정합성은 재현의 검증 대상이 아니다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "2025년 09월 12일 금요일",
+          "size": "16px",
+          "class": "date"
+        },
+        {
+          "text": "요약보기",
+          "size": "14px",
+          "class": "overview"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "5",
+          "size": "16px",
+          "class": "record-value partial-value"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "50.5 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "체중",
+          "size": "16px",
+          "class": "record-label"
+        },
+        {
+          "text": "49 kg",
+          "size": "16px",
+          "class": "record-value"
+        },
+        {
+          "text": " kg",
+          "size": "16px",
+          "class": "unit"
+        },
+        {
+          "text": "E7 · 추가 FAB",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E7 · 추가 FAB\n\n390 프레임에서 x315 y622,58×58,파랑 #2967ff 원, white plus.svg26px. 현재 기록목록 오른쪽 위에 겹친다. 그림자0 4px 10px rgba(32,48,79,.12)는 원본에 관찰된 떠있는 요소 관계에만 적용. 컨테이너 상대 absolute로 정적 위치를 옮긴 결정이며 실제 앱 fixed 동작을 알아냈다고 주장하지 않는다.320에서는 레코드 첫행 오른쪽 아래 겹침 관계를 유지하도록 기록 영역에 상대 배치한다. 정적 '+' 이미지 이름 `기록 추가`.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "E8 · 하단 목적지",
+          "size": "20px",
+          "class": ""
+        },
+        {
+          "text": "고정 프롬프트 보기",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "E8 · 하단 목적지\n\n390 프레임 x22 y701 w346 h64, 양끝 반원, 거의 흰 #fcfdfe, 얇은 흰 테두리는 capsule 외곽이며 영역 바가 아니다. 넓고 옅은 그림자는 기존 떠 있는 내비게이션에만. 5개 동일 폭 셀, 아이콘22px 위,14px 라벨 아래gap3px. `건강` heart(네이비 채움), `커뮤니티` message-circle, `닥다몰` shopping-bag, `컨텐츠` book-open, `내정보` user-round. 선택 건강은 제한된 셀 폭의 옅은 회청색 pill 면과 굵은 네이비 글자로 표시하며 underline 없음. 다른 글자/아이콘 #191e24. 아이콘은 공식SVG 경로를 사용하고 선택 heart만 fill=currentColor. 내비게이션 아래 기록이 옅게 비치고 일부 가리는 원본의 관계를 재현한다. 실제 blur/opacity와 bottom safe-area 값은 추정이므로 선택값을 CSS변수로 기록한다.320에서는 카드 증가만큼 nav/FAB도 함께 내려 관계를 지킨다. 캡슐 글자14px 하한으로 커뮤니티가 줄바뀌면 nav의 자연높이를 늘려 읽을 수 있게 한다.\n",
+          "size": "14px",
+          "class": "prompt"
+        },
+        {
+          "text": "이 요소에는 P2 교정 계약의 날짜 간격·가림·행 상태를 우선 적용했습니다. P1 원문은 위에 보존합니다.",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "P2 교정 계약",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "390px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "320px 실제 표본 폭",
+          "size": "14px",
+          "class": "sample-caption"
+        },
+        {
+          "text": "건강",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "커뮤니티",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "닥다몰",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "컨텐츠",
+          "size": "14px",
+          "class": ""
+        },
+        {
+          "text": "내정보",
+          "size": "14px",
+          "class": ""
+        }
+      ],
+      "boxes": [
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 486.46875,
+          "width": 320,
+          "height": 64
+        },
+        {
+          "class": "top",
+          "x": 0,
+          "y": 486.46875,
+          "width": 320,
+          "height": 64
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "banner inset",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 691.859375,
+          "width": 320,
+          "height": 80.03125
+        },
+        {
+          "class": "banner inset",
+          "x": 17,
+          "y": 691.859375,
+          "width": 286,
+          "height": 80.03125
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "summary inset",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 913.28125,
+          "width": 320,
+          "height": 58
+        },
+        {
+          "class": "summary inset",
+          "x": 17,
+          "y": 913.28125,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "shortcut",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1112.671875,
+          "width": 320,
+          "height": 192
+        },
+        {
+          "class": "shortcuts inset",
+          "x": 17,
+          "y": 1112.671875,
+          "width": 286,
+          "height": 192
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1130.671875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 1130.671875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 1130.671875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 1130.671875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 35,
+          "y": 1220.671875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 97.5,
+          "y": 1220.671875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 160,
+          "y": 1220.671875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "shortcut",
+          "x": 222.5,
+          "y": 1220.671875,
+          "width": 62.5,
+          "height": 74
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "challenge inset",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "flag",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "challenge-top",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "challenge-title",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "challenge-badge",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1446.0625,
+          "width": 320,
+          "height": 122
+        },
+        {
+          "class": "challenge inset",
+          "x": 17,
+          "y": 1446.0625,
+          "width": 286,
+          "height": 122
+        },
+        {
+          "class": "flag",
+          "x": 216.296875,
+          "y": 1484.09375,
+          "width": 61.703125,
+          "height": 59.96875
+        },
+        {
+          "class": "challenge-top",
+          "x": 42,
+          "y": 1470.0625,
+          "width": 236,
+          "height": 26
+        },
+        {
+          "class": "challenge-title",
+          "x": 42,
+          "y": 1470.0625,
+          "width": 82,
+          "height": 26
+        },
+        {
+          "class": "challenge-badge",
+          "x": 132,
+          "y": 1470.0625,
+          "width": 130.15625,
+          "height": 26
+        },
+        {
+          "class": "challenge-subtitle",
+          "x": 42,
+          "y": 1504.0625,
+          "width": 174,
+          "height": 40
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "date-row",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "date",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "record",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "record",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "record-value",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "record faint-record",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "record-value",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 1776.625,
+          "width": 320,
+          "height": 244
+        },
+        {
+          "class": "records",
+          "x": 0,
+          "y": 1776.625,
+          "width": 320,
+          "height": 244
+        },
+        {
+          "class": "date-row",
+          "x": 25,
+          "y": 1776.625,
+          "width": 270,
+          "height": 22
+        },
+        {
+          "class": "date",
+          "x": 25,
+          "y": 1776.625,
+          "width": 174.5,
+          "height": 22
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 1808.625,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value partial-value",
+          "x": 247,
+          "y": 1828.625,
+          "width": 40,
+          "height": 18
+        },
+        {
+          "class": "record",
+          "x": 17,
+          "y": 1874.625,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 230.1875,
+          "y": 1894.625,
+          "width": 56.8125,
+          "height": 18
+        },
+        {
+          "class": "record faint-record",
+          "x": 17,
+          "y": 1940.625,
+          "width": 286,
+          "height": 58
+        },
+        {
+          "class": "record-value",
+          "x": 244.078125,
+          "y": 1960.625,
+          "width": 42.921875,
+          "height": 18
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "fab",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 2229.1875,
+          "width": 320,
+          "height": 58
+        },
+        {
+          "class": "fab",
+          "x": 245,
+          "y": 2229.1875,
+          "width": 58,
+          "height": 58
+        },
+        {
+          "class": "sample specimen w390",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "bottom-nav",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "destination active",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "destination",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "destination",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "destination",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "destination",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "class": "sample specimen w320",
+          "x": 0,
+          "y": 2495.75,
+          "width": 320,
+          "height": 64
+        },
+        {
+          "class": "bottom-nav",
+          "x": 22,
+          "y": 2495.75,
+          "width": 276,
+          "height": 64
+        },
+        {
+          "class": "destination active",
+          "x": 27,
+          "y": 2501.75,
+          "width": 53.1875,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 80.1875,
+          "y": 2501.75,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 133.390625,
+          "y": 2501.75,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 186.59375,
+          "y": 2501.75,
+          "width": 53.203125,
+          "height": 52
+        },
+        {
+          "class": "destination",
+          "x": 239.796875,
+          "y": 2501.75,
+          "width": 53.203125,
+          "height": 52
+        }
+      ],
+      "badImages": [],
+      "actions": 5,
+      "scrollContainers": [],
+      "divCount": 78,
+      "elementCount": 316,
+      "headings": [
+        {
+          "id": "E1",
+          "heading": "E1 · 상단 보기와 도구",
+          "promptStart": "E1 · 상단 보기와 도구\n\ny0 h64, 좌우21px. 보기 행은 y9~38에 중심 정렬. 왼쪽 "
+        },
+        {
+          "id": "E2",
+          "heading": "E2 · 광고 크리에이티브",
+          "promptStart": "E2 · 광고 크리에이티브\n\ny64 h100, x17 w356. assets/banner.png를 "
+        },
+        {
+          "id": "E3",
+          "heading": "E3 · 포인트와 걸음 요약",
+          "promptStart": "E3 · 포인트와 걸음 요약\n\ny176 h58, x17 w356, 흰 capsule 반경24px. "
+        },
+        {
+          "id": "E4",
+          "heading": "E4 · 8개 바로가기",
+          "promptStart": "E4 · 8개 바로가기\n\ny247 h192, x17 w356, 흰 표면22px. 4열×2행. 좌우1"
+        },
+        {
+          "id": "E5",
+          "heading": "E5 · 건강 챌린지",
+          "promptStart": "E5 · 건강 챌린지\n\ny451 h100, x17 w356. 흰22px 표면. 내부좌우25px, 상"
+        },
+        {
+          "id": "E6",
+          "heading": "E6 · 날짜와 체중 기록",
+          "promptStart": "E6 · 날짜와 체중 기록\n\n챌린지 아래20px. 날짜 행 좌우25px, h30: 왼쪽 `2025년"
+        },
+        {
+          "id": "E7",
+          "heading": "E7 · 추가 FAB",
+          "promptStart": "E7 · 추가 FAB\n\n390 프레임에서 x315 y622,58×58,파랑 #2967ff 원, wh"
+        },
+        {
+          "id": "E8",
+          "heading": "E8 · 하단 목적지",
+          "promptStart": "E8 · 하단 목적지\n\n390 프레임 x22 y701 w346 h64, 양끝 반원, 거의 흰 #fc"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "element": 1,
+        "selector": ".top",
+        "assembly": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 64
+        },
+        "sample": {
+          "x": 0,
+          "y": 486.46875,
+          "width": 320,
+          "height": 64
+        }
+      },
+      {
+        "element": 2,
+        "selector": ".banner",
+        "assembly": {
+          "x": 17,
+          "y": 64,
+          "width": 286,
+          "height": 80.03125
+        },
+        "sample": {
+          "x": 17,
+          "y": 691.859375,
+          "width": 286,
+          "height": 80.03125
+        }
+      },
+      {
+        "element": 3,
+        "selector": ".summary",
+        "assembly": {
+          "x": 17,
+          "y": 156.03125,
+          "width": 286,
+          "height": 58
+        },
+        "sample": {
+          "x": 17,
+          "y": 393.28125,
+          "width": 286,
+          "height": 58
+        }
+      },
+      {
+        "element": 4,
+        "selector": ".shortcuts",
+        "assembly": {
+          "x": 17,
+          "y": 227.03125,
+          "width": 286,
+          "height": 192
+        },
+        "sample": {
+          "x": 17,
+          "y": 592.671875,
+          "width": 286,
+          "height": 192
+        }
+      },
+      {
+        "element": 5,
+        "selector": ".challenge",
+        "assembly": {
+          "x": 17,
+          "y": 431.03125,
+          "width": 286,
+          "height": 122
+        },
+        "sample": {
+          "x": 17,
+          "y": 361.0625,
+          "width": 286,
+          "height": 122
+        }
+      },
+      {
+        "element": 6,
+        "selector": ".records",
+        "assembly": {
+          "x": 0,
+          "y": 569.03125,
+          "width": 320,
+          "height": 218.546875
+        },
+        "sample": {
+          "x": 0,
+          "y": 599.625,
+          "width": 320,
+          "height": 244
+        }
+      },
+      {
+        "element": 7,
+        "selector": ".fab",
+        "assembly": {
+          "x": 245,
+          "y": 623.03125,
+          "width": 58,
+          "height": 58
+        },
+        "sample": {
+          "x": 245,
+          "y": 485.1875,
+          "width": 58,
+          "height": 58
+        }
+      },
+      {
+        "element": 8,
+        "selector": ".bottom-nav",
+        "assembly": {
+          "x": 22,
+          "y": 701.03125,
+          "width": 276,
+          "height": 64
+        },
+        "sample": {
+          "x": 22,
+          "y": 751.75,
+          "width": 276,
+          "height": 64
+        }
+      }
+    ],
+    "wideComparisons": [
+      {
+        "element": 1,
+        "box": {
+          "x": 414,
+          "y": -1142.65625,
+          "width": 320,
+          "height": 64
+        },
+        "details": []
+      },
+      {
+        "element": 2,
+        "box": {
+          "x": 431,
+          "y": -937.265625,
+          "width": 286,
+          "height": 80.03125
+        },
+        "details": []
+      },
+      {
+        "element": 3,
+        "box": {
+          "x": 431,
+          "y": -696.25,
+          "width": 286,
+          "height": 58
+        },
+        "details": []
+      },
+      {
+        "element": 4,
+        "box": {
+          "x": 431,
+          "y": -496.859375,
+          "width": 286,
+          "height": 192
+        },
+        "details": [
+          {
+            "text": "신규혜택",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "출석체크",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "감정일기",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "걷기배틀",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "건강퀴즈",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "행운복권",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "럭키룰렛",
+            "width": 48.453125,
+            "height": 20
+          },
+          {
+            "text": "더보기",
+            "width": 36.34375,
+            "height": 20
+          }
+        ]
+      },
+      {
+        "element": 5,
+        "box": {
+          "x": 431,
+          "y": -163.46875,
+          "width": 286,
+          "height": 122
+        },
+        "details": []
+      },
+      {
+        "element": 6,
+        "box": {
+          "x": 414,
+          "y": 122.3125,
+          "width": 320,
+          "height": 244
+        },
+        "details": [
+          {
+            "text": "2025년 09월 12일 금요일",
+            "width": 174.5,
+            "height": 22
+          },
+          {
+            "text": "체중5",
+            "width": 286,
+            "height": 58
+          },
+          {
+            "text": "체중50.5 kg",
+            "width": 286,
+            "height": 58
+          },
+          {
+            "text": "체중49 kg",
+            "width": 286,
+            "height": 58
+          }
+        ]
+      },
+      {
+        "element": 7,
+        "box": {
+          "x": 659,
+          "y": 530.09375,
+          "width": 58,
+          "height": 58
+        },
+        "details": []
+      },
+      {
+        "element": 8,
+        "box": {
+          "x": 436,
+          "y": 751.875,
+          "width": 276,
+          "height": 64
+        },
+        "details": [
+          {
+            "text": "\n\n\n건강",
+            "width": 53.1875,
+            "height": 52
+          },
+          {
+            "text": "커뮤니티",
+            "width": 53.203125,
+            "height": 52
+          },
+          {
+            "text": "닥다몰",
+            "width": 53.203125,
+            "height": 52
+          },
+          {
+            "text": "컨텐츠",
+            "width": 53.203125,
+            "height": 52
+          },
+          {
+            "text": "내정보",
+            "width": 53.203125,
+            "height": 52
+          }
+        ]
+      }
+    ],
+    "opened": true,
+    "closedWithKeyboard": true
+  }
+]

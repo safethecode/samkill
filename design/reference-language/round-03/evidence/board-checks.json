@@ -1,0 +1,524 @@
+[
+  {
+    "detail": {
+      "width": 1100,
+      "scrollWidth": 1100,
+      "frames": [
+        {
+          "title": "닥터다이어리 메인 구현",
+          "width": 390
+        },
+        {
+          "title": "E1 구현",
+          "width": 390
+        },
+        {
+          "title": "E2 구현",
+          "width": 390
+        },
+        {
+          "title": "E3 구현",
+          "width": 390
+        },
+        {
+          "title": "E4 구현",
+          "width": 390
+        },
+        {
+          "title": "E5 구현",
+          "width": 390
+        },
+        {
+          "title": "E6 구현",
+          "width": 390
+        },
+        {
+          "title": "E7 구현",
+          "width": 390
+        },
+        {
+          "title": "E8 구현",
+          "width": 390
+        }
+      ],
+      "brokenImages": 0,
+      "hrefs": [
+        "#assembled",
+        "#E1",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "../round-02/",
+        "https://uibowl.io/name/닥터다이어리?patterns=메인",
+        "analysis.md",
+        "evidence/v1-screen-390.png",
+        "review.md",
+        "assets/source.png",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "components.html",
+        "gate-review.md"
+      ],
+      "prompts": 8
+    },
+    "frameChecks": [
+      {
+        "url": "http://127.0.0.1:4190/round-03/screen.html",
+        "viewportHeight": 788,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 788,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E1.html",
+        "viewportHeight": 64,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 64,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E2.html",
+        "viewportHeight": 101,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 101,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E3.html",
+        "viewportHeight": 58,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 58,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E4.html",
+        "viewportHeight": 192,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 192,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E5.html",
+        "viewportHeight": 132,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 132,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E6.html",
+        "viewportHeight": 250,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 250,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E7.html",
+        "viewportHeight": 74,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 74,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E8.html",
+        "viewportHeight": 88,
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 88,
+        "brokenImages": 0
+      }
+    ],
+    "opened": true,
+    "closed": true,
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  },
+  {
+    "detail": {
+      "width": 390,
+      "scrollWidth": 390,
+      "frames": [
+        {
+          "title": "닥터다이어리 메인 구현",
+          "width": 366
+        },
+        {
+          "title": "E1 구현",
+          "width": 366
+        },
+        {
+          "title": "E2 구현",
+          "width": 366
+        },
+        {
+          "title": "E3 구현",
+          "width": 366
+        },
+        {
+          "title": "E4 구현",
+          "width": 366
+        },
+        {
+          "title": "E5 구현",
+          "width": 366
+        },
+        {
+          "title": "E6 구현",
+          "width": 366
+        },
+        {
+          "title": "E7 구현",
+          "width": 366
+        },
+        {
+          "title": "E8 구현",
+          "width": 366
+        }
+      ],
+      "brokenImages": 0,
+      "hrefs": [
+        "#assembled",
+        "#E1",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "../round-02/",
+        "https://uibowl.io/name/닥터다이어리?patterns=메인",
+        "analysis.md",
+        "evidence/v1-screen-390.png",
+        "review.md",
+        "assets/source.png",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "components.html",
+        "gate-review.md"
+      ],
+      "prompts": 8
+    },
+    "frameChecks": [
+      {
+        "url": "http://127.0.0.1:4190/round-03/screen.html",
+        "viewportHeight": 840,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 840,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E1.html",
+        "viewportHeight": 64,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 64,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E2.html",
+        "viewportHeight": 101,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 101,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E3.html",
+        "viewportHeight": 58,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 58,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E4.html",
+        "viewportHeight": 192,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 192,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E5.html",
+        "viewportHeight": 164,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 164,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E6.html",
+        "viewportHeight": 280,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 280,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E7.html",
+        "viewportHeight": 74,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 74,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E8.html",
+        "viewportHeight": 88,
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 88,
+        "brokenImages": 0
+      }
+    ],
+    "opened": true,
+    "closed": true,
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  },
+  {
+    "detail": {
+      "width": 320,
+      "scrollWidth": 320,
+      "frames": [
+        {
+          "title": "닥터다이어리 메인 구현",
+          "width": 296
+        },
+        {
+          "title": "E1 구현",
+          "width": 296
+        },
+        {
+          "title": "E2 구현",
+          "width": 296
+        },
+        {
+          "title": "E3 구현",
+          "width": 296
+        },
+        {
+          "title": "E4 구현",
+          "width": 296
+        },
+        {
+          "title": "E5 구현",
+          "width": 296
+        },
+        {
+          "title": "E6 구현",
+          "width": 296
+        },
+        {
+          "title": "E7 구현",
+          "width": 296
+        },
+        {
+          "title": "E8 구현",
+          "width": 296
+        }
+      ],
+      "brokenImages": 0,
+      "hrefs": [
+        "#assembled",
+        "#E1",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "../round-02/",
+        "https://uibowl.io/name/닥터다이어리?patterns=메인",
+        "analysis.md",
+        "evidence/v1-screen-390.png",
+        "review.md",
+        "assets/source.png",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v3.md",
+        "prompt-v4.md",
+        "components.html",
+        "gate-review.md"
+      ],
+      "prompts": 8
+    },
+    "frameChecks": [
+      {
+        "url": "http://127.0.0.1:4190/round-03/screen.html",
+        "viewportHeight": 840,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 840,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E1.html",
+        "viewportHeight": 64,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 64,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E2.html",
+        "viewportHeight": 101,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 101,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E3.html",
+        "viewportHeight": 58,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 58,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E4.html",
+        "viewportHeight": 192,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 192,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E5.html",
+        "viewportHeight": 164,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 164,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E6.html",
+        "viewportHeight": 280,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 280,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E7.html",
+        "viewportHeight": 74,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 74,
+        "brokenImages": 0
+      },
+      {
+        "url": "http://127.0.0.1:4190/round-03/sample-E8.html",
+        "viewportHeight": 88,
+        "width": 296,
+        "scrollWidth": 296,
+        "height": 88,
+        "brokenImages": 0
+      }
+    ],
+    "opened": true,
+    "closed": true,
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  }
+]
