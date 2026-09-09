@@ -12,6 +12,8 @@
 
 [요소 구성](skills/reference-to-ui/references/ui-composition.md), [토큰과 패딩 소유권](skills/reference-to-ui/references/design-tokens.md), [레퍼런스 결합](skills/reference-to-ui/references/reference-synthesis.md)을 적용한다. 공통 역할은 일관되게 연결하며 묶기·분리·이동·삭제는 사용자의 과제와 요소 관계로 판단한다.
 
+형식 미지정 UI 디자인은 수정·렌더 가능한 화면을 기본으로 한다. [핵심 화면의 첫 비교](skills/reference-to-ui/references/reference-synthesis.md#핵심-화면의-첫-비교)에서 원본의 구조·위계·밀도를 확인하고 핵심 퇴보를 수정한 뒤 의존 화면으로 확장한다. 명시된 이미지 시안·명세·읽기 전용 범위는 유지한다.
+
 ## Components
 
 제품별 관찰과 선택에서 토큰·상태·사용처를 연결한다. [UX 문구](skills/ux-copy/SKILL.md), [모바일](skills/reference-to-ui/references/mobile.md), 토큰 계약의 모션·경계·포커스 기준을 관련 작업에 적용한다. 정지 이미지로 상호작용을 검증하지 않는다.
