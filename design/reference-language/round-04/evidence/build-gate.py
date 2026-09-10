@@ -107,12 +107,17 @@ PASS.update({'ORC-A06': 'P6목록은카페이름/짧은소개/단일동반조건
 PROJECT.update({'PROJECT-INFORMATION-TAGS': '이름→14px카페소개→단일동반조건group의12px공간/크기/준비물태그→예약시간을두폭/확대/고대비에서새검증했다. 성수홈지역중복/목록메뉴가격없고전체·저장지역유지,마당만동반의실내불가의미/위험대관필수조건은상세·예약요약에보존한다. 별도상위공간태그안은거절이력이다.', 'PROJECT-BOARD': '부모P6보드1100/390/320의liveiframe/5개disclosure키보드/이미지/넘침PASS를읽고최종Q4소개·단일조건과전체목록을직접판독했다. P5의변경없는Q1–Q3/Q5원본관계는범위명시재사용한다.', 'PROJECT-HISTORY': 'P3/P4실패와P5저장상태오판,P6분리태그중간안거절/첫시간가림을보존했다. 0612dd1앱/게이트11파일사본,순차추가프롬프트,각검증범위와수정재검증을분리기록했다.'})
 PASS.update({'ORC-G08':'P7은 첫 화면 안에 예약 버튼을 억지로 맞추려다 목록 위계를 압축한 결정을 철회한다. 소개hero없이 핵심 탐색을 유지하고 양폭에서 스크롤/키보드로 첫·마지막 예약 시간에 접근해 dialog 진입을 확인했다.', 'RUI-25':'P7 제목과 날짜 내부4px, 날짜와 첫 카드 외부20px로 의미 묶음을 구별한다. 양폭 실측/확대 직접 판독으로 위계를 확인했다. P6의 공간/조건/교대표면 구조는 유지한다.', 'RUI-16':'P6 날짜 아래4px의 위계 실패를 사용자 교정으로 보존하고20px로 수정·직접 판독했다. 변경없는 R1–R5 비교는 P6 근거를 재사용한다.'})
 PROJECT.update({'PROJECT-BOARD':'P7 현재 이미지와 liveiframe을 보드3폭에서 확인했다. 기존5개 프롬프트 disclosure와 필터/초점 동작을 유지한다.', 'PROJECT-HISTORY':'P6 게이트/소스7파일 보존, P7 입력과 사용자 여백 교정/원인/수정/실측을 기록했다.'})
+PASS.update({'RUI-25':'P8 빈 결과의 안내/복구 버튼을 하나의 중앙 묶음으로 표시하고 양폭과 확대에서 판독했다. P7 제목/날짜/목록 간격 및 일반 카드 정렬은 그대로 유지한다.'})
+PROJECT.update({'PROJECT-HISTORY':'P8 사용자 중앙정렬 요청과 P7 소스/게이트 보존, 양폭/확대/복구 동작을 기록했다.'})
 def evidence(kind,relative):
  return {'kind':kind,'path':relative,'sha256':hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()}
 base={'spec':['gate-review.md','prompt-v6.md','prompt-v4.md','prompt-v5.md','style-analysis.md'],'code':['app.html','app.css','app.js','evidence/review-p5/code-checks.txt','evidence/review-p6/code-checks.txt'],'visual':['evidence/review-p6/information-home-390.png','evidence/review-p6/information-home-320.png','evidence/review-p6/information-scrolled-390.png','evidence/review-p6/information-scrolled-320.png','evidence/review-p6/information-large-320.png','evidence/review-p6/information-saved-390.png','evidence/review-p6/saved-active-390.png','evidence/review-p6/saved-tab-320.png','evidence/review-p6/forced-active-320.png','evidence/review-p6/forced-empty-320.png','evidence/review-p6/theme-hover-390.png','evidence/review-p6/theme-focus-320.png','evidence/review-p5/home-390.png','evidence/review-p5/home-320.png','evidence/review-p5/scrolled-390.png','evidence/review-p5/scrolled-320.png','evidence/review-p5/booking-390.png','evidence/review-p5/booking-320.png'],'interaction':['evidence/review-p6/information-results.json','evidence/review-p6/results.json','evidence/review-p5/review-browser.json','evidence/review-p5/review-accessibility.json','evidence/review-p5/results.json','evidence/review-p5/times-results.json','evidence/review-p4/final-checks.json']}
 base['spec'].append('prompt-v7.md')
 base['visual'].extend(['evidence/p7/list-390.png','evidence/p7/list-320.png','evidence/p7/large-320.png'])
 base['interaction'].append('evidence/p7/checks.json')
+base['spec'].append('prompt-v8.md')
+base['visual'].extend(['evidence/p8/empty-390.png','evidence/p8/empty-320.png','evidence/p8/large-320.png'])
+base['interaction'].append('evidence/p8/checks.json')
 rules=[];results=[]
 items=catalog['rules']+[{'id':key,'status':'active','checks':['spec','code','visual','interaction']}for key in PROJECT]
 for item in items:
@@ -131,7 +136,7 @@ for item in items:
  result={'id':rid,'status':'not-applicable'if rid in NA else'exception'if rid in EX else'pass','reason':reason,'evidence':ev}
  if rid in EX:result['exception_id']=exc
  results.append(result)
-contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','prompt-v6.md','prompt-v7.md','index.html','board.css'],'rules':rules}
+contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','prompt-v6.md','prompt-v7.md','prompt-v8.md','index.html','board.css'],'rules':rules}
 p=ROOT/'gate-contract.json';p.write_text(json.dumps(contract,ensure_ascii=False,indent=2)+'\n')
 report={'schema_version':1,**gate.fingerprints(ROOT,CAT,p,contract),'results':results}
 (ROOT/'gate-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

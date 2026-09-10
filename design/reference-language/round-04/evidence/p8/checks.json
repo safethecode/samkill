@@ -1,0 +1,32 @@
+[
+  {
+    "width": 390,
+    "data": {
+      "center": 195,
+      "children": [
+        195,
+        195
+      ],
+      "height": 176,
+      "textAlign": "center"
+    },
+    "reset": true,
+    "savedReturn": true,
+    "largeOverflow": false
+  },
+  {
+    "width": 320,
+    "data": {
+      "center": 160,
+      "children": [
+        160,
+        160
+      ],
+      "height": 176,
+      "textAlign": "center"
+    },
+    "reset": true,
+    "savedReturn": true,
+    "largeOverflow": false
+  }
+]

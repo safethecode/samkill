@@ -71,5 +71,3 @@ h1,h2,h3{font-weight:var(--weight-strong)}
 .admission-conditions{margin-top:var(--small)}
 .condition-caption{font-size:var(--compact-meta-size);line-height:var(--compact-meta-line);color:var(--muted);margin-bottom:var(--tiny)}
 .admission-conditions>.admission-tags{margin:0}
-
-.cafes .empty{justify-items:center;align-content:center;text-align:center;min-height:calc(var(--touch) * 4)}
