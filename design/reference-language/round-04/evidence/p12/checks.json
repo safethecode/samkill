@@ -1,0 +1,28 @@
+[
+  {
+    "width": 390,
+    "counts": [
+      1,
+      2,
+      3
+    ],
+    "cancelTargetOnly": true,
+    "persistence": true,
+    "emptyRecovery": true,
+    "largeOverflow": false,
+    "keyboardCancel": true
+  },
+  {
+    "width": 320,
+    "counts": [
+      1,
+      2,
+      3
+    ],
+    "cancelTargetOnly": true,
+    "persistence": true,
+    "emptyRecovery": true,
+    "largeOverflow": false,
+    "keyboardCancel": true
+  }
+]

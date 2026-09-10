@@ -36,7 +36,7 @@ h1,h2,h3{font-weight:var(--weight-strong)}
 .cafes{gap:0}
 .cafes>li>article{margin-inline:calc(-1 * var(--inset));padding:var(--cafe-block-padding) var(--inset);background:var(--page)}
 .cafes>li:first-child>article{padding-top:0}
-.cafes>li:nth-child(even)>article{background:var(--list-surface)}
+.cafes>li:nth-child(even)>article{background:var(--surface)}
 :root{--tag-icon:16px;--tag-radius:4px;--tag-ink:#34558b;--select-arrow-space:40px}
 .admission-tags{display:flex;flex-wrap:wrap;gap:var(--tiny);margin-block:var(--small)}
 .admission-tag{display:inline-flex;align-items:center;gap:var(--tiny);max-width:100%;padding:var(--tiny) var(--small);border-radius:var(--tag-radius);background:var(--selected);color:var(--tag-ink);font-size:var(--meta-size);line-height:var(--meta-line)}
@@ -88,7 +88,7 @@ html[data-focus-source=pointer] :is(button,a,input,select,[tabindex]):focus{outl
 .reservation-group{margin-top:var(--card-gap)}
 .reservation-group>.reservations{gap:0;margin-top:var(--inset)}
 .reservations>.reservation{display:block;margin-inline:calc(-1 * var(--inset));padding:var(--inset);background:var(--page)}
-.reservations>.reservation:nth-child(even){background:var(--list-surface)}
+.reservations>.reservation:nth-child(even){background:var(--surface)}
 .reservation-heading{display:flex;justify-content:space-between;align-items:start;gap:var(--content)}
 .reservation-heading .chip{flex-shrink:0}
 .reservation-heading .muted{margin-top:var(--tiny)}
@@ -108,16 +108,3 @@ html[data-focus-source=pointer] :is(button,a,input,select,[tabindex]):focus{outl
 .reservations>.reservation{justify-items:stretch}
 html,body{overscroll-behavior-y:none}
 #app.saved-view{padding-bottom:calc(var(--nav-content-height) + env(safe-area-inset-bottom) + var(--inset))}
-
-:root{--list-surface:#f9fafb;--cancel-surface:#fff3f2;--cancel-hover:#ffe4e1}
-.reservation-controls{display:flex;align-items:center;justify-content:space-between;gap:var(--inset);margin-top:var(--inset)}
-.reservation-controls>.select-shell{width:calc(var(--touch) * 3)}
-.reservation-count{font-size:var(--meta-size);line-height:var(--meta-line);font-weight:var(--weight-medium)}
-.reservation-range{margin-top:var(--small)}
-.booking-records>.reservations{gap:0;margin-top:var(--inset)}
-.booking-records>.reservations>.reservation:first-child{padding-top:0}
-.reservation-actions>.cancel-reservation{width:100%;background:var(--cancel-surface);color:var(--error)}
-.reservation-actions>.cancel-reservation:hover{background:var(--cancel-hover)}
-.booking-records.has-empty{flex:1;display:flex;flex-direction:column}
-.booking-records.has-empty>.empty{flex:1;align-content:center;justify-items:center;text-align:center}
-@media(forced-colors:active){.cancel-reservation{border:var(--control-border) solid ButtonText}}

@@ -113,6 +113,8 @@ PASS.update({'RUI-05':'P10 저장은 다시 찾고 비교하는 역할로 제목
 PROJECT.update({'PROJECT-INFORMATION-TAGS':'P10 저장의 지역/소개/단일 조건 그룹과 삭제 후 빈 상태를 양폭 검증했다. 저장 시간 CTA는 상세 예약으로 연결하고 홈 카드 조건/시간은 유지한다.', 'PROJECT-HISTORY':'P8 이전 소스/게이트를 보존하고 P9 포커스와 P10 저장 교정·검증, 예약 위계 미완료를 기록했다.'})
 PASS.update({'RUI-25':'P11 예약/취소 그룹과 매장·일시/인원·조건·취소행동 위계를 구별하고 양폭 입력/요약/내역/취소까지 실행·직접 판독해 P10 예약위계FAIL을 수정했다.', 'RUI-05':'저장 비교 목적과 예약 기록 확인/취소 목적을 구별했다. 예약 입력/내역의 단계별 묶음을 실제 양폭에서 검증했다.', 'RUI-24':'예약 주제목과 예약/취소 그룹, 날짜/방문 라벨을 구별했다. 저장은 중복 제목/날짜 없이 수량/소개/조건을 유지한다.', 'RUI-13':'P11 짧은 저장0/1개 양폭 문서높이844 및 휠scrollY0, 긴목록/확대의 자연스크롤을 확인했다. 가림방지패딩은 유지하며 overflow숨김으로 접근을 막지 않는다.'})
 PROJECT.update({'PROJECT-HISTORY':'P10 예약위계FAIL을 이전 소스/게이트와 보존하고 P11 수정·흐름·확대·스크롤실측으로 재검증했다.'})
+PASS.update({'RUI-05':'P12 기간/건수/방문일범위와 대상이름 취소행동으로 실제 내역 조회 판단을 보완했다. 1/3/12개월 데이터 필터와 빈기간 복구를 양폭 실행했다.', 'RUI-24':'P12 주 제목과 예약/취소 그룹의 중복을 제거하고 항목 상태를 한번만 표시한다. 수량은취소포함조회결과,날짜범위는기간경계를전달한다.', 'RUI-25':'P12 단일제목→기간/건수/범위→항목의 정보/조건/대상명취소를직접판독했다. P11중복그룹과모호한취소판정을사용자FAIL로보존했다.', 'RUI-02':'P12 기존오류글자색과새cancel-surface/cancel-hover/list-surface역할토큰을선언/참조했다. list-surface #f9fafb는사용자gray50요청,컨트롤surface는독립유지한다.'})
+PROJECT.update({'PROJECT-HISTORY':'P11 사용자가지적한제목중복/취소대상/색/기간편의실패를소스·게이트·누적기록에보존하고P12양폭조회/취소/복구로재검증했다.'})
 def evidence(kind,relative):
  return {'kind':kind,'path':relative,'sha256':hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()}
 base={'spec':['gate-review.md','prompt-v6.md','prompt-v4.md','prompt-v5.md','style-analysis.md'],'code':['app.html','app.css','app.js','evidence/review-p5/code-checks.txt','evidence/review-p6/code-checks.txt'],'visual':['evidence/review-p6/information-home-390.png','evidence/review-p6/information-home-320.png','evidence/review-p6/information-scrolled-390.png','evidence/review-p6/information-scrolled-320.png','evidence/review-p6/information-large-320.png','evidence/review-p6/information-saved-390.png','evidence/review-p6/saved-active-390.png','evidence/review-p6/saved-tab-320.png','evidence/review-p6/forced-active-320.png','evidence/review-p6/forced-empty-320.png','evidence/review-p6/theme-hover-390.png','evidence/review-p6/theme-focus-320.png','evidence/review-p5/home-390.png','evidence/review-p5/home-320.png','evidence/review-p5/scrolled-390.png','evidence/review-p5/scrolled-320.png','evidence/review-p5/booking-390.png','evidence/review-p5/booking-320.png'],'interaction':['evidence/review-p6/information-results.json','evidence/review-p6/results.json','evidence/review-p5/review-browser.json','evidence/review-p5/review-accessibility.json','evidence/review-p5/results.json','evidence/review-p5/times-results.json','evidence/review-p4/final-checks.json']}
@@ -128,6 +130,9 @@ base['interaction'].extend(['evidence/p9/checks.json','evidence/p10/checks.json'
 base['spec'].append('prompt-v11.md')
 base['visual'].extend(['evidence/p11/list-390.png','evidence/p11/form-320.png','evidence/p11/summary-390.png','evidence/p11/empty-320.png'])
 base['interaction'].append('evidence/p11/checks.json')
+base['spec'].append('prompt-v12.md')
+base['visual'].extend(['evidence/p12/list-390.png','evidence/p12/large-320.png','evidence/p12/empty-320.png'])
+base['interaction'].append('evidence/p12/checks.json')
 rules=[];results=[]
 items=catalog['rules']+[{'id':key,'status':'active','checks':['spec','code','visual','interaction']}for key in PROJECT]
 for item in items:
@@ -139,14 +144,14 @@ for item in items:
  rules.append({'id':rid,'applicable':rid not in NA,'scope':scope,'reason':reason,'checks':item['checks'],'exceptions':[{'id':exc,'scope':scope,'reason':reason,'basis':'사용자 색역할/관계 교정, P4 계약과 P5 순차추가요구, 원본 R1–R5 직접관찰 및두폭/상태실행. 원본미공개복제의일괄예외가아님.'}]if rid in EX else []})
  ev=[]if rid in NA else[evidence(kind,file)for kind in item['checks']for file in base[kind]]
  if rid in ['RUI-16','RUI-17','PROJECT-REFERENCE-SYNTHESIS','PROJECT-BOARD']:
-  ev.extend(evidence('visual',f'evidence/p7-Q{q}-comparison.png')for q in range(1,6))
- if rid=='PROJECT-BOARD':ev.append(evidence('interaction','evidence/p7-board-checks.json'))
+  ev.extend(evidence('visual',f'evidence/p12-Q{q}-comparison.png')for q in range(1,6))
+ if rid=='PROJECT-BOARD':ev.append(evidence('interaction','evidence/p12-board-checks.json'))
  if rid in ['PROJECT-ACCESSIBLE-STATES','RUI-09','RUI-13','RUI-19','RUI-21','RUI-23']:
   ev.extend(evidence('visual',f'evidence/review-p5/review-{name}-{w}.png')for name in ['large-home','large-booking','forced-focus']for w in [390,320])
  result={'id':rid,'status':'not-applicable'if rid in NA else'exception'if rid in EX else'pass','reason':reason,'evidence':ev}
  if rid in EX:result['exception_id']=exc
  results.append(result)
-contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','prompt-v6.md','prompt-v7.md','prompt-v8.md','prompt-v9.md','prompt-v10.md','prompt-v11.md','index.html','board.css'],'rules':rules}
+contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','prompt-v6.md','prompt-v7.md','prompt-v8.md','prompt-v9.md','prompt-v10.md','prompt-v11.md','prompt-v12.md','index.html','board.css'],'rules':rules}
 p=ROOT/'gate-contract.json';p.write_text(json.dumps(contract,ensure_ascii=False,indent=2)+'\n')
 report={'schema_version':1,**gate.fingerprints(ROOT,CAT,p,contract),'results':results}
 (ROOT/'gate-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
