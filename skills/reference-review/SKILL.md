@@ -17,6 +17,8 @@ description: Use when reviewing implemented UI against references or a design co
 
 ## 검사
 
+사용자 교정이 누적된 UI나 같은 패턴의 다른 화면을 검토할 때 [사용자 교정의 재발 점검](references/feedback-regression.md)을 읽는다. 관련 피드백을 기존 규칙·실제 사용처·상태별 증거에 연결하고 이전 수정이 만든 새로운 위계/중복/스크롤 문제까지 확인한다.
+
 프롬프트 기반 재현 실험은 [reference-decompose](../reference-decompose/SKILL.md)의 입력 버전·E-ID·독립 표본·조립 결과를 대조한다. 차이가 번역 누락/오독인지 구현 불이행인지 나누며, 사용자 교정과 내부 발견을 구분해 수정 프롬프트와 재렌더 증거를 보존한다.
 
 여러 화면을 확장하기 전에도 [핵심 화면의 첫 비교](../reference-to-ui/references/reference-synthesis.md#핵심-화면의-첫-비교)를 수행한다. ‘레퍼런스를 반영했다’는 주장마다 원본 영역과 결과의 대응 영역을 직접 대조한다. 구조·위계·밀도가 사라졌다면 출처 목록, 일부 색/사진의 유사성, 작성한 계약만으로 통과시키지 않는다. 핵심 퇴보를 수정·재검증한 뒤 의존 화면을 확장하고 마지막에는 전체 조합을 다시 검사한다. 형식·범위의 명시 요청을 보존하며 별도 사용자 승인 절차를 만들지 않는다.
