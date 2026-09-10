@@ -1,0 +1,18 @@
+[
+  {
+    "width": 390,
+    "reservationFlow": true,
+    "groupedCancelled": true,
+    "emptyScroll": 0,
+    "savedShortScroll": 0,
+    "largeOverflow": false
+  },
+  {
+    "width": 320,
+    "reservationFlow": true,
+    "groupedCancelled": true,
+    "emptyScroll": 0,
+    "savedShortScroll": 0,
+    "largeOverflow": false
+  }
+]

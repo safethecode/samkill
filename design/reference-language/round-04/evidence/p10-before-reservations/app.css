@@ -81,30 +81,3 @@ html[data-focus-source=pointer] :is(button,a,input,select,[tabindex]):focus{outl
 .saved-view>#results{margin-top:var(--tiny);flex:1;display:flex;flex-direction:column}
 .saved-view .saved-empty>.cafes{flex:1;display:flex;flex-direction:column}
 .saved-view .saved-empty>.cafes>li{flex:1;display:grid;align-items:center}
-
-#app.bookings-view{min-height:100dvh;display:flex;flex-direction:column}
-.bookings-view>.booking-records{margin-top:var(--small)}
-.bookings-view>.booking-records.empty{flex:1;align-content:center;justify-items:center;text-align:center}
-.reservation-group{margin-top:var(--card-gap)}
-.reservation-group>.reservations{gap:0;margin-top:var(--inset)}
-.reservations>.reservation{display:block;margin-inline:calc(-1 * var(--inset));padding:var(--inset);background:var(--page)}
-.reservations>.reservation:nth-child(even){background:var(--surface)}
-.reservation-heading{display:flex;justify-content:space-between;align-items:start;gap:var(--content)}
-.reservation-heading .chip{flex-shrink:0}
-.reservation-heading .muted{margin-top:var(--tiny)}
-.reservation-facts{display:grid;grid-template-columns:auto minmax(0,1fr);gap:var(--small) var(--inset);margin:var(--inset) 0}
-.reservation-facts dd{margin:0;font-size:var(--meta-size);line-height:var(--meta-line);font-weight:var(--weight-medium)}
-.reservation-conditions{font-size:var(--meta-size);line-height:var(--meta-line)}
-.reservation-conditions>p+p{margin-top:var(--tiny)}
-.reservation-actions{display:flex;justify-content:flex-end;margin-top:var(--inset)}
-.reservation-actions .secondary{margin:0;background:var(--selected)}
-.booking-form{gap:var(--card-gap)}
-.booking-cafe{font-weight:var(--weight-medium)}
-.booking-group{display:grid;gap:var(--inset)}
-.booking-group .policy{background:var(--surface)}
-.booking-summary{gap:var(--inset);margin:0;padding:var(--inset);background:var(--surface);border-radius:var(--radius)}
-.summary-item>dd{margin:var(--tiny) 0 0}
-
-.reservations>.reservation{justify-items:stretch}
-html,body{overscroll-behavior-y:none}
-#app.saved-view{padding-bottom:calc(var(--nav-content-height) + env(safe-area-inset-bottom) + var(--inset))}
