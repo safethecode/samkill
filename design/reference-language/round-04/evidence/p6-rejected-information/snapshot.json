@@ -1,0 +1,93 @@
+{
+  "reason": "사용자교정: 실내/마당도동반조건인데별도상위태그로분리한중간안을거절. 당시정보계층PASS는기능/시각현재구조관찰일뿐올바른제품해석으로확대할수없어철회. P6하트/테마검증은별개로보존.",
+  "files": [
+    {
+      "path": "information-summary-320.png",
+      "sha256": "b04d0335b098842ae7f29b007e822e044dae1b50316845a8286a4c5fe1e6b68a"
+    },
+    {
+      "path": "information-home-390.png",
+      "sha256": "79e7ba22dce2e861d7483fe37d110a8967f637e1b09322cfeba880663d2cbfab"
+    },
+    {
+      "path": "information-all-areas-320.png",
+      "sha256": "a60ed3b2acc88d019881c0f021193588323670fc99207db66176e848155acbdd"
+    },
+    {
+      "path": "information-scrolled-390.png",
+      "sha256": "22d93c26d341045c27925edd7f17632522148acda783fac63b7dc31c104d1765"
+    },
+    {
+      "path": "information-results.json",
+      "sha256": "68dfa235ddd4026125750e75524d33e65577807342045e6a506b68d3adb104f2"
+    },
+    {
+      "path": "information-forced-390.png",
+      "sha256": "1bd07e40bd44923b1b132a341463f76cf7f5c89287a4e8faee847a88865766c2"
+    },
+    {
+      "path": "information-forced-320.png",
+      "sha256": "2910c291e9b665eea178ebb5d90931ae25a0ef434b909e2a6f8ec14562806535"
+    },
+    {
+      "path": "information-scrolled-320.png",
+      "sha256": "6aeea76ad38d87e9dee4a123bea0a31c8d494849a494c695e4be933bb9f971a6"
+    },
+    {
+      "path": "app.css",
+      "sha256": "1046cb50d9a1bac1bcce55e8cdf977bc226fb37e6240246350efe6397f81cb48"
+    },
+    {
+      "path": "information-all-areas-390.png",
+      "sha256": "d61c183d53cbabda3088f5644d27eab10f801b1da776579ec935654c2635673a"
+    },
+    {
+      "path": "information-summary-390.png",
+      "sha256": "db3f633e8cd58e348bf0a4c53e9c21467178faff3cef980357f2365441470ed8"
+    },
+    {
+      "path": "information-home-320.png",
+      "sha256": "e84784b08cf1f1e6def3e081c63a703d945b2b1014dc1a97a39670622d5bb028"
+    },
+    {
+      "path": "information-saved-390.png",
+      "sha256": "6baa1a8eadc8285a95d0ee5436df470c0eb2ffd7495eaa8969f7abe78f6a11f7"
+    },
+    {
+      "path": "prompt-v6.md",
+      "sha256": "19d189e2f04c772e88473f59838a5a800fea24d9e69becc3a76ccc43b655a61b"
+    },
+    {
+      "path": "information-filter-390.png",
+      "sha256": "451ed93031253ca665a42255594125ed9065944c85737c069060c0edc3a2dd89"
+    },
+    {
+      "path": "information-large-390.png",
+      "sha256": "ff1105e7b59d5a06b996960ed4f453cd7f248d60b82ab945a25ca592c0936bcd"
+    },
+    {
+      "path": "information-large-320.png",
+      "sha256": "4549d845a5979970f8ae609cbb087063110caad63c0548a9ebcd5329095ab169"
+    },
+    {
+      "path": "information-filter-320.png",
+      "sha256": "dbfa90560fda409f4718576fbb7124a782cbb3457d3acda3e203586d1dd7b79e"
+    },
+    {
+      "path": "app.html",
+      "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
+    },
+    {
+      "path": "verify-p6-information.cjs",
+      "sha256": "aa62fd6a983b1a2b0aba7dc367710be7f072f50c0b020c7b40f3f1871c008ae1"
+    },
+    {
+      "path": "information-saved-320.png",
+      "sha256": "7934a0964b416b8b6150debe75a8680ccf0103b99815a12cf9a828a907c02274"
+    },
+    {
+      "path": "app.js",
+      "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
+    }
+  ]
+}

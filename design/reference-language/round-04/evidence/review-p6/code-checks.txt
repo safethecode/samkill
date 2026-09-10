@@ -1,0 +1,5 @@
+P6 targeted source verification: app.js + verify-p6-review.cjs, existing todo anti-slop Oxlint deny-warnings exit0; TypeScript checkJs ESNext/DOM/DOM.Iterable NodeNext explicit node types exit0.
+Tokens 80; undefined/unused0; no new token values.
+Save state is scoped .save-toggle[aria-pressed=true], fill:currentColor plus accent/selected surface; selected hover preserves state. Theme alone backgroundtransparent/transitionnone; focus-visible and actions unchanged.
+Actual state/geometry/colors and touch/keyboard/reload/filter/forced-colors evidence: results.json and PNGs in this directory. P5 unrelated behavior and visuals explicitly reused, not rerun as P6 full-suite.
+Final information change: app.js + both P6 verification scripts lint/checkJs exit0; tokens80 undefined/unused0. Cafe description14; single .admission-conditions group contains caption and all space/size/preparation tags at scoped12px. No .admission-space remains. Context region only whole-area/saved headers, no list menu price. Date-caption bottom margin12→4 is final local first-time visibility correction.

@@ -1,0 +1,21 @@
+{
+  "scope": "P6 save/theme verified, before cafe information restructuring; no final gate serialization",
+  "files": [
+    {
+      "path": "app.css",
+      "sha256": "2e403da92ebe0316ade192280d18167263c78a4b87124b1bd66bc8ca2d243a11"
+    },
+    {
+      "path": "prompt-v6.md",
+      "sha256": "4049645ec63e0186c865d6c92bb314704332b95238593060dedff2924b25d535"
+    },
+    {
+      "path": "app.html",
+      "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
+    },
+    {
+      "path": "app.js",
+      "sha256": "f64429dd1de79f6f7aa40db0d87aa3d6a9e58727784b27f20fac6910ccaad214"
+    }
+  ]
+}

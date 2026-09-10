@@ -1,0 +1,200 @@
+[
+  {
+    "width": 390,
+    "empty": {
+      "pressed": "false",
+      "color": "rgb(32, 33, 36)",
+      "background": "rgba(0, 0, 0, 0)",
+      "fill": "none",
+      "stroke": "rgb(32, 33, 36)",
+      "outline": "rgb(32, 33, 36) none 3px",
+      "transition": "0.15s, 0.15s",
+      "box": {
+        "x": 326,
+        "y": 560,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "active": {
+      "pressed": "true",
+      "color": "rgb(36, 94, 234)",
+      "background": "rgb(234, 240, 255)",
+      "fill": "rgb(36, 94, 234)",
+      "stroke": "rgb(36, 94, 234)",
+      "outline": "rgb(36, 94, 234) none 3px",
+      "transition": "0.15s, 0.15s",
+      "box": {
+        "x": 326,
+        "y": 560,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "hovered": {
+      "pressed": "true",
+      "color": "rgb(36, 94, 234)",
+      "background": "rgb(234, 240, 255)",
+      "fill": "rgb(36, 94, 234)",
+      "stroke": "rgb(36, 94, 234)",
+      "outline": "rgb(36, 94, 234) none 3px",
+      "transition": "0.15s, 0.15s",
+      "box": {
+        "x": 326,
+        "y": 560,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "forced": {
+      "pressed": "true",
+      "color": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "rgb(0, 0, 0)",
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "transition": "0.15s, 0.15s",
+      "box": {
+        "x": 326,
+        "y": 560,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "theme": {
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "transition": "0s",
+        "outline": "rgb(32, 33, 36) none 3px",
+        "box": {
+          "x": 20,
+          "y": 288,
+          "width": 169,
+          "height": 172
+        }
+      },
+      "over": {
+        "background": "rgba(0, 0, 0, 0)",
+        "transition": "0s",
+        "outline": "rgb(32, 33, 36) none 3px",
+        "box": {
+          "x": 20,
+          "y": 288,
+          "width": 169,
+          "height": 172
+        }
+      },
+      "focused": {
+        "background": "rgba(0, 0, 0, 0)",
+        "transition": "0s",
+        "outline": "rgb(36, 94, 234) solid 2px",
+        "box": {
+          "x": 20,
+          "y": 288,
+          "width": 169,
+          "height": 172
+        }
+      }
+    },
+    "actions": "touch save, active hover/dehover, reload persistence, saved-tab filled icon, Space remove, Enter add, forced Space remove, theme hover/dehover, keyboard focus/Enter indoor filter, touch garden filter"
+  },
+  {
+    "width": 320,
+    "empty": {
+      "pressed": "false",
+      "color": "rgb(32, 33, 36)",
+      "background": "rgba(0, 0, 0, 0)",
+      "fill": "none",
+      "stroke": "rgb(32, 33, 36)",
+      "outline": "rgb(32, 33, 36) none 3px",
+      "transition": "0.15s, 0.15s",
+      "box": {
+        "x": 256,
+        "y": 560,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "active": {
+      "pressed": "true",
+      "color": "rgb(36, 94, 234)",
+      "background": "rgb(234, 240, 255)",
+      "fill": "rgb(36, 94, 234)",
+      "stroke": "rgb(36, 94, 234)",
+      "outline": "rgb(36, 94, 234) none 3px",
+      "transition": "0.15s, 0.15s",
+      "box": {
+        "x": 256,
+        "y": 560,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "hovered": {
+      "pressed": "true",
+      "color": "rgb(36, 94, 234)",
+      "background": "rgb(234, 240, 255)",
+      "fill": "rgb(36, 94, 234)",
+      "stroke": "rgb(36, 94, 234)",
+      "outline": "rgb(36, 94, 234) none 3px",
+      "transition": "0.15s, 0.15s",
+      "box": {
+        "x": 256,
+        "y": 560,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "forced": {
+      "pressed": "true",
+      "color": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "rgb(0, 0, 0)",
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px",
+      "transition": "0.15s, 0.15s",
+      "box": {
+        "x": 256,
+        "y": 560,
+        "width": 44,
+        "height": 44
+      }
+    },
+    "theme": {
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "transition": "0s",
+        "outline": "rgb(32, 33, 36) none 3px",
+        "box": {
+          "x": 20,
+          "y": 288,
+          "width": 134,
+          "height": 172
+        }
+      },
+      "over": {
+        "background": "rgba(0, 0, 0, 0)",
+        "transition": "0s",
+        "outline": "rgb(32, 33, 36) none 3px",
+        "box": {
+          "x": 20,
+          "y": 288,
+          "width": 134,
+          "height": 172
+        }
+      },
+      "focused": {
+        "background": "rgba(0, 0, 0, 0)",
+        "transition": "0s",
+        "outline": "rgb(36, 94, 234) solid 2px",
+        "box": {
+          "x": 20,
+          "y": 288,
+          "width": 134,
+          "height": 172
+        }
+      }
+    },
+    "actions": "touch save, active hover/dehover, reload persistence, saved-tab filled icon, Space remove, Enter add, forced Space remove, theme hover/dehover, keyboard focus/Enter indoor filter, touch garden filter"
+  }
+]

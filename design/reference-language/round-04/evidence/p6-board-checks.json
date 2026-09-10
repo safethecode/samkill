@@ -1,0 +1,233 @@
+[
+  {
+    "detail": {
+      "width": 1100,
+      "scrollWidth": 1100,
+      "brokenImages": 0,
+      "hrefs": [
+        "app.html",
+        "#Q1",
+        "prompt-v1.md",
+        "review.md",
+        "prompt-v4.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=lob7syc5g4w4hgmyl62wie43",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=lob7syc5g4w4hgmyl62wie43",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EB%8D%B0%EC%9D%BC%EB%A6%AC%ED%98%B8%ED%85%94?patterns=%EB%A9%94%EC%9D%B8&imgId=aq1d6dmgk48vmnq43dgdn3t7",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=fp1izpdlysdoc0g8m00d5fvo",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EC%98%88%EC%95%BD%C2%B7%EA%B2%B0%EC%A0%9C&imgId=sp46ej1d5ala5d30aewosqxo",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "prompt-v6.md"
+      ],
+      "prompts": 5
+    },
+    "state": {
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": 0
+    },
+    "filtered": 1,
+    "opened": true,
+    "closed": true,
+    "disclosures": [
+      {
+        "index": 0,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 1,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 2,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 3,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 4,
+        "opened": true,
+        "closed": true
+      }
+    ],
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  },
+  {
+    "detail": {
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": 0,
+      "hrefs": [
+        "app.html",
+        "#Q1",
+        "prompt-v1.md",
+        "review.md",
+        "prompt-v4.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=lob7syc5g4w4hgmyl62wie43",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=lob7syc5g4w4hgmyl62wie43",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EB%8D%B0%EC%9D%BC%EB%A6%AC%ED%98%B8%ED%85%94?patterns=%EB%A9%94%EC%9D%B8&imgId=aq1d6dmgk48vmnq43dgdn3t7",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=fp1izpdlysdoc0g8m00d5fvo",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EC%98%88%EC%95%BD%C2%B7%EA%B2%B0%EC%A0%9C&imgId=sp46ej1d5ala5d30aewosqxo",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "prompt-v6.md"
+      ],
+      "prompts": 5
+    },
+    "state": {
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": 0
+    },
+    "filtered": 1,
+    "opened": true,
+    "closed": true,
+    "disclosures": [
+      {
+        "index": 0,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 1,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 2,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 3,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 4,
+        "opened": true,
+        "closed": true
+      }
+    ],
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  },
+  {
+    "detail": {
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": 0,
+      "hrefs": [
+        "app.html",
+        "#Q1",
+        "prompt-v1.md",
+        "review.md",
+        "prompt-v4.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=lob7syc5g4w4hgmyl62wie43",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=lob7syc5g4w4hgmyl62wie43",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EB%8D%B0%EC%9D%BC%EB%A6%AC%ED%98%B8%ED%85%94?patterns=%EB%A9%94%EC%9D%B8&imgId=aq1d6dmgk48vmnq43dgdn3t7",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=fp1izpdlysdoc0g8m00d5fvo",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EC%98%88%EC%95%BD%C2%B7%EA%B2%B0%EC%A0%9C&imgId=sp46ej1d5ala5d30aewosqxo",
+        "prompt-v4.md",
+        "style-analysis.md",
+        "prompt-v5.md",
+        "prompt-v6.md",
+        "prompt-v6.md"
+      ],
+      "prompts": 5
+    },
+    "state": {
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": 0
+    },
+    "filtered": 1,
+    "opened": true,
+    "closed": true,
+    "disclosures": [
+      {
+        "index": 0,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 1,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 2,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 3,
+        "opened": true,
+        "closed": true
+      },
+      {
+        "index": 4,
+        "opened": true,
+        "closed": true
+      }
+    ],
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  }
+]

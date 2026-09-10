@@ -1,0 +1,1002 @@
+[
+  {
+    "width": 390,
+    "firstTime": {
+      "bottom": 732,
+      "buttonBottom": 730,
+      "navTop": 780
+    },
+    "states": [
+      {
+        "name": "home",
+        "data": [
+          {
+            "text": "온실 커피\n  \n식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 120,
+              "bottom": 672
+            },
+            "info": {
+              "height": 120,
+              "bottom": 672
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "느린 오후\n  \n산책 후 마당에서 쉬어 가기 좋은 카페동반 조건\n  \n  \n  \n  \n마당만 동반\n  \n  \n  \n  \n크기 제한 없음14:0015:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 120,
+              "bottom": 884
+            },
+            "info": {
+              "height": 120,
+              "bottom": 884
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n마당만 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n크기 제한 없음",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "단독 마당\n  \n마당을 단독으로 이용하는 예약형 공간동반 조건\n  \n  \n  \n  \n맹견 전용 대관단독 이용입장조건 사전 확인12:0014:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 148,
+              "bottom": 1124
+            },
+            "info": {
+              "height": 148,
+              "bottom": 1124
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n맹견 전용 대관",
+                "size": "12px"
+              },
+              {
+                "text": "단독 이용",
+                "size": "12px"
+              },
+              {
+                "text": "입장조건 사전 확인",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "all-areas",
+        "data": [
+          {
+            "text": "온실 커피\n  \n성수식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 140,
+              "bottom": 240
+            },
+            "info": {
+              "height": 140,
+              "bottom": 240
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "느린 오후\n  \n성수산책 후 마당에서 쉬어 가기 좋은 카페동반 조건\n  \n  \n  \n  \n마당만 동반\n  \n  \n  \n  \n크기 제한 없음14:0015:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 140,
+              "bottom": 472
+            },
+            "info": {
+              "height": 140,
+              "bottom": 472
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n마당만 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n크기 제한 없음",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "커피와 산책\n  \n연남한 잔씩 내리는 필터커피를 즐기는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수11:0013:0014:0015:0016:0017:00",
+            "photo": {
+              "height": 140,
+              "bottom": 704
+            },
+            "info": {
+              "height": 140,
+              "bottom": 704
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "단독 마당\n  \n성수마당을 단독으로 이용하는 예약형 공간동반 조건\n  \n  \n  \n  \n맹견 전용 대관단독 이용입장조건 사전 확인12:0014:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 168,
+              "bottom": 964
+            },
+            "info": {
+              "height": 168,
+              "bottom": 964
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n맹견 전용 대관",
+                "size": "12px"
+              },
+              {
+                "text": "단독 이용",
+                "size": "12px"
+              },
+              {
+                "text": "입장조건 사전 확인",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "saved",
+        "data": [
+          {
+            "text": "온실 커피\n  \n성수식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 140,
+              "bottom": 292
+            },
+            "info": {
+              "height": 140,
+              "bottom": 292
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "커피와 산책\n  \n연남한 잔씩 내리는 필터커피를 즐기는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수11:0013:0014:0015:0016:0017:00",
+            "photo": {
+              "height": 140,
+              "bottom": 524
+            },
+            "info": {
+              "height": 140,
+              "bottom": 524
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "filter",
+        "data": [
+          {
+            "text": "온실 커피\n  \n성수식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 140,
+              "bottom": 500
+            },
+            "info": {
+              "height": 140,
+              "bottom": 500
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "커피와 산책\n  \n연남한 잔씩 내리는 필터커피를 즐기는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수11:0013:0014:0015:0016:0017:00",
+            "photo": {
+              "height": 140,
+              "bottom": 732
+            },
+            "info": {
+              "height": 140,
+              "bottom": 732
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "large",
+        "data": [
+          {
+            "text": "온실 커피\n  \n식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 356,
+              "bottom": 1180
+            },
+            "info": {
+              "height": 356,
+              "bottom": 1180
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "24px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "24px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "느린 오후\n  \n산책 후 마당에서 쉬어 가기 좋은 카페동반 조건\n  \n  \n  \n  \n마당만 동반\n  \n  \n  \n  \n크기 제한 없음14:0015:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 272,
+              "bottom": 1564
+            },
+            "info": {
+              "height": 272,
+              "bottom": 1564
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n마당만 동반",
+                "size": "24px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n크기 제한 없음",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "단독 마당\n  \n마당을 단독으로 이용하는 예약형 공간동반 조건\n  \n  \n  \n  \n맹견 전용 대관단독 이용입장조건 사전 확인12:0014:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 316,
+              "bottom": 1992
+            },
+            "info": {
+              "height": 316,
+              "bottom": 1992
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n맹견 전용 대관",
+                "size": "24px"
+              },
+              {
+                "text": "단독 이용",
+                "size": "24px"
+              },
+              {
+                "text": "입장조건 사전 확인",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "forced",
+        "data": [
+          {
+            "text": "온실 커피\n  \n식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 356,
+              "bottom": -171
+            },
+            "info": {
+              "height": 356,
+              "bottom": -171
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "24px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "24px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "느린 오후\n  \n산책 후 마당에서 쉬어 가기 좋은 카페동반 조건\n  \n  \n  \n  \n마당만 동반\n  \n  \n  \n  \n크기 제한 없음14:0015:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 272,
+              "bottom": 215
+            },
+            "info": {
+              "height": 272,
+              "bottom": 215
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n마당만 동반",
+                "size": "24px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n크기 제한 없음",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "단독 마당\n  \n마당을 단독으로 이용하는 예약형 공간동반 조건\n  \n  \n  \n  \n맹견 전용 대관단독 이용입장조건 사전 확인12:0014:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 316,
+              "bottom": 645
+            },
+            "info": {
+              "height": 316,
+              "bottom": 645
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n맹견 전용 대관",
+                "size": "24px"
+              },
+              {
+                "text": "단독 이용",
+                "size": "24px"
+              },
+              {
+                "text": "입장조건 사전 확인",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "firstTime": {
+      "bottom": 780,
+      "buttonBottom": 778,
+      "navTop": 780
+    },
+    "states": [
+      {
+        "name": "home",
+        "data": [
+          {
+            "text": "온실 커피\n  \n식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 168,
+              "bottom": 720
+            },
+            "info": {
+              "height": 168,
+              "bottom": 720
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "느린 오후\n  \n산책 후 마당에서 쉬어 가기 좋은 카페동반 조건\n  \n  \n  \n  \n마당만 동반\n  \n  \n  \n  \n크기 제한 없음14:0015:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 168,
+              "bottom": 980
+            },
+            "info": {
+              "height": 168,
+              "bottom": 980
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n마당만 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n크기 제한 없음",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "단독 마당\n  \n마당을 단독으로 이용하는 예약형 공간동반 조건\n  \n  \n  \n  \n맹견 전용 대관단독 이용입장조건 사전 확인12:0014:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 168,
+              "bottom": 1240
+            },
+            "info": {
+              "height": 168,
+              "bottom": 1240
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n맹견 전용 대관",
+                "size": "12px"
+              },
+              {
+                "text": "단독 이용",
+                "size": "12px"
+              },
+              {
+                "text": "입장조건 사전 확인",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "all-areas",
+        "data": [
+          {
+            "text": "온실 커피\n  \n성수식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 188,
+              "bottom": 172
+            },
+            "info": {
+              "height": 188,
+              "bottom": 172
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "느린 오후\n  \n성수산책 후 마당에서 쉬어 가기 좋은 카페동반 조건\n  \n  \n  \n  \n마당만 동반\n  \n  \n  \n  \n크기 제한 없음14:0015:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 188,
+              "bottom": 452
+            },
+            "info": {
+              "height": 188,
+              "bottom": 452
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n마당만 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n크기 제한 없음",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "커피와 산책\n  \n연남한 잔씩 내리는 필터커피를 즐기는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수11:0013:0014:0015:0016:0017:00",
+            "photo": {
+              "height": 188,
+              "bottom": 732
+            },
+            "info": {
+              "height": 188,
+              "bottom": 732
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "단독 마당\n  \n성수마당을 단독으로 이용하는 예약형 공간동반 조건\n  \n  \n  \n  \n맹견 전용 대관단독 이용입장조건 사전 확인12:0014:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 188,
+              "bottom": 1012
+            },
+            "info": {
+              "height": 188,
+              "bottom": 1012
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n맹견 전용 대관",
+                "size": "12px"
+              },
+              {
+                "text": "단독 이용",
+                "size": "12px"
+              },
+              {
+                "text": "입장조건 사전 확인",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "saved",
+        "data": [
+          {
+            "text": "온실 커피\n  \n성수식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 188,
+              "bottom": 340
+            },
+            "info": {
+              "height": 188,
+              "bottom": 340
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "커피와 산책\n  \n연남한 잔씩 내리는 필터커피를 즐기는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수11:0013:0014:0015:0016:0017:00",
+            "photo": {
+              "height": 188,
+              "bottom": 620
+            },
+            "info": {
+              "height": 188,
+              "bottom": 620
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "filter",
+        "data": [
+          {
+            "text": "온실 커피\n  \n성수식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 188,
+              "bottom": 548
+            },
+            "info": {
+              "height": 188,
+              "bottom": 548
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "커피와 산책\n  \n연남한 잔씩 내리는 필터커피를 즐기는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수11:0013:0014:0015:0016:0017:00",
+            "photo": {
+              "height": 188,
+              "bottom": 828
+            },
+            "info": {
+              "height": 188,
+              "bottom": 828
+            },
+            "descriptionSize": "14px",
+            "captionSize": "12px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "12px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "12px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "12px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "large",
+        "data": [
+          {
+            "text": "온실 커피\n  \n식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 408,
+              "bottom": 1288
+            },
+            "info": {
+              "height": 408,
+              "bottom": 1288
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "24px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "24px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "느린 오후\n  \n산책 후 마당에서 쉬어 가기 좋은 카페동반 조건\n  \n  \n  \n  \n마당만 동반\n  \n  \n  \n  \n크기 제한 없음14:0015:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 364,
+              "bottom": 1764
+            },
+            "info": {
+              "height": 364,
+              "bottom": 1764
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n마당만 동반",
+                "size": "24px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n크기 제한 없음",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "단독 마당\n  \n마당을 단독으로 이용하는 예약형 공간동반 조건\n  \n  \n  \n  \n맹견 전용 대관단독 이용입장조건 사전 확인12:0014:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 480,
+              "bottom": 2356
+            },
+            "info": {
+              "height": 480,
+              "bottom": 2356
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n맹견 전용 대관",
+                "size": "24px"
+              },
+              {
+                "text": "단독 이용",
+                "size": "24px"
+              },
+              {
+                "text": "입장조건 사전 확인",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      },
+      {
+        "name": "forced",
+        "data": [
+          {
+            "text": "온실 커피\n  \n식물이 가득한 공간에서 쉬어 가는 카페동반 조건\n  \n  \n실내 동반\n  \n  \n  \n  \n10kg 이하이동가방 필수13:0014:0015:0016:0017:0018:00",
+            "photo": {
+              "height": 408,
+              "bottom": -427
+            },
+            "info": {
+              "height": 408,
+              "bottom": -427
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n실내 동반",
+                "size": "24px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n10kg 이하",
+                "size": "24px"
+              },
+              {
+                "text": "이동가방 필수",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "느린 오후\n  \n산책 후 마당에서 쉬어 가기 좋은 카페동반 조건\n  \n  \n  \n  \n마당만 동반\n  \n  \n  \n  \n크기 제한 없음14:0015:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 364,
+              "bottom": 51
+            },
+            "info": {
+              "height": 364,
+              "bottom": 51
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n마당만 동반",
+                "size": "24px"
+              },
+              {
+                "text": "\n  \n  \n  \n  \n크기 제한 없음",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          },
+          {
+            "text": "단독 마당\n  \n마당을 단독으로 이용하는 예약형 공간동반 조건\n  \n  \n  \n  \n맹견 전용 대관단독 이용입장조건 사전 확인12:0014:0016:0017:0018:0019:00",
+            "photo": {
+              "height": 480,
+              "bottom": 645
+            },
+            "info": {
+              "height": 480,
+              "bottom": 645
+            },
+            "descriptionSize": "28px",
+            "captionSize": "24px",
+            "conditions": [
+              {
+                "text": "\n  \n  \n  \n  \n맹견 전용 대관",
+                "size": "24px"
+              },
+              {
+                "text": "단독 이용",
+                "size": "24px"
+              },
+              {
+                "text": "입장조건 사전 확인",
+                "size": "24px"
+              }
+            ],
+            "priceShown": false
+          }
+        ]
+      }
+    ]
+  }
+]

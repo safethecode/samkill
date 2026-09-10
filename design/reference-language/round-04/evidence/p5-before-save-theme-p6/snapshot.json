@@ -1,0 +1,50 @@
+{
+  "baseline": "0612dd1",
+  "scope": "P5 committed app/docs/gates before P6 saved-state and theme-hover correction; immutable source bytes from git show",
+  "files": [
+    {
+      "path": "app.html",
+      "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
+    },
+    {
+      "path": "app.css",
+      "sha256": "0cd06cecf7452f050bd67f1a1365004911c020b59a66f4afb1c9ed97c5378961"
+    },
+    {
+      "path": "app.js",
+      "sha256": "7322cf38c13733d3267fdb9a20d89f84fdc8e19f601abc68095356236928f031"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "4bd29dece3a6f6931133f04e51a1cfb84dc30c3f15134b3df11a57f019333c9f"
+    },
+    {
+      "path": "prompt-v5.md",
+      "sha256": "4c84ba5a75aa4cc004ac84c89619985f97c25d3216462841889061d542d68e37"
+    },
+    {
+      "path": "gate-contract.json",
+      "sha256": "9ff75c41ae016cd7f56b018bacce041b8474290129c300ab7f8c481629fc3024"
+    },
+    {
+      "path": "gate-report.json",
+      "sha256": "56c06f63cc91d52252b5b74f15545b78f56185e6d1f2811319c277b43f52f822"
+    },
+    {
+      "path": "gate-result.json",
+      "sha256": "b2aaa586d49aad42b7617ede7c39b9d01deb53b3f79b96aa4f00f10b9419f590"
+    },
+    {
+      "path": "gate-review.md",
+      "sha256": "604197aaa758d990dd5165a21645a98c75c5a506b09a5564e86de6dcd3b7d994"
+    },
+    {
+      "path": "review.md",
+      "sha256": "2dc14ef1d73aecd9108c4ca577ec92e54e612b7a892f0d1130f6d480760e2168"
+    },
+    {
+      "path": "failure-events.jsonl",
+      "sha256": "d98bbfa84d92a7e5e9190aad3818e5178aabcf95db6f200a0cf3c7aaa776331f"
+    }
+  ]
+}

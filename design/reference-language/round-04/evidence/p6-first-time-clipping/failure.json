@@ -1,0 +1,13 @@
+{
+  "event": "manual-visual-review",
+  "status": "FAIL",
+  "source_version": "P6 description/single conditions before first-time inset correction",
+  "failed_rules": [
+    "RUI-13",
+    "PROJECT-ACCESSIBLE-STATES"
+  ],
+  "reason": "320 초기 viewport의 첫 시간 영역 bottom788/버튼bottom786이 navtop780과 겹쳐 하단6px가 가려진다. 390은영역bottom740. 새소개/조건의의미를보존한채국소간격보완을부모에게요청했다.",
+  "evidence": "evidence/p6-first-time-clipping/home-320.png",
+  "timestamp": "2026-09-10T06:27:12.549935+00:00",
+  "event_id": "0c491d10d3aeb65fd3e3e6d53ce4c92882d609997f065e8a01012599828ba075"
+}
