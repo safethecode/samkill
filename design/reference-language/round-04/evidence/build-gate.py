@@ -109,6 +109,8 @@ PASS.update({'ORC-G08':'P7은 첫 화면 안에 예약 버튼을 억지로 맞�
 PROJECT.update({'PROJECT-BOARD':'P7 현재 이미지와 liveiframe을 보드3폭에서 확인했다. 기존5개 프롬프트 disclosure와 필터/초점 동작을 유지한다.', 'PROJECT-HISTORY':'P6 게이트/소스7파일 보존, P7 입력과 사용자 여백 교정/원인/수정/실측을 기록했다.'})
 PASS.update({'RUI-25':'P8 빈 결과의 안내/복구 버튼을 하나의 중앙 묶음으로 표시하고 양폭과 확대에서 판독했다. P7 제목/날짜/목록 간격 및 일반 카드 정렬은 그대로 유지한다.'})
 PROJECT.update({'PROJECT-HISTORY':'P8 사용자 중앙정렬 요청과 P7 소스/게이트 보존, 양폭/확대/복구 동작을 기록했다.'})
+PASS.update({'RUI-05':'P10 저장은 다시 찾고 비교하는 역할로 제목/수량/지역/소개/조건을 보여준다. 저장의 날짜/예약시간은 생략하고 상세에서 예약한다. 사용자 예약 페이지 위계 지적은 별도 미완료로 기록한다.', 'RUI-24':'저장 중복 제목/날짜를 제거하고 수량만 보존한다. 혼합지역 식별과 소개/조건은 유지한다.', 'RUI-25':'P10 저장 제목/수량/목록 간격과 교대표면, 빈 상태의 남은 화면 중앙 배치를 양폭 직접 판독했다. 예약 페이지의 위계는 새 사용자 지적으로 미완료이며 저장 완료와 구별한다.'})
+PROJECT.update({'PROJECT-INFORMATION-TAGS':'P10 저장의 지역/소개/단일 조건 그룹과 삭제 후 빈 상태를 양폭 검증했다. 저장 시간 CTA는 상세 예약으로 연결하고 홈 카드 조건/시간은 유지한다.', 'PROJECT-HISTORY':'P8 이전 소스/게이트를 보존하고 P9 포커스와 P10 저장 교정·검증, 예약 위계 미완료를 기록했다.'})
 def evidence(kind,relative):
  return {'kind':kind,'path':relative,'sha256':hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()}
 base={'spec':['gate-review.md','prompt-v6.md','prompt-v4.md','prompt-v5.md','style-analysis.md'],'code':['app.html','app.css','app.js','evidence/review-p5/code-checks.txt','evidence/review-p6/code-checks.txt'],'visual':['evidence/review-p6/information-home-390.png','evidence/review-p6/information-home-320.png','evidence/review-p6/information-scrolled-390.png','evidence/review-p6/information-scrolled-320.png','evidence/review-p6/information-large-320.png','evidence/review-p6/information-saved-390.png','evidence/review-p6/saved-active-390.png','evidence/review-p6/saved-tab-320.png','evidence/review-p6/forced-active-320.png','evidence/review-p6/forced-empty-320.png','evidence/review-p6/theme-hover-390.png','evidence/review-p6/theme-focus-320.png','evidence/review-p5/home-390.png','evidence/review-p5/home-320.png','evidence/review-p5/scrolled-390.png','evidence/review-p5/scrolled-320.png','evidence/review-p5/booking-390.png','evidence/review-p5/booking-320.png'],'interaction':['evidence/review-p6/information-results.json','evidence/review-p6/results.json','evidence/review-p5/review-browser.json','evidence/review-p5/review-accessibility.json','evidence/review-p5/results.json','evidence/review-p5/times-results.json','evidence/review-p4/final-checks.json']}
@@ -118,6 +120,9 @@ base['interaction'].append('evidence/p7/checks.json')
 base['spec'].append('prompt-v8.md')
 base['visual'].extend(['evidence/p8/empty-390.png','evidence/p8/empty-320.png','evidence/p8/large-320.png'])
 base['interaction'].append('evidence/p8/checks.json')
+base['spec'].extend(['prompt-v9.md','prompt-v10.md'])
+base['visual'].extend(['evidence/p9/keyboard-320.png','evidence/p9/pointer-390.png','evidence/p10/saved-390.png','evidence/p10/empty-320.png'])
+base['interaction'].extend(['evidence/p9/checks.json','evidence/p10/checks.json'])
 rules=[];results=[]
 items=catalog['rules']+[{'id':key,'status':'active','checks':['spec','code','visual','interaction']}for key in PROJECT]
 for item in items:
@@ -135,8 +140,11 @@ for item in items:
   ev.extend(evidence('visual',f'evidence/review-p5/review-{name}-{w}.png')for name in ['large-home','large-booking','forced-focus']for w in [390,320])
  result={'id':rid,'status':'not-applicable'if rid in NA else'exception'if rid in EX else'pass','reason':reason,'evidence':ev}
  if rid in EX:result['exception_id']=exc
+ if rid=='RUI-25':
+  result['status']='fail'
+  result['reason']+=' 저장 화면 교정은 검증했으나 예약 페이지 위계/구분 부족이라는 사용자 피드백은 아직 수정하지 않았다.'
  results.append(result)
-contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','prompt-v6.md','prompt-v7.md','prompt-v8.md','index.html','board.css'],'rules':rules}
+contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','prompt-v6.md','prompt-v7.md','prompt-v8.md','prompt-v9.md','prompt-v10.md','index.html','board.css'],'rules':rules}
 p=ROOT/'gate-contract.json';p.write_text(json.dumps(contract,ensure_ascii=False,indent=2)+'\n')
 report={'schema_version':1,**gate.fingerprints(ROOT,CAT,p,contract),'results':results}
 (ROOT/'gate-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

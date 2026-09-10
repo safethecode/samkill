@@ -73,11 +73,3 @@ h1,h2,h3{font-weight:var(--weight-strong)}
 .admission-conditions>.admission-tags{margin:0}
 
 .cafes .empty{justify-items:center;align-content:center;text-align:center;min-height:calc(var(--touch) * 4)}
-
-html[data-focus-source=pointer] :is(button,a,input,select,[tabindex]):focus{outline:none}
-@media(forced-colors:active){html[data-focus-source=pointer] .select-shell>select:focus{outline:var(--control-border) solid ButtonText}html[data-focus-source=pointer] .choice[aria-pressed=true]:focus,html[data-focus-source=pointer] .slots button[aria-pressed=true]:focus{outline:var(--focus) solid HighlightText}}
-
-#app.saved-view{min-height:100dvh;display:flex;flex-direction:column}
-.saved-view>#results{margin-top:var(--tiny);flex:1;display:flex;flex-direction:column}
-.saved-view .saved-empty>.cafes{flex:1;display:flex;flex-direction:column}
-.saved-view .saved-empty>.cafes>li{flex:1;display:grid;align-items:center}

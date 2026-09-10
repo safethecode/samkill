@@ -1,13 +1,11 @@
 {
-  "status": "FAIL",
+  "status": "PASS",
   "errors": [],
-  "failures": [
-    "RUI-25"
-  ],
+  "failures": [],
   "catalog_version": 5,
   "catalog_sha256": "9af51eedfbd6625fdcae46aa6a55e6206c447fe43b23fb1d0ff61f8ac800114f",
-  "contract_sha256": "15668c43f6ad5b30e4082fe5b64f36707430aa72262c80682fa9ed046ffe8d24",
-  "target_sha256": "29dcb6192349d2c1a9695e31569f71650a9a1056c6794f549eec656d5f92fd63",
+  "contract_sha256": "fc8a1bed320ff238c3c95f9bb5b40e8257e13d6d70e9e616c799ea92e441a610",
+  "target_sha256": "bf1a93c9124fb760c202669dee410b027b9a919494af45f472d64ae2142a6026",
   "results": [
     {
       "id": "ORC-F01",
@@ -34,12 +32,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -170,26 +168,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -206,12 +184,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -342,26 +320,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -378,12 +336,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -514,26 +472,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -550,12 +488,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -686,26 +624,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -722,12 +640,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -858,26 +776,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-F07"
@@ -895,12 +793,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -1031,26 +929,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -1096,16 +974,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ],
       "exception_id": "R4-P6-ORC-F08"
@@ -1129,12 +997,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -1265,26 +1133,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-F10"
@@ -1302,12 +1150,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -1438,26 +1286,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-F11"
@@ -1475,12 +1303,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -1611,26 +1439,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-F12"
@@ -1648,12 +1456,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -1786,26 +1594,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -1849,16 +1637,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
@@ -1875,12 +1653,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -2011,26 +1789,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -2047,12 +1805,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -2183,26 +1941,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -2248,16 +1986,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ],
       "exception_id": "R4-P6-ORC-F16"
@@ -2275,12 +2003,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -2411,26 +2139,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-F15"
@@ -2448,12 +2156,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -2584,26 +2292,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -2620,12 +2308,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -2756,26 +2444,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -2792,12 +2460,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -2928,26 +2596,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -2964,12 +2612,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -3100,26 +2748,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-G04"
@@ -3137,12 +2765,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -3273,26 +2901,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -3338,16 +2946,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
@@ -3364,12 +2962,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -3500,26 +3098,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-G06"
@@ -3537,12 +3115,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -3673,26 +3251,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-G07"
@@ -3710,12 +3268,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -3846,26 +3404,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -3882,12 +3420,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -4018,26 +3556,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -4060,12 +3578,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -4196,26 +3714,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -4232,12 +3730,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -4368,26 +3866,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -4404,12 +3882,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -4540,26 +4018,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -4576,12 +4034,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -4712,26 +4170,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -4748,12 +4186,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -4884,26 +4322,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -4920,12 +4338,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -5056,26 +4474,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -5121,16 +4519,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ],
       "exception_id": "R4-P6-ORC-G16"
@@ -5154,12 +4542,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -5290,26 +4678,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-G18"
@@ -5327,12 +4695,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -5463,26 +4831,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-G19"
@@ -5500,12 +4848,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -5636,26 +4984,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-G20"
@@ -5673,12 +5001,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -5811,26 +5139,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -5874,16 +5182,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
@@ -5900,12 +5198,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -6036,26 +5334,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -6072,12 +5350,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -6208,26 +5486,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -6273,16 +5531,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ],
       "exception_id": "R4-P6-ORC-G23"
@@ -6300,12 +5548,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -6436,26 +5684,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -6472,12 +5700,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -6608,26 +5836,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -6644,12 +5852,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -6780,26 +5988,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -6816,12 +6004,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -6952,26 +6140,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -6988,12 +6156,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -7124,26 +6292,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-A04"
@@ -7161,12 +6309,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -7297,26 +6445,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-A05"
@@ -7334,12 +6462,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -7470,26 +6598,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -7506,12 +6614,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -7642,26 +6750,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-A07"
@@ -7679,12 +6767,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -7815,26 +6903,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -7851,12 +6919,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -7987,26 +7055,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ],
       "exception_id": "R4-P6-ORC-A09"
@@ -8024,12 +7072,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -8160,26 +7208,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -8225,16 +7253,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ],
       "exception_id": "R4-P6-ORC-A10"
@@ -8247,7 +7265,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -8278,16 +7296,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         }
       ]
     },
@@ -8304,12 +7312,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -8331,7 +7339,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -8362,16 +7370,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         }
       ]
     },
@@ -8383,7 +7381,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -8414,16 +7412,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "interaction",
@@ -8469,28 +7457,18 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
     {
       "id": "RUI-05",
       "status": "pass",
-      "reason": "P10 저장은 다시 찾고 비교하는 역할로 제목/수량/지역/소개/조건을 보여준다. 저장의 날짜/예약시간은 생략하고 상세에서 예약한다. 사용자 예약 페이지 위계 지적은 별도 미완료로 기록한다.",
+      "reason": "P6사용자교정에따라카페소개와단일동반조건의역할을정리했다. 실내/마당/크기/준비물은모두같은조건묶음이다. 이름→소개→동반조건→시간을읽고상세/요약에필수조건을보존한다. 원본태그외형적용만으로제품정보판단을대체한중간안은철회했다.",
       "evidence": [
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -8521,16 +7499,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -8651,26 +7619,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -8687,12 +7635,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -8714,7 +7662,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -8745,16 +7693,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -8875,26 +7813,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -8906,7 +7824,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -8939,16 +7857,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -8956,12 +7864,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -9092,26 +8000,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -9128,12 +8016,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -9264,26 +8152,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "visual",
@@ -9326,7 +8194,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -9357,16 +8225,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -9487,26 +8345,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -9518,7 +8356,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -9549,16 +8387,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -9679,26 +8507,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -9715,12 +8523,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -9851,26 +8659,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -9887,12 +8675,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -10023,26 +8811,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -10088,16 +8856,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         },
         {
           "kind": "visual",
@@ -10144,12 +8902,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -10280,26 +9038,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -10317,7 +9055,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -10348,16 +9086,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -10478,26 +9206,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "visual",
@@ -10534,7 +9242,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -10565,16 +9273,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -10695,26 +9393,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "visual",
@@ -10751,7 +9429,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -10782,16 +9460,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -10912,26 +9580,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -10943,7 +9591,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -10976,16 +9624,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -10993,12 +9631,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -11129,26 +9767,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -11194,16 +9812,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         },
         {
           "kind": "visual",
@@ -11250,12 +9858,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -11386,26 +9994,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -11422,12 +10010,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -11558,26 +10146,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "interaction",
@@ -11623,16 +10191,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         },
         {
           "kind": "visual",
@@ -11679,12 +10237,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -11815,26 +10373,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -11846,7 +10384,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -11879,16 +10417,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -11896,12 +10424,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -12032,26 +10560,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         },
         {
           "kind": "visual",
@@ -12088,12 +10596,12 @@
     {
       "id": "RUI-24",
       "status": "pass",
-      "reason": "저장 중복 제목/날짜를 제거하고 수량만 보존한다. 혼합지역 식별과 소개/조건은 유지한다.",
+      "reason": "성수등지역제목이있는홈카드지역중복을제거하고전체/저장처럼제목에지역이없는맥락에는지역을보존했다. 목록메뉴가격제거,마당동반+실내불가는마당만동반으로통합,단일동반조건아래공간/크기/준비물분류로의미중복을줄였다.",
       "evidence": [
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -12124,16 +10632,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -12254,38 +10752,18 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
     {
       "id": "RUI-25",
-      "status": "fail",
-      "reason": "P10 저장 제목/수량/목록 간격과 교대표면, 빈 상태의 남은 화면 중앙 배치를 양폭 직접 판독했다. 예약 페이지의 위계는 새 사용자 지적으로 미완료이며 저장 완료와 구별한다. 저장 화면 교정은 검증했으나 예약 페이지 위계/구분 부족이라는 사용자 피드백은 아직 수정하지 않았다.",
+      "status": "pass",
+      "reason": "P8 빈 결과의 안내/복구 버튼을 하나의 중앙 묶음으로 표시하고 양폭과 확대에서 판독했다. P7 제목/날짜/목록 간격 및 일반 카드 정렬은 그대로 유지한다.",
       "evidence": [
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -12316,16 +10794,6 @@
           "kind": "spec",
           "path": "prompt-v8.md",
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
         },
         {
           "kind": "visual",
@@ -12446,26 +10914,6 @@
           "kind": "visual",
           "path": "evidence/p8/large-320.png",
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
         }
       ]
     },
@@ -12477,7 +10925,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -12510,16 +10958,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -12527,12 +10965,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -12665,26 +11103,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -12728,16 +11146,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         },
         {
           "kind": "visual",
@@ -12774,7 +11182,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -12807,16 +11215,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -12824,12 +11222,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -12962,26 +11360,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -13025,16 +11403,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
@@ -13046,7 +11414,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -13079,16 +11447,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -13096,12 +11454,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -13234,26 +11592,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -13297,16 +11635,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
@@ -13318,7 +11646,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -13351,16 +11679,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -13368,12 +11686,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -13506,26 +11824,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -13569,16 +11867,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
@@ -13590,7 +11878,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -13623,16 +11911,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -13640,12 +11918,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -13778,26 +12056,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -13841,16 +12099,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         },
         {
           "kind": "visual",
@@ -13887,12 +12135,12 @@
     {
       "id": "PROJECT-HISTORY",
       "status": "pass",
-      "reason": "P8 이전 소스/게이트를 보존하고 P9 포커스와 P10 저장 교정·검증, 예약 위계 미완료를 기록했다.",
+      "reason": "P8 사용자 중앙정렬 요청과 P7 소스/게이트 보존, 양폭/확대/복구 동작을 기록했다.",
       "evidence": [
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -13925,16 +12173,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -13942,12 +12180,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -14080,26 +12318,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -14143,16 +12361,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
@@ -14164,7 +12372,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -14197,16 +12405,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -14214,12 +12412,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -14352,26 +12550,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -14415,16 +12593,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         },
         {
           "kind": "visual",
@@ -14466,7 +12634,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -14499,16 +12667,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -14516,12 +12674,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -14654,26 +12812,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -14717,28 +12855,18 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
     {
       "id": "PROJECT-INFORMATION-TAGS",
       "status": "pass",
-      "reason": "P10 저장의 지역/소개/단일 조건 그룹과 삭제 후 빈 상태를 양폭 검증했다. 저장 시간 CTA는 상세 예약으로 연결하고 홈 카드 조건/시간은 유지한다.",
+      "reason": "이름→14px카페소개→단일동반조건group의12px공간/크기/준비물태그→예약시간을두폭/확대/고대비에서새검증했다. 성수홈지역중복/목록메뉴가격없고전체·저장지역유지,마당만동반의실내불가의미/위험대관필수조건은상세·예약요약에보존한다. 별도상위공간태그안은거절이력이다.",
       "evidence": [
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -14771,16 +12899,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -14788,12 +12906,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -14926,26 +13044,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -14989,16 +13087,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     },
@@ -15010,7 +13098,7 @@
         {
           "kind": "spec",
           "path": "gate-review.md",
-          "sha256": "8439cd7f687148c7c0bfdab61f76af6ae04b04990ffcffd54b27c58b3de0d823"
+          "sha256": "d77f8d4f8c9c6ffe5cb84e19773002034360bda5610512fb64dde0c1d3f5f3ff"
         },
         {
           "kind": "spec",
@@ -15043,16 +13131,6 @@
           "sha256": "92ee6e85541caa7e7f1b9406f0a7717b33aa7ab378a356930b48e752d0012c83"
         },
         {
-          "kind": "spec",
-          "path": "prompt-v9.md",
-          "sha256": "60254ea7dcfbc00f180b53e6f4dcf6f2f1e0fbd2afdf74c66549abf98aa8e3c5"
-        },
-        {
-          "kind": "spec",
-          "path": "prompt-v10.md",
-          "sha256": "f0b27a6beb63abb6602e6af936218aaf89462cc2977d509643e980990b2f009c"
-        },
-        {
           "kind": "code",
           "path": "app.html",
           "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
@@ -15060,12 +13138,12 @@
         {
           "kind": "code",
           "path": "app.css",
-          "sha256": "8a6c4bec26f054cc3590fcff33fda9c8f2f7fdd54c34e27d92e41785a41dd70c"
+          "sha256": "affa0d765d961ce0460fbf2deeac84922098f8da80c02601528eb00a88d7110a"
         },
         {
           "kind": "code",
           "path": "app.js",
-          "sha256": "e400bce611e9f6bae380061407e9d5b382d0f852ba7f231376a979c0a6c9e4cf"
+          "sha256": "c7a501f087200000255f7b9ab700d66fae545fe71e982cc82684fc895efd08ec"
         },
         {
           "kind": "code",
@@ -15198,26 +13276,6 @@
           "sha256": "bb7f23bb3f8189c19bce54ada738b12ee1796d51ae52e860b3904c991f815bf9"
         },
         {
-          "kind": "visual",
-          "path": "evidence/p9/keyboard-320.png",
-          "sha256": "ac82582f5e80c2ded16d6ce4d0bd1202b0ba619945c8bdc899585cfcffb48d2f"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p9/pointer-390.png",
-          "sha256": "8aeeca97c27efb2816b0c2e2d5b9a8cda970e4eb86c6affad7f75840c55a74c4"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/saved-390.png",
-          "sha256": "779f44b3da7c91f688193bcb0092af96f97cfe1c65e606953f9a44e0253333f7"
-        },
-        {
-          "kind": "visual",
-          "path": "evidence/p10/empty-320.png",
-          "sha256": "f5c4cabe8c19204bcd2c4eb4872dfdd3382fc2cab1da471755ef035941a6d512"
-        },
-        {
           "kind": "interaction",
           "path": "evidence/review-p6/information-results.json",
           "sha256": "0ff4c15a4228ff035b94c8bd72c5552651ca4ca0b69610c18d3cacdb99dd04c1"
@@ -15261,16 +13319,6 @@
           "kind": "interaction",
           "path": "evidence/p8/checks.json",
           "sha256": "a30c28c08ab260aa016ca3c3aa21868c5a339c9268bcf115943c027719d85cd9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p9/checks.json",
-          "sha256": "adaec64d8a6e55a70cf34053d484dd8106b266837f9601ba69e2e0b54337a5f9"
-        },
-        {
-          "kind": "interaction",
-          "path": "evidence/p10/checks.json",
-          "sha256": "0b296348c78dfd4fe5a4f922bfacd57f052b5e49bfbe2a5159771a13eed4098f"
         }
       ]
     }
