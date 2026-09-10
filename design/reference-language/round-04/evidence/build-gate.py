@@ -105,9 +105,14 @@ PASS.update({'RUI-13': '페이지의가로넘침0,세로는페이지/긴dialog�
 PASS.update({'ORC-G05': 'P5의변경없는일반버튼hover보간/고정박스증거를재사용한다. P6사용자요청으로테마만투명배경/transition0,저장활성은hover에도채움/선택면을유지함을390/320에서새실행했다.', 'RUI-04': 'P5전체로컬흐름증거를범위명시재사용하고P6저장tap/Space/Enter/reload/저장삭제및테마초점/Enter/터치필터를새실행했다. 상태ARIA와실제하트채움/색도함께읽어이전오판을교정했다.', 'RUI-12': '공식SVG경로는P5검산을유지한다. P6저장하트만currentColor채움/빈윤곽으로상태를구별하고고대비도두폭직접판독했다. 새경로나임의아이콘제작없다.', 'RUI-06': 'P6app.js와verify-p6-review.cjs에기존anti-slop Oxlint 및checkJs 오류경고0. P5다른검증JS/기능은변경없는범위의기존검증을재사용한다.', 'RUI-16': 'P3전체스타일/P4매장구분/P5저장상태판독의사용자FAIL과당시증거를보존했다. P6저장채움/선택면과테마hover제거를신선한양폭캡처로판독한다. 원본그림차이와사용자최종승인미포함유지.'})
 PASS.update({'ORC-A06': 'P6목록은카페이름/짧은소개/단일동반조건/시간을hover없이표시한다. 같은지역제목의지역중복과목록메뉴가격은사용자요청으로제거하고전체/저장맥락의지역과상세/확인의필수조건은보존한다.', 'ORC-G08': '검색→4조건→2테마→카페소개/동반조건/시간의순서를유지한다. P6소개추가뒤320첫시간하단가림을발견해목록날짜하단간격12→4로국소보완했다. 최종390=732/320=780(nav780)로영역전체가첫viewport안에있고필수내용삭제없다.', 'RUI-05': 'P6사용자교정에따라카페소개와단일동반조건의역할을정리했다. 실내/마당/크기/준비물은모두같은조건묶음이다. 이름→소개→동반조건→시간을읽고상세/요약에필수조건을보존한다. 원본태그외형적용만으로제품정보판단을대체한중간안은철회했다.', 'RUI-09': '기본14px유지와목록조건그룹의caption/정적태그12px예외를P6두폭/확대24px/고대비에서실측판독했다. 소개는14px,동의/시간/입력/상세/예약확인조건은14px이상이다.', 'RUI-24': '성수등지역제목이있는홈카드지역중복을제거하고전체/저장처럼제목에지역이없는맥락에는지역을보존했다. 목록메뉴가격제거,마당동반+실내불가는마당만동반으로통합,단일동반조건아래공간/크기/준비물분류로의미중복을줄였다.', 'RUI-25': '카페소개와동반조건은다른역할이며실내/마당/크기/준비물은같은조건이다. 별도상위공간태그중간안을사용자거절로보존하고한조건group으로수정했다. 교대매장표면·사진/정보하단정렬과조건내묶음을두폭/확대에서새판독했다.', 'RUI-16': 'P3전체스타일/P4매장구분/P5저장활성/P6분리태그정보계층오판을사용자FAIL/중간자료와보존한다. 최신소개→단일동반조건→시간관계를실제양폭과보드Q4로다시읽었다. 원본그림풍부함차이와사용자최종승인미포함유지.'})
 PROJECT.update({'PROJECT-INFORMATION-TAGS': '이름→14px카페소개→단일동반조건group의12px공간/크기/준비물태그→예약시간을두폭/확대/고대비에서새검증했다. 성수홈지역중복/목록메뉴가격없고전체·저장지역유지,마당만동반의실내불가의미/위험대관필수조건은상세·예약요약에보존한다. 별도상위공간태그안은거절이력이다.', 'PROJECT-BOARD': '부모P6보드1100/390/320의liveiframe/5개disclosure키보드/이미지/넘침PASS를읽고최종Q4소개·단일조건과전체목록을직접판독했다. P5의변경없는Q1–Q3/Q5원본관계는범위명시재사용한다.', 'PROJECT-HISTORY': 'P3/P4실패와P5저장상태오판,P6분리태그중간안거절/첫시간가림을보존했다. 0612dd1앱/게이트11파일사본,순차추가프롬프트,각검증범위와수정재검증을분리기록했다.'})
+PASS.update({'ORC-G08':'P7은 첫 화면 안에 예약 버튼을 억지로 맞추려다 목록 위계를 압축한 결정을 철회한다. 소개hero없이 핵심 탐색을 유지하고 양폭에서 스크롤/키보드로 첫·마지막 예약 시간에 접근해 dialog 진입을 확인했다.', 'RUI-25':'P7 제목과 날짜 내부4px, 날짜와 첫 카드 외부20px로 의미 묶음을 구별한다. 양폭 실측/확대 직접 판독으로 위계를 확인했다. P6의 공간/조건/교대표면 구조는 유지한다.', 'RUI-16':'P6 날짜 아래4px의 위계 실패를 사용자 교정으로 보존하고20px로 수정·직접 판독했다. 변경없는 R1–R5 비교는 P6 근거를 재사용한다.'})
+PROJECT.update({'PROJECT-BOARD':'P7 현재 이미지와 liveiframe을 보드3폭에서 확인했다. 기존5개 프롬프트 disclosure와 필터/초점 동작을 유지한다.', 'PROJECT-HISTORY':'P6 게이트/소스7파일 보존, P7 입력과 사용자 여백 교정/원인/수정/실측을 기록했다.'})
 def evidence(kind,relative):
  return {'kind':kind,'path':relative,'sha256':hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()}
 base={'spec':['gate-review.md','prompt-v6.md','prompt-v4.md','prompt-v5.md','style-analysis.md'],'code':['app.html','app.css','app.js','evidence/review-p5/code-checks.txt','evidence/review-p6/code-checks.txt'],'visual':['evidence/review-p6/information-home-390.png','evidence/review-p6/information-home-320.png','evidence/review-p6/information-scrolled-390.png','evidence/review-p6/information-scrolled-320.png','evidence/review-p6/information-large-320.png','evidence/review-p6/information-saved-390.png','evidence/review-p6/saved-active-390.png','evidence/review-p6/saved-tab-320.png','evidence/review-p6/forced-active-320.png','evidence/review-p6/forced-empty-320.png','evidence/review-p6/theme-hover-390.png','evidence/review-p6/theme-focus-320.png','evidence/review-p5/home-390.png','evidence/review-p5/home-320.png','evidence/review-p5/scrolled-390.png','evidence/review-p5/scrolled-320.png','evidence/review-p5/booking-390.png','evidence/review-p5/booking-320.png'],'interaction':['evidence/review-p6/information-results.json','evidence/review-p6/results.json','evidence/review-p5/review-browser.json','evidence/review-p5/review-accessibility.json','evidence/review-p5/results.json','evidence/review-p5/times-results.json','evidence/review-p4/final-checks.json']}
+base['spec'].append('prompt-v7.md')
+base['visual'].extend(['evidence/p7/list-390.png','evidence/p7/list-320.png','evidence/p7/large-320.png'])
+base['interaction'].append('evidence/p7/checks.json')
 rules=[];results=[]
 items=catalog['rules']+[{'id':key,'status':'active','checks':['spec','code','visual','interaction']}for key in PROJECT]
 for item in items:
@@ -119,14 +124,14 @@ for item in items:
  rules.append({'id':rid,'applicable':rid not in NA,'scope':scope,'reason':reason,'checks':item['checks'],'exceptions':[{'id':exc,'scope':scope,'reason':reason,'basis':'사용자 색역할/관계 교정, P4 계약과 P5 순차추가요구, 원본 R1–R5 직접관찰 및두폭/상태실행. 원본미공개복제의일괄예외가아님.'}]if rid in EX else []})
  ev=[]if rid in NA else[evidence(kind,file)for kind in item['checks']for file in base[kind]]
  if rid in ['RUI-16','RUI-17','PROJECT-REFERENCE-SYNTHESIS','PROJECT-BOARD']:
-  ev.extend(evidence('visual',f'evidence/p6-Q{q}-comparison.png')for q in range(1,6))
- if rid=='PROJECT-BOARD':ev.append(evidence('interaction','evidence/p6-board-checks.json'))
+  ev.extend(evidence('visual',f'evidence/p7-Q{q}-comparison.png')for q in range(1,6))
+ if rid=='PROJECT-BOARD':ev.append(evidence('interaction','evidence/p7-board-checks.json'))
  if rid in ['PROJECT-ACCESSIBLE-STATES','RUI-09','RUI-13','RUI-19','RUI-21','RUI-23']:
   ev.extend(evidence('visual',f'evidence/review-p5/review-{name}-{w}.png')for name in ['large-home','large-booking','forced-focus']for w in [390,320])
  result={'id':rid,'status':'not-applicable'if rid in NA else'exception'if rid in EX else'pass','reason':reason,'evidence':ev}
  if rid in EX:result['exception_id']=exc
  results.append(result)
-contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','prompt-v6.md','index.html','board.css'],'rules':rules}
+contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','prompt-v6.md','prompt-v7.md','index.html','board.css'],'rules':rules}
 p=ROOT/'gate-contract.json';p.write_text(json.dumps(contract,ensure_ascii=False,indent=2)+'\n')
 report={'schema_version':1,**gate.fingerprints(ROOT,CAT,p,contract),'results':results}
 (ROOT/'gate-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

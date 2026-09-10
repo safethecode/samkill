@@ -1,0 +1,22 @@
+[
+  {
+    "width": 390,
+    "gaps": {
+      "inner": 4,
+      "outer": 20,
+      "overflow": false
+    },
+    "firstAndLastBooking": true,
+    "enlargedOverflow": false
+  },
+  {
+    "width": 320,
+    "gaps": {
+      "inner": 4,
+      "outer": 20,
+      "overflow": false
+    },
+    "firstAndLastBooking": true,
+    "enlargedOverflow": false
+  }
+]
