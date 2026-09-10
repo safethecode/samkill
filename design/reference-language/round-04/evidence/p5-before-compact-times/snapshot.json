@@ -1,0 +1,341 @@
+{
+  "reason": "사진/정보 높이맞춤 직후,12px조건보조정보/가로시간목록 사용자추가요구 전 상태. gate직렬화전이며PASS아님.",
+  "files": [
+    {
+      "path": "app.css",
+      "sha256": "dcb737b480a7dae8afa7fd7539e65268958bc190c102f2a624b42d105655ec8d"
+    },
+    {
+      "path": "gate-review.md",
+      "sha256": "8aa824166161043d7a3e917f58a8fd8a19d0c04b5db04a6b835a5146c40e3934"
+    },
+    {
+      "path": "prompt-v5.md",
+      "sha256": "2f77017433ea830a7a23641c8aa3d9b9ffde30464a7622dd53845cc37b3571d3"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "c53dd64b47596a7c4e8634c67aa270cf6bad925c1f12e95cae660ff304b03295"
+    },
+    {
+      "path": "app.html",
+      "sha256": "4692ac4b408f9745dec22e6f029f4511190d6353791d3fd219f7982e66f8d365"
+    },
+    {
+      "path": "review.md",
+      "sha256": "ca159309575fb26cbf658f857c659a66fae7dc6ab33d315b19a8a3993baa3853"
+    },
+    {
+      "path": "app.js",
+      "sha256": "f42bdd4f8cfa0f2fe72bc809bb8262f74090ef2424f1437e81755827483495a8"
+    },
+    {
+      "path": "review-p5/home-320.png",
+      "sha256": "c6180aab1d45d7b729785c470c984b05a4f164877760623dbda83f391930878d"
+    },
+    {
+      "path": "review-p5/review-summary-390.png",
+      "sha256": "e54fd4797fe56afade73b236bae5d782bca326e20f58ee0caa382d3eb342fb0d"
+    },
+    {
+      "path": "review-p5/review-danger-summary-390.png",
+      "sha256": "1937db6df673745b7a44db979c19781f9cafb631b0f3fc6957c810206054eca0"
+    },
+    {
+      "path": "review-p5/review-danger-detail-320.png",
+      "sha256": "774f0e6395252c7073568d9622ec00c4cf0fd7627fc3b7a2031a2e038f390c1c"
+    },
+    {
+      "path": "review-p5/review-large-booking-320.png",
+      "sha256": "622fc2412f2c6e8d1bef5790348276c8615d42fbe3ac5cfb654900075eec90cd"
+    },
+    {
+      "path": "review-p5/single-filter-390.png",
+      "sha256": "e40173b0af4b77d96fe32a98a136290c1f2191f0eb359b5d5c14315cec9d70dd"
+    },
+    {
+      "path": "review-p5/review-validation-320.png",
+      "sha256": "f7158dca87eba1823ddf511b0afe3a96c20e2dd3529894e828f188ef58d41ab2"
+    },
+    {
+      "path": "review-p5/review-detail-320.png",
+      "sha256": "ed25753e29f9997508a8442fb3c618863e6ca4e6669dd720c7016b4bc93f0823"
+    },
+    {
+      "path": "review-p5/forced-scrolled-390.png",
+      "sha256": "e28aa3c99652e72cfc34bfa2c56851e147ef12e47ee526ca2664266bacbe390b"
+    },
+    {
+      "path": "review-p5/review-large-detail-390.png",
+      "sha256": "38d8cd778a46ea133a70775a11c2c66cacdeb0bf41b08d7a76fc5907fd6ae251"
+    },
+    {
+      "path": "review-p5/review-search-empty-390.png",
+      "sha256": "03107626e018b22a1c3426acd1d085c09fea618ea0b6786fde61cbb690bb1a72"
+    },
+    {
+      "path": "review-p5/saved-one-320.png",
+      "sha256": "5f8d0f08ad0f10040e07eabf5b86d7e282883a39a0ce3a81c9d2d67236785f7c"
+    },
+    {
+      "path": "review-p5/saved-one-390.png",
+      "sha256": "cec6defb8eee5f732f07593060bc50c05c83ddb30b3d701f22ab8db10a2b2189"
+    },
+    {
+      "path": "review-p5/review-search-empty-320.png",
+      "sha256": "53c597d616203640064e2b534a585080a08689aa53a849f94f4a6fc5da01a7dc"
+    },
+    {
+      "path": "review-p5/review-large-detail-320.png",
+      "sha256": "4abcd683e96b914c5c5ec32798a2de03dab878f8c8c112fd63c3ae681bbc958c"
+    },
+    {
+      "path": "review-p5/forced-scrolled-320.png",
+      "sha256": "9286ac9d683f3f2b69f7e6957276eb2ed10d69d79e01f028e735768063e238e3"
+    },
+    {
+      "path": "review-p5/review-validation-390.png",
+      "sha256": "a0261f4990a3d41b243d85f7c231e93769dcd3f8ee9a86803e9ac3bbb04ddbcc"
+    },
+    {
+      "path": "review-p5/review-browser.json",
+      "sha256": "3edd10f775be7262eb49bc26f4b13b2b15e787d817c5e6f4f0285f89069aa72a"
+    },
+    {
+      "path": "review-p5/results.json",
+      "sha256": "423388eca373a9551c159c854f72594600e27ebef0e78216b562bc08fed3680a"
+    },
+    {
+      "path": "review-p5/review-detail-390.png",
+      "sha256": "3ec89427cb0d0aa411d4071af9842c54dad1afc2064565c251006879fdb80e4a"
+    },
+    {
+      "path": "review-p5/single-filter-320.png",
+      "sha256": "5a8efe8af1c254a23935696f20a531b81474e666e019e2c969b1cdde1b8b1a2f"
+    },
+    {
+      "path": "review-p5/review-large-booking-390.png",
+      "sha256": "b0bcae1cbedf59def6ecb40064e39e95d7c94803c028832fc08b734e9063f4d3"
+    },
+    {
+      "path": "review-p5/review-danger-detail-390.png",
+      "sha256": "90897a0059a488cd6b18fb28db31d4c2ec87ddc8ffbe18286bf4111efae8849a"
+    },
+    {
+      "path": "review-p5/review-summary-320.png",
+      "sha256": "8915dc2f6189fa4417d72284c96d75240406ce9dec589df0faea054e26a23416"
+    },
+    {
+      "path": "review-p5/review-danger-summary-320.png",
+      "sha256": "b9061cb81e306dbb0cee65247e7f36e831d1856994a9bdcbb4a90f8df4c029c3"
+    },
+    {
+      "path": "review-p5/home-390.png",
+      "sha256": "75cf0e05895db7dba153ea0396f6a800a7f4fe1317a67c34f3b8191bd54e5259"
+    },
+    {
+      "path": "review-p5/review-accessibility.json",
+      "sha256": "6356dcc310192c6676632c430ac00738db024912c76a9fc015700ebda79b2196"
+    },
+    {
+      "path": "review-p5/native-keyboard-scope.json",
+      "sha256": "859153bb984ca53f328476b2531e6f6bd4c93650945ce5c51455adaf3b023e83"
+    },
+    {
+      "path": "review-p5/large-home-320.png",
+      "sha256": "138b153dfab345da7767309c228b213b0fcc176db5323f3a7862e2d0e73f9e11"
+    },
+    {
+      "path": "review-p5/review-bookings-390.png",
+      "sha256": "e53e1b4f6bf2848ac77d2aca0eef1b4b0427eacad407a20a98f25072d804e0b1"
+    },
+    {
+      "path": "review-p5/saved-two-390.png",
+      "sha256": "56cc1d3e30e2498a016a07ab7007af8e25e04236236fde82af8939eb69e18b7b"
+    },
+    {
+      "path": "review-p5/review-saved-390.png",
+      "sha256": "1f9f941beeaa00804164641cb752325af602c9bdf8def0f9d3cc3fde8ac74c19"
+    },
+    {
+      "path": "review-p5/review-large-done-390.png",
+      "sha256": "3df515f81872c97416af7d3cdaf9713544e0883087b6b48eb2796a461acca9d8"
+    },
+    {
+      "path": "review-p5/review-cancelled-390.png",
+      "sha256": "3e48cf3bedef9fb7aa16b5d0e1fb8870725d0a578a0eb7cbdcddc5c8fe0c5460"
+    },
+    {
+      "path": "review-p5/review-large-summary-390.png",
+      "sha256": "82f7a9700b0ee907d4d90ac594634ef0edd17939aa73bde234a8a997c32cadb8"
+    },
+    {
+      "path": "review-p5/review-large-home-390.png",
+      "sha256": "382969bc825bb507319141e2cce8f6f9cbf5e4b08fdeb3d7fc0b8b54fd97a217"
+    },
+    {
+      "path": "review-p5/review-large-bookings-390.png",
+      "sha256": "300554364fde5572208cb249fd62a7e1233777ce3a4b21e34299aec3bb3ff16b"
+    },
+    {
+      "path": "review-p5/review-saved-empty-320.png",
+      "sha256": "4c22acdf1a2e989e704080cb47bd1c39fedab87f0b75c35cfca89ecbb7422392"
+    },
+    {
+      "path": "review-p5/forced-booking-320.png",
+      "sha256": "eac6705263201800e3b9fc795532063e439440385e0df964140898184497bb6e"
+    },
+    {
+      "path": "review-p5/review-booking-320.png",
+      "sha256": "fa681b27f5b3f950880758a005cf854f2885901044e87212999c70d406543482"
+    },
+    {
+      "path": "review-p5/forced-home-390.png",
+      "sha256": "8cf4dd98d00c32c57e5aea619629e3ff1b8174a6f164a3ddb20cfe801539a612"
+    },
+    {
+      "path": "review-p5/garden-filter-320.png",
+      "sha256": "e1e9529a7a465c92b012c30deb7b4569dcae0d20e82c00c94ca94d07b84339e8"
+    },
+    {
+      "path": "review-p5/review-forced-focus-320.png",
+      "sha256": "07f848e137c978f49e1aa89c9370fafc01bf4bc509081eb9518e28b38a400c05"
+    },
+    {
+      "path": "review-p5/returned-320.png",
+      "sha256": "fc048aea565689bc0debf1b93fb727edadca0ce1fb70a334265ada30c5116d8b"
+    },
+    {
+      "path": "review-p5/booking-320.png",
+      "sha256": "b5d3f72e05f48060c9ea01421af8de47a64b70510a79dbe58e6376586419a725"
+    },
+    {
+      "path": "review-p5/scrolled-390.png",
+      "sha256": "626411cdc22385f292b44961022051ced8be2559aeb2ba39e23a83b091a16f24"
+    },
+    {
+      "path": "review-p5/review-done-320.png",
+      "sha256": "89a56f57b867e601db453121349c08626870d67c7cef79a820bdf3074f861f34"
+    },
+    {
+      "path": "review-p5/review-bookings-empty-320.png",
+      "sha256": "ea512222d6146743c449d6a66669f867448b21e9965492afe00f381d76e06545"
+    },
+    {
+      "path": "review-p5/review-home-320.png",
+      "sha256": "05cc76e77d2027719f38820b60337b874fff1ffb9227e816699aa4831ee884f3"
+    },
+    {
+      "path": "review-p5/empty-390.png",
+      "sha256": "0f6dcabebca293b7b4c8ad0afddde81e0c2e2773549ddb702153d8585632a79b"
+    },
+    {
+      "path": "review-p5/large-booking-390.png",
+      "sha256": "b3834462f748d019254b9af61faf051dd7b70672e5dd7446c593a902a52986e8"
+    },
+    {
+      "path": "review-p5/code-checks.txt",
+      "sha256": "dc43014245547f31e339b8ffd4481c83ea474b8c941ffe1a6d7585ebc0c7fb47"
+    },
+    {
+      "path": "review-p5/review-large-empty-320.png",
+      "sha256": "170b9839823b16239edfc0850f8e62aac979768b0166b20907f2e83da1b6499a"
+    },
+    {
+      "path": "review-p5/review-large-empty-390.png",
+      "sha256": "f815693ba781f2ae32debc5bf831e8b94d0f997d94040883da8058a7aa9409fc"
+    },
+    {
+      "path": "review-p5/empty-320.png",
+      "sha256": "383d1a9ed054e5039757497b060d44ed89634e7c278c1e9c7296b81491d4ba93"
+    },
+    {
+      "path": "review-p5/large-booking-320.png",
+      "sha256": "7d2a6bddda4c3aa02e731c48dadb66ad93dcb0070039751974eeb247876b4b6f"
+    },
+    {
+      "path": "review-p5/review-home-390.png",
+      "sha256": "a0b32be35bf0271357c34f9745d739af129e311d2de063a82fe422837b24d896"
+    },
+    {
+      "path": "review-p5/review-done-390.png",
+      "sha256": "05e84c18269ec2a385512334c6e83e9a65ef9a1689f57116114892c13c3b9985"
+    },
+    {
+      "path": "review-p5/review-bookings-empty-390.png",
+      "sha256": "e222d879efe92a2c85ffde3c4d1a0c5d578a8fff21c8854ec646144b9df34321"
+    },
+    {
+      "path": "review-p5/returned-390.png",
+      "sha256": "98b2b6ae945289ba1e3071d7f2c57336624a6ae2eb766f383fcc3b69193ce2f3"
+    },
+    {
+      "path": "review-p5/booking-390.png",
+      "sha256": "ed5ceb2ca9cea9c97ed35d26b06aab5d85e1925ec0668ee7810da0162d67fac5"
+    },
+    {
+      "path": "review-p5/scrolled-320.png",
+      "sha256": "65c7b8b3fd64ce7de59587cca3fdc1d4cdc9e2fbb540b18aff36723ef5a08182"
+    },
+    {
+      "path": "review-p5/review-forced-focus-390.png",
+      "sha256": "2c90c438849c67b1ee462362d9d8234db64fc76970ce05b39924a146a5cbab9f"
+    },
+    {
+      "path": "review-p5/garden-filter-390.png",
+      "sha256": "b2187fe485b9cf24c4985c7d4cd23a9743ee535cc31796413ddcc2e8bba7c6cb"
+    },
+    {
+      "path": "review-p5/forced-home-320.png",
+      "sha256": "e4d134c7156c3827b8aad885c6293132c7bfcabc7dbcfded30b6a1cf2d5bc72c"
+    },
+    {
+      "path": "review-p5/review-booking-390.png",
+      "sha256": "e3044dea1bd9d15b15192a6a32f48caf32de9fa477551a28bec07bf61c53c0b8"
+    },
+    {
+      "path": "review-p5/review-saved-empty-390.png",
+      "sha256": "87f54bf7cd12473b4265e039fbf8ff06705d1aa037127b717bb1d5314bcadefc"
+    },
+    {
+      "path": "review-p5/forced-booking-390.png",
+      "sha256": "444d51116130dcccb80d0b38487e8f45608c6ace91dd5a4b89abdb7a68a5ba2e"
+    },
+    {
+      "path": "review-p5/review-large-bookings-320.png",
+      "sha256": "577b25a0b038b6b38db8886835ba60c0253f66b6b6112e45af1c9c97c3082ea5"
+    },
+    {
+      "path": "review-p5/review-large-home-320.png",
+      "sha256": "1d25575bbeb32a1333a1fdd3ff4d81cfd324e4c3cfc8c64a3ccdc37e8199e8c6"
+    },
+    {
+      "path": "review-p5/review-large-done-320.png",
+      "sha256": "052cf572a68aa102dab766ef7b80229d7ca7c91485b2fd5a83b4a641b6e9c88e"
+    },
+    {
+      "path": "review-p5/review-cancelled-320.png",
+      "sha256": "7c9ce330ea98997df9402a5321a38f44b9566ef7510f1875dc5344888ba16ef7"
+    },
+    {
+      "path": "review-p5/review-large-summary-320.png",
+      "sha256": "e6eca74e8569303d69176a0cac7a7d1ae3c42c81dbaf14c46d5b44e2a914c782"
+    },
+    {
+      "path": "review-p5/review-saved-320.png",
+      "sha256": "7708e2db789ecda9f1c7020dc381874a3aec90273b5a35874dba14cd5864b327"
+    },
+    {
+      "path": "review-p5/saved-two-320.png",
+      "sha256": "702b435bcf29cae217ff830df35500badad0dde04fbbfcf82600ddbfecc8e89f"
+    },
+    {
+      "path": "review-p5/review-bookings-320.png",
+      "sha256": "619ca3ba0b4e52c5826df7789da0081f63abe58c4debc380b6d2c612a2f25cfb"
+    },
+    {
+      "path": "review-p5/large-home-390.png",
+      "sha256": "29fe64f83f47e3a66b9bb43470e28aa706015b9f000daaee7eff35f1a9b7e183"
+    }
+  ]
+}

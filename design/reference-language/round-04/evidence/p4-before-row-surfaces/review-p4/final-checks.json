@@ -1,0 +1,132 @@
+[
+  {
+    "width": 390,
+    "timeWeight": "600",
+    "colors": [
+      {
+        "text": "14일 (월)",
+        "bg": "rgb(36, 94, 234)",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "14:00",
+        "bg": "rgb(36, 94, 234)",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "badge": "rgb(243, 244, 246)",
+    "focusGeometry": {
+      "initial": {
+        "x": 60,
+        "y": 72,
+        "width": 258,
+        "height": 48
+      },
+      "focused": {
+        "x": 60,
+        "y": 72,
+        "width": 258,
+        "height": 48
+      }
+    },
+    "motion": {
+      "samples": [
+        {
+          "background": "rgb(36, 94, 234)",
+          "color": "rgb(255, 255, 255)",
+          "duration": "0.15s, 0.15s",
+          "width": 111.328125,
+          "height": 44
+        },
+        {
+          "background": "rgb(30, 85, 216)",
+          "color": "rgb(255, 255, 255)",
+          "duration": "0.15s, 0.15s",
+          "width": 111.328125,
+          "height": 44
+        },
+        {
+          "background": "rgb(36, 94, 234)",
+          "color": "rgb(255, 255, 255)",
+          "duration": "0.15s, 0.15s",
+          "width": 111.328125,
+          "height": 44
+        },
+        {
+          "background": "rgb(36, 94, 234)",
+          "color": "rgb(255, 255, 255)",
+          "duration": "0.15s, 0.15s",
+          "width": 111.328125,
+          "height": 44
+        }
+      ],
+      "exit": "rgb(36, 94, 234)"
+    },
+    "touch": "filter/empty/reset/time/date/validation/complete/cancel executed"
+  },
+  {
+    "width": 320,
+    "timeWeight": "600",
+    "colors": [
+      {
+        "text": "14일 (월)",
+        "bg": "rgb(36, 94, 234)",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "14:00",
+        "bg": "rgb(36, 94, 234)",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "badge": "rgb(243, 244, 246)",
+    "focusGeometry": {
+      "initial": {
+        "x": 60,
+        "y": 72,
+        "width": 188,
+        "height": 48
+      },
+      "focused": {
+        "x": 60,
+        "y": 72,
+        "width": 188,
+        "height": 48
+      }
+    },
+    "motion": {
+      "samples": [
+        {
+          "background": "rgb(36, 94, 234)",
+          "color": "rgb(255, 255, 255)",
+          "duration": "0.15s, 0.15s",
+          "width": 88,
+          "height": 44
+        },
+        {
+          "background": "rgb(32, 88, 221)",
+          "color": "rgb(255, 255, 255)",
+          "duration": "0.15s, 0.15s",
+          "width": 88,
+          "height": 44
+        },
+        {
+          "background": "rgb(34, 91, 228)",
+          "color": "rgb(255, 255, 255)",
+          "duration": "0.15s, 0.15s",
+          "width": 88,
+          "height": 44
+        },
+        {
+          "background": "rgb(36, 94, 234)",
+          "color": "rgb(255, 255, 255)",
+          "duration": "0.15s, 0.15s",
+          "width": 88,
+          "height": 44
+        }
+      ],
+      "exit": "rgb(36, 94, 234)"
+    },
+    "touch": "filter/empty/reset/time/date/validation/complete/cancel executed"
+  }
+]

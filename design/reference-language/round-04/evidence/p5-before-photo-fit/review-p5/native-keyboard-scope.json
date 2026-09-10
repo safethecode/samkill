@@ -1,0 +1,12 @@
+{
+  "arrow_popup": {
+    "status": "unverified",
+    "tested": "headless and headed Chrome, touch on/off, ArrowDown twice/Space then down/Alt+Down/End+Enter",
+    "observed": "value stayed2; no claim of native popup arrow-selection success"
+  },
+  "typeahead": {
+    "status": "see results.json and verify-p5-review.cjs",
+    "tested": "real keyboard.type digit + Enter, people2→3 pets1→2, summary and previous persistence"
+  },
+  "customization": "closed native select field only; OS options popup remains native"
+}

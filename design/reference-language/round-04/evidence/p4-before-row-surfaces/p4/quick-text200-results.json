@@ -1,0 +1,56 @@
+[
+  {
+    "width": 390,
+    "baseColumns": 4,
+    "text200Columns": 2,
+    "labels": [
+      {
+        "text": "동반입장",
+        "height": 40,
+        "lineHeight": 40
+      },
+      {
+        "text": "음료맛집",
+        "height": 40,
+        "lineHeight": 40
+      },
+      {
+        "text": "맹견전용",
+        "height": 40,
+        "lineHeight": 40
+      },
+      {
+        "text": "넓은마당",
+        "height": 40,
+        "lineHeight": 40
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "baseColumns": 4,
+    "text200Columns": 2,
+    "labels": [
+      {
+        "text": "동반입장",
+        "height": 40,
+        "lineHeight": 40
+      },
+      {
+        "text": "음료맛집",
+        "height": 40,
+        "lineHeight": 40
+      },
+      {
+        "text": "맹견전용",
+        "height": 40,
+        "lineHeight": 40
+      },
+      {
+        "text": "넓은마당",
+        "height": 40,
+        "lineHeight": 40
+      }
+    ]
+  }
+]

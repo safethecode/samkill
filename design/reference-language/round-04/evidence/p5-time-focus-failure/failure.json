@@ -1,0 +1,14 @@
+{
+  "event": "manual-visual-review",
+  "status": "FAIL",
+  "source_version": "P5 compact horizontal times before focus correction",
+  "failed_rules": [
+    "RUI-04",
+    "RUI-13",
+    "PROJECT-ACCESSIBLE-STATES"
+  ],
+  "reason": "Keyboard Tab reaches final blue list time but inset outline is same accent blue as button background; actual focus is visually indistinguishable. Forced-colors path separately works. Parent correction requested before final gate.",
+  "evidence": "evidence/p5-time-focus-failure/times-keyboard-390.png",
+  "timestamp": "2026-09-10T05:53:09.414103+00:00",
+  "event_id": "80d356270ac5d61659644dd561db57673b1c8eb09cc84f74e08561745c3aa0a3"
+}

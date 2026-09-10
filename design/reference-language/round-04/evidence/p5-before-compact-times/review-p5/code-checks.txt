@@ -1,0 +1,8 @@
+Tokens 77; undefined=[]; unused=[]
+Official SVG geometry unchanged for 10 interface templates: search, x, heart, arrow-right, chevron-left, house, calendar-days, trees, paw-print, chevron-down
+Tag text #34558b on #eaf0ff contrast 6.53:1.
+App.js + inspect-browser.cjs + verify-review-p5.cjs + verify-accessibility-p5.cjs + verify-p5-review.cjs: existing todo anti-slop Oxlint deny-warnings exit0; TypeScript checkJs ESNext/DOM/DOM.Iterable NodeNext explicit Node types exit0.
+Final P5 behavior and accessibility rerun, source token/geometry audit newly performed.
+Prior P4 time600/white accent5.43/hover7.37 and transition measurements are reused only for unchanged declaration roles; fresh P5 accessibility checks also exercise hover/focus.
+Direct zero/100%/grid counts/official SVG geometry/photo35% values preserve prior scoped exceptions; tag4px/16px and select40px are new named role tokens.
+Python gate serialization is not JS anti-slop lint.

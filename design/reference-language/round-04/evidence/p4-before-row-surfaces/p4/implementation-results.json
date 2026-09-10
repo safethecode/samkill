@@ -1,0 +1,12 @@
+{
+  "passed": [
+    "검색 focus / empty / 초기화",
+    "지역 / 4조건 / 테마 / 해제",
+    "저장 / 저장탭 / 복귀 / 새로고침",
+    "상세 / 예약 / 마감 / 조건오류 / 초안 / Escape / 완료 / 취소",
+    "맹견 별도요청 / 닫기취소",
+    "320 / 200% / reduced-motion / forced-colors / overflow",
+    "console"
+  ],
+  "errors": []
+}

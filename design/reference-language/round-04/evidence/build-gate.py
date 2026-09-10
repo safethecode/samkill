@@ -1,4 +1,4 @@
-"""Serialize P4 human review decisions; this does not judge images automatically."""
+"""Serialize P5 human review decisions; this does not judge images automatically."""
 import hashlib
 import importlib.util
 import json
@@ -19,7 +19,7 @@ NA={
 'RUI-15':'채팅이 없는 카페 탐색/예약 체험이다. 목록과 대화의 경쟁이나 메시지 전송 흐름을 만들지 않는다.'}
 EX={
 'ORC-F07':('앱 상단 22px/700 제목과44px행','R1/R4의 짙고 굵은 제목을 14px 조건과 구별하는 모바일 관계를 유지한다. 원문 20–24px 크기상한은 준수하며 weight600/행48–56 대신700/44는 모바일 제목·터치행에만 한정한다. 390/320 제목과검색 간격 및200% 자연높이를 직접 확인했다.'),
-'ORC-F08':('카페별 가능시간3개와저장44px','R2의 매장소속 시간과 모바일 터치 발견성을 보존한다. hover-only는 사용하지 않는다. 시간은 해당매장 예약시트로, 저장은 독립토글로 작동하며 카드가반복되어도 다른영역에동일주CTA를복제하지 않는다.'),
+'ORC-F08':('카페별 가능시간6개와저장44px','R2의 매장소속 시간과 모바일 터치 발견성을 보존한다. hover-only는 사용하지 않는다. 시간은 해당매장 예약시트로, 저장은 독립토글로 작동하며 카드가반복되어도 다른영역에동일주CTA를복제하지 않는다.'),
 'ORC-G16':('카페별 가능시간/저장 조작','상시시간은 R2의 핵심 실행관계이며 모바일에서 hover 없이 접근해야 한다. 두폭·터치·키보드로 실제 실행했다. 일반 행관리버튼의무제한반복에예외를확대하지 않는다.'),
 'ORC-F10':('카테고리그림36–40,하단아이콘22,CTA아이콘24','R1의그림과라벨은수직스택이며대상별실루엣/채움이유지대상이다. 일반14px글자+2–4px규격으로그림을축소하지않는다. CTA/탭의크기도공식glyph와44px터치영역에서직접정렬판독했다. 수평CTA는flex중앙정렬,검색20px,아이콘24viewBox내glyph를실제로비교했다.'),
 'ORC-G18':('카테고리그림/수직탭/CTA의아이콘박스','그림36–40px는라벨14px와기능이달라동일크기공식으로평탄화하지않는다. 상단검색/뒤로/CTA는실제박스와시각중앙을비교했고문자+기호로만든아이콘이없다.'),
@@ -66,7 +66,7 @@ PASS={
 'ORC-A08':'4개실제분위기사진과공식Lucide경로를사용한다. 전체이미지대체나Imageplaceholder없고이미지오류0. 가상매장사진이라는고지를확인단계에보존한다.',
 'RUI-01':'원본image-px와CSS/DPR미상을구별하고P4값을chosen/가설로명시한다. 원본제작자의실제의도나애니메이션을단정하지않는다.',
 'RUI-02':'최종CSS역할토큰정의→참조→사용을검산했다. 미정의/미사용0. 일반SVG색은currentColor,카테고리fill/stroke/크기는별도역할토큰이다.',
-'RUI-03':'catalog v4 활성75와각원래checks를유지하고프로젝트7개를추가했다. 예외는대상과실제근거를명시하고거절판정을보존한다.',
+'RUI-03':'catalog v5 활성75와각원래checks를유지하고프로젝트7개를추가했다. 예외는대상과실제근거를명시하고거절판정을보존한다.',
 'RUI-04':'지역/이름/4조건/2테마/저장/상세/날짜/시간/인원/반려동물/동의/요약/취소/예약·요청체험을390/320실제실행했다. 외부예약은범위밖이다.',
 'RUI-05':'가격/입장공간/크기/이동가방/전용대관조건을목록·상세·확인에연결한다. 단순원본외형복제나사진시안으로대체하지않는다.',
 'RUI-06':'앱JS와독립검증JS에기존anti-slop규칙전체Oxlint와checkJs를실행했다. 기록한범위에서오류경고0이며실행스크립트와증거를연결한다.',
@@ -96,28 +96,34 @@ PROJECT={
 'PROJECT-ACCESSIBLE-STATES':'390/320/200%/forced-colors/reduced-motion/Tab/Escape/터치를실행했다. 시간숫자한줄/퀵확대2열/공식SVG고대비/실초점/가림방지를확인했다.',
 'PROJECT-HISTORY':'사용자거절P3앱/문서/증거의sha256스냅샷을보존했고이전adapted전체판정을철회했다. P4이후국소교정도사전고정입력으로꾸미지않고후속기록했다.',
 'PROJECT-BOARD':'부모검증1100/390/320의liveiframe필터/5개details키보드/이미지/가로넘침결과와P4 Q비교보드를직접열람했다. 보드원본상대링크아카이브는독립실행판정밖이다.'}
+
+# P5 changes are newly inspected; unchanged-role P4 motion evidence is explicitly scoped in gate-review.md.
+PASS.update({'ORC-G03': '사진/입력/버튼/시트8px, 정보태그4px, nav표시/상태chip pill로 역할을 구별한다. 태그는 사용자 R3 정보배지 요구이며 둥근 행동버튼과 외형/크기/비활성 의미가 다르다.', 'ORC-G08': '검색→4조건→2테마→카페/시간의 순서를 유지한다. P5 태그추가후 첫시간 하단390/320=732, nav시작780으로 실제진입은보인다. nav780까지48px여유이며최종조건요약크기와가로시간배치후재측정했다.', 'ORC-G22': '예약/취소 상태chip은 중립면이다. P5의 옅은청색태그는 사용자가명시한 R3형 입장조건 정보이며 상태색 여러개나 클릭선택이 아니다. span/비포커스와 별도 강한청색시간을두폭에서 확인했다.', 'ORC-A01': '사진/선택/버튼8px, 정보태그4px, nav/chip pill과 article교대중립면으로 역할이 구별된다.', 'ORC-A02': 'P5 흰/회색 fullwidth 매장표면이 사진/조건/시간을 묶고, 검색/select는중립입력, 정보태그는옅은청색, 실행은강한청색, sheet는backdrop으로 구별된다.', 'RUI-03': 'catalog v5 활성75의 모든원래checks를 유지하고프로젝트10개를검사한다. 예외대상과사용자교정/실제근거를명시하고P3/P4 실패판정을보존한다.', 'RUI-06': '앱JS와독립P5검증3개/inspect에 기존anti-slop Oxlint 및 checkJs를 실행해 오류경고0. Python직렬화는anti-slopJS검사로표현하지않는다.', 'RUI-09': 'P5 일반28상태, 확대/고대비16상태와표면/태그추가상태를재실행했다. 기본14px이상/가로넘침0. 320태그는세로wrap,200%는단어줄바꿈하며내용손실없다.', 'RUI-14': 'hr/영역bar/탭밑줄없다. P4간격만으로충분하다는판독은사용자지적으로정정하고P5흰/회색면으로매장경계를보완했다. 고대비에서색면이사라져도사진/제목/32px내용간쉼이소속을전달한다.', 'RUI-16': 'P3의부분adapted전체확대오판과P4의매장구분과신을보존했다. P5 Q1–Q5 전체/영역을신선하게읽고R3정보태그역할을실제조건으로연결했다. 원본그림풍부함차이와사용자최종승인미포함을명시한다.', 'RUI-17': 'P5전체는중립검색/그림/사진탐색/옅은정보태그/강한청색시간을구별하고매장별교대면으로소속을보완한다. 표면색은선택의미가아니며필터/저장후보이는순서로적용한다. 내부재판독범위다.', 'RUI-21': 'P5 날짜7개는기본44px동일,13일disabled/접근이름마감유지하고시각보조행은제거했다. select공통외형/화살표/초점과숫자typeahead키보드변경→요약→이전초안반영을실행했다. 선택끝시간노출과청색면의흰inset초점도재검증했다. OS화살표팝업조작은미검증이며커스텀팝업이아니다.', 'RUI-22': 'app/dialog20px정렬과article배경만양끝확장후내부20px재부여를두폭측정했다. article width390/320 x0,photo/time x20,연속article경계맞닿음. safearea/초점레이아웃유지.', 'RUI-24': '크기조건은목록태그에한번,이동가방/실내불가/사전확인은별도필요사실로유지한다. 날짜마감보조행은삭제하되disabled/접근이름은보존했다. 요약은확인역할의반복이다.', 'RUI-25': 'P4간격만의매장구분이부족하다는사용자FAIL을반영했다. P5흰/회색article은사진부터시간까지묶고내부20px,상하16px로두매장내용간32px를유지한다. 필터0/1/2,저장/삭제,200%/고대비까지새실행과직접판독했다.'})
+PROJECT.update({'PROJECT-REFERENCE-SYNTHESIS': 'P5 Q1–Q5및실제전체목록을원본과직접비교했다. R2정보/시간소속에교대면, R3짧은정보배지에조건태그를각색했다. 원본에교대면/아이콘태그가있다고주장하지않으며고유그림풍부함차이와최종사용자승인미포함유지.', 'PROJECT-BOARD': '부모P5보드1100/390/320 liveiframe필터·5개disclosure각키보드·이미지/넘침검증PASS를읽고Q1–Q5최종보드직접판독했다. 아카이브상대링크는독립실행범위밖이다.', 'PROJECT-HISTORY': 'P3거절과P4매장구분사용자FAIL을보존했다. P4기본10파일은5b026fa와byte일치하며별도baseline-audit와사본을남겼다. P5순차추가요구를최초입력으로꾸미지않는다.', 'PROJECT-CAFE-GROUPING': '기본3매장흰/회/흰 fullwidth표면,조건필터0/1/2,저장2→1재정렬,회색매장시간예약/Escape복귀를390/320검증했다. 200%/고대비에서도사진·제목·간격으로소속이읽히며새구분선없다.', 'PROJECT-INFORMATION-TAGS': '실내/마당+크기조건은공식house/trees/paw-print의14px아이콘과12px정적태그로표현한다. 조건중복/맹견크기추론없음,작은4px반경옅은면과강한시간의역할차이,목록요약12px범위/상세와확인조건14px보존/320wrap/200%24px/고대비내용유지를직접판독했다.', 'PROJECT-PICKER-CONTROLS': '지역/인원/동물select공통닫힌외형 appearance:none,공식chevron하나,44/48px이상,실선택반영. 인원/동물숫자typeahead+Enter의실키보드→요약/이전초안검증. 날짜7개44px동일/마감disabled접근이름보존. OS방향키팝업조작은미검증으로별도남긴다.'})
+EX.update({'RUI-09': ('목록 입장조건 태그와 추가조건 요약12px에만한정', '사용자가공간부족의짧은보조정보12px를명시요청했다. 태그14px때정보높이증가/사진하단이탈을먼저배치로교정했고이후조건요약만전용compact12/16토큰으로줄였다. 이름/가격/입력/날짜시간/필터/CTA/오류/동의는14이상이며같은필수조건은상세/예약확인에14이상으로판단전에보존한다. 390/320·200%24px·고대비/조건손실을재검증했다. catalogv5original을삭제하지않는다.'), 'ORC-G06': ('목록 한뷰12/14/18/22px의4크기', '12px은명시요청한읽기전용조건요약,14px은가격/행동,18px은카페명/섹션,22px은화면제목이다. 새역할예외를맞추려고가격/행동도12px로내리거나제목을평탄화하지않는다. 200%에서는각각24/28/36/44로확대한다.'), 'ORC-F16': ('목록/예약시트의 6개시간 선택 가로영역', '사용자가시간버튼폭/개수와넘김단서문제를지적하며가로스크롤/스크롤바숨김을명시했다. 기존시간을보존한6개가상시간이기본폭을실제로넘으며72px최소너비/44px터치와일부다음칩이접근단서다. 가로wheel/실touchswipe/Tab끝선택을검증하고페이지가로넘침은허용하지않는다. 날짜나카드본문의임의스크롤로확대하지않는다.'), 'ORC-G23': ('사용자명시요청 시간목록의 가로스크롤만', '원문카드내스크롤금지에대한이번제품의범위예외다. scrollbar-width:none/웹킷display:none로막대만숨기며일부다음시간/키보드초점자동노출/터치넘김/마지막값확인을검증한다. 잘림으로접근을막거나빈영역에고정높이스크롤을추가하지않는다.')})
+PASS.update({'RUI-13': '페이지의가로넘침0,세로는페이지/긴dialog에한정한다. P5사용자명시요청의6개시간만가로영역이며부분다음칩/숨김bar/터치·휠·Tab끝접근을검증했다. 선택끝시간은시트진입/이전에서도가시영역에노출한다.', 'RUI-23': 'P5 탐색/저장/예약/상세/예약폼/요약/완료를같은390/320묶음으로재실행/판독했다. 조건목록요약만12px이고판단전상세/확인은14px이상,흰면/먹색정보/청색실행/중립보조역할은이어진다.', 'RUI-02': '최종CSS역할토큰정의→참조→사용,공식SVG경로를재검산했다. compact12/16과tag14,가로시간72는명시요청의좁은역할토큰이다. 일반아이콘currentColor/카테고리작품색과구별한다.'})
 def evidence(kind,relative):
  return {'kind':kind,'path':relative,'sha256':hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()}
-base={'spec':['gate-review.md','prompt-v4.md','style-analysis.md'],'code':['app.html','app.css','app.js','evidence/review-p4/code-checks.txt'],'visual':['evidence/review-p4/final-home-390.png','evidence/review-p4/final-home-320.png','evidence/review-p4/final-validation-390.png','evidence/review-p4/final-validation-320.png','evidence/review-p4/final-bookings-390.png','evidence/review-p4/final-bookings-320.png'],'interaction':['evidence/review-p4/review-browser.json','evidence/review-p4/review-accessibility.json','evidence/review-p4/final-checks.json']}
+base={'spec':['gate-review.md','prompt-v4.md','prompt-v5.md','style-analysis.md'],'code':['app.html','app.css','app.js','evidence/review-p5/code-checks.txt'],'visual':['evidence/review-p5/home-390.png','evidence/review-p5/home-320.png','evidence/review-p5/scrolled-390.png','evidence/review-p5/scrolled-320.png','evidence/review-p5/booking-390.png','evidence/review-p5/booking-320.png'],'interaction':['evidence/review-p5/review-browser.json','evidence/review-p5/review-accessibility.json','evidence/review-p5/results.json','evidence/review-p5/times-results.json','evidence/review-p4/final-checks.json']}
 rules=[];results=[]
 items=catalog['rules']+[{'id':key,'status':'active','checks':['spec','code','visual','interaction']}for key in PROJECT]
 for item in items:
  if item['status']!='active':continue
  rid=item['id'];assert rid in NA or rid in EX or rid in PASS or rid in PROJECT,rid
- scope=EX[rid][0] if rid in EX else 'P4 모바일카페탐색/상세/로컬예약과해당상태'
+ scope=EX[rid][0] if rid in EX else 'P5 모바일카페탐색/상세/로컬예약과해당상태'
  reason=NA.get(rid,EX[rid][1]if rid in EX else PASS.get(rid,PROJECT.get(rid)))
- exc=f'R4-P4-{rid}'
- rules.append({'id':rid,'applicable':rid not in NA,'scope':scope,'reason':reason,'checks':item['checks'],'exceptions':[{'id':exc,'scope':scope,'reason':reason,'basis':'사용자 색역할/관계 교정, P4 고정계약, 원본 R1–R5 직접관찰 및두폭/상태실행. 원본미공개복제의일괄예외가아님.'}]if rid in EX else []})
+ exc=f'R4-P5-{rid}'
+ rules.append({'id':rid,'applicable':rid not in NA,'scope':scope,'reason':reason,'checks':item['checks'],'exceptions':[{'id':exc,'scope':scope,'reason':reason,'basis':'사용자 색역할/관계 교정, P4 계약과 P5 순차추가요구, 원본 R1–R5 직접관찰 및두폭/상태실행. 원본미공개복제의일괄예외가아님.'}]if rid in EX else []})
  ev=[]if rid in NA else[evidence(kind,file)for kind in item['checks']for file in base[kind]]
  if rid in ['RUI-16','RUI-17','PROJECT-REFERENCE-SYNTHESIS','PROJECT-BOARD']:
-  ev.extend(evidence('visual',f'evidence/p4-Q{q}-comparison.png')for q in range(1,6))
- if rid=='PROJECT-BOARD':ev.append(evidence('interaction','evidence/p4-board-checks.json'))
+  ev.extend(evidence('visual',f'evidence/p5-Q{q}-comparison.png')for q in range(1,6))
+ if rid=='PROJECT-BOARD':ev.append(evidence('interaction','evidence/p5-board-checks.json'))
  if rid in ['PROJECT-ACCESSIBLE-STATES','RUI-09','RUI-13','RUI-19','RUI-21','RUI-23']:
-  ev.extend(evidence('visual',f'evidence/review-p4/review-{name}-{w}.png')for name in ['large-home','large-booking','forced-focus']for w in [390,320])
+  ev.extend(evidence('visual',f'evidence/review-p5/review-{name}-{w}.png')for name in ['large-home','large-booking','forced-focus']for w in [390,320])
  result={'id':rid,'status':'not-applicable'if rid in NA else'exception'if rid in EX else'pass','reason':reason,'evidence':ev}
  if rid in EX:result['exception_id']=exc
  results.append(result)
-contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','index.html','board.css'],'rules':rules}
+contract={'schema_version':1,'catalog_version':catalog['version'],'targets':['app.html','app.css','app.js','assets','references','sources.json','reference-brief.md','style-analysis.md','DESIGN.md','prompt-v1.md','prompt-v2.md','prompt-v3.md','prompt-v4.md','prompt-v5.md','index.html','board.css'],'rules':rules}
 p=ROOT/'gate-contract.json';p.write_text(json.dumps(contract,ensure_ascii=False,indent=2)+'\n')
 report={'schema_version':1,**gate.fingerprints(ROOT,CAT,p,contract),'results':results}
 (ROOT/'gate-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

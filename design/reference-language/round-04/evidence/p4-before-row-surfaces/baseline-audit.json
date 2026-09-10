@@ -1,0 +1,62 @@
+[
+  {
+    "file": "app.html",
+    "copied_sha256": "f539cecffe4d3e9a64d84b0ca5f73c7e8e6f90e4bc3a82ea90c35b4d1211ae43",
+    "baseline_sha256": "f539cecffe4d3e9a64d84b0ca5f73c7e8e6f90e4bc3a82ea90c35b4d1211ae43",
+    "identical": true
+  },
+  {
+    "file": "app.css",
+    "copied_sha256": "d116e5eaf0c4331f793f7c6455eeb1bc3ca6c5fd4ac3134878dd2c9953a66a72",
+    "baseline_sha256": "d116e5eaf0c4331f793f7c6455eeb1bc3ca6c5fd4ac3134878dd2c9953a66a72",
+    "identical": true
+  },
+  {
+    "file": "app.js",
+    "copied_sha256": "09990650734a02e7ea50f97f92f344c7fb5baa66f47216578cf61ebc4428880e",
+    "baseline_sha256": "09990650734a02e7ea50f97f92f344c7fb5baa66f47216578cf61ebc4428880e",
+    "identical": true
+  },
+  {
+    "file": "DESIGN.md",
+    "copied_sha256": "93f1bc5015fef383f2b68e98295d2b2e9ddd9642f288ba66ac12baa6300b2975",
+    "baseline_sha256": "93f1bc5015fef383f2b68e98295d2b2e9ddd9642f288ba66ac12baa6300b2975",
+    "identical": true
+  },
+  {
+    "file": "gate-contract.json",
+    "copied_sha256": "61fd6a3a6c5e0a9dbd00efc1a5faae9599cf84eb08a22400ffe2533d8a89986d",
+    "baseline_sha256": "61fd6a3a6c5e0a9dbd00efc1a5faae9599cf84eb08a22400ffe2533d8a89986d",
+    "identical": true
+  },
+  {
+    "file": "gate-report.json",
+    "copied_sha256": "b1964b5cfad4cdca7778d27222ad8beeeb28996bc3e372e22ff4616855f65643",
+    "baseline_sha256": "b1964b5cfad4cdca7778d27222ad8beeeb28996bc3e372e22ff4616855f65643",
+    "identical": true
+  },
+  {
+    "file": "gate-result.json",
+    "copied_sha256": "097c35fbc2961c0f15824538c83dc1c8dee69d11da262d297a9c18b17c1994a9",
+    "baseline_sha256": "097c35fbc2961c0f15824538c83dc1c8dee69d11da262d297a9c18b17c1994a9",
+    "identical": true
+  },
+  {
+    "file": "gate-review.md",
+    "copied_sha256": "f0bce3acc0cbfa2009498d458f6c223713e7913c8a94dea180f9503c87d2b541",
+    "baseline_sha256": "f0bce3acc0cbfa2009498d458f6c223713e7913c8a94dea180f9503c87d2b541",
+    "identical": true
+  },
+  {
+    "file": "review.md",
+    "copied_sha256": "f56e572962d60f8aa2605dff45bee90d680df8ffd59774b567cc85f4e1779455",
+    "baseline_sha256": "f56e572962d60f8aa2605dff45bee90d680df8ffd59774b567cc85f4e1779455",
+    "identical": true
+  },
+  {
+    "file": "prompt-v4.md",
+    "copied_sha256": "6347d3d7d25145c5bce70f3174e401787182d8b344d8a251d63276c20927698a",
+    "baseline_sha256": "6347d3d7d25145c5bce70f3174e401787182d8b344d8a251d63276c20927698a",
+    "identical": true
+  }
+]
