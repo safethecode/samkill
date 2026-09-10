@@ -1,0 +1,24 @@
+{
+  "scope": "Skill behavior analysis/prompt samples only, not implementation quality",
+  "control": "Frozen pre-change existing guidance; no added screen style contract",
+  "control_files": {
+    "skills/reference-decompose/SKILL.md": "1317f9f69f113d3da3e7e98824fa5386701766ec16fc7ca266f6c791fa312100",
+    "skills/reference-decompose/references/element-contract.md": "66a6b9866feda7b42d73ae115479bc2774852aff6cd6d0a2fd31474619c04e58",
+    "skills/reference-to-ui/references/reference-synthesis.md": "ae01728bdc79a80dfe1eea814974375f7b7024967231766b22128316eb56732f"
+  },
+  "artifacts": [
+    "design/reference-language/round-04/references/R1.png",
+    "design/reference-language/round-04/references/R2.png",
+    "design/reference-language/round-04/references/R3.png",
+    "design/reference-language/round-04/references/R5.png"
+  ],
+  "sampling": "Each sample is a new fork_turns=none single-shot agent; one child at a time",
+  "planned": {
+    "control": 5,
+    "updated": 5,
+    "counterexamples": [
+      "exact-copy",
+      "achromatic"
+    ]
+  }
+}

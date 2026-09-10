@@ -1,0 +1,28 @@
+{
+  "updated_files": {
+    "skills/reference-decompose/SKILL.md": "0b6739ad734ef5058641b4011d866e17c48cb808f3638ac6fbb76081f2486d00",
+    "skills/reference-decompose/references/element-contract.md": "3d9e1d7eb3eca847c26ead60615d92e937dba3fa5169ef9c5d8653fda06895f6",
+    "skills/reference-to-ui/references/reference-synthesis.md": "352dfe20405f437315019bd788a6218c5352e2777d809f3488e49c0b0bccf1f7"
+  },
+  "checks": [
+    {
+      "command": "python3 /Users/aaron-son/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/reference-decompose",
+      "exit": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "check": "local markdown file/fragment targets in three updated files",
+      "result": "PASS",
+      "links": 5
+    },
+    {
+      "command": "git diff --check -- skills/reference-decompose/SKILL.md skills/reference-decompose/references/element-contract.md skills/reference-to-ui/references/reference-synthesis.md evals/results/reference-style-contract",
+      "exit": 0
+    }
+  ],
+  "behavioral_samples": {
+    "control": 0,
+    "updated": 0
+  },
+  "status": "INDEPENDENT BEHAVIOR UNVERIFIED; non-independent diagnostic only"
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "detail": {
+      "width": 1100,
+      "scrollWidth": 1100,
+      "brokenImages": 0,
+      "hrefs": [
+        "app.html",
+        "#Q1",
+        "prompt-v1.md",
+        "review.md",
+        "reference-brief.md",
+        "../round-03/",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md"
+      ],
+      "prompts": 5
+    },
+    "state": {
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": 0
+    },
+    "filtered": 1,
+    "opened": true,
+    "closed": true,
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  },
+  {
+    "detail": {
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": 0,
+      "hrefs": [
+        "app.html",
+        "#Q1",
+        "prompt-v1.md",
+        "review.md",
+        "reference-brief.md",
+        "../round-03/",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md"
+      ],
+      "prompts": 5
+    },
+    "state": {
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": 0
+    },
+    "filtered": 1,
+    "opened": true,
+    "closed": true,
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  },
+  {
+    "detail": {
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": 0,
+      "hrefs": [
+        "app.html",
+        "#Q1",
+        "prompt-v1.md",
+        "review.md",
+        "reference-brief.md",
+        "../round-03/",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md",
+        "prompt-v1.md",
+        "prompt-v2.md"
+      ],
+      "prompts": 5
+    },
+    "state": {
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": 0
+    },
+    "filtered": 1,
+    "opened": true,
+    "closed": true,
+    "focus": {
+      "focused": true,
+      "outline": "rgba(5, 0, 73, 0.8) solid 2px"
+    }
+  }
+]

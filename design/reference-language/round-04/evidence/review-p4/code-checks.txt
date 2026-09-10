@@ -1,0 +1,10 @@
+Tokens 72; undefined=[]; unused=[]
+Official SVG geometry unchanged for 11 templates: paw-print, coffee, shield-check, trees, search, x, heart, arrow-right, chevron-left, house, calendar-days
+Generated UI/verification JS: existing todo anti-slop Oxlint configuration, all general rules retained, exit0 warnings0.
+TypeScript checkJs: ESNext/DOM/DOM.Iterable NodeNext, explicit external @types/node only for verification scripts, exit0.
+Own checked files: app.js; evidence/inspect-browser.cjs; verify-review.cjs; verify-accessibility.cjs; verify-p4-final.cjs.
+No CSS linear/radial gradients. Final resolved box-shadow:none; outline is focus role.
+Direct-value exceptions: zero/100%/grid counts/media conditions/photo object-position35%/official SVG geometry.
+White/accent contrast 5.43:1; white/primary-hover7.37:1; muted/white5.35:1; muted/surface4.86:1.
+Final time button computed fontWeight600, colorwhite, bluebg; see final-checks.json.
+Generated build-gate.py is Python serialization; it is not represented as anti-slop linted code.

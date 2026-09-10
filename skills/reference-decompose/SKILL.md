@@ -19,6 +19,8 @@ description: Use when a UI reference or screenshot has been obtained for design 
 
 [요소·프롬프트 계약](references/element-contract.md)을 사용한다. 원본을 직접 보고 R-ID와 영역을 고정한 뒤 화면 → 의미 있는 묶음 → 개별 요소/변형으로 분해한다. 이미지 접근이 안 되면 `not-inspected`로 남기며 태그나 상식으로 빈칸을 채우지 않는다.
 
+각색·조합 작업은 [화면 스타일 계약](references/element-contract.md#각색-전-화면-스타일-계약)을 먼저 공유 입력에 넣는다. 원본 색 이름 대신 색·표면·그림·간격이 만드는 관계를 관찰하고, 커스텀 값은 그 관계와 연결한다.
+
 E-ID마다 역할, 부모/형제, 박스와 사방 여유, 정렬, 실제 내용과 줄바꿈, 글자/색/아이콘/경계, 관찰된 상태, 미확인, 조립 관계를 작성한다. 공통 속성은 공유 계약에 한 번 두고 변형에는 차이만 적는다. 상세 측정은 [컴포넌트 분석](../uibowl-research/references/component-anatomy.md)을 따른다.
 
 원본 관찰(O), 구현 선택(D), 검증(Q/V)을 섞지 않는다. image-px와 CSS-px를 구별하고 배율은 비교 조건으로 기록한다. 원본 CSS/DPR를 모른다고 관계까지 unknown으로 만들거나 추정값을 실측으로 바꾸지 않는다.

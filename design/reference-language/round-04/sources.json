@@ -1,0 +1,47 @@
+[
+  {
+    "id": "R1",
+    "app": "캐치테이블",
+    "ui_url": "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=lob7syc5g4w4hgmyl62wie43",
+    "url": "https://d31var7gpnk8lm.cloudfront.net/clpscv5jg0000l108nup58mqc/374d6528-f090-472b-9aea-9b5727a09c20/.png",
+    "file": "references/R1.png",
+    "query": 0,
+    "image_id": "lob7syc5g4w4hgmyl62wie43"
+  },
+  {
+    "id": "R2",
+    "app": "캐치테이블",
+    "ui_url": "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EB%A9%94%EC%9D%B8&imgId=fp1izpdlysdoc0g8m00d5fvo",
+    "url": "https://d31var7gpnk8lm.cloudfront.net/clpscv5jg0000l108nup58mqc/ddd2e6db-0482-4900-8ba5-256febf9b160/img_6046.jpg",
+    "file": "references/R2.png",
+    "query": 0,
+    "image_id": "fp1izpdlysdoc0g8m00d5fvo"
+  },
+  {
+    "id": "R3",
+    "app": "데일리호텔",
+    "ui_url": "https://uibowl.io/name/%EB%8D%B0%EC%9D%BC%EB%A6%AC%ED%98%B8%ED%85%94?patterns=%EB%A9%94%EC%9D%B8&imgId=aq1d6dmgk48vmnq43dgdn3t7",
+    "url": "https://d31var7gpnk8lm.cloudfront.net/clpzcuw9g0000l609ps9kpyuv/c656978b-abfc-4539-a39a-6fb6d37d4f28/img_5022.png",
+    "file": "references/R3.png",
+    "query": 4,
+    "image_id": "aq1d6dmgk48vmnq43dgdn3t7"
+  },
+  {
+    "id": "R4",
+    "app": "캐치테이블",
+    "ui_url": "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EC%98%88%EC%95%BD%C2%B7%EA%B2%B0%EC%A0%9C&imgId=zhn4pu4uyx42vjqc8ynwe89o",
+    "url": "https://d31var7gpnk8lm.cloudfront.net/clpscv5jg0000l108nup58mqc/b839c2ae-8170-45d5-acf3-d430a416fe57/img_6286.png",
+    "file": "references/R4.png",
+    "query": 3,
+    "image_id": "zhn4pu4uyx42vjqc8ynwe89o"
+  },
+  {
+    "id": "R5",
+    "app": "캐치테이블",
+    "ui_url": "https://uibowl.io/name/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94?patterns=%EC%98%88%EC%95%BD%C2%B7%EA%B2%B0%EC%A0%9C&imgId=sp46ej1d5ala5d30aewosqxo",
+    "url": "https://d31var7gpnk8lm.cloudfront.net/clpscv5jg0000l108nup58mqc/b372082b-f3d1-41d0-a7fe-a8e7f40ba784/img_6287.png",
+    "file": "references/R5.png",
+    "query": 3,
+    "image_id": "sp46ej1d5ala5d30aewosqxo"
+  }
+]
