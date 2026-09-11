@@ -1,0 +1,30 @@
+[
+  {
+    "type": "file",
+    "width": 390,
+    "render": true,
+    "navigation": true,
+    "errors": []
+  },
+  {
+    "type": "file",
+    "width": 320,
+    "render": true,
+    "navigation": true,
+    "errors": []
+  },
+  {
+    "type": "http",
+    "width": 390,
+    "render": true,
+    "navigation": true,
+    "errors": []
+  },
+  {
+    "type": "http",
+    "width": 320,
+    "render": true,
+    "navigation": true,
+    "errors": []
+  }
+]

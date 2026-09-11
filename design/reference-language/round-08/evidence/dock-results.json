@@ -1,0 +1,54 @@
+[
+  {
+    "width": 320,
+    "scale": 1,
+    "positions": [
+      716,
+      716,
+      716,
+      716
+    ],
+    "filtersStable": true,
+    "lastRowAccessible": true,
+    "addWorks": true
+  },
+  {
+    "width": 320,
+    "scale": 2,
+    "positions": [
+      626,
+      626,
+      626,
+      626
+    ],
+    "filtersStable": true,
+    "lastRowAccessible": true,
+    "addWorks": true
+  },
+  {
+    "width": 390,
+    "scale": 1,
+    "positions": [
+      716,
+      716,
+      716,
+      716
+    ],
+    "filtersStable": true,
+    "lastRowAccessible": true,
+    "addWorks": true
+  },
+  {
+    "width": 390,
+    "scale": 2,
+    "positions": [
+      674,
+      674,
+      674,
+      674
+    ],
+    "filtersStable": true,
+    "lastRowAccessible": true,
+    "addWorks": true
+  }
+]

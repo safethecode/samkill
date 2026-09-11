@@ -1,0 +1,72 @@
+[
+  {
+    "width": 320,
+    "protocol": "file",
+    "entry": true
+  },
+  {
+    "width": 320,
+    "protocol": "http",
+    "entry": true
+  },
+  {
+    "width": 320,
+    "keyboardFocus": true,
+    "metric": {
+      "fonts": [
+        "24px",
+        "16px",
+        "14px"
+      ],
+      "left": "20px",
+      "right": "20px",
+      "plusName": "재료 추가",
+      "plusText": ""
+    },
+    "pendingCancelledTrackStopped": true,
+    "invalidFilesRecover": true,
+    "focusStable": true,
+    "hoverEnterExit": {
+      "bg": "rgb(255, 164, 172)",
+      "transform": "none",
+      "shadow": "none",
+      "duration": "0.16s, 0.16s, 0.16s"
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "protocol": "file",
+    "entry": true
+  },
+  {
+    "width": 390,
+    "protocol": "http",
+    "entry": true
+  },
+  {
+    "width": 390,
+    "keyboardFocus": true,
+    "metric": {
+      "fonts": [
+        "24px",
+        "16px",
+        "14px"
+      ],
+      "left": "20px",
+      "right": "20px",
+      "plusName": "재료 추가",
+      "plusText": ""
+    },
+    "pendingCancelledTrackStopped": true,
+    "invalidFilesRecover": true,
+    "focusStable": true,
+    "hoverEnterExit": {
+      "bg": "rgb(255, 164, 172)",
+      "transform": "none",
+      "shadow": "none",
+      "duration": "0.16s, 0.16s, 0.16s"
+    },
+    "errors": []
+  }
+]

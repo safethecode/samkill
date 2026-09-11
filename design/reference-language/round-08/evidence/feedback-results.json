@@ -1,0 +1,106 @@
+[
+  {
+    "width": 390,
+    "items": [
+      {
+        "label": "카메라 켜기",
+        "gap": "4px",
+        "iconBeforeText": true,
+        "renderedPaths": 2,
+        "groupCenter": 194.9921875,
+        "buttonCenter": 195
+      },
+      {
+        "label": "앨범에서 선택",
+        "gap": "4px",
+        "iconBeforeText": true,
+        "renderedPaths": 3,
+        "groupCenter": 194.9921875,
+        "buttonCenter": 195
+      },
+      {
+        "label": "직접 재료 선택",
+        "gap": "4px",
+        "iconBeforeText": true,
+        "renderedPaths": 2,
+        "groupCenter": 194.9921875,
+        "buttonCenter": 195
+      }
+    ],
+    "surface": [
+      {
+        "bg": "rgb(28, 28, 28)",
+        "radius": "14px",
+        "padding": "12px 16px"
+      },
+      {
+        "bg": "rgb(28, 28, 28)",
+        "radius": "14px",
+        "padding": "12px 16px"
+      },
+      {
+        "bg": "rgb(28, 28, 28)",
+        "radius": "14px",
+        "padding": "12px 16px"
+      },
+      {
+        "bg": "rgb(28, 28, 28)",
+        "radius": "14px",
+        "padding": "12px 16px"
+      }
+    ],
+    "blockedExternalSvgStillVisible": true
+  },
+  {
+    "width": 320,
+    "items": [
+      {
+        "label": "카메라 켜기",
+        "gap": "4px",
+        "iconBeforeText": true,
+        "renderedPaths": 2,
+        "groupCenter": 159.9921875,
+        "buttonCenter": 160
+      },
+      {
+        "label": "앨범에서 선택",
+        "gap": "4px",
+        "iconBeforeText": true,
+        "renderedPaths": 3,
+        "groupCenter": 159.9921875,
+        "buttonCenter": 160
+      },
+      {
+        "label": "직접 재료 선택",
+        "gap": "4px",
+        "iconBeforeText": true,
+        "renderedPaths": 2,
+        "groupCenter": 159.9921875,
+        "buttonCenter": 160
+      }
+    ],
+    "surface": [
+      {
+        "bg": "rgb(28, 28, 28)",
+        "radius": "14px",
+        "padding": "12px 16px"
+      },
+      {
+        "bg": "rgb(28, 28, 28)",
+        "radius": "14px",
+        "padding": "12px 16px"
+      },
+      {
+        "bg": "rgb(28, 28, 28)",
+        "radius": "14px",
+        "padding": "12px 16px"
+      },
+      {
+        "bg": "rgb(28, 28, 28)",
+        "radius": "14px",
+        "padding": "12px 16px"
+      }
+    ],
+    "blockedExternalSvgStillVisible": true
+  }
+]

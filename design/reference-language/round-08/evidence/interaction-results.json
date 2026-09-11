@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "flows": "home/detail/cook/done/pantry/camera/upload/review/search-empty",
+      "persistence": true,
+      "zeroSelection": true,
+      "photoRegistration": true,
+      "deniedRecovery": true,
+      "largeText": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "flows": "home/detail/cook/done/pantry/camera/upload/review/search-empty",
+      "persistence": true,
+      "zeroSelection": true,
+      "photoRegistration": true,
+      "deniedRecovery": true,
+      "largeText": true,
+      "errors": []
+    }
+  ],
+  "syntheticCameraCapture": true
+}

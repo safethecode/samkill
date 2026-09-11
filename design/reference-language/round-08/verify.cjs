@@ -1,0 +1,40 @@
+const {chromium,expect}=require('../../../todo/node_modules/@playwright/test');
+const fs=require('node:fs');
+const path=require('node:path');
+const root=__dirname;
+(async()=>{
+const browser=await chromium.launch({channel:'chrome'});
+const results=[];
+for(const width of [390,320]){
+ const page=await browser.newPage({viewport:{width,height:width===320?740:844}});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:4198');
+ const shot=async name=>{await page.waitForLoadState('networkidle');await page.evaluate(()=>Promise.all([...document.images].map(img=>img.decode().catch(()=>{}))));await page.screenshot({path:path.join(root,`evidence/${name}-${width}.png`),fullPage:true});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);};
+ await expect(page.getByRole('heading',{name:'오늘 뭐 먹지?'})).toBeVisible();await shot('home');
+ await page.getByRole('button',{name:'토마토 달걀 덮밥 자세히 보기'}).click();await shot('detail');
+ await page.getByRole('button',{name:'요리 시작',exact:true}).click();await shot('cook');
+ for(let n=0;n<3;n++)await page.getByRole('button',{name:'다음 단계',exact:true}).click();
+ await page.getByRole('button',{name:'요리 완료',exact:true}).click();await expect(page.getByRole('heading',{name:'한 끼가 완성됐어요'})).toBeVisible();await shot('done');
+ await page.getByRole('button',{name:'다른 요리 보기'}).click();await page.getByRole('button',{name:'내 냉장고',exact:true}).click();await shot('pantry');
+ await page.getByRole('checkbox',{name:'토마토 선택',exact:true}).uncheck();await page.reload();await page.getByRole('button',{name:'내 냉장고',exact:true}).click();await expect(page.getByRole('checkbox',{name:'토마토 선택',exact:true})).not.toBeChecked();
+ for(const box of await page.getByRole('checkbox').all())await box.uncheck();await page.getByRole('button',{name:'0개 재료로 요리 보기'}).click();await expect(page.getByRole('heading',{name:'냉장고에 뭐가 있나요?'})).toBeVisible();await shot('empty');
+ expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight)).toBe(true);
+ await page.getByRole('button',{name:'내 냉장고',exact:true}).click();await page.getByRole('button',{name:'사진으로 재료 등록'}).click();await shot('camera');
+ await page.getByRole('button',{name:'카메라 켜기'}).click();await expect(page.locator('#camera-error')).toBeVisible();await shot('camera-denied');
+ await page.locator('#upload').setInputFiles(path.join(root,'dist/assets/tomato-egg-rice.jpg'));await expect(page.getByRole('heading',{name:'사진 속 재료 확인'})).toBeVisible();await expect(page.getByRole('button',{name:'0개 재료 등록'})).toBeDisabled();await shot('photo-review');
+ await page.getByRole('checkbox',{name:'토마토 등록 선택'}).check();await page.getByRole('button',{name:'1개 재료 등록'}).click();await expect(page.getByRole('checkbox',{name:'토마토 선택',exact:true})).toBeChecked();
+ await page.getByRole('button',{name:'재료 추가',exact:true}).click();await page.getByRole('searchbox',{name:'재료 찾기'}).fill('없는재료');await expect(page.getByRole('heading',{name:'찾는 재료가 없어요'})).toBeVisible();await shot('search-empty');
+ await page.getByRole('searchbox',{name:'재료 찾기'}).fill('시금치');await page.getByRole('checkbox',{name:'시금치 등록 선택'}).check();await page.getByRole('button',{name:'1개 재료 등록'}).click();await expect(page.getByRole('checkbox',{name:'시금치 선택',exact:true})).toBeChecked();
+ await page.getByRole('button',{name:'오늘의 요리',exact:true}).click();await page.getByRole('button',{name:'토마토 달걀 덮밥 자세히 보기'}).click();await expect(page.getByText('추가로 필요해요')).toHaveCount(3);
+ await page.evaluate(()=>document.documentElement.style.fontSize='32px');await shot('large-detail');
+ await page.getByRole('button',{name:'요리 목록으로'}).click();await shot('large-home');
+ await page.getByRole('button',{name:'내 냉장고',exact:true}).click();await shot('large-pantry');
+ await page.evaluate(()=>document.documentElement.style.fontSize='16px');
+ await page.emulateMedia({reducedMotion:'reduce'});expect(await page.locator('.primary').evaluate(el=>getComputedStyle(el).transitionDuration)).toBe('0s, 0s, 0s');
+ await page.keyboard.press('Tab');await shot('keyboard');
+ await page.emulateMedia({forcedColors:'active'});await shot('forced-colors');
+ expect(errors).toEqual([]);results.push({width,flows:'home/detail/cook/done/pantry/camera/upload/review/search-empty',persistence:true,zeroSelection:true,photoRegistration:true,deniedRecovery:true,largeText:true,errors});await page.close();
+}
+const fake=await chromium.launch({channel:'chrome',args:['--use-fake-device-for-media-stream','--use-fake-ui-for-media-stream']});const p=await fake.newPage({viewport:{width:390,height:844}});await p.goto('http://127.0.0.1:4198');await p.getByRole('button',{name:'내 냉장고',exact:true}).click();await p.getByRole('button',{name:'사진으로 재료 등록'}).click();await p.getByRole('button',{name:'카메라 켜기'}).click();await expect(p.locator('video')).toBeVisible();await p.waitForFunction(()=>document.querySelector('video')?.videoWidth>0);await p.getByRole('button',{name:'사진 찍기',exact:true}).click();await expect(p.getByRole('heading',{name:'사진 속 재료 확인'})).toBeVisible();await fake.close();
+await browser.close();fs.writeFileSync(path.join(root,'evidence/interaction-results.json'),JSON.stringify({results,syntheticCameraCapture:true},null,2));console.log('Round8 browser checks passed',results.length);
+})().catch(e=>{console.error(e);process.exitCode=1});

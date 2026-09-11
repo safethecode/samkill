@@ -1,0 +1,837 @@
+[
+  {
+    "name": "home",
+    "fonts": [
+      "24px",
+      "14px",
+      "16px"
+    ],
+    "text": [
+      {
+        "tag": "H1",
+        "cls": "",
+        "text": "오늘 뭐 먹지?",
+        "font": "24px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "small muted",
+        "text": "요리에 쓸 재료",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "P",
+        "cls": "selected-summary",
+        "text": "토마토 · 달걀 · 밥 외 3개",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "secondary",
+        "text": "바꾸기",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "P",
+        "cls": "small gap",
+        "text": "예시 재료와 요리로 체험하고 있어요.",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "토마토 달걀 덮밥",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "15분",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "고른 재료로 만들어요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "버섯 달걀 볶음밥",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "20분",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "고른 재료로 만들어요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "두부 버섯 덮밥",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "20분",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "재료 1개 더 필요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "",
+        "text": "오늘의 요리",
+        "font": "14px",
+        "weight": "800",
+        "color": "rgb(255, 137, 147)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "",
+        "text": "내 냉장고",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      }
+    ],
+    "divs": 9,
+    "elements": 44,
+    "overflow": false,
+    "decorativeLines": 0
+  },
+  {
+    "name": "detail",
+    "fonts": [
+      "24px",
+      "14px",
+      "16px"
+    ],
+    "text": [
+      {
+        "tag": "H1",
+        "cls": "",
+        "text": "토마토 달걀 덮밥",
+        "font": "24px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "15분",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "쉬움",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "text": "촉촉한 달걀과 토마토를 따뜻한 밥 위에 올려요.",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "primary wide",
+        "text": "요리 시작",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(17, 17, 17)"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "필요한 재료",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "small muted",
+        "text": "1인분 기준",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "토마토1개",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "1개",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "state",
+        "text": "선택한 재료",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "달걀2개",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "2개",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "state",
+        "text": "선택한 재료",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "밥1공기",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "1공기",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "state",
+        "text": "선택한 재료",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "대파¼대",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "¼대",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "state",
+        "text": "선택한 재료",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "P",
+        "cls": "notice",
+        "text": "소금·간장·식용유·후추도 준비해 주세요.",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      }
+    ],
+    "divs": 5,
+    "elements": 42,
+    "overflow": false,
+    "decorativeLines": 0
+  },
+  {
+    "name": "cook",
+    "fonts": [
+      "24px",
+      "14px",
+      "16px"
+    ],
+    "text": [
+      {
+        "tag": "H1",
+        "cls": "",
+        "text": "토마토 달걀 덮밥",
+        "font": "24px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "P",
+        "cls": "step-count",
+        "text": "1 / 4 단계",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "small muted",
+        "text": "1단계 · 재료 준비",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "토마토는 한입 크기로, 대파는 잘게 썰어요. 달걀 2개",
+        "font": "24px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "small muted",
+        "text": "2단계 · 조리하기",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "text": "팬에 식용유를 두르고 달걀을 저어가며 익혀요. 달걀이 ",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "small muted",
+        "text": "3단계 · 조리하기",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "text": "같은 팬에 대파와 토마토를 볶아요. 토마토에서 물이 나",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "small muted",
+        "text": "4단계 · 마무리",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "text": "달걀을 다시 넣어 속까지 익힌 뒤 따뜻한 밥 위에 올려",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "secondary",
+        "text": "이전",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "primary",
+        "text": "다음 단계",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(17, 17, 17)"
+      }
+    ],
+    "divs": 2,
+    "elements": 29,
+    "overflow": false,
+    "decorativeLines": 0
+  },
+  {
+    "name": "pantry",
+    "fonts": [
+      "24px",
+      "16px",
+      "14px"
+    ],
+    "text": [
+      {
+        "tag": "H1",
+        "cls": "",
+        "text": "내 냉장고",
+        "font": "24px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "text": "오늘 요리에 쓸 재료를 골라주세요.",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "chip",
+        "text": "전체",
+        "font": "14px",
+        "weight": "700",
+        "color": "rgb(17, 17, 17)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "chip",
+        "text": "채소",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "chip",
+        "text": "달걀·두부",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "chip",
+        "text": "곡물",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "보관 재료",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "count-tag",
+        "text": "6개",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "토마토2개",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "2개",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "달걀4개",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "4개",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "밥1공기",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "1공기",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "버섯1팩",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "1팩",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "두부1모",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "1모",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "대파1대",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "1대",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "primary wide",
+        "text": "6개 재료로 요리 보기",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(17, 17, 17)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "",
+        "text": "오늘의 요리",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "",
+        "text": "내 냉장고",
+        "font": "14px",
+        "weight": "800",
+        "color": "rgb(255, 137, 147)"
+      }
+    ],
+    "divs": 5,
+    "elements": 71,
+    "overflow": false,
+    "decorativeLines": 0
+  },
+  {
+    "name": "camera",
+    "fonts": [
+      "24px",
+      "16px"
+    ],
+    "text": [
+      {
+        "tag": "H1",
+        "cls": "",
+        "text": "사진으로 재료 등록",
+        "font": "24px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "냉장고 속 재료를 담아주세요",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "text": "촬영한 사진을 보며 재료를 골라 등록해요.",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "primary wide",
+        "text": "카메라 켜기",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(17, 17, 17)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "secondary wide",
+        "text": "앨범에서 선택",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "secondary wide",
+        "text": "직접 재료 선택",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "divs": 4,
+    "elements": 32,
+    "overflow": false,
+    "decorativeLines": 0
+  },
+  {
+    "name": "manual",
+    "fonts": [
+      "24px",
+      "16px",
+      "14px"
+    ],
+    "text": [
+      {
+        "tag": "H1",
+        "cls": "",
+        "text": "재료 추가",
+        "font": "24px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "LABEL",
+        "cls": "search-label",
+        "text": "재료 찾기",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "토마토냉장고에 등록되어 있어요",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "냉장고에 등록되어 있어요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "달걀냉장고에 등록되어 있어요",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "냉장고에 등록되어 있어요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "밥냉장고에 등록되어 있어요",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "냉장고에 등록되어 있어요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "버섯냉장고에 등록되어 있어요",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "냉장고에 등록되어 있어요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "두부냉장고에 등록되어 있어요",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "냉장고에 등록되어 있어요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "대파냉장고에 등록되어 있어요",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SMALL",
+        "cls": "",
+        "text": "냉장고에 등록되어 있어요",
+        "font": "14px",
+        "weight": "500",
+        "color": "rgb(209, 213, 219)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "시금치",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "당근",
+        "font": "16px",
+        "weight": "500",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "primary wide space",
+        "text": "0개 재료 등록",
+        "font": "16px",
+        "weight": "700",
+        "color": "rgb(209, 213, 219)"
+      }
+    ],
+    "divs": 2,
+    "elements": 54,
+    "overflow": false,
+    "decorativeLines": 0
+  }
+]
