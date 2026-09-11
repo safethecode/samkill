@@ -31,3 +31,17 @@
 ## 사용자 교정의 재사용
 
 사용자 교정이 누적된 화면과 관련 패턴 확장에는 [재발 점검](skills/reference-review/references/feedback-regression.md)을 적용한다. 요구→원인→현재 기준→적용처→검증/미완료를 연결하며 사례의 고정값을 공통 프리셋으로 만들지 않는다. Round4부터 P12까지의 [피드백별 대응표](evals/results/round4-feedback-coverage.md)는 누락 점검 근거이며 다른 앱의 구현 계약을 대신하지 않는다.
+
+## Round8 냉장고 재료 앱
+
+[Round8 제품 기준](design/reference-language/round-08/DESIGN.md)은 음식 사진과 어두운 표면을 중심으로 요리 선택·재료 관리·사진 등록·조리 순서를 연결한다. CREME의 사진/제목/행동 대비를 주 시각 기준으로 삼고 재료 관리와 촬영 레퍼런스는 역할을 구분해 조합한다. 산호색과 사진 비율은 이번 제품의 선택이며 공통 스킬 프리셋이 아니다. 자동 사진 인식은 연결하지 않는다. 이전 라운드의 스타일 손실 지적을 Q-ID 비교와 교정 기록에 연결한다. Round9 이력서 웹 서비스 요청과 별개다.
+
+## Round9 이력서 웹과 Round8 교정의 공통 반영
+
+[Round9 제품 기준](design/reference-language/round-09/DESIGN.md)은 점핏의 문서 목록과 원티드의 중앙 문서 편집, 서핏·refresh.cv 공개 자료를 참고한 밝은 로컬 이력서 작업실이다. 지원처별 복제·변경 항목 비교·복원 전 보존을 실제 행동으로 연결하며, 팔레트나 폼 배치를 Round8에 전파하지 않는다. [검토](design/reference-language/round-09/review.md)에 비교 범위와 서버/AI 미연결을 명시한다.
+
+Round8의 반복 교정은 [평가 기록](evals/results/round8-feedback.md)에 연결한다. 아이콘의 역할·관례·명시 요구·보이는 묶음 중심을 먼저 판단하며 특정 방향이나4px를 보편화하지 않는다. 맥락상 분명한 아이콘 단독 조작은 접근 가능한 이름·터치·초점을 유지한다. 표면/고정CTA/직접HTML진입은 기존 기준과 실제 실패에 연결해 적용 조건을 구별한다.
+
+Round9은 사용자 요청에 따라 [랜딩 계약](design/reference-language/round-09/landing-contract.md)을 추가했다. 첫 진입은 서비스 소개와 실제 문서 예시이며 작성 도구는 workspace.html로 분리한다. 기존 밝은 문서 표면과 파랑 행동색을 유지하되 소개 화면의 제목 위계와 여백은 편집 도구와 구별한다.
+
+Round8·9의 [종합 학습](evals/results/round8-9-learning.md)은 아이콘·표면·행동 대상·실제 진입·랜딩 마무리를 함께 다룬다. 랜딩은 [적용 계약](skills/reference-to-ui/references/application-format.md)의 영역·목적지로 전체 구성을 확인하며, 고정 간격이나 다열 푸터를 모든 제품에 전파하지 않는다.
