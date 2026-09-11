@@ -45,3 +45,7 @@ Round8의 반복 교정은 [평가 기록](evals/results/round8-feedback.md)에 
 Round9은 사용자 요청에 따라 [랜딩 계약](design/reference-language/round-09/landing-contract.md)을 추가했다. 첫 진입은 서비스 소개와 실제 문서 예시이며 작성 도구는 workspace.html로 분리한다. 기존 밝은 문서 표면과 파랑 행동색을 유지하되 소개 화면의 제목 위계와 여백은 편집 도구와 구별한다.
 
 Round8·9의 [종합 학습](evals/results/round8-9-learning.md)은 아이콘·표면·행동 대상·실제 진입·랜딩 마무리를 함께 다룬다. 랜딩은 [적용 계약](skills/reference-to-ui/references/application-format.md)의 영역·목적지로 전체 구성을 확인하며, 고정 간격이나 다열 푸터를 모든 제품에 전파하지 않는다.
+
+## Round10 모바일 청첩장
+
+[Round10 제품 기준](design/reference-language/round-10/DESIGN.md)은 가상 인물·생성 웨딩 사진·예시 예식 정보로 만든 하객용 모바일 청첩장이다. 사진·초대글에서 일정·교통·참석·마음 전하기·축하글·감사/공유까지 이어진다. 청첩장 특유의 중앙 서체와 여백은 이번 제품의 선택이며 도구형 Round9에 전파하지 않는다. [검토](design/reference-language/round-10/review.md)에 실제 로컬 동작, 예시/서버 범위, 확대·저장 충돌 교정을 남긴다.

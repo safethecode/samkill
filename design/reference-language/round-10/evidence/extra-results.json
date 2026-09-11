@@ -1,0 +1,14 @@
+{
+  "clipboardDenied": true,
+  "copyFocusRestore": true,
+  "cancelNoSave": true,
+  "shareCancellation": true,
+  "reducedMotion": true,
+  "metrics": {
+    "smallestText": 14,
+    "divs": 40,
+    "elements": 415,
+    "hr": 0,
+    "horizontalOverflow": false
+  }
+}

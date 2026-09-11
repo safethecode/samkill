@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "contact": true,
+      "gallery": true,
+      "calendar": true,
+      "clipboard": true,
+      "response": true,
+      "responseDelete": true,
+      "guestbook": true,
+      "xssEscaped": true,
+      "largeText": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "contact": true,
+      "gallery": true,
+      "calendar": true,
+      "clipboard": true,
+      "response": true,
+      "responseDelete": true,
+      "guestbook": true,
+      "xssEscaped": true,
+      "largeText": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "width": 480,
+      "contact": true,
+      "gallery": true,
+      "calendar": true,
+      "clipboard": true,
+      "response": true,
+      "responseDelete": true,
+      "guestbook": true,
+      "xssEscaped": true,
+      "largeText": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "contact": true,
+      "gallery": true,
+      "calendar": true,
+      "clipboard": true,
+      "response": true,
+      "responseDelete": true,
+      "guestbook": true,
+      "xssEscaped": true,
+      "largeText": true,
+      "keyboard": true,
+      "errors": []
+    }
+  ],
+  "storageFailure": true,
+  "corruptedPreserved": true,
+  "fileEntry": true
+}
