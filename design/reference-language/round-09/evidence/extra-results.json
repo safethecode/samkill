@@ -1,0 +1,15 @@
+{
+  "monthCancel": true,
+  "monthClear": true,
+  "focusRestored": true,
+  "invalidImportRejected": true,
+  "corruptSourcePreserved": true,
+  "metrics": {
+    "minFont": 14,
+    "gradients": 0,
+    "divRatio": 0.20833333333333334,
+    "iconGap": "4px",
+    "iconSize": "18px",
+    "bodyOverflow": false
+  }
+}

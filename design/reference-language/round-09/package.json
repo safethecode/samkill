@@ -1,0 +1,1 @@
+{"name":"round-nine-resume-workspace","private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"zod":"4.1.12"},"devDependencies":{"esbuild":"0.25.11"}}

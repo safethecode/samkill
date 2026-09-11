@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "flows": "filter/search/duplicate/edit/save/version/compare/restore/safety-version/experience/date-check/job-match/preview/pdf/backup/import/archive/new/education",
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "flows": "filter/search/duplicate/edit/save/version/compare/restore/safety-version/experience/date-check/job-match/preview/pdf/backup/import/archive/new/education",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "flows": "filter/search/duplicate/edit/save/version/compare/restore/safety-version/experience/date-check/job-match/preview/pdf/backup/import/archive/new/education",
+      "errors": []
+    },
+    {
+      "width": 320,
+      "flows": "filter/search/duplicate/edit/save/version/compare/restore/safety-version/experience/date-check/job-match/preview/pdf/backup/import/archive/new/education",
+      "errors": []
+    }
+  ],
+  "fileEntry": true,
+  "storageFailure": true
+}

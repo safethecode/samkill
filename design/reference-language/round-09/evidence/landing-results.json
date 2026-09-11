@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "demos": true,
+      "faq": true,
+      "newResume": true,
+      "savedDataPreserved": true,
+      "largeText": true,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "demos": true,
+      "faq": true,
+      "newResume": true,
+      "savedDataPreserved": true,
+      "largeText": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "demos": true,
+      "faq": true,
+      "newResume": true,
+      "savedDataPreserved": true,
+      "largeText": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "demos": true,
+      "faq": true,
+      "newResume": true,
+      "savedDataPreserved": true,
+      "largeText": true,
+      "errors": []
+    }
+  ],
+  "fileEntry": true
+}
