@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-14",
+  "skills": [
+    {
+      "skill": "skills/design-md",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/onboarding-flow",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/reference-decompose",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/reference-review",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/reference-to-ui",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/uibowl-research",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/ux-copy",
+      "exit": 0,
+      "result": "Skill is valid!"
+    }
+  ],
+  "changed_markdown_files": 25,
+  "local_links_and_anchors": 226,
+  "errors": [],
+  "stale_label_icon_defaults": [],
+  "unchanged_contracts": {
+    "skills/reference-review/references/failure-catalog.json": true,
+    "skills/reference-review/scripts/design_gate.py": true
+  },
+  "diff_check_exit": 0,
+  "diff_check_output": "",
+  "evaluation": "5 spec-only cases, one independent pass; no rendered product tests"
+}
