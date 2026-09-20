@@ -87,15 +87,19 @@ UI 디자인과 구현에서 필수로 사용한다. 레퍼런스 관찰은 증�
 
 모션은 이동 효과뿐 아니라 border-color, 안쪽 경계의 box-shadow, 표면·글자색처럼 상태를 전달하는 표현을 포함한다. 필요한 속성에만 공통 duration/easing을 연결한다. 모든 요소에 그림자를 추가하거나 border-width·padding을 전환해 조작 영역을 흔들지 않는다.
 
-입력의 초점 강조는 외곽 크기와 내부 텍스트 위치를 유지하는 방식으로 설계한다. 안쪽 경계가 적합하면 `box-shadow: inset 0 0 0 var(--focus-width) var(--focus-color)` 같은 표현을 우선 검토하고 두께·색을 역할 토큰에 연결한다. 기본/hover/focus/error 경계를 한 표시 체계로 구성해 기존 border와 그림자가 어긋난 이중선처럼 보이지 않게 한다. 장식 shadow가 있다면 상태 선언이 이를 우연히 덮어쓰지 않도록 구성한다.
+입력의 **실제 DOM 초점은 input/textarea에 유지하고, 시각적 포커스 표시는 그 입력을 감싸며 보이는 필드 경계를 소유한 컨테이너에서 담당한다.** 내부 입력 박스나 폼 전체에 표시하지 않는다. 래퍼가 없다면 필드 단위 컨테이너를 구성한다. 컨테이너에 tabindex를 추가하거나 입력을 blur해 표시 위치를 옮기지 않는다.
 
-border 자체를 금지하지 않는다. 모든 상태에서 두께를 일정하게 확보하고 색만 바꾸는 방식도 가능하다. border-box만 지정하면 충분하다고 판단하지 않는다. 바깥 크기가 같아도 두께 변화가 콘텐츠 폭과 줄바꿈을 바꿀 수 있다. outline도 레이아웃 공간을 차지하지 않는 대안이다. 어떤 방식을 택하든 포커스 표시 주체는 하나이며 실제 조작 대상이 분명해야 한다.
+일반 색상 모드의 입력 포커스는 컨테이너의 `box-shadow: inset 0 0 0 var(--focus-width) var(--focus-color)`로 구현한다. 두께·색은 기존 역할 토큰에 연결한다. border 추가·두께 변경·색 변경이나 외부 outline/ring을 입력 포커스의 대안으로 사용하지 않는다. 기본·오류 상태의 border는 유지할 수 있지만 초점 전후 두께와 내용 위치는 고정하고, inset shadow와 어긋난 이중선이 생기지 않게 조합한다. 장식 shadow가 있다면 상태 선언이 이를 우연히 덮어쓰지 않도록 구성한다.
+
+대체 표시가 동작하는 해당 컴포넌트 안에서 내부 input/textarea의 기본 outline과 라이브러리 ring/box-shadow를 제거한다. 전역 outline 제거는 금지한다. 입력에 대응하는 초점 상태만 컨테이너에 전달한다. 입력만 있는 필드는 `:focus-within`을 사용할 수 있지만, 전송·지우기·보기 버튼이 함께 있으면 입력의 `:focus`/`:focus-visible`을 구별하는 선택자나 상태를 사용한다. 버튼으로 Tab 이동할 때 입력 컨테이너 강조를 해제하고 실제 버튼의 초점을 표시한다. 포인터 표시 정책은 아래 기준을 따르며 표시하는 경우의 위치와 방식은 동일하다.
+
+이 규칙은 입력 필드의 시각적 초점에 적용한다. 버튼·링크 등 다른 조작의 포커스 방식까지 일괄 변경하지 않는다. border-box만으로 내부 폭까지 보존된다고 판단하지 않으며 외곽 크기·텍스트 위치·줄바꿈을 함께 확인한다.
 
 키보드 초점 표시는 즉시 식별 가능하게 유지하고 추가 장식 전환만 부드럽게 한다. forced-colors에서는 box-shadow가 사라질 수 있으므로 시스템 색 outline 등으로 대체하며 중복 초점 표시를 만들지 않는다. 동작 줄이기에서도 초점·오류·선택 정보를 유지한다.
 
 검증: 기본→hover→focus→오류+focus→blur에서 외곽 박스뿐 아니라 텍스트 시작점·내용 폭·줄바꿈·인접 요소 위치가 유지되는지 실제 대조한다. 키보드 이동, 고대비, 동작 줄이기에서 표시를 확인한다. 큰 blur나 반복 shadow 전환은 실제 부드러움도 확인하며 CSS 선언만으로 성능을 단정하지 않는다.
 
-기술 근거: [MDN box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow), [forced-colors](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors). 상태 표현과 배치 안정성을 기준으로 선택하며 특정 CSS 트릭을 모든 컴포넌트에 강제하지 않는다.
+기술 근거: [MDN box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow), [forced-colors](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors). 입력 필드에는 위 컨테이너 inset shadow 규칙을 적용하며 다른 컴포넌트로 범위를 확대하지 않는다.
 
 
 포인터 초점 장식을 줄이도록 요청받으면 실제 focus를 blur하지 않고 키보드 표시를 보존한다. :focus-visible은 입력란에서 포인터 클릭에도 일치할 수 있으므로 실제 브라우저로 확인한다. 입력 방식 분기를 추가할 경우 Tab 전환·프로그램 초점 복귀·입력 caret·고대비 필드 경계와 선택 표시를 함께 검증한다.
