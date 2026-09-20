@@ -186,7 +186,7 @@
 
 입력: 입력 포커스에서 border가 1px에서 3px로 바뀐다. border-box라 바깥 크기는 같지만 글자가 이동하거나 줄바꿈이 달라진다. 대안은 inset shadow다.
 
-기대 행동: 내부 영역 변화도 실패로 확인한다. inset shadow 또는 일정한 border 두께와 색 전환을 역할에 맞게 선택한다. 외곽/텍스트/줄바꿈 불변, 이중 경계 없음, 오류+focus, 키보드 즉시 식별, forced-colors 대체 표시, reduced-motion을 확인한다. 모든 border를 없애거나 shadow만으로 모든 환경을 통과했다고 하지 않는다.
+기대 행동: 내부 영역 변화도 실패로 확인한다. 2026-09-20 교정에 따라 입력 컨테이너의 inset shadow를 사용하며 입력 포커스를 border 색 전환으로 대체하지 않는다. 외곽/텍스트/줄바꿈 불변, 이중 경계 없음, 오류+focus, 키보드 즉시 식별, forced-colors 대체 표시, reduced-motion을 확인한다. 모든 border를 없애거나 shadow만으로 모든 환경을 통과했다고 하지 않는다.
 
 검토 결과: 문서상 위 조건과 공식 CSS 근거를 대조했다. 제품 렌더·모션 실행 검증은 하지 않았다.
 
@@ -374,3 +374,13 @@ AV–BA는 [외부 스킬 보완 평가](results/external-skills-2026-09-14/resu
 합성 입력: 카드 링크 위 저장 버튼, CSS order로 이동한 조작, 터치 후 남는 hover가 있다. 기대: 박스 겹침과 유효 이벤트 영역을 구별하고 이중 실행/중첩 interactive DOM을 피한다. 시각·DOM/Tab 순서와 hover/selected/focus를 실제 대조한다. 닫기 행동이 있는 모달 배경까지 pointer-events:none으로 바꾸지 않는다.
 
 BB–BF의 [후속 평가](results/external-skills-2026-09-14/icon-layout.md)는 문서 적용과 실제 제품 실행을 구별한다.
+
+## BG. 입력 자체에 포커스 표시가 남는 재발
+
+입력: 검색 필드는 아이콘과 input을 감싼 컨테이너, composer는 textarea와 전송 버튼을 감싼 컨테이너다. 입력 자체에 inset shadow가 적용돼 있다. 사용자는 입력을 감싸는 테두리에 border 대신 안쪽 그림자로 초점을 표시하라고 요청한다.
+
+기대: 실제 DOM 초점은 입력에 유지하고 시각적 강조만 필드 컨테이너의 inset box-shadow로 옮긴다. 내부 기본 outline/라이브러리 ring은 컴포넌트 범위에서 제거한다. 전송 버튼으로 Tab 이동하면 입력 강조를 해제하고 버튼 초점을 구별한다. 기본/오류 border는 두께를 유지하고 키보드·고대비 대체 표시를 보존한다.
+
+실패: input 자체에 inset을 유지, 컨테이너 border 색 변경만 적용, 폼 전체에 강조, wrapper tabindex 추가, blur 사용, 무조건 focus-within으로 전송 초점까지 동일 표시, 전역 outline 제거.
+
+반례: 일반 버튼/링크에 이 입력 전용 방식을 강제하지 않는다. forced-colors의 시스템 outline 대체는 허용한다. [수동 시나리오 판정](results/input-container-focus.md)을 실제 브라우저 검증과 구별한다. 기존 Y의 border 대안은 이번 교정 이후 입력 포커스에는 적용하지 않는다.

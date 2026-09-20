@@ -20,7 +20,7 @@
 
 아이콘은 [표시·슬롯·조작 영역 계약](skills/reference-to-ui/references/icon-controls.md), 레이아웃은 [전환 조건·읽기 순서](skills/reference-to-ui/references/ui-composition.md#레이아웃의-전환-조건과-읽기-순서)를 연결한다. 아이콘의 선행/후행은 역할·관례·명시 요구로 정하고 터치 영역과 그림 크기를 구별한다.
 
-제품별 관찰과 선택에서 토큰·상태·사용처를 연결한다. [UX 문구](skills/ux-copy/SKILL.md), [모바일](skills/reference-to-ui/references/mobile.md), 토큰 계약의 모션·경계·포커스 기준을 관련 작업에 적용한다. 정지 이미지로 상호작용을 검증하지 않는다.
+제품별 관찰과 선택에서 토큰·상태·사용처를 연결한다. [UX 문구](skills/ux-copy/SKILL.md), [모바일](skills/reference-to-ui/references/mobile.md), 토큰 계약의 모션·경계·포커스 기준을 관련 작업에 적용한다. 정지 이미지로 상호작용을 검증하지 않는다. 입력의 실제 초점은 input/textarea에 유지하고 시각적 포커스는 필드 컨테이너의 inset box-shadow로 표현한다. border 변경이나 내부 입력 링으로 대체하지 않으며 고대비 대체 표시는 보존한다.
 
 ## Do's and Don'ts
 
