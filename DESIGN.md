@@ -18,6 +18,8 @@
 
 ## Components
 
+아이콘은 [표시·슬롯·조작 영역 계약](skills/reference-to-ui/references/icon-controls.md), 레이아웃은 [전환 조건·읽기 순서](skills/reference-to-ui/references/ui-composition.md#레이아웃의-전환-조건과-읽기-순서)를 연결한다. 아이콘의 선행/후행은 역할·관례·명시 요구로 정하고 터치 영역과 그림 크기를 구별한다.
+
 제품별 관찰과 선택에서 토큰·상태·사용처를 연결한다. [UX 문구](skills/ux-copy/SKILL.md), [모바일](skills/reference-to-ui/references/mobile.md), 토큰 계약의 모션·경계·포커스 기준을 관련 작업에 적용한다. 정지 이미지로 상호작용을 검증하지 않는다. 입력의 실제 초점은 input/textarea에 유지하고 시각적 포커스는 필드 컨테이너의 inset box-shadow로 표현한다. border 변경이나 내부 입력 링으로 대체하지 않으며 고대비 대체 표시는 보존한다.
 
 ## Do's and Don'ts
@@ -31,6 +33,8 @@
 영역 구분 바와 탭의 하단 기준선·선택 밑줄/이동 바를 사용하지 않는다. hr뿐 아니라 border·pseudo-element·shadow·gradient·SVG로 구현한 동등한 선도 포함하며, 단일 선이나 탭 관례도 예외가 아니다. 선택 상태와 영역 관계는 선 이외의 위계·간격·표면으로 전달한다. 입력/버튼 경계·키보드 포커스·실제 데이터 표현은 역할을 구별해 보존한다.
 
 ## 사용자 교정의 재사용
+
+[외부 스킬 분석과 적용 결정](docs/external-skills-analysis.md)에 Jakub 중심의 보완과 Yetone 탐지 신호의 채택/배제 범위를 기록한다. 현재 제품 기준에 따라 [타이포그래피](skills/reference-to-ui/references/typography.md), [내용·상태 검증](skills/reference-review/references/state-stress.md), [변경 리뷰](skills/reference-review/references/change-review.md), [탐지 판독](skills/reference-review/references/deslop-triage.md)을 사용한다. 외부 스타일 프리셋이나 검사 축소 절차를 루트 기준으로 가져오지 않는다.
 
 사용자 교정이 누적된 화면과 관련 패턴 확장에는 [재발 점검](skills/reference-review/references/feedback-regression.md)을 적용한다. 요구→원인→현재 기준→적용처→검증/미완료를 연결하며 사례의 고정값을 공통 프리셋으로 만들지 않는다. Round4부터 P12까지의 [피드백별 대응표](evals/results/round4-feedback-coverage.md)는 누락 점검 근거이며 다른 앱의 구현 계약을 대신하지 않는다.
 

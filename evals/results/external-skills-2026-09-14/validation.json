@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-14",
+  "skills": [
+    {
+      "skill": "skills/design-md",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/onboarding-flow",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/reference-decompose",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/reference-review",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/reference-to-ui",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/uibowl-research",
+      "exit": 0,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "skills/ux-copy",
+      "exit": 0,
+      "result": "Skill is valid!"
+    }
+  ],
+  "markdown_files": 20,
+  "local_links_and_anchors_checked": 203,
+  "missing": [],
+  "new_file_whitespace_errors": [],
+  "source_inventory_files": 65,
+  "source_hash_errors": [],
+  "unchanged_contracts": [
+    {
+      "path": "skills/reference-review/references/failure-catalog.json",
+      "unchanged": true,
+      "sha256": "9af51eedfbd6625fdcae46aa6a55e6206c447fe43b23fb1d0ff61f8ac800114f"
+    },
+    {
+      "path": "skills/reference-review/scripts/design_gate.py",
+      "unchanged": true,
+      "sha256": "96047126c866fcd6592e8728b544980c88ceac4ee6ea12b80b4943a6de376d5a"
+    }
+  ],
+  "diff_check": {
+    "exit": 0,
+    "output": ""
+  },
+  "not_run": [
+    "Python gate unit tests (no reader change)",
+    "product rendering and interaction",
+    "external scanner tests",
+    "5+ independent behavioral repetitions"
+  ]
+}

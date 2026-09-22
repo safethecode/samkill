@@ -17,6 +17,10 @@ description: Use when reviewing implemented UI against references or a design co
 
 ## 검사
 
+브랜치/PR/작업 중 변경이나 공유 토큰의 영향 검토는 [변경 전후 리뷰](references/change-review.md)를 읽고 삭제된 신호·동등한 대체·전체 소비 화면을 추적한다. 발생 구분과 현재 제품 게이트를 구별한다. AI 스타일 정리/외부 스캐너 결과는 [탐지 결과 판독](references/deslop-triage.md)으로 후보를 실제 근거에 연결한다.
+
+글자·폰트·잘림은 [타이포그래피](../reference-to-ui/references/typography.md), 폼·비동기·상태 조합은 [내용 경계와 연속 상태 검증](references/state-stress.md)을 적용한다. 정적 표본의 외형과 실제 소비 화면·전이·보조 기술 실행 결과를 나누어 기록한다.
+
 사용자 교정이 누적된 UI나 같은 패턴의 다른 화면을 검토할 때 [사용자 교정의 재발 점검](references/feedback-regression.md)을 읽는다. 관련 피드백을 기존 규칙·실제 사용처·상태별 증거에 연결하고 이전 수정이 만든 새로운 위계/중복/스크롤 문제까지 확인한다.
 
 프롬프트 기반 재현 실험은 [reference-decompose](../reference-decompose/SKILL.md)의 입력 버전·E-ID·독립 표본·조립 결과를 대조한다. 차이가 번역 누락/오독인지 구현 불이행인지 나누며, 사용자 교정과 내부 발견을 구분해 수정 프롬프트와 재렌더 증거를 보존한다.

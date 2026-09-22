@@ -30,6 +30,8 @@ UI 작업에서는 [요소 구성 기준](skills/reference-to-ui/references/ui-c
 
 필요한 스킬만 읽는다. 이미 충분한 자료가 있으면 재검색하지 않는다. 명세만 요청되면 `spec-only`로 전달하고 구현·시각·행동 게이트 통과를 주장하지 않는다.
 
+글자·폰트·잘림은 [타이포그래피](skills/reference-to-ui/references/typography.md), 폼·비동기 행동은 [내용 경계와 연속 상태](skills/reference-review/references/state-stress.md)를 관련 작업에서 적용한다. 변경 리뷰는 [변경 전후와 공통 원인](skills/reference-review/references/change-review.md)을 추적한다. 외부 AI 스타일 탐지 결과는 [판독 기준](skills/reference-review/references/deslop-triage.md)에 따라 실제 근거로 확인하며 탐지 건수나 기존 결함 분류로 제품 게이트를 대신하지 않는다.
+
 레퍼런스 작업에서는 [Q-ID별 결합·품질 비교](skills/reference-to-ui/references/reference-synthesis.md)를 적용한다. 가져올 구체 장점과 구현 요소를 연결하고 원본/결과를 나란히 검토한다. 기능이나 색 일부만 닮았다는 이유로 완료하지 않는다. 핵심 장점의 퇴보를 수정하고 전체 조합의 위계·밀도·일관성도 확인한다.
 
 형식 미지정 UI 디자인은 수정·렌더 가능한 화면을 기본으로 하며, 여러 화면은 [핵심 화면의 첫 비교](skills/reference-to-ui/references/reference-synthesis.md#핵심-화면의-첫-비교) 후 의존 화면으로 확장한다. 이미지 시안·명세 전용·읽기 전용의 명시 범위는 보존한다. 수행 가능한 비교·수정을 일괄 미검증 처리로 대신하지 않는다.
