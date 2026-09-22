@@ -66,6 +66,8 @@ UI 작업에서는 [요소 구성 기준](skills/reference-to-ui/references/ui-c
 
 ## 변경과 검증
 
+읽는 UI 텍스트의 굵기 하한은 medium(500)이다. 본문·보조문구·입력값·placeholder·버튼·탭·배지·비활성 상태에도 적용하며 semibold(600)·bold(700) 등 상위 굵기는 역할에 따라 유지한다. 모든 글자를 500으로 통일하지 않는다. 상세 적용과 검증은 [글자 굵기 하한](skills/reference-to-ui/references/ui-composition.md#글자-굵기-하한)을 따른다.
+
 관리 원본은 이 저장소의 `skills/`다. 개인 스킬 연결과 외부 참조 저장소를 혼동하지 않는다. 관련 없는 사용자 파일을 수정하거나 커밋하지 않는다.
 
 변경 성격에 맞는 검증을 수행한다. 문서만 바꾸면 링크·일관성·`git diff --check`를 확인한다. 판독기 동작을 바꾸면 `python3 -m unittest discover -s evals -p test_design_gate.py -v`를 실행한다. 스킬 행동 변경은 관련 평가 사례와 결과를 갱신한다. 실행하지 않은 검사를 통과했다고 보고하지 않는다.

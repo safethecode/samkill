@@ -22,6 +22,8 @@
 
 ## Do's and Don'ts
 
+읽는 UI 텍스트 굵기는 최소 medium(500)으로 정한다. 모든 텍스트를 500으로 통일하지 않으며 제목·강조의 semibold/bold를 유지한다. 적용 범위와 상태별 검증은 [글자 굵기 하한](skills/reference-to-ui/references/ui-composition.md#글자-굵기-하한)을 따른다.
+
 [실패 목록](skills/reference-review/references/failure-catalog.json)과 [리뷰 기준](skills/reference-review/references/review-criteria.md)을 적용한다. [맥락과 교정 이력](docs/session-context.md), [평가 사례](evals/cases.md)는 보존한다. 금지 목록 통과나 외형 일부 복제로 품질을 확정하지 않는다.
 
 읽는 글자 기본14 CSS px와 검증된 보조정보의 제한적12px 예외, 임의 로고/아이콘 제작 방지 등 명시된 사용자 기준을 유지한다. 제품 색·배치·타이포그래피는 해당 제품 근거에서 정한다. 미실행 lint·렌더·행동 검증을 통과했다고 하지 않는다.
